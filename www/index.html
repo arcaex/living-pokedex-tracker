@@ -42,7 +42,7 @@ if ('serviceWorker' in navigator) {
                 <button class="button button-icon" ng-click="getPokemon()"><i class="icon ion-compose"></i></button>
             </ion-header-bar>
             <ion-content>
-                <div class="list pokemon" ng-repeat="pokemon in pokemon_list">
+                <div class="list pokemon" collection-repeat="pokemon in pokemon_visible_list">
                     <div class="item item-avatar item-button-right item-pokemon">
                         <img src="img/pokemon/{{pokemon.number}}.png" />
                         <h2>#<span ng-bind="pokemon.number"></span> - <span ng-bind="pokemon.name"></span></h2>
@@ -90,6 +90,9 @@ if ('serviceWorker' in navigator) {
                     </div>
 
                 </div>
+
+                <ion-infinite-scroll ng-if="canWeLoadMoreContent()" on-infinite="populateList()" distance="1%">
+                </ion-infinite-scroll>
             </ion-content>
         </ion-pane>
     </body>

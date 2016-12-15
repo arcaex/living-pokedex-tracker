@@ -3,8 +3,12 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
     var pokemonData = 'pokemon';
 
     $scope.pokemon_list = [];
+    $scope.pokemon_visible_list = [];
 
     $scope.pokemon_settings = {};
+
+    $scope.scroll_limit = 20;
+    $scope.scroll_page = 0;
 
     $scope.getPokemon = function() {
 
@@ -33,6 +37,8 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
             }
             console.log("LOAD");
             console.log($scope.pokemon_settings);
+
+            $scope.populateList();
         });
 
         if (localStorageService.get(pokemonData)) {
@@ -42,9 +48,25 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
         }
 
         /*
-        $scope.pokemon_settings = [];
-        localStorageService.set(pokemonData, $scope.pokemon_settings);
-        */
+           $scope.pokemon_settings = [];
+           localStorageService.set(pokemonData, $scope.pokemon_settings);
+           */
+
+    }
+
+    $scope.canWeLoadMoreContent = function() {
+        return true;
+    }
+
+    $scope.populateList = function () {
+        var start = $scope.scroll_page*$scope.scroll_limit;
+        var end = start + $scope.scroll_limit;
+        console.log("Populate list: " + start + " to " + end);
+        for(var i=start; i<end; i++) {
+            $scope.pokemon_visible_list.push($scope.pokemon_list[i]);
+        }
+        $scope.scroll_page++;
+        $scope.$broadcast('scroll.infiniteScrollComplete');
 
     }
 
@@ -77,7 +99,8 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
     }
 
     $scope.toggleControls = function(index) {
-       $scope.pokemon_list[index].open = !$scope.pokemon_list[index].open; 
+        console.log("toggle..." + index);
+        $scope.pokemon_list[index].open = !$scope.pokemon_list[index].open; 
     }
 
 });
