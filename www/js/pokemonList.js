@@ -62,8 +62,8 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
         var start = $scope.scroll_page*$scope.scroll_limit;
         var end = start + $scope.scroll_limit;
 
-        start = Math.max(start, $scope.pokemon_list.length);
-        end = Math.max(end, $scope.pokemon_list.length);
+        start = Math.min(start, $scope.pokemon_list.length);
+        end = Math.min(end, $scope.pokemon_list.length);
         
         console.log("Populate list: " + start + " to " + end);
         for(var i=start; i<end; i++) {
