@@ -4,7 +4,7 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
 
     $scope.pokemon_list = [];
 
-    $scope.pokemon = {};
+    $scope.pokemon_settings = {};
 
     $scope.getPokemon = function() {
 
@@ -19,19 +19,61 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
             for(var index=0; index < $scope.pokemon_list.length; index++) {
                 $scope.pokemon_list[index].name = $scope.pokemon_list[index]['names']['en'];
                 $scope.pokemon_list[index].open = false;
+
+                var settings = ['own','shiny','pokeball','language'];
+                var pokemon = $scope.pokemon_list[index];
+                if ($scope.pokemon_settings[pokemon.number] == null) {
+                    $scope.pokemon_settings[pokemon.number] = {};
+                }
+                for(var j=0; j<settings.length; j++) {
+                    if ($scope.pokemon_settings[pokemon.number][settings[j]] == null) {
+                        $scope.pokemon_settings[pokemon.number][settings[j]] = false;
+                    }
+                }
             }
+            console.log("LOAD");
+            console.log($scope.pokemon_settings);
         });
 
         if (localStorageService.get(pokemonData)) {
-            $scope.pokemon_list = localStorageService.get(pokemonData);
+            $scope.pokemon_settings = localStorageService.get(pokemonData);
         } else {
-            $scope.pokemon_list = [];
+            $scope.pokemon_settings = {};
         }
+
+        /*
+        $scope.pokemon_settings = [];
+        localStorageService.set(pokemonData, $scope.pokemon_settings);
+        */
 
     }
 
-    $scope.checkPokemon = function(index) {
-        localStorageService.set(pokemonData, $scope.pokemon_list);
+    $scope.saveSettings = function() {
+        localStorageService.set(pokemonData, $scope.pokemon_settings);
+    }
+
+    $scope.changeSettings = function(type, index) {
+        var number = $scope.pokemon_list[index].number;
+
+        if ($scope.pokemon_settings[number] == null) {
+            $scope.pokemon_settings[number] = {};
+        }
+        if ($scope.pokemon_settings[number][type] == null) {
+            $scope.pokemon_settings[number][type] = false;
+        }
+        $scope.pokemon_settings[number][type] = true;
+
+        localStorageService.set(pokemonData, $scope.pokemon_settings);
+    }
+
+    $scope.getSettings = function(type, index) {
+        var number = $scope.pokemon_list[index].number;
+
+        if ($scope.pokemon_settings[number] != null && $scope.pokemon_settings[number][type] != null) {
+            return $scope.pokemon_settings[number][type];
+        }
+
+        return false;
     }
 
     $scope.toggleControls = function(index) {

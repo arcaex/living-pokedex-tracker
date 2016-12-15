@@ -11,3 +11,12 @@
  .item-pokemon.item-button-right > .button {
      top: inherit;
  }
+
+ .pokemon-controls .col {
+     text-align: center;
+ }
+
+ .pokemon-controls .col .control-name {
+    color: #666;
+    padding-bottom: 6px;
+ }

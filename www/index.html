@@ -50,38 +50,38 @@ if ('serviceWorker' in navigator) {
                             <i class="icon {{ pokemon.open ? 'ion-chevron-up' : 'ion-chevron-down' }}"></i>
                         </button>
                     </div>
-                        <div class="row" style="{{ pokemon.open ? '' : 'display:none;' }}">
+                        <div class="row pokemon-controls" ng-show="pokemon.open">
                             <div class="col">
-                                Own<br />
+                                <div class="control-name">Own{{ $scope.pokemon_settings[pokemon.number]['own'] }}</div>
                                 <label class="toggle toggle-assertive">
-                                    <input type="checkbox">
+                                    <input type="checkbox" ng-model="$parent.pokemon_settings[pokemon.number]['own']" ng-change="saveSettings()">
                                     <div class="track">
                                         <div class="handle"></div>
                                     </div>
                                 </label>
                             </div>
                             <div class="col">
-                                Shiny<br />
+                                <div class="control-name">Shiny</div>
                                 <label class="toggle toggle-assertive">
-                                    <input type="checkbox">
+                                    <input type="checkbox" ng-model="$parent.pokemon_settings[pokemon.number]['shiny']" ng-change="saveSettings()">
                                     <div class="track">
                                         <div class="handle"></div>
                                     </div>
                                 </label>
                             </div>
                             <div class="col">
-                                Pokeball<br />
+                                <div class="control-name">Pokeball</div>
                                 <label class="toggle toggle-assertive">
-                                    <input type="checkbox">
+                                    <input type="checkbox" ng-model="$parent.pokemon_settings[pokemon.number]['pokeball']" ng-change="saveSettings()">
                                     <div class="track">
                                         <div class="handle"></div>
                                     </div>
                                 </label>
                             </div>
                             <div class="col">
-                                Language<br />
+                                <div class="control-name">Language</div>
                                 <label class="toggle toggle-assertive">
-                                    <input type="checkbox">
+                                    <input type="checkbox" ng-model="$parent.pokemon_settings[pokemon.number]['language']" ng-change="saveSettings()">
                                     <div class="track">
                                         <div class="handle"></div>
                                     </div>
