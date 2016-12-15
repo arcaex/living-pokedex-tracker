@@ -34,13 +34,62 @@ if ('serviceWorker' in navigator) {
             <script src="js/app.js"></script>
             <script src="js/pokemonList.js"></script>
     </head>
-    <body ng-app="pokedex">
+    <body ng-app="pokedex" ng-controller="pokemonList" ng-init="getPokemon()">
 
         <ion-pane>
             <ion-header-bar class="bar-dark">
                 <h1 class="title">Living Pokedex</h1>
+                <button class="button button-icon" ng-click="getPokemon()"><i class="icon ion-compose"></i></button>
             </ion-header-bar>
             <ion-content>
+                <div class="list pokemon" ng-repeat="pokemon in pokemon_list">
+                    <div class="item item-avatar item-button-right item-pokemon">
+                        <img src="img/pokemon/{{pokemon.number}}.png" />
+                        <h2>#<span ng-bind="pokemon.number"></span> - <span ng-bind="pokemon.name"></span></h2>
+                        <button class="button" ng-click="toggleControls($index)">
+                            <i class="icon {{ pokemon.open ? 'ion-chevron-up' : 'ion-chevron-down' }}"></i>
+                        </button>
+                    </div>
+                        <div class="row" style="{{ pokemon.open ? '' : 'display:none;' }}">
+                            <div class="col">
+                                Own<br />
+                                <label class="toggle toggle-assertive">
+                                    <input type="checkbox">
+                                    <div class="track">
+                                        <div class="handle"></div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="col">
+                                Shiny<br />
+                                <label class="toggle toggle-assertive">
+                                    <input type="checkbox">
+                                    <div class="track">
+                                        <div class="handle"></div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="col">
+                                Pokeball<br />
+                                <label class="toggle toggle-assertive">
+                                    <input type="checkbox">
+                                    <div class="track">
+                                        <div class="handle"></div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="col">
+                                Language<br />
+                                <label class="toggle toggle-assertive">
+                                    <input type="checkbox">
+                                    <div class="track">
+                                        <div class="handle"></div>
+                                    </div>
+                                </label>
+                            </div>
+                    </div>
+
+                </div>
             </ion-content>
         </ion-pane>
     </body>
