@@ -38,7 +38,7 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
                 }
             }
 
-            $scope.settings['pokedex'] = 'alola';
+            $scope.changeLanguage();
             $scope.populateList();
         });
 
@@ -48,14 +48,27 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
             $scope.pokemon_settings = {};
         }
 
-        console.log('Settings init: ' + $scope.settings['pokedex']);
+
+        if (localStorageService.get('config')) {
+            $scope.settings = localStorageService.get('config');
+        } else {
+            $scope.settings = {};
+            $scope.settings['pokedex'] = 'alola';
+            $scope.settings['language'] = 'en';
+            $scope.settings['hide'] = {};
+            $scope.settings['hide']['language'] = false;
+            $scope.settings['hide']['pokeball'] = false;
+            $scope.settings['hide']['shiny'] = false;
+            $scope.settings['only_show'] = {};
+            $scope.settings['only_show']['missing'] = true;
+        }
 
         /*
            $scope.pokemon_settings = [];
            localStorageService.set(pokemonData, $scope.pokemon_settings);
            */
-
     }
+
 
     $scope.toggleMenu = function() {
         $ionicSideMenuDelegate.toggleLeft();
@@ -94,10 +107,6 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
         localStorageService.set(pokemonData, $scope.pokemon_settings);
     }
 
-    $scope.saveConfig = function() {
-        console.log('save config...');
-        console.log($scope.settings['pokedex']);
-    }
 
     $scope.changeSettings = function(type, index) {
         var number = $scope.pokemon_list[index].number;
@@ -129,4 +138,23 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
          $ionicScrollDelegate.resize();
     }
 
+
+    /* CONFIGS */
+
+    $scope.saveConfig = function() {
+        console.log('save config...');
+        localStorageService.set('config', $scope.settings);
+    }
+
+    $scope.refreshPokemon = function() {
+        $scope.saveConfig();
+    }
+
+    $scope.changeLanguage = function() {
+        for(var index=0; index < $scope.pokemon_list.length; index++) {
+            $scope.pokemon_list[index].name = $scope.pokemon_list[index]['names'][ $scope.settings['language'] ];
+        }
+
+        $scope.saveConfig();
+    }
 });

@@ -48,7 +48,7 @@ if ('serviceWorker' in navigator) {
                         <li class="item item-toggle">
                             Show missing ?
                             <label class="toggle toggle-assertive">
-                                <input type="checkbox">
+                                <input type="checkbox" name="only_show-missing" ng-model="$parent.settings['only_show']['missing']" ng-change="refreshPokemon()">
                                 <div class="track">
                                     <div class="handle"></div>
                                 </div>
@@ -58,7 +58,7 @@ if ('serviceWorker' in navigator) {
                         <li class="item item-toggle">
                             Shiny
                             <label class="toggle toggle-assertive">
-                                <input type="checkbox">
+                                <input type="checkbox" ng-model="$parent.settings['hide']['shiny']" ng-change="refreshPokemon()">
                                 <div class="track">
                                     <div class="handle"></div>
                                 </div>
@@ -67,7 +67,7 @@ if ('serviceWorker' in navigator) {
                         <li class="item item-toggle">
                             Pokeball
                             <label class="toggle toggle-assertive">
-                                <input type="checkbox">
+                                <input type="checkbox" ng-model="$parent.settings['hide']['pokeball']" ng-change="refreshPokemon()">
                                 <div class="track">
                                     <div class="handle"></div>
                                 </div>
@@ -76,7 +76,7 @@ if ('serviceWorker' in navigator) {
                         <li class="item item-toggle">
                             Language
                             <label class="toggle toggle-assertive">
-                                <input type="checkbox">
+                                <input type="checkbox" ng-model="$parent.settings['hide']['language']" ng-change="refreshPokemon()">
                                 <div class="track">
                                     <div class="handle"></div>
                                 </div>
@@ -85,26 +85,22 @@ if ('serviceWorker' in navigator) {
                         <li class="item item-divider">Pokedex</li>
                         <li class="item item-divider">{{ $parent.settings['pokedex'] }}</li>
                         <li class="item">
-                            <ion-list>
-                                <ion-radio ng-model="$parent.settings['pokedex']" ng-change="saveConfig()"ng-value="'national'">National</ion-radio>
-                                <ion-radio ng-model="$parent.settings['pokedex']" ng-change="saveConfig()"ng-value="'alola'">Alola</ion-radio>
-                                <ion-radio ng-model="$parent.settings['pokedex']" ng-change="saveConfig()"ng-value="'kanto'">Kanto</ion-radio>
-                                <ion-radio ng-model="$parent.settings['pokedex']" ng-change="saveConfig()"ng-value="'johto'">Johto</ion-radio>
-                                <ion-radio ng-model="$parent.settings['pokedex']" ng-change="saveConfig()"ng-value="'hoenn'">Hoenn</ion-radio>
-                                <ion-radio ng-model="$parent.settings['pokedex']" ng-change="saveConfig()"ng-value="'sinnoh'">Sinnoh</ion-radio>
-                                <ion-radio ng-model="$parent.settings['pokedex']" ng-change="saveConfig()"ng-value="'unova'">Unova</ion-radio>
-                                <ion-radio ng-model="$parent.settings['pokedex']" ng-change="saveConfig()"ng-value="'kalos'">Kalos</ion-radio>
-                            </ion-list>
+                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="saveConfig()" ng-value="'national'">National</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="saveConfig()" ng-value="'alola'">Alola</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="saveConfig()" ng-value="'kanto'">Kanto</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="saveConfig()" ng-value="'johto'">Johto</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="saveConfig()" ng-value="'hoenn'">Hoenn</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="saveConfig()" ng-value="'sinnoh'">Sinnoh</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="saveConfig()" ng-value="'unova'">Unova</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="saveConfig()" ng-value="'kalos'">Kalos</ion-radio>
                         </li>
                         <li class="item item-divider">Language</li>
                         <li class="item">
-                            <ion-list>
-                                <ion-radio ng-model="language" ng-value="English">English</ion-radio>
-                                <ion-radio ng-model="language" ng-value="French">French</ion-radio>
-                                <ion-radio ng-model="language" ng-value="German">German</ion-radio>
-                                <ion-radio ng-model="language" ng-value="Spanish">Spanish</ion-radio>
-                                <ion-radio ng-model="language" ng-value="Japanese">Japanese</ion-radio>
-                            </ion-list>
+                            <ion-radio name="language" ng-model="$parent.settings['language']" ng-change="changeLanguage()" ng-value="'en'">English</ion-radio>
+                            <ion-radio name="language" ng-model="$parent.settings['language']" ng-change="changeLanguage()" ng-value="'fr'">French</ion-radio>
+                            <ion-radio name="language" ng-model="$parent.settings['language']" ng-change="changeLanguage()" ng-value="'de'">German</ion-radio>
+                            <ion-radio name="language" ng-model="$parent.settings['language']" ng-change="changeLanguage()" ng-value="'es'">Spanish</ion-radio>
+                            <ion-radio name="language" ng-model="$parent.settings['language']" ng-change="changeLanguage()" ng-value="'jp'">Japanese</ion-radio>
                         </li>
                     </ul>
                 </ion-content>
