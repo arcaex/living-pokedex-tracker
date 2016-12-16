@@ -83,7 +83,6 @@ if ('serviceWorker' in navigator) {
                             </label>
                         </li>
                         <li class="item item-divider">Pokedex</li>
-                        <li class="item item-divider">{{ $parent.settings['pokedex'] }}</li>
                         <li class="item">
                             <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="saveConfig()" ng-value="'national'">National</ion-radio>
                             <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="saveConfig()" ng-value="'alola'">Alola</ion-radio>
