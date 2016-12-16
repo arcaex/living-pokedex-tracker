@@ -1,4 +1,4 @@
-pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localStorageService, $ionicScrollDelegate) {
+pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localStorageService, $ionicScrollDelegate, $ionicSideMenuDelegate) {
 
     var pokemonData = 'pokemon';
 
@@ -9,6 +9,8 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
 
     $scope.scroll_limit = 20;
     $scope.scroll_page = 0;
+
+    $scope.settings = {};
 
     $scope.getPokemon = function() {
 
@@ -35,9 +37,8 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
                     }
                 }
             }
-            console.log("LOAD");
-            console.log($scope.pokemon_settings);
 
+            $scope.settings['pokedex'] = 'alola';
             $scope.populateList();
         });
 
@@ -47,12 +48,19 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
             $scope.pokemon_settings = {};
         }
 
+        console.log('Settings init: ' + $scope.settings['pokedex']);
+
         /*
            $scope.pokemon_settings = [];
            localStorageService.set(pokemonData, $scope.pokemon_settings);
            */
 
     }
+
+    $scope.toggleMenu = function() {
+        $ionicSideMenuDelegate.toggleLeft();
+    }
+
 
     $scope.canWeLoadMoreContent = function() {
         return true;
@@ -75,7 +83,6 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
     }
 
     $scope.getHeight = function(pokemon) {
-        console.log('GetHeight:' + pokemon.open);
         if (pokemon.open) {
             return 143;
         } else {
@@ -85,6 +92,11 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
 
     $scope.saveSettings = function() {
         localStorageService.set(pokemonData, $scope.pokemon_settings);
+    }
+
+    $scope.saveConfig = function() {
+        console.log('save config...');
+        console.log($scope.settings['pokedex']);
     }
 
     $scope.changeSettings = function(type, index) {
