@@ -84,14 +84,14 @@ if ('serviceWorker' in navigator) {
                         </li>
                         <li class="item item-divider">Pokedex</li>
                         <li class="item">
-                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="saveConfig()" ng-value="'national'">National</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="saveConfig()" ng-value="'alola'">Alola</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="saveConfig()" ng-value="'kanto'">Kanto</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="saveConfig()" ng-value="'johto'">Johto</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="saveConfig()" ng-value="'hoenn'">Hoenn</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="saveConfig()" ng-value="'sinnoh'">Sinnoh</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="saveConfig()" ng-value="'unova'">Unova</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="saveConfig()" ng-value="'kalos'">Kalos</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="refreshPokemon()" ng-value="'national'">National</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="refreshPokemon()" ng-value="'alola'">Alola</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="refreshPokemon()" ng-value="'kanto'">Kanto</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="refreshPokemon()" ng-value="'johto'">Johto</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="refreshPokemon()" ng-value="'hoenn'">Hoenn</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="refreshPokemon()" ng-value="'sinnoh'">Sinnoh</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="refreshPokemon()" ng-value="'unova'">Unova</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="refreshPokemon()" ng-value="'kalos'">Kalos</ion-radio>
                         </li>
                         <li class="item item-divider">Language</li>
                         <li class="item">
@@ -114,7 +114,7 @@ if ('serviceWorker' in navigator) {
                         <div class="list pokemon" collection-repeat="pokemon in pokemon_visible_list" item-height="getHeight(pokemon)">
                             <div class="item item-avatar item-button-right item-pokemon">
                                 <img src="img/pokemon/{{pokemon.number}}.png" />
-                                <h2>#<span ng-bind="pokemon.number"></span> - <span ng-bind="pokemon.name"></span></h2>
+                                <h2>#<span ng-bind="pokemon.current_number"></span> - <span ng-bind="pokemon.name"></span></h2>
                                 <button class="button" ng-click="toggleControls($index)">
                                     <i class="icon {{ pokemon.open ? 'ion-chevron-up' : 'ion-chevron-down' }}"></i>
                                 </button>

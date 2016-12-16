@@ -1,6 +1,7 @@
 pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localStorageService, $ionicScrollDelegate, $ionicSideMenuDelegate) {
 
     $scope.pokemon_master = [];
+    $scope.pokemon_current_list = [];
     $scope.pokemon_visible_list = [];
 
     $scope.pokemon_settings = {};
@@ -37,7 +38,7 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
             }
 
             $scope.changeLanguage();
-            $scope.populateList();
+            $scope.refreshList();
         });
 
         // Get the pokemon settings
@@ -73,20 +74,58 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
         return true;
     }
 
-    $scope.populateList = function () {
+    $scope.refreshList = function() {
+        console.log('refreshList...');
+        $scope.pokemon_current_list = [];
+        $scope.pokemon_visible_list = [];
+
+        var pokemon = null;
+        for(var i=0;i<$scope.pokemon_master.length;i++){
+            pokemon = $scope.pokemon_master[i]; 
+
+            // Verify if it's in the current pokedex
+            if ($scope.settings['pokedex'] != 'national' && pokemon['regions'][ $scope.settings['pokedex'] ] == null) {
+                continue; 
+            }
+
+            pokemon.current_number = pokemon.number;
+            if ($scope.settings['pokedex'] != 'national') {
+                pokemon.current_number = pokemon['regions'][$scope.settings['pokedex']];
+            }
+
+            $scope.pokemon_current_list.push(pokemon);
+        }
+
+
+        function compare(a,b) {
+            if (a.current_number < b.current_number)
+                return -1;
+            if (a.current_number > b.current_number)
+                return 1;
+            return 0;
+        }
+
+        $scope.pokemon_current_list.sort(compare);
+
+        $scope.scroll_page = 0;
+        $scope.populateList();
+    }
+
+    $scope.populateList = function() {
         var start = $scope.scroll_page*$scope.scroll_limit;
         var end = start + $scope.scroll_limit;
 
-        start = Math.min(start, $scope.pokemon_master.length);
-        end = Math.min(end, $scope.pokemon_master.length);
+        start = Math.min(start, $scope.pokemon_current_list.length);
+        end = Math.min(end, $scope.pokemon_current_list.length);
         
         console.log("Populate list: " + start + " to " + end);
         for(var i=start; i<end; i++) {
-            $scope.pokemon_visible_list.push($scope.pokemon_master[i]);
+            $scope.pokemon_visible_list.push($scope.pokemon_current_list[i]);
         }
         $scope.scroll_page++;
         $scope.$broadcast('scroll.infiniteScrollComplete');
 
+        $ionicScrollDelegate.resize();
     }
 
     $scope.getHeight = function(pokemon) {
@@ -142,6 +181,8 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
     }
 
     $scope.refreshPokemon = function() {
+        $scope.refreshList();
+        $scope.populateList();
         $scope.saveConfig();
     }
 
