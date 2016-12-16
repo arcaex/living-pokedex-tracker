@@ -94,10 +94,14 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
             }
 
             // Verify if we should hide other pokemon
-            var fields = ['pokedex', 'language', 'shiny'];
-            for (int j=0; j<fields.length; j++) {
-                if ($scope.settings['hide'][fields[j]] && $scope.pokemon_settings[pokemon.number][fields[j]]) {
-                    continue;
+            if ($scope.settings['hide']['shiny'] && $scope.pokemon_settings[pokemon.number]['shiny']) {
+                continue;
+            }
+            if ($scope.settings['hide']['language'] && $scope.pokemon_settings[pokemon.number]['language']) {
+                continue;
+            }
+            if ($scope.settings['hide']['pokeball'] && $scope.pokemon_settings[pokemon.number]['pokeball']) {
+                continue;
             }
 
             pokemon.current_number = pokemon.number;
