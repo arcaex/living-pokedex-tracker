@@ -205,7 +205,7 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
     $scope.changeLanguage = function() {
         for(var index=0; index < $scope.pokemon_master.length; index++) {
             var name = $scope.pokemon_master[index]['names'][ $scope.settings['language'] ];
-            if (name == '' && $scope.settings['language'] != 'en') {
+            if (name == undefined && $scope.settings['language'] != 'en') {
                 name = $scope.pokemon_master[index]['names']['en'];
             }
 
