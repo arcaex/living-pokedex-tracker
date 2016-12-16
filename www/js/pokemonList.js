@@ -88,6 +88,18 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
                 continue; 
             }
 
+            // Verify if we should hide owned pokemon
+            if ($scope.settings['only_show']['missing'] && $scope.pokemon_settings[pokemon.number]['own']) {
+                continue;
+            }
+
+            // Verify if we should hide other pokemon
+            var fields = ['pokedex', 'language', 'shiny'];
+            for (int j=0; j<fields.length; j++) {
+                if ($scope.settings['hide'][fields[j]] && $scope.pokemon_settings[pokemon.number][fields[j]]) {
+                    continue;
+            }
+
             pokemon.current_number = pokemon.number;
             if ($scope.settings['pokedex'] != 'national') {
                 pokemon.current_number = pokemon['regions'][$scope.settings['pokedex']];
