@@ -41,8 +41,8 @@ if ('serviceWorker' in navigator) {
                 <h1 class="title">Living Pokedex</h1>
                 <button class="button button-icon" ng-click="getPokemon()"><i class="icon ion-compose"></i></button>
             </ion-header-bar>
-            <ion-content>
-                <div class="list pokemon" collection-repeat="pokemon in pokemon_visible_list">
+            <ion-content overflow-scroll='true'>
+                <div class="list pokemon" collection-repeat="pokemon in pokemon_visible_list" item-height="getHeight(pokemon)">
                     <div class="item item-avatar item-button-right item-pokemon">
                         <img src="img/pokemon/{{pokemon.number}}.png" />
                         <h2>#<span ng-bind="pokemon.number"></span> - <span ng-bind="pokemon.name"></span></h2>

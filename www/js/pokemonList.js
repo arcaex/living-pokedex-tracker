@@ -1,4 +1,4 @@
-pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localStorageService) {
+pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localStorageService, $ionicScrollDelegate) {
 
     var pokemonData = 'pokemon';
 
@@ -74,6 +74,15 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
 
     }
 
+    $scope.getHeight = function(pokemon) {
+        console.log('GetHeight:' + pokemon.open);
+        if (pokemon.open) {
+            return 143;
+        } else {
+            return 72;
+        }
+    }
+
     $scope.saveSettings = function() {
         localStorageService.set(pokemonData, $scope.pokemon_settings);
     }
@@ -105,6 +114,7 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
     $scope.toggleControls = function(index) {
         console.log("toggle..." + index);
         $scope.pokemon_list[index].open = !$scope.pokemon_list[index].open; 
+         $ionicScrollDelegate.resize();
     }
 
 });
