@@ -184,7 +184,7 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
 
     $scope.toggleControls = function(index) {
         console.log("toggle..." + index);
-        $scope.pokemon_master[index].open = !$scope.pokemon_master[index].open; 
+        $scope.pokemon_visible_list[index].open = !$scope.pokemon_visible_list[index].open; 
         $ionicScrollDelegate.resize();
     }
 
