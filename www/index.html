@@ -114,10 +114,12 @@ if ('serviceWorker' in navigator) {
                         <div class="list list-insert">
                             <label class="item item-input">
                                 <i class="icon ion-search placeholder-icon"></i>
-                                <input type="text" placeholder="Search">
+                                {{$parent.search_text}}
+                                <br />
+                                <input type="text" ng-model="search_text" placeholder="Search">
                             </label>
                         </div>
-                        <div class="list pokemon" collection-repeat="pokemon in pokemon_visible_list" item-height="getHeight(pokemon)">
+                        <div class="list pokemon" collection-repeat="pokemon in pokemon_visible_list | searchPokemon:search_text" item-height="getHeight(pokemon)">
                             <div class="item item-avatar item-button-right item-pokemon">
                                 <img src="img/pokemon/{{pokemon.number}}.png" />
                                 <h2>#<span ng-bind="pokemon.current_number"></span> - <span ng-bind="pokemon.name"></span></h2>
