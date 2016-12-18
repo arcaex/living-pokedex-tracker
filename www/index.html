@@ -119,7 +119,7 @@ if ('serviceWorker' in navigator) {
                                 <input type="text" ng-model="search_text" placeholder="Search">
                             </label>
                         </div>
-                        <div class="list pokemon" collection-repeat="pokemon in pokemon_visible_list | searchPokemon:search_text" item-height="getHeight(pokemon)">
+                        <div class="list pokemon" collection-repeat="pokemon in pokemon_current_list | searchPokemon:search_text" item-height="getHeight(pokemon)">
                             <div class="item item-avatar item-button-right item-pokemon">
                                 <img src="img/pokemon/{{pokemon.number}}.png" />
                                 <h2>#<span ng-bind="pokemon.current_number"></span> - <span ng-bind="pokemon.name"></span></h2>
@@ -168,8 +168,6 @@ if ('serviceWorker' in navigator) {
 
                         </div>
 
-                        <ion-infinite-scroll ng-if="canWeLoadMoreContent()" on-infinite="populateList()" distance="1%">
-                        </ion-infinite-scroll>
                     </ion-content>
                 </ion-pane>
 
