@@ -123,7 +123,7 @@ if ('serviceWorker' in navigator) {
                             <div class="item item-avatar item-button-right item-pokemon">
                                 <img src="img/pokemon/{{pokemon.number}}.png" />
                                 <h2>#<span ng-bind="pokemon.current_number"></span> - <span ng-bind="pokemon.name"></span></h2>
-                                <button class="button" ng-click="toggleControls($index)">
+                                <button class="button" ng-click="toggleControls(pokemon.number)">
                                     <i class="icon {{ pokemon.open ? 'ion-chevron-up' : 'ion-chevron-down' }}"></i>
                                 </button>
                             </div>

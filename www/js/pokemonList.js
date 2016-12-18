@@ -181,9 +181,14 @@ pokedexApp.controller('pokemonList', function($scope, $ionicModal, $http, localS
         return false;
     }
 
-    $scope.toggleControls = function(index) {
-        console.log("toggle..." + index);
-        $scope.pokemon_visible_list[index].open = !$scope.pokemon_visible_list[index].open; 
+    $scope.toggleControls = function(pokemon_number) {
+        console.log("toggle..." + pokemon_number);
+        for (var i=0; i<$scope.pokemon_current_list.length; i++) {
+            if ($scope.pokemon_current_list[i].number == pokemon_number) {
+            $scope.pokemon_current_list[i].open = !$scope.pokemon_current_list[i].open; 
+            break;
+            }
+        }
         $ionicScrollDelegate.resize();
     }
 
