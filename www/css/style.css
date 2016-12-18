@@ -1,3 +1,10 @@
+.bar.bar-pokedex {
+    background-color: #dc0a2d;
+}
+.bar.bar-pokedex .title, .bar.bar-pokedex .button {
+    color: #ffffff;
+}
+
 .list.pokemon {
     margin-bottom: 0;
     padding-bottom: 0;
