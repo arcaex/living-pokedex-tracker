@@ -73,12 +73,10 @@
                             </label>
                         </div>
                         <div class="list pokemon" collection-repeat="pokemon in pokemon_current_list | searchPokemon:search_text" item-height="getHeight(pokemon)">
-                            <div class="item item-avatar item-button-right item-pokemon" ng-click="toggleControls(pokemon.number)">
+                            <div class="item item-avatar item-pokemon" ng-click="toggleControls(pokemon.number)">
                                 <img src="img/pokemon/{{pokemon.number}}.png" />
                                 <h2>#<span ng-bind="pokemon.current_number"></span> - <span ng-bind="pokemon.name"></span></h2>
-                                <button class="button">
-                                    <i class="icon {{ pokemon.open ? 'ion-chevron-up' : 'ion-chevron-down' }}"></i>
-                                </button>
+                                <ion-checkbox ion-stop-event="click"  ng-model="$parent.pokemon_settings[pokemon.number]['own']"></ion-checkbox>
                             </div>
                             <div class="row pokemon-controls" ng-show="pokemon.open">
                                 <div class="col" ng-repeat="(settings_key, settings_values) in $parent.pokemon_settings[pokemon.number]">
