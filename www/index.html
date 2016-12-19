@@ -45,28 +45,10 @@
                             </label>
                         </li>
                         <li class="item item-divider">Hide Pokemon Matching :</li>
-                        <li class="item item-toggle">
-                            Shiny
+                        <li class="item item-toggle" ng-repeat="(config_key, config_value) in $parent.config['hide']">
+                            {{config_key | ucfirst}}
                             <label class="toggle toggle-assertive">
-                                <input type="checkbox" ng-model="$parent.config['hide']['shiny']" ng-change="configHasChanged()">
-                                <div class="track">
-                                    <div class="handle"></div>
-                                </div>
-                            </label>
-                        </li>
-                        <li class="item item-toggle">
-                            Pokeball
-                            <label class="toggle toggle-assertive">
-                                <input type="checkbox" ng-model="$parent.config['hide']['pokeball']" ng-change="configHasChanged()">
-                                <div class="track">
-                                    <div class="handle"></div>
-                                </div>
-                            </label>
-                        </li>
-                        <li class="item item-toggle">
-                            Language
-                            <label class="toggle toggle-assertive">
-                                <input type="checkbox" ng-model="$parent.config['hide']['language']" ng-change="configHasChanged()">
+                                <input type="checkbox" ng-model="$parent.config['hide'][config_key]" ng-change="configHasChanged()">
                                 <div class="track">
                                     <div class="handle"></div>
                                 </div>

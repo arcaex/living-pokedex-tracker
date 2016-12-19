@@ -18,3 +18,12 @@ pokedexApp.filter('searchPokemon', function() {
         return filtered;
     };
 });
+
+
+pokedexApp.filter('ucfirst', function() {
+    return function(input, arg) {
+        return input.replace(/(?:^|\s)\S/g, function(str) {
+            return str.toUpperCase();
+        });
+    };
+});
