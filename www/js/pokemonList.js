@@ -126,7 +126,7 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
 
     $scope.getHeight = function(pokemon) {
         if (pokemon.open) {
-            return 226;
+            return 206;
         } else {
             return 71;
         }
