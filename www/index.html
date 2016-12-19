@@ -73,10 +73,10 @@
                             </label>
                         </div>
                         <div class="list pokemon" collection-repeat="pokemon in pokemon_current_list | searchPokemon:search_text" item-height="getHeight(pokemon)">
-                            <div class="item item-avatar item-button-right item-pokemon">
+                            <div class="item item-avatar item-button-right item-pokemon" ng-click="toggleControls(pokemon.number)">
                                 <img src="img/pokemon/{{pokemon.number}}.png" />
                                 <h2>#<span ng-bind="pokemon.current_number"></span> - <span ng-bind="pokemon.name"></span></h2>
-                                <button class="button" ng-click="toggleControls(pokemon.number)">
+                                <button class="button">
                                     <i class="icon {{ pokemon.open ? 'ion-chevron-up' : 'ion-chevron-down' }}"></i>
                                 </button>
                             </div>
