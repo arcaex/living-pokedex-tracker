@@ -38,6 +38,10 @@ pokedexApp.service('PokedexService', function(localStorageService) {
 
 
 pokedexApp.service('ConfigService', function(localStorageService) {
+    this.languages = {'en':'English', 'fr':'French', 'de':'German', 'es':'Spanish', 'jp':'Japanese'};
+
+    this.regions = ['national', 'alola', 'kanto', 'johto', 'hoenn', 'sinnoh', 'unova', 'kalos'];
+
     this.save = function(config) {
         localStorageService.set('config', config);  
     };

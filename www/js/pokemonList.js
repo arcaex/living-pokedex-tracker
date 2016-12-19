@@ -6,6 +6,7 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
 
     $scope.config = {};
 
+    $scope.languages = {};
     /*
      * Load the Pokemon list and the Pokemon settings
      * */
@@ -29,6 +30,9 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
 
         // Load the config
         $scope.config = ConfigService.load();
+
+        $scope.languages = ConfigService.languages;
+        $scope.regions = ConfigService.regions;
     }
 
 
@@ -177,7 +181,6 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
 
     $scope.configHasChanged = function() {
         $scope.refreshList();
-        $scope.populateList();
         $scope.saveConfig();
     }
 

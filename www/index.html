@@ -56,22 +56,15 @@
                         </li>
                         <li class="item item-divider">Pokedex</li>
                         <li class="item item-choice">
-                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="configHasChanged()" ng-value="'national'">National</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="configHasChanged()" ng-value="'alola'">Alola</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="configHasChanged()" ng-value="'kanto'">Kanto</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="configHasChanged()" ng-value="'johto'">Johto</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="configHasChanged()" ng-value="'hoenn'">Hoenn</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="configHasChanged()" ng-value="'sinnoh'">Sinnoh</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="configHasChanged()" ng-value="'unova'">Unova</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="configHasChanged()" ng-value="'kalos'">Kalos</ion-radio>
+                            <div ng-repeat="region in regions">
+                                <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="configHasChanged()" ng-value="'{{region}}'">{{region|ucfirst}}</ion-radio>
+                            </div>
                         </li>
                         <li class="item item-divider">Language</li>
                         <li class="item item-choice">
-                            <ion-radio name="language" ng-model="$parent.config['language']" ng-change="changeLanguage()" ng-value="'en'">English</ion-radio>
-                            <ion-radio name="language" ng-model="$parent.config['language']" ng-change="changeLanguage()" ng-value="'fr'">French</ion-radio>
-                            <ion-radio name="language" ng-model="$parent.config['language']" ng-change="changeLanguage()" ng-value="'de'">German</ion-radio>
-                            <ion-radio name="language" ng-model="$parent.config['language']" ng-change="changeLanguage()" ng-value="'es'">Spanish</ion-radio>
-                            <ion-radio name="language" ng-model="$parent.config['language']" ng-change="changeLanguage()" ng-value="'jp'">Japanese</ion-radio>
+                            <div ng-repeat="(language_suffix, language_label) in languages">
+                                <ion-radio name="language" ng-model="$parent.config['language']" ng-change="changeLanguage()" ng-value="'{{language_suffix}}'">{{language_label}}</ion-radio>
+                            </div>
                         </li>
                     </ul>
                 </ion-content>
