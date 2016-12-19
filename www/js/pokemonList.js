@@ -33,29 +33,12 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
 
 
     /*
-     * Toggle
+     * Refresh the current Pokemon list depending on the region and other filters
      * */
-    $scope.toggleMenu = function() {
-        $ionicSideMenuDelegate.toggleLeft();
-    }
-
-
-    $scope.toggleControls = function(pokemon_number) {
-        console.log("toggle..." + pokemon_number);
-        for (var i=0; i<$scope.pokemon_current_list.length; i++) {
-            if ($scope.pokemon_current_list[i].number == pokemon_number) {
-            $scope.pokemon_current_list[i].open = !$scope.pokemon_current_list[i].open; 
-            break;
-            }
-        }
-        $ionicScrollDelegate.resize();
-    }
-
     $scope.refreshList = function() {
-        console.log('refreshList...');
         $scope.pokemon_current_list = [];
 
-        var pokemon = null;
+        var pokemon;
         for(var i=0;i<$scope.pokemon_master.length;i++){
             pokemon = $scope.pokemon_master[i]; 
 
@@ -89,6 +72,7 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
         }
 
 
+        // Order the Pokemon with the current region number
         function compare(a,b) {
             if (a.current_number < b.current_number)
                 return -1;
@@ -96,12 +80,46 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
                 return 1;
             return 0;
         }
-
         $scope.pokemon_current_list.sort(compare);
-
-        $scope.scroll_page = 0;
-        $scope.populateList();
     }
+
+
+    /*
+     * Change the shown Pokemon name
+     * */
+    $scope.changeLanguage = function() {
+        for(var index=0; index < $scope.pokemon_master.length; index++) {
+            var name = $scope.pokemon_master[index]['names'][ $scope.config['language'] ];
+            if (name == undefined && $scope.config['language'] != 'en') {
+                name = $scope.pokemon_master[index]['names']['en'];
+            }
+
+            $scope.pokemon_master[index].name = name;
+        }
+
+        $scope.saveConfig();
+    }
+
+
+    /*
+     * Toggle
+     * */
+    $scope.toggleMenu = function() {
+        $ionicSideMenuDelegate.toggleLeft();
+    }
+
+
+    $scope.toggleControls = function(pokemon_number) {
+        console.log("toggle..." + pokemon_number);
+        for (var i=0; i<$scope.pokemon_current_list.length; i++) {
+            if ($scope.pokemon_current_list[i].number == pokemon_number) {
+            $scope.pokemon_current_list[i].open = !$scope.pokemon_current_list[i].open; 
+            break;
+            }
+        }
+        $ionicScrollDelegate.resize();
+    }
+
 
 
     $scope.getHeight = function(pokemon) {
@@ -112,11 +130,14 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
         }
     }
 
-    /* SETTINGS */
+    /*
+     * Pokemon settings related methods
+     * */
 
     $scope.saveSettings = function() {
         PokedexService.save($scope.pokemon_settings);
     }
+
 
     $scope.changeSettings = function(type, index) {
         var number = $scope.pokemon_master[index].number;
@@ -132,6 +153,7 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
         $scope.saveSettings();
     }
 
+
     $scope.getSettings = function(type, index) {
         var number = $scope.pokemon_master[index].number;
 
@@ -143,30 +165,22 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
     }
 
 
-    /* CONFIGS */
+    /*
+     * Config related methods
+     * */
 
     $scope.saveConfig = function() {
         console.log('save config...');
         ConfigService.save($scope.config);
     }
 
-    $scope.refreshPokemon = function() {
+
+    $scope.configHasChanged = function() {
         $scope.refreshList();
         $scope.populateList();
         $scope.saveConfig();
     }
 
-    $scope.changeLanguage = function() {
-        for(var index=0; index < $scope.pokemon_master.length; index++) {
-            var name = $scope.pokemon_master[index]['names'][ $scope.config['language'] ];
-            if (name == undefined && $scope.config['language'] != 'en') {
-                name = $scope.pokemon_master[index]['names']['en'];
-            }
 
-            $scope.pokemon_master[index].name = name;
-        }
-
-        $scope.saveConfig();
-    }
 });
 

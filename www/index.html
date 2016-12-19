@@ -7,35 +7,22 @@
 
         <link rel="manifest" href="manifest.json">
 
-        <!-- un-comment this code to enable service worker
-            <script>
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('service-worker.js')
-        .then(() => console.log('service worker installed'))
-        .catch(err => console.log('Error', err));
-}
-            </script>-->
+        <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
 
-            <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-            <link href="css/style.css" rel="stylesheet">
+        <!-- ionic/angularjs js -->
+        <script src="lib/ionic/js/ionic.bundle.js"></script>
+        <script src="lib/angular-local-storage/dist/angular-local-storage.js"></script>
 
-            <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
-                <link href="css/ionic.app.css" rel="stylesheet">
-            -->
+        <!-- cordova script (this will be a 404 during development) -->
+        <script src="cordova.js"></script>
 
-            <!-- ionic/angularjs js -->
-            <script src="lib/ionic/js/ionic.bundle.js"></script>
-            <script src="lib/angular-local-storage/dist/angular-local-storage.js"></script>
-
-            <!-- cordova script (this will be a 404 during development) -->
-            <script src="cordova.js"></script>
-
-            <!-- your app's js -->
-            <script src="js/app.js"></script>
-            <script src="js/pokemonList.js"></script>
-            <script src="js/factories.js"></script>
-            <script src="js/services.js"></script>
-            <script src="js/filters.js"></script>
+        <!-- your app's js -->
+        <script src="js/app.js"></script>
+        <script src="js/pokemonList.js"></script>
+        <script src="js/factories.js"></script>
+        <script src="js/services.js"></script>
+        <script src="js/filters.js"></script>
     </head>
     <body ng-app="pokedex" ng-controller="pokemonList" ng-init="getPokemon()">
 
@@ -51,7 +38,7 @@ if ('serviceWorker' in navigator) {
                         <li class="item item-toggle">
                             Show missing ?
                             <label class="toggle toggle-assertive">
-                                <input type="checkbox" name="only_show-missing" ng-model="$parent.config['only_show']['missing']" ng-change="refreshPokemon()">
+                                <input type="checkbox" name="only_show-missing" ng-model="$parent.config['only_show']['missing']" ng-change="configHasChanged()">
                                 <div class="track">
                                     <div class="handle"></div>
                                 </div>
@@ -61,7 +48,7 @@ if ('serviceWorker' in navigator) {
                         <li class="item item-toggle">
                             Shiny
                             <label class="toggle toggle-assertive">
-                                <input type="checkbox" ng-model="$parent.config['hide']['shiny']" ng-change="refreshPokemon()">
+                                <input type="checkbox" ng-model="$parent.config['hide']['shiny']" ng-change="configHasChanged()">
                                 <div class="track">
                                     <div class="handle"></div>
                                 </div>
@@ -70,7 +57,7 @@ if ('serviceWorker' in navigator) {
                         <li class="item item-toggle">
                             Pokeball
                             <label class="toggle toggle-assertive">
-                                <input type="checkbox" ng-model="$parent.config['hide']['pokeball']" ng-change="refreshPokemon()">
+                                <input type="checkbox" ng-model="$parent.config['hide']['pokeball']" ng-change="configHasChanged()">
                                 <div class="track">
                                     <div class="handle"></div>
                                 </div>
@@ -79,7 +66,7 @@ if ('serviceWorker' in navigator) {
                         <li class="item item-toggle">
                             Language
                             <label class="toggle toggle-assertive">
-                                <input type="checkbox" ng-model="$parent.config['hide']['language']" ng-change="refreshPokemon()">
+                                <input type="checkbox" ng-model="$parent.config['hide']['language']" ng-change="configHasChanged()">
                                 <div class="track">
                                     <div class="handle"></div>
                                 </div>
@@ -87,14 +74,14 @@ if ('serviceWorker' in navigator) {
                         </li>
                         <li class="item item-divider">Pokedex</li>
                         <li class="item item-choice">
-                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="refreshPokemon()" ng-value="'national'">National</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="refreshPokemon()" ng-value="'alola'">Alola</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="refreshPokemon()" ng-value="'kanto'">Kanto</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="refreshPokemon()" ng-value="'johto'">Johto</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="refreshPokemon()" ng-value="'hoenn'">Hoenn</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="refreshPokemon()" ng-value="'sinnoh'">Sinnoh</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="refreshPokemon()" ng-value="'unova'">Unova</ion-radio>
-                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="refreshPokemon()" ng-value="'kalos'">Kalos</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="configHasChanged()" ng-value="'national'">National</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="configHasChanged()" ng-value="'alola'">Alola</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="configHasChanged()" ng-value="'kanto'">Kanto</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="configHasChanged()" ng-value="'johto'">Johto</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="configHasChanged()" ng-value="'hoenn'">Hoenn</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="configHasChanged()" ng-value="'sinnoh'">Sinnoh</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="configHasChanged()" ng-value="'unova'">Unova</ion-radio>
+                            <ion-radio name="pokedex" ng-model="$parent.config['pokedex']" ng-change="configHasChanged()" ng-value="'kalos'">Kalos</ion-radio>
                         </li>
                         <li class="item item-divider">Language</li>
                         <li class="item item-choice">
