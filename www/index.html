@@ -34,19 +34,9 @@
                 </ion-header-bar>
                 <ion-content>
                     <ul class="list">
-                        <li class="item item-divider">Only Show Missing Pokemon?</li>
-                        <li class="item item-toggle">
-                            Show missing ?
-                            <label class="toggle toggle-assertive">
-                                <input type="checkbox" name="only_show-missing" ng-model="$parent.config['only_show']['missing']" ng-change="configHasChanged()">
-                                <div class="track">
-                                    <div class="handle"></div>
-                                </div>
-                            </label>
-                        </li>
                         <li class="item item-divider">Hide Pokemon Matching :</li>
-                        <li class="item item-toggle" ng-repeat="(config_key, config_value) in $parent.config['hide']">
-                            {{config_key | ucfirst}}
+                        <li class="item item-toggle" ng-repeat="(config_key, config_value) in $parent.settings">
+                            {{settings[config_key]['label']}}
                             <label class="toggle toggle-assertive">
                                 <input type="checkbox" ng-model="$parent.config['hide'][config_key]" ng-change="configHasChanged()">
                                 <div class="track">

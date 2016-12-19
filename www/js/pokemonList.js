@@ -46,6 +46,7 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
 
         var pokemon;
         for(var i=0;i<$scope.pokemon_master.length;i++){
+
             pokemon = $scope.pokemon_master[i]; 
 
             // Verify if it's in the current pokedex
@@ -53,19 +54,14 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
                 continue; 
             }
 
-            // Verify if we should hide owned pokemon
-            if ($scope.config['only_show']['missing'] && $scope.pokemon_settings[pokemon.number]['own']) {
-                continue;
+            var canBeAdded = true;
+            for (key in $scope.settings) {
+                if ($scope.config['hide'][key] && $scope.pokemon_settings[pokemon.number][key]) {
+                    canBeAdded = false;
+                    break;
+                }
             }
-
-            // Verify if we should hide other pokemon
-            if ($scope.config['hide']['shiny'] && $scope.pokemon_settings[pokemon.number]['shiny']) {
-                continue;
-            }
-            if ($scope.config['hide']['language'] && $scope.pokemon_settings[pokemon.number]['language']) {
-                continue;
-            }
-            if ($scope.config['hide']['pokeball'] && $scope.pokemon_settings[pokemon.number]['pokeball']) {
+            if (!canBeAdded) {
                 continue;
             }
 

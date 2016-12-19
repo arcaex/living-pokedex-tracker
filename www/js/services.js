@@ -38,7 +38,7 @@ pokedexApp.service('PokedexService', function(localStorageService) {
 });
 
 
-pokedexApp.service('ConfigService', function(localStorageService) {
+pokedexApp.service('ConfigService', function(localStorageService, PokedexService) {
     this.languages = {'en':'English', 'fr':'French', 'de':'German', 'es':'Spanish', 'jp':'Japanese'};
 
     this.regions = ['national', 'alola', 'kanto', 'johto', 'hoenn', 'sinnoh', 'unova', 'kalos'];
@@ -48,22 +48,23 @@ pokedexApp.service('ConfigService', function(localStorageService) {
     };
 
     this.load = function() {
+        var config = {};
         if (localStorageService.get('config')) {
-            return localStorageService.get('config');
+            config = localStorageService.get('config');
         } else {
-            var config = {};
             config['pokedex'] = 'alola';
             config['language'] = 'en';
             config['hide'] = {};
-            config['hide']['language'] = false;
-            config['hide']['pokeball'] = false;
-            config['hide']['shiny'] = false;
-            config['hide']['iv'] = false;
-            config['hide']['original_trainer'] = false;
-            config['only_show'] = {};
-            config['only_show']['missing'] = true;
 
-            return config;
         }
+
+        var settings = PokedexService.SETTINGS;
+        for (key in settings) {
+            if (config['hide'][key] == null || config['hide'][key] == undefined) {
+                config['hide'][key] = settings[key]['default'];
+            }
+        }
+
+        return config;
     };
 });
