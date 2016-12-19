@@ -1,12 +1,8 @@
 pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ionicSideMenuDelegate, PokemonFactory, PokedexService, ConfigService) {
     $scope.pokemon_master = [];
     $scope.pokemon_current_list = [];
-    $scope.pokemon_visible_list = [];
 
     $scope.pokemon_settings = {};
-
-    $scope.scroll_limit = 20;
-    $scope.scroll_page = 0;
 
     $scope.config = {};
 
@@ -21,6 +17,10 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
             $scope.pokemon_settings = PokedexService.load(pokemon_list);
 
             // Prepare the list
+            for (var i=0; i<$scope.pokemon_master; i++) {
+                $scope.pokemon_master[i].open = false;
+            }
+
             $scope.changeLanguage();
 
             // Refresh the list
@@ -29,36 +29,31 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
 
         // Load the config
         $scope.config = ConfigService.load();
-        /*
-        $http.get(pokemon_json).success(function(response) {
-            $scope.pokemon_master = response;
-
-            for(var index=0; index < $scope.pokemon_master.length; index++) {
-                $scope.pokemon_master[index].name = $scope.pokemon_master[index]['names']['en'];
-                $scope.pokemon_master[index].open = false;
-
-            }
-
-            $scope.changeLanguage();
-            $scope.refreshList();
-        });
-        */
     }
 
 
+    /*
+     * Toggle
+     * */
     $scope.toggleMenu = function() {
         $ionicSideMenuDelegate.toggleLeft();
     }
 
 
-    $scope.canWeLoadMoreContent = function() {
-        return true;
+    $scope.toggleControls = function(pokemon_number) {
+        console.log("toggle..." + pokemon_number);
+        for (var i=0; i<$scope.pokemon_current_list.length; i++) {
+            if ($scope.pokemon_current_list[i].number == pokemon_number) {
+            $scope.pokemon_current_list[i].open = !$scope.pokemon_current_list[i].open; 
+            break;
+            }
+        }
+        $ionicScrollDelegate.resize();
     }
 
     $scope.refreshList = function() {
         console.log('refreshList...');
         $scope.pokemon_current_list = [];
-        $scope.pokemon_visible_list = [];
 
         var pokemon = null;
         for(var i=0;i<$scope.pokemon_master.length;i++){
@@ -108,22 +103,6 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
         $scope.populateList();
     }
 
-    $scope.populateList = function() {
-        var start = $scope.scroll_page*$scope.scroll_limit;
-        var end = start + $scope.scroll_limit;
-
-        start = Math.min(start, $scope.pokemon_current_list.length);
-        end = Math.min(end, $scope.pokemon_current_list.length);
-        
-        console.log("Populate list: " + start + " to " + end);
-        for(var i=start; i<end; i++) {
-            $scope.pokemon_visible_list.push($scope.pokemon_current_list[i]);
-        }
-        $scope.scroll_page++;
-        $scope.$broadcast('scroll.infiniteScrollComplete');
-
-        $ionicScrollDelegate.resize();
-    }
 
     $scope.getHeight = function(pokemon) {
         if (pokemon.open) {
@@ -163,22 +142,6 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
         return false;
     }
 
-    $scope.toggleControls = function(pokemon_number) {
-        console.log("toggle..." + pokemon_number);
-        for (var i=0; i<$scope.pokemon_current_list.length; i++) {
-            if ($scope.pokemon_current_list[i].number == pokemon_number) {
-            $scope.pokemon_current_list[i].open = !$scope.pokemon_current_list[i].open; 
-            break;
-            }
-        }
-        $ionicScrollDelegate.resize();
-    }
-
-    /* MODALS */
-
-    $scope.closeModal = function() {
-        $scope.modal.hide();
-    }
 
     /* CONFIGS */
 
@@ -207,23 +170,3 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
     }
 });
 
-pokedexApp.filter('searchPokemon', function() {
-    return function(items, query) {
-        var filtered = [];
-        var myRe = new RegExp(query, "ig");
-        var result = [];
-
-        for (var i=0; i<items.length; i++) {
-            if (query) {
-                result = myRe.exec(items[i].name);
-                if (result) {
-                    filtered.push(items[i]);
-                }
-            } else {
-                filtered.push(items[i]);
-            }
-        }
-
-        return filtered;
-    };
-});
