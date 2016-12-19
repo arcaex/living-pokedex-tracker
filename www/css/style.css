@@ -5,6 +5,15 @@
     color: #ffffff;
 }
 
+.item-divider {
+    background-color: #376092;
+    color: #ffffff;
+}
+
+.item-choice {
+    background-color: #f4f4f4;
+}
+
 .list.pokemon {
     margin-bottom: 0;
     padding-bottom: 0;

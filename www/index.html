@@ -39,7 +39,7 @@ if ('serviceWorker' in navigator) {
         <ion-side-menus>
             <!-- Left menu -->
             <ion-side-menu side="left">
-                <ion-header-bar class="bar-stable">
+                <ion-header-bar class="bar-pokedex">
                     <h1 class="title">Filters</h1>
                 </ion-header-bar>
                 <ion-content>
@@ -83,7 +83,7 @@ if ('serviceWorker' in navigator) {
                             </label>
                         </li>
                         <li class="item item-divider">Pokedex</li>
-                        <li class="item">
+                        <li class="item item-choice">
                             <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="refreshPokemon()" ng-value="'national'">National</ion-radio>
                             <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="refreshPokemon()" ng-value="'alola'">Alola</ion-radio>
                             <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="refreshPokemon()" ng-value="'kanto'">Kanto</ion-radio>
@@ -94,7 +94,7 @@ if ('serviceWorker' in navigator) {
                             <ion-radio name="pokedex" ng-model="$parent.settings['pokedex']" ng-change="refreshPokemon()" ng-value="'kalos'">Kalos</ion-radio>
                         </li>
                         <li class="item item-divider">Language</li>
-                        <li class="item">
+                        <li class="item item-choice">
                             <ion-radio name="language" ng-model="$parent.settings['language']" ng-change="changeLanguage()" ng-value="'en'">English</ion-radio>
                             <ion-radio name="language" ng-model="$parent.settings['language']" ng-change="changeLanguage()" ng-value="'fr'">French</ion-radio>
                             <ion-radio name="language" ng-model="$parent.settings['language']" ng-change="changeLanguage()" ng-value="'de'">German</ion-radio>
