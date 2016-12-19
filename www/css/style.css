@@ -29,6 +29,7 @@
  }
 
  .pokemon-controls {
+     background-color: #f4f4f4;
      flex-flow: row wrap;
  }
 
