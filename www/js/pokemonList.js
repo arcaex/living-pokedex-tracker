@@ -33,6 +33,7 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
 
         $scope.languages = ConfigService.languages;
         $scope.regions = ConfigService.regions;
+        $scope.settings = PokedexService.SETTINGS;
     }
 
 
