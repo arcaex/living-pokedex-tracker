@@ -79,8 +79,6 @@
                         <div class="list list-insert">
                             <label class="item item-input">
                                 <i class="icon ion-search placeholder-icon"></i>
-                                {{$parent.search_text}}
-                                <br />
                                 <input type="text" ng-model="search_text" placeholder="Search">
                             </label>
                         </div>
@@ -94,7 +92,7 @@
                             </div>
                             <div class="row pokemon-controls" ng-show="pokemon.open">
                                 <div class="col">
-                                    <div class="control-name">Own{{ $scope.pokemon.config[pokemon.number]['own'] }}</div>
+                                    <div class="control-name">Own</div>
                                     <label class="toggle toggle-assertive">
                                         <input type="checkbox" ng-model="$parent.pokemon.config[pokemon.number]['own']" ng-change="sav.config()">
                                         <div class="track">
