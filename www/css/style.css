@@ -28,6 +28,10 @@
      top: inherit;
  }
 
+ .pokemon-controls {
+     flex-flow: row wrap;
+ }
+
  .pokemon-controls .col {
      text-align: center;
  }

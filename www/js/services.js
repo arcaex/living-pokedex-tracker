@@ -1,5 +1,5 @@
 pokedexApp.service('PokedexService', function(localStorageService) {
-    this.SETTINGS = {'own': {'label': 'Own', 'default': false}, 'shiny': {'label': 'Shiny', 'default': false}, 'pokeball': {'label': 'Pokeball', 'default': false}, 'language': {'label': 'Language', 'default': false}};
+    this.SETTINGS = {'own': {'label': 'Own', 'default': false}, 'shiny': {'label': 'Shiny', 'default': false}, 'pokeball': {'label': 'Pokeball', 'default': false}, 'language': {'label': 'Language', 'default': false}, 'iv': {'label': 'IV', 'default': false}, 'original_trainer': {'label':'O.T.', 'default': false}};
 
     this.save = function(settings) {
         localStorageService.set('pokemon', settings); 
@@ -58,6 +58,8 @@ pokedexApp.service('ConfigService', function(localStorageService) {
             config['hide']['language'] = false;
             config['hide']['pokeball'] = false;
             config['hide']['shiny'] = false;
+            config['hide']['iv'] = false;
+            config['hide']['original_trainer'] = false;
             config['only_show'] = {};
             config['only_show']['missing'] = true;
 
