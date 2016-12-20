@@ -98,15 +98,42 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
      * */
     $scope.changeLanguage = function() {
         for(var index=0; index < $scope.pokemon_master.length; index++) {
-            var name = $scope.pokemon_master[index]['names'][ $scope.config['language'] ];
-            if (name == undefined && $scope.config['language'] != 'en') {
-                name = $scope.pokemon_master[index]['names']['en'];
+            $scope.pokemon_master[index].name = $scope.getPokemonName($scope.pokemon_master[index].number, $scope.config['language']);
+
+            var evolution = $scope.pokemon_master[index]['evolution'];
+            if (evolution != '' && evolution != undefined) {
+                var matches = evolution.match(/#([0-9]+)/g);
+                if (matches != null) {
+                    for (var m=0; m<matches.length; m++) {
+                        var number = matches[m];
+                        //console.log(matches[m]);
+                        evolution = evolution.replace(number, $scope.getPokemonName(number.substr(1), $scope.config['language']));
+                    }
+
+                    $scope.pokemon_master[index].current_evolution = evolution;
+                }
             }
 
-            $scope.pokemon_master[index].name = name;
+            console.log(evolution);
         }
 
         $scope.saveConfig();
+    }
+
+
+    $scope.getPokemonName = function(number, language) {
+        var pokemon;
+        for(var index=0; index<$scope.pokemon_master.length; index++) {
+            pokemon = $scope.pokemon_master[index];
+            if (pokemon.number == number) {
+                var name = pokemon['names'][language];
+                if (name == undefined && language != 'en') {
+                    name = pokemon['names']['en'];
+                }
+                return name;
+            }
+        }
+        return null;
     }
 
 

@@ -113,6 +113,7 @@
           <ion-content>
             <form ng-submit="closeModal()">
                     <ul class="list">
+                        <li class="item"><strong>How to get:</strong> {{pokemon.current_evolution}}</li>
                         <li class="item item-setting item-icon-left" ng-repeat="(config_key, config_value) in settings">
                             <i class="icon {{settings[config_key]['icon']}}"></i>
                             <div>
@@ -127,10 +128,10 @@
                                 </div>
                             </label>
                         </li> 
-                        </ul>
-              <div class="padding">
-                <button type="submit" class="button button-block button-positive">OK</button>
-              </div>
+                    </ul>
+                  <div class="padding">
+                    <button type="submit" class="button button-block button-positive">OK</button>
+                  </div>
             </form>
           </ion-content>
         </ion-modal-view>
