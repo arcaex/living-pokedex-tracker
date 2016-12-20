@@ -31,6 +31,10 @@
      justify-content: space-between;
  }
 
+.item-pokemon.item.activated {
+    background-color: #f4f4f4;
+}
+
  .item-pokemon.item-button-right > .button {
      top: inherit;
  }
