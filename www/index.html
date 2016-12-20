@@ -107,8 +107,13 @@
           <ion-content>
             <form ng-submit="closeModal()">
                     <ul class="list">
-                        <li class="item item-toggle" ng-repeat="(config_key, config_value) in settings">
-                            {{settings[config_key]['label']}}
+                        <li class="item item-setting item-icon-left" ng-repeat="(config_key, config_value) in settings">
+                            <i class="icon {{settings[config_key]['icon']}}"></i>
+                            <div>
+                            <strong>{{settings[config_key]['label']}}</strong>
+                            <br />
+                            {{settings[config_key]['description']}}
+                            </div>
                             <label class="toggle toggle-assertive">
                                 <input type="checkbox" ng-model="pokemon_settings[pokemon.number][config_key]">
                                 <div class="track">

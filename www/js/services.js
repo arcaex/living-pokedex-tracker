@@ -1,5 +1,5 @@
 pokedexApp.service('PokedexService', function(localStorageService) {
-    this.SETTINGS = {'own': {'label': 'Own', 'default': false}, 'shiny': {'label': 'Shiny', 'default': false}, 'pokeball': {'label': 'Pokeball', 'default': false}, 'language': {'label': 'Language', 'default': false}, 'iv': {'label': 'IV', 'default': false}, 'original_trainer': {'label':'O.T.', 'default': false}};
+    this.SETTINGS = {'own': {'label': 'Own', 'description':'You have this Pokemon', 'default': false, 'icon':'ion-cube'}, 'shiny': {'label': 'Shiny', 'description':'You have this Pokemon as a Shiny', 'default': false, 'icon':'ion-star'}, 'pokeball': {'label': 'Pokeball', 'description':'This pokemon is in a correct Pokeball', 'default': false, 'icon':'ion-record'}, 'language': {'label': 'Language', 'description':'This Pokemon is from the correct region', 'default': false, 'icon':'ion-flag'}, 'iv': {'label': 'IV', 'description':'This Pokemon has correct IVs', 'default': false, 'icon':'ion-connection-bars'}, 'original_trainer': {'label':'O.T.', 'description':'You are the Original Trainer of this Pokemon', 'default': false, 'icon':'ion-person'}};
 
     this.save = function(settings) {
         localStorageService.set('pokemon', settings); 

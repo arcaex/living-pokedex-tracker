@@ -19,6 +19,12 @@
     padding-bottom: 0;
 }
 
+.item-setting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
  .item-pokemon {
      display: flex;
      align-items: center;

@@ -140,6 +140,7 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
         }
     }
 
+
     /*
      * Modals
      * */
@@ -149,7 +150,6 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
 
         $scope.modal.hide();
     }
-
 
 
     /*
