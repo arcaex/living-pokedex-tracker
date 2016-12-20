@@ -11,7 +11,8 @@
         "kanto": "001",
         "johto": "231",
         "kalos": "080"
-    }
+    },
+    "evolution": "Breed #001, #002, #003"
 }, {
 "number": "002",
 "names": {
@@ -25,7 +26,8 @@
     "kanto": "002",
     "johto": "232",
     "kalos": "081"
-}
+},
+"evolution": "Evolve #001 to Level 16"
 }, {
 "number": "003",
 "names": {
@@ -39,7 +41,8 @@
     "kanto": "003",
     "johto": "233",
     "kalos": "082"
-}
+},
+"evolution": "Evolve #002 to Level 32"
 }, {
 "number": "004",
 "names": {
@@ -53,7 +56,8 @@
     "kanto": "004",
     "johto": "234",
     "kalos": "083"
-}
+},
+"evolution": "Breed #004, #005, #006"
 }, {
 "number": "005",
 "names": {
@@ -67,7 +71,8 @@
     "kanto": "005",
     "johto": "235",
     "kalos": "084"
-}
+},
+"evolution": "Evolve #004 to Level 16"
 }, {
 "number": "006",
 "names": {
@@ -81,7 +86,8 @@
     "kanto": "006",
     "johto": "236",
     "kalos": "085"
-}
+},
+"evolution": "Evolve #005 to Level 36"
 }, {
 "number": "007",
 "names": {
@@ -95,7 +101,8 @@
     "kanto": "007",
     "johto": "237",
     "kalos": "086"
-}
+},
+"evolution": "Breed #007, #008, #009"
 }, {
 "number": "008",
 "names": {
@@ -109,7 +116,8 @@
     "kanto": "008",
     "johto": "238",
     "kalos": "087"
-}
+},
+"evolution": "Evolve #007 to Level 16"
 }, {
 "number": "009",
 "names": {
@@ -123,7 +131,8 @@
     "kanto": "009",
     "johto": "239",
     "kalos": "088"
-}
+},
+"evolution": "Evolve #008 to Level 36"
 }, {
 "number": "010",
 "names": {
@@ -138,7 +147,8 @@
     "johto": "024",
     "kalos": "023",
     "alola": "017"
-}
+},
+"evolution": "Breed #010, #011, #012"
 }, {
 "number": "011",
 "names": {
@@ -153,7 +163,8 @@
     "johto": "025",
     "kalos": "024",
     "alola": "018"
-}
+},
+"evolution": "Evolve #010 to Level 7"
 }, {
 "number": "012",
 "names": {
@@ -168,7 +179,8 @@
     "johto": "026",
     "kalos": "025",
     "alola": "019"
-}
+},
+"evolution": "Evolve #011 to Level 10"
 }, {
 "number": "013",
 "names": {
@@ -182,7 +194,8 @@
     "kanto": "013",
     "johto": "027",
     "kalos": "026"
-}
+},
+"evolution": "Breed #013, #014, #015"
 }, {
 "number": "014",
 "names": {
@@ -196,7 +209,8 @@
     "kanto": "014",
     "johto": "028",
     "kalos": "027"
-}
+},
+"evolution": "Evolve #013 to Level 7"
 }, {
 "number": "015",
 "names": {
@@ -210,7 +224,8 @@
     "kanto": "015",
     "johto": "029",
     "kalos": "028"
-}
+},
+"evolution": "Evolve #014 to Level 10"
 }, {
 "number": "016",
 "names": {
@@ -224,7 +239,8 @@
     "kanto": "016",
     "johto": "010",
     "kalos": "017"
-}
+},
+"evolution": "Breed #016, #017, #018"
 }, {
 "number": "017",
 "names": {
@@ -238,7 +254,8 @@
     "kanto": "017",
     "johto": "011",
     "kalos": "018"
-}
+},
+"evolution": "Evolve #016 to Level 18"
 }, {
 "number": "018",
 "names": {
@@ -252,7 +269,8 @@
     "kanto": "018",
     "johto": "012",
     "kalos": "019"
-}
+},
+"evolution": "Evolve #017 to Level 36"
 }, {
 "number": "019",
 "names": {
@@ -266,7 +284,8 @@
     "johto": "017",
     "unova": "059",
     "alola": "015"
-}
+},
+"evolution": "Breed #019, #020"
 }, {
 "number": "020",
 "names": {
@@ -281,7 +300,8 @@
     "johto": "018",
     "unova": "060",
     "alola": "016"
-}
+},
+"evolution": "Evolve #019 to Level 20, at Nighttime, in Alola"
 }, {
 "number": "021",
 "names": {
@@ -296,7 +316,8 @@
     "johto": "013",
     "kalos": "109",
     "alola": "073"
-}
+},
+"evolution": "Breed #021, #022"
 }, {
 "number": "022",
 "names": {
@@ -311,7 +332,8 @@
     "johto": "014",
     "kalos": "110",
     "alola": "074"
-}
+},
+"evolution": "Evolve #021 to Level 20"
 }, {
 "number": "023",
 "names": {
@@ -325,7 +347,8 @@
     "kanto": "023",
     "johto": "050",
     "kalos": "037"
-}
+},
+"evolution": "Breed #023, #024"
 }, {
 "number": "024",
 "names": {
@@ -337,7 +360,8 @@
     "kanto": "024",
     "johto": "051",
     "kalos": "038"
-}
+},
+"evolution": "Evolve #023 to Level 22"
 }, {
 "number": "025",
 "names": {
@@ -352,7 +376,8 @@
     "sinnoh": "104",
     "kalos": "036",
     "alola": "025"
-}
+},
+"evolution": "Evolve #172 with Happiness"
 }, {
 "number": "026",
 "names": {
@@ -367,7 +392,8 @@
     "sinnoh": "105",
     "kalos": "037",
     "alola": "026"
-}
+},
+"evolution": "Use Thunder Stone, in Alola on #025"
 }, {
 "number": "027",
 "names": {
@@ -384,7 +410,8 @@
     "unova": "113",
     "kalos": "097",
     "alola": "251"
-}
+},
+"evolution": "Breed #027, #028"
 }, {
 "number": "028",
 "names": {
@@ -401,7 +428,8 @@
     "unova": "114",
     "kalos": "098",
     "alola": "252"
-}
+},
+"evolution": "Use Ice Stone, in Alola on #027"
 }, {
 "number": "030",
 "names": {
@@ -413,7 +441,8 @@
     "kanto": "030",
     "johto": "096",
     "kalos": "105"
-}
+},
+"evolution": "Evolve #029 to Level 16"
 }, {
 "number": "031",
 "names": {
@@ -425,7 +454,8 @@
     "kanto": "031",
     "johto": "097",
     "kalos": "106"
-}
+},
+"evolution": "Use Moon Stone on #030"
 }, {
 "number": "032",
 "names": {
@@ -437,7 +467,8 @@
     "kanto": "032",
     "johto": "098",
     "kalos": "107"
-}
+},
+"evolution": "Breed #032, #033, #034"
 }, {
 "number": "033",
 "names": {
@@ -449,7 +480,8 @@
     "kanto": "033",
     "johto": "099",
     "kalos": "108"
-}
+},
+"evolution": "Evolve #032 to Level 16"
 }, {
 "number": "034",
 "names": {
@@ -461,7 +493,8 @@
     "kanto": "034",
     "johto": "100",
     "kalos": "109"
-}
+},
+"evolution": "Use Moon Stone on #033"
 }, {
 "number": "035",
 "names": {
@@ -477,7 +510,8 @@
     "sinnoh": "100",
     "unova": "089",
     "alola": "211"
-}
+},
+"evolution": "Evolve #173 with Happiness"
 }, {
 "number": "036",
 "names": {
@@ -493,7 +527,8 @@
     "sinnoh": "101",
     "unova": "090",
     "alola": "212"
-}
+},
+"evolution": "Use Moon Stone on #035"
 }, {
 "number": "037",
 "names": {
@@ -510,7 +545,8 @@
     "hoenn": "160",
     "unova": "248",
     "alola": "253"
-}
+},
+"evolution": "Breed #037, #038"
 }, {
 "number": "038",
 "names": {
@@ -526,7 +562,8 @@
     "hoenn": "161",
     "unova": "249",
     "alola": "254"
-}
+},
+"evolution": "Use Ice Stone, in Alola on #037"
 }, {
 "number": "039",
 "names": {
@@ -543,7 +580,8 @@
     "unova": "282",
     "kalos": "120",
     "alola": "135"
-}
+},
+"evolution": "Evolve #174 with Happiness"
 }, {
 "number": "040",
 "names": {
@@ -560,7 +598,8 @@
     "unova": "283",
     "kalos": "121",
     "alola": "136"
-}
+},
+"evolution": "Use Moon Stone on #039"
 }, {
 "number": "041",
 "names": {
@@ -577,7 +616,8 @@
     "unova": "061",
     "kalos": "145",
     "alola": "068"
-}
+},
+"evolution": "Breed #041, #042, #169"
 }, {
 "number": "042",
 "names": {
@@ -594,7 +634,8 @@
     "unova": "062",
     "kalos": "146",
     "alola": "069"
-}
+},
+"evolution": "Evolve #041 to Level 22"
 }, {
 "number": "043",
 "names": {
@@ -609,7 +650,8 @@
     "johto": "083",
     "hoenn": "091",
     "kalos": "105"
-}
+},
+"evolution": "Breed #043, #044, #045, #182"
 }, {
 "number": "044",
 "names": {
@@ -624,7 +666,8 @@
     "johto": "084",
     "hoenn": "092",
     "kalos": "106"
-}
+},
+"evolution": "Evolve #043 to Level 21"
 }, {
 "number": "045",
 "names": {
@@ -639,7 +682,8 @@
     "johto": "085",
     "hoenn": "093",
     "kalos": "107"
-}
+},
+"evolution": "Use Leaf Stone on #044"
 }, {
 "number": "046",
 "names": {
@@ -651,7 +695,8 @@
     "kanto": "046",
     "johto": "070",
     "alola": "147"
-}
+},
+"evolution": "Breed #046, #047"
 }, {
 "number": "047",
 "names": {
@@ -664,7 +709,8 @@
     "kanto": "047",
     "johto": "071",
     "alola": "148"
-}
+},
+"evolution": "Evolve #046 to Level 24"
 }, {
 "number": "048",
 "names": {
@@ -677,7 +723,8 @@
 "regions": {
     "kanto": "048",
     "johto": "109"
-}
+},
+"evolution": "Breed #048, #049"
 }, {
 "number": "049",
 "names": {
@@ -690,7 +737,8 @@
 "regions": {
     "kanto": "049",
     "johto": "110"
-}
+},
+"evolution": "Evolve #048 to Level 31"
 }, {
 "number": "050",
 "names": {
@@ -705,7 +753,8 @@
     "johto": "134",
     "kalos": "001",
     "alola": "071"
-}
+},
+"evolution": "Breed #050, #051"
 }, {
 "number": "051",
 "names": {
@@ -720,7 +769,8 @@
     "johto": "135",
     "kalos": "002",
     "alola": "072"
-}
+},
+"evolution": "Evolve #050 to Level 26, in Alola"
 }, {
 "number": "052",
 "names": {
@@ -734,7 +784,8 @@
     "kanto": "052",
     "johto": "138",
     "alola": "045"
-}
+},
+"evolution": "Breed #052, #053"
 }, {
 "number": "053",
 "names": {
@@ -747,7 +798,8 @@
     "kanto": "053",
     "johto": "139",
     "alola": "046"
-}
+},
+"evolution": "Evolve #052 with Happiness, in Alola"
 }, {
 "number": "054",
 "names": {
@@ -765,7 +817,8 @@
     "unova": "028",
     "kalos": "059",
     "alola": "089"
-}
+},
+"evolution": "Breed #054, #055"
 }, {
 "number": "055",
 "names": {
@@ -783,7 +836,8 @@
     "unova": "029",
     "kalos": "060",
     "alola": "090"
-}
+},
+"evolution": "Evolve #054 to Level 33"
 }, {
 "number": "056",
 "names": {
@@ -797,7 +851,8 @@
     "kanto": "056",
     "johto": "136",
     "alola": "079"
-}
+},
+"evolution": "Breed #056, #057"
 }, {
 "number": "057",
 "names": {
@@ -811,7 +866,8 @@
     "kanto": "057",
     "johto": "137",
     "alola": "080"
-}
+},
+"evolution": "Evolve #056 to Level 28"
 }, {
 "number": "058",
 "names": {
@@ -826,7 +882,8 @@
     "johto": "129",
     "unova": "051",
     "alola": "052"
-}
+},
+"evolution": "Breed #058, #059"
 }, {
 "number": "059",
 "names": {
@@ -841,7 +898,8 @@
     "johto": "130",
     "unova": "052",
     "alola": "053"
-}
+},
+"evolution": "Use Fire Stone on #058"
 }, {
 "number": "060",
 "names": {
@@ -856,7 +914,8 @@
     "johto": "072",
     "kalos": "033",
     "alola": "149"
-}
+},
+"evolution": "Breed #060, #061, #062, #186"
 }, {
 "number": "061",
 "names": {
@@ -871,7 +930,8 @@
     "johto": "073",
     "kalos": "034",
     "alola": "150"
-}
+},
+"evolution": "Evolve #060 to Level 25"
 }, {
 "number": "062",
 "names": {
@@ -886,7 +946,8 @@
     "johto": "074",
     "kalos": "035",
     "alola": "151"
-}
+},
+"evolution": "Use Water Stone on #061"
 }, {
 "number": "063",
 "names": {
@@ -901,7 +962,8 @@
     "sinnoh": "020",
     "kalos": "102",
     "alola": "042"
-}
+},
+"evolution": "Breed #063, #064, #065"
 }, {
 "number": "064",
 "names": {
@@ -916,7 +978,8 @@
     "sinnoh": "021",
     "kalos": "103",
     "alola": "043"
-}
+},
+"evolution": "Evolve #063 to Level 16"
 }, {
 "number": "065",
 "names": {
@@ -932,7 +995,8 @@
     "sinnoh": "022",
     "kalos": "104",
     "alola": "044"
-}
+},
+"evolution": "Trade #064 "
 }, {
 "number": "066",
 "names": {
@@ -949,7 +1013,8 @@
     "sinnoh": "040",
     "kalos": "057",
     "alola": "095"
-}
+},
+"evolution": "Breed #066, #067, #068"
 }, {
 "number": "067",
 "names": {
@@ -966,7 +1031,8 @@
     "sinnoh": "041",
     "kalos": "058",
     "alola": "096"
-}
+},
+"evolution": "Evolve #066 to Level 28"
 }, {
 "number": "068",
 "names": {
@@ -983,7 +1049,8 @@
     "sinnoh": "042",
     "kalos": "059",
     "alola": "097"
-}
+},
+"evolution": "Trade #067 "
 }, {
 "number": "069",
 "names": {
@@ -997,7 +1064,8 @@
     "kanto": "069",
     "johto": "064",
     "kalos": "026"
-}
+},
+"evolution": "Breed #069, #070, #071"
 }, {
 "number": "070",
 "names": {
@@ -1011,7 +1079,8 @@
     "kanto": "070",
     "johto": "065",
     "kalos": "027"
-}
+},
+"evolution": "Evolve #069 to Level 21"
 }, {
 "number": "071",
 "names": {
@@ -1025,7 +1094,8 @@
     "kanto": "071",
     "johto": "066",
     "kalos": "028"
-}
+},
+"evolution": "Use Leaf Stone on #070"
 }, {
 "number": "072",
 "names": {
@@ -1041,7 +1111,8 @@
     "sinnoh": "136",
     "kalos": "025",
     "alola": "106"
-}
+},
+"evolution": "Breed #072, #073"
 }, {
 "number": "073",
 "names": {
@@ -1057,7 +1128,8 @@
     "sinnoh": "137",
     "kalos": "026",
     "alola": "107"
-}
+},
+"evolution": "Evolve #072 to Level 30"
 }, {
 "number": "074",
 "names": {
@@ -1074,7 +1146,8 @@
     "sinnoh": "031",
     "kalos": "009",
     "alola": "229"
-}
+},
+"evolution": "Breed #074, #075, #076"
 }, {
 "number": "075",
 "names": {
@@ -1091,7 +1164,8 @@
     "sinnoh": "032",
     "kalos": "010",
     "alola": "230"
-}
+},
+"evolution": "Evolve #074 to Level 25, in Alola"
 }, {
 "number": "076",
 "names": {
@@ -1108,7 +1182,8 @@
     "sinnoh": "033",
     "kalos": "011",
     "alola": "231"
-}
+},
+"evolution": "Trade #075 in Alola"
 }, {
 "number": "077",
 "names": {
@@ -1121,7 +1196,8 @@
     "kanto": "077",
     "johto": "206",
     "sinnoh": "090"
-}
+},
+"evolution": "Breed #077, #078"
 }, {
 "number": "078",
 "names": {
@@ -1135,7 +1211,8 @@
     "kanto": "078",
     "johto": "207",
     "sinnoh": "091"
-}
+},
+"evolution": "Evolve #077 to Level 40"
 }, {
 "number": "079",
 "names": {
@@ -1150,7 +1227,8 @@
     "johto": "080",
     "kalos": "133",
     "alola": "037"
-}
+},
+"evolution": "Breed #079, #080, #199"
 }, {
 "number": "080",
 "names": {
@@ -1165,7 +1243,8 @@
     "johto": "081",
     "kalos": "134",
     "alola": "038"
-}
+},
+"evolution": "Evolve #079 to Level 37"
 }, {
 "number": "081",
 "names": {
@@ -1183,7 +1262,8 @@
     "unova": "048",
     "kalos": "069",
     "alola": "047"
-}
+},
+"evolution": "Breed #081, #082, #462"
 }, {
 "number": "082",
 "names": {
@@ -1200,7 +1280,8 @@
     "unova": "049",
     "kalos": "070",
     "alola": "048"
-}
+},
+"evolution": "Evolve #081 to Level 30"
 }, {
 "number": "083",
 "names": {
@@ -1228,7 +1309,8 @@
     "johto": "204",
     "hoenn": "095",
     "kalos": "094"
-}
+},
+"evolution": "Breed #084, #085"
 }, {
 "number": "085",
 "names": {
@@ -1242,7 +1324,8 @@
     "johto": "205",
     "hoenn": "096",
     "kalos": "095"
-}
+},
+"evolution": "Evolve #084 to Level 31"
 }, {
 "number": "086",
 "names": {
@@ -1256,7 +1339,8 @@
     "kanto": "086",
     "johto": "178",
     "unova": "265"
-}
+},
+"evolution": "Breed #086, #087"
 }, {
 "number": "087",
 "names": {
@@ -1270,7 +1354,8 @@
     "kanto": "087",
     "johto": "179",
     "unova": "266"
-}
+},
+"evolution": "Evolve #086 to Level 34"
 }, {
 "number": "088",
 "names": {
@@ -1286,7 +1371,8 @@
     "hoenn": "111",
     "unova": "064",
     "alola": "050"
-}
+},
+"evolution": "Breed #088, #089"
 }, {
 "number": "089",
 "names": {
@@ -1302,7 +1388,8 @@
     "hoenn": "112",
     "unova": "065",
     "alola": "051"
-}
+},
+"evolution": "Evolve #088 to Level 38, in Alola"
 }, {
 "number": "090",
 "names": {
@@ -1317,7 +1404,8 @@
     "johto": "171",
     "kalos": "036",
     "alola": "115"
-}
+},
+"evolution": "Breed #090, #091"
 }, {
 "number": "091",
 "names": {
@@ -1332,7 +1420,8 @@
     "johto": "172",
     "kalos": "037",
     "alola": "116"
-}
+},
+"evolution": "Use Water Stone on #090"
 }, {
 "number": "092",
 "names": {
@@ -1348,7 +1437,8 @@
     "sinnoh": "069",
     "kalos": "030",
     "alola": "061"
-}
+},
+"evolution": "Breed #092, #093, #094"
 }, {
 "number": "093",
 "names": {
@@ -1364,7 +1454,8 @@
     "sinnoh": "070",
     "kalos": "031",
     "alola": "062"
-}
+},
+"evolution": "Evolve #092 to Level 25"
 }, {
 "number": "094",
 "names": {
@@ -1379,7 +1470,8 @@
     "sinnoh": "071",
     "kalos": "032",
     "alola": "063"
-}
+},
+"evolution": "Trade #093 "
 }, {
 "number": "095",
 "names": {
@@ -1393,7 +1485,8 @@
     "sinnoh": "034",
     "unova": "071",
     "kalos": "053"
-}
+},
+"evolution": "Breed #095, #208"
 }, {
 "number": "096",
 "names": {
@@ -1407,7 +1500,8 @@
     "kanto": "096",
     "johto": "087",
     "alola": "054"
-}
+},
+"evolution": "Breed #096, #097"
 }, {
 "number": "097",
 "names": {
@@ -1420,7 +1514,8 @@
     "kanto": "097",
     "johto": "088",
     "alola": "055"
-}
+},
+"evolution": "Evolve #096 to Level 26"
 }, {
 "number": "098",
 "names": {
@@ -1431,7 +1526,8 @@
 "regions": {
     "kanto": "098",
     "johto": "166"
-}
+},
+"evolution": "Breed #098, #099"
 }, {
 "number": "099",
 "names": {
@@ -1443,7 +1539,8 @@
 "regions": {
     "kanto": "099",
     "johto": "167"
-}
+},
+"evolution": "Evolve #098 to Level 28"
 }, {
 "number": "100",
 "names": {
@@ -1458,7 +1555,8 @@
     "johto": "121",
     "hoenn": "087",
     "kalos": "072"
-}
+},
+"evolution": "Breed #100, #101"
 }, {
 "number": "101",
 "names": {
@@ -1473,7 +1571,8 @@
     "johto": "122",
     "hoenn": "088",
     "kalos": "073"
-}
+},
+"evolution": "Evolve #100 to Level 30"
 }, {
 "number": "102",
 "names": {
@@ -1488,7 +1587,8 @@
     "johto": "105",
     "kalos": "136",
     "alola": "269"
-}
+},
+"evolution": "Breed #102, #103"
 }, {
 "number": "103",
 "names": {
@@ -1503,7 +1603,8 @@
     "johto": "106",
     "kalos": "137",
     "alola": "270"
-}
+},
+"evolution": "Use Leaf Stone, in Alola on #102"
 }, {
 "number": "104",
 "names": {
@@ -1518,7 +1619,8 @@
     "johto": "208",
     "kalos": "060",
     "alola": "163"
-}
+},
+"evolution": "Breed #104, #105"
 }, {
 "number": "105",
 "names": {
@@ -1533,7 +1635,8 @@
     "johto": "209",
     "kalos": "061",
     "alola": "164"
-}
+},
+"evolution": "Evolve #104 to Level 28, at Nighttime, in Alola"
 }, {
 "number": "106",
 "names": {
@@ -1546,7 +1649,8 @@
 "regions": {
     "kanto": "106",
     "johto": "146"
-}
+},
+"evolution": "Evolve #236 to Level 20, Attack > Defense"
 }, {
 "number": "107",
 "names": {
@@ -1559,7 +1663,8 @@
 "regions": {
     "kanto": "107",
     "johto": "147"
-}
+},
+"evolution": "Evolve #106 to Level 20, Attack < Defense"
 }, {
 "number": "108",
 "names": {
@@ -1575,7 +1680,8 @@
     "sinnoh": "161",
     "unova": "284",
     "kalos": "134"
-}
+},
+"evolution": "Breed #108, #463"
 }, {
 "number": "109",
 "names": {
@@ -1590,7 +1696,8 @@
     "johto": "115",
     "hoenn": "113",
     "unova": "046"
-}
+},
+"evolution": "Breed #109, #110"
 }, {
 "number": "110",
 "names": {
@@ -1605,7 +1712,8 @@
     "johto": "116",
     "hoenn": "114",
     "unova": "047"
-}
+},
+"evolution": "Evolve #109 to Level 35"
 }, {
 "number": "111",
 "names": {
@@ -1621,7 +1729,8 @@
     "hoenn": "176",
     "sinnoh": "186",
     "kalos": "050"
-}
+},
+"evolution": "Breed #111, #112, #464"
 }, {
 "number": "112",
 "names": {
@@ -1637,7 +1746,8 @@
     "hoenn": "177",
     "sinnoh": "187",
     "kalos": "051"
-}
+},
+"evolution": "Evolve #111 to Level 42"
 }, {
 "number": "113",
 "names": {
@@ -1652,7 +1762,8 @@
     "johto": "222",
     "sinnoh": "097",
     "alola": "033"
-}
+},
+"evolution": "Evolve #440 hold Oval Stone, at Daytime"
 }, {
 "number": "114",
 "names": {
@@ -1666,7 +1777,8 @@
     "johto": "182",
     "sinnoh": "181",
     "unova": "217"
-}
+},
+"evolution": "Breed #114, #465"
 }, {
 "number": "115",
 "names": {
@@ -1696,7 +1808,8 @@
     "johto": "190",
     "hoenn": "193",
     "kalos": "039"
-}
+},
+"evolution": "Breed #116, #117, #230"
 }, {
 "number": "117",
 "names": {
@@ -1711,7 +1824,8 @@
     "johto": "191",
     "hoenn": "194",
     "kalos": "040"
-}
+},
+"evolution": "Evolve #116 to Level 32"
 }, {
 "number": "118",
 "names": {
@@ -1728,7 +1842,8 @@
     "sinnoh": "078",
     "kalos": "053",
     "alola": "153"
-}
+},
+"evolution": "Breed #118, #119"
 }, {
 "number": "119",
 "names": {
@@ -1745,7 +1860,8 @@
     "sinnoh": "079",
     "kalos": "054",
     "alola": "154"
-}
+},
+"evolution": "Evolve #118 to Level 33"
 }, {
 "number": "120",
 "names": {
@@ -1762,7 +1878,8 @@
     "unova": "238",
     "kalos": "034",
     "alola": "184"
-}
+},
+"evolution": "Breed #120, #121"
 }, {
 "number": "121",
 "names": {
@@ -1778,7 +1895,8 @@
     "unova": "239",
     "kalos": "035",
     "alola": "185"
-}
+},
+"evolution": "Use Water Stone on #120"
 }, {
 "number": "122",
 "names": {
@@ -1794,7 +1912,8 @@
     "johto": "158",
     "sinnoh": "095",
     "kalos": "114"
-}
+},
+"evolution": "Evolve #439 after Mimic learned"
 }, {
 "number": "123",
 "names": {
@@ -1810,7 +1929,8 @@
     "sinnoh": "195",
     "kalos": "136",
     "alola": "275"
-}
+},
+"evolution": "Breed #123, #212"
 }, {
 "number": "124",
 "names": {
@@ -1824,7 +1944,8 @@
     "kanto": "124",
     "johto": "155",
     "kalos": "084"
-}
+},
+"evolution": "Evolve #238 to Level 30"
 }, {
 "number": "125",
 "names": {
@@ -1840,7 +1961,8 @@
     "sinnoh": "198",
     "unova": "057",
     "alola": "227"
-}
+},
+"evolution": "Evolve #239 to Level 30"
 }, {
 "number": "126",
 "names": {
@@ -1854,7 +1976,8 @@
     "sinnoh": "201",
     "unova": "054",
     "alola": "167"
-}
+},
+"evolution": "Evolve #240 to Level 30"
 }, {
 "number": "127",
 "names": {
@@ -1900,7 +2023,8 @@
     "sinnoh": "023",
     "kalos": "049",
     "alola": "091"
-}
+},
+"evolution": "Breed #129, #130"
 }, {
 "number": "130",
 "names": {
@@ -1917,7 +2041,8 @@
     "sinnoh": "024",
     "kalos": "050",
     "alola": "092"
-}
+},
+"evolution": "Evolve #129 to Level 20"
 }, {
 "number": "131",
 "names": {
@@ -1964,7 +2089,8 @@
     "unova": "091",
     "kalos": "077",
     "alola": "123"
-}
+},
+"evolution": "Evolve #700 with 2 hearts Affection in Pok\u00e9mon Amie, knowing Fairy move"
 }, {
 "number": "134",
 "names": {
@@ -1981,7 +2107,8 @@
     "unova": "092",
     "kalos": "078",
     "alola": "124"
-}
+},
+"evolution": "Breed #134, #135, #136, #700, #133, #196, #197, #470, #471"
 }, {
 "number": "135",
 "names": {
@@ -1998,7 +2125,8 @@
     "unova": "093",
     "kalos": "079",
     "alola": "125"
-}
+},
+"evolution": "Use Water Stone on #134"
 }, {
 "number": "136",
 "names": {
@@ -2015,7 +2143,8 @@
     "unova": "094",
     "kalos": "080",
     "alola": "126"
-}
+},
+"evolution": "Use Thunderstone on #135"
 }, {
 "number": "137",
 "names": {
@@ -2028,7 +2157,8 @@
     "johto": "220",
     "sinnoh": "192",
     "alola": "217"
-}
+},
+"evolution": "Breed #137, #233, #474"
 }, {
 "number": "138",
 "names": {
@@ -2041,7 +2171,8 @@
 "regions": {
     "kanto": "138",
     "johto": "225"
-}
+},
+"evolution": "Breed #138, #139"
 }, {
 "number": "139",
 "names": {
@@ -2054,7 +2185,8 @@
 "regions": {
     "kanto": "139",
     "johto": "226"
-}
+},
+"evolution": "Evolve #138 to Level 40"
 }, {
 "number": "140",
 "names": {
@@ -2065,7 +2197,8 @@
 "regions": {
     "kanto": "140",
     "johto": "227"
-}
+},
+"evolution": "Breed #140, #141"
 }, {
 "number": "141",
 "names": {
@@ -2076,7 +2209,8 @@
 "regions": {
     "kanto": "141",
     "johto": "228"
-}
+},
+"evolution": "Evolve #140 to Level 40"
 }, {
 "number": "142",
 "names": {
@@ -2106,7 +2240,8 @@
     "sinnoh": "113",
     "kalos": "139",
     "alola": "036"
-}
+},
+"evolution": "Evolve #446 with Happiness"
 }, {
 "number": "144",
 "names": {
@@ -2161,7 +2296,8 @@
     "johto": "246",
     "kalos": "145",
     "alola": "281"
-}
+},
+"evolution": "Breed #147, #148, #149"
 }, {
 "number": "148",
 "names": {
@@ -2176,7 +2312,8 @@
     "johto": "247",
     "kalos": "146",
     "alola": "282"
-}
+},
+"evolution": "Evolve #147 to Level 30"
 }, {
 "number": "149",
 "names": {
@@ -2191,7 +2328,8 @@
     "johto": "248",
     "kalos": "147",
     "alola": "283"
-}
+},
+"evolution": "Evolve #148 to Level 55"
 }, {
 "number": "150",
 "names": {
@@ -2228,7 +2366,8 @@
 "regions": {
     "kanto": "152",
     "johto": "001"
-}
+},
+"evolution": "Breed #152, #153, #154"
 }, {
 "number": "153",
 "names": {
@@ -2241,7 +2380,8 @@
 "regions": {
     "kanto": "153",
     "johto": "002"
-}
+},
+"evolution": "Evolve #152 to Level 16"
 }, {
 "number": "154",
 "names": {
@@ -2254,7 +2394,8 @@
 "regions": {
     "kanto": "154",
     "johto": "003"
-}
+},
+"evolution": "Evolve #153 to Level 32"
 }, {
 "number": "155",
 "names": {
@@ -2267,7 +2408,8 @@
 "regions": {
     "kanto": "155",
     "johto": "004"
-}
+},
+"evolution": "Breed #155, #156, #157"
 }, {
 "number": "156",
 "names": {
@@ -2280,7 +2422,8 @@
 "regions": {
     "kanto": "156",
     "johto": "005"
-}
+},
+"evolution": "Evolve #155 to Level 14"
 }, {
 "number": "157",
 "names": {
@@ -2292,7 +2435,8 @@
 "regions": {
     "kanto": "157",
     "johto": "006"
-}
+},
+"evolution": "Evolve #156 to Level 36"
 }, {
 "number": "158",
 "names": {
@@ -2305,7 +2449,8 @@
 "regions": {
     "kanto": "158",
     "johto": "007"
-}
+},
+"evolution": "Breed #158, #159, #160"
 }, {
 "number": "159",
 "names": {
@@ -2318,7 +2463,8 @@
 "regions": {
     "kanto": "159",
     "johto": "008"
-}
+},
+"evolution": "Evolve #158 to Level 18"
 }, {
 "number": "160",
 "names": {
@@ -2331,7 +2477,8 @@
 "regions": {
     "kanto": "160",
     "johto": "009"
-}
+},
+"evolution": "Evolve #159 to Level 30"
 }, {
 "number": "161",
 "names": {
@@ -2345,7 +2492,8 @@
     "kanto": "161",
     "johto": "019",
     "kalos": "109"
-}
+},
+"evolution": "Breed #161, #162"
 }, {
 "number": "162",
 "names": {
@@ -2359,7 +2507,8 @@
     "kanto": "162",
     "johto": "020",
     "kalos": "110"
-}
+},
+"evolution": "Evolve #161 to Level 15"
 }, {
 "number": "163",
 "names": {
@@ -2372,7 +2521,8 @@
     "johto": "015",
     "sinnoh": "106",
     "kalos": "117"
-}
+},
+"evolution": "Breed #163, #164"
 }, {
 "number": "164",
 "names": {
@@ -2387,7 +2537,8 @@
     "johto": "016",
     "sinnoh": "107",
     "kalos": "118"
-}
+},
+"evolution": "Evolve #163 to Level 20"
 }, {
 "number": "165",
 "names": {
@@ -2401,7 +2552,8 @@
     "johto": "030",
     "kalos": "074",
     "alola": "020"
-}
+},
+"evolution": "Breed #165, #166"
 }, {
 "number": "166",
 "names": {
@@ -2415,7 +2567,8 @@
     "johto": "031",
     "kalos": "075",
     "alola": "021"
-}
+},
+"evolution": "Evolve #165 to Level 18"
 }, {
 "number": "167",
 "names": {
@@ -2430,7 +2583,8 @@
     "johto": "032",
     "kalos": "107",
     "alola": "022"
-}
+},
+"evolution": "Breed #167, #168"
 }, {
 "number": "168",
 "names": {
@@ -2444,7 +2598,8 @@
     "johto": "033",
     "kalos": "108",
     "alola": "023"
-}
+},
+"evolution": "Evolve #167 to Level 22"
 }, {
 "number": "169",
 "names": {
@@ -2462,7 +2617,8 @@
     "unova": "063",
     "kalos": "147",
     "alola": "070"
-}
+},
+"evolution": "Evolve #042 with Happiness"
 }, {
 "number": "170",
 "names": {
@@ -2478,7 +2634,8 @@
     "hoenn": "190",
     "kalos": "147",
     "alola": "201"
-}
+},
+"evolution": "Breed #170, #171"
 }, {
 "number": "171",
 "names": {
@@ -2492,7 +2649,8 @@
     "hoenn": "191",
     "kalos": "148",
     "alola": "202"
-}
+},
+"evolution": "Evolve #170 to Level 27"
 }, {
 "number": "172",
 "names": {
@@ -2507,7 +2665,8 @@
     "sinnoh": "103",
     "kalos": "035",
     "alola": "024"
-}
+},
+"evolution": "Breed #172, #025, #026"
 }, {
 "number": "173",
 "names": {
@@ -2523,7 +2682,8 @@
     "sinnoh": "099",
     "unova": "088",
     "alola": "210"
-}
+},
+"evolution": "Breed #173, #035, #036"
 }, {
 "number": "174",
 "names": {
@@ -2540,7 +2700,8 @@
     "unova": "281",
     "kalos": "119",
     "alola": "134"
-}
+},
+"evolution": "Breed #174, #039, #040"
 }, {
 "number": "175",
 "names": {
@@ -2552,7 +2713,8 @@
     "kanto": "175",
     "johto": "046",
     "sinnoh": "173"
-}
+},
+"evolution": "Breed #175, #176, #468"
 }, {
 "number": "176",
 "names": {
@@ -2564,7 +2726,8 @@
     "kanto": "176",
     "johto": "047",
     "sinnoh": "174"
-}
+},
+"evolution": "Evolve #175 with Happiness"
 }, {
 "number": "177",
 "names": {
@@ -2576,7 +2739,8 @@
     "kanto": "177",
     "johto": "161",
     "hoenn": "169"
-}
+},
+"evolution": "Breed #177, #178"
 }, {
 "number": "178",
 "names": {
@@ -2588,7 +2752,8 @@
     "kanto": "178",
     "johto": "162",
     "hoenn": "170"
-}
+},
+"evolution": "Evolve #177 to Level 25"
 }, {
 "number": "179",
 "names": {
@@ -2603,7 +2768,8 @@
     "johto": "053",
     "unova": "025",
     "kalos": "127"
-}
+},
+"evolution": "Breed #179, #180, #181"
 }, {
 "number": "180",
 "names": {
@@ -2618,7 +2784,8 @@
     "johto": "054",
     "unova": "026",
     "kalos": "128"
-}
+},
+"evolution": "Evolve #179 to Level 15"
 }, {
 "number": "181",
 "names": {
@@ -2632,7 +2799,8 @@
     "johto": "055",
     "unova": "027",
     "kalos": "129"
-}
+},
+"evolution": "Evolve #180 to Level 30"
 }, {
 "number": "182",
 "names": {
@@ -2647,7 +2815,8 @@
     "johto": "086",
     "hoenn": "094",
     "kalos": "108"
-}
+},
+"evolution": "Use Sun Stone on #045"
 }, {
 "number": "183",
 "names": {
@@ -2662,7 +2831,8 @@
     "sinnoh": "125",
     "unova": "031",
     "kalos": "042"
-}
+},
+"evolution": "Evolve #298 with Happiness"
 }, {
 "number": "184",
 "names": {
@@ -2677,7 +2847,8 @@
     "sinnoh": "126",
     "unova": "032",
     "kalos": "043"
-}
+},
+"evolution": "Evolve #183 to Level 18"
 }, {
 "number": "185",
 "names": {
@@ -2693,7 +2864,8 @@
     "sinnoh": "093",
     "kalos": "130",
     "alola": "031"
-}
+},
+"evolution": "Evolve #438 after Mimic learned"
 }, {
 "number": "186",
 "names": {
@@ -2708,7 +2880,8 @@
     "johto": "075",
     "kalos": "036",
     "alola": "152"
-}
+},
+"evolution": "Trade #062 holding King's Rock"
 }, {
 "number": "187",
 "names": {
@@ -2722,7 +2895,8 @@
     "kanto": "187",
     "johto": "067",
     "kalos": "135"
-}
+},
+"evolution": "Breed #187, #188, #189"
 }, {
 "number": "188",
 "names": {
@@ -2736,7 +2910,8 @@
     "kanto": "188",
     "johto": "068",
     "kalos": "136"
-}
+},
+"evolution": "Evolve #187 to Level 18"
 }, {
 "number": "189",
 "names": {
@@ -2750,7 +2925,8 @@
     "kanto": "189",
     "johto": "069",
     "kalos": "137"
-}
+},
+"evolution": "Evolve #188 to Level 27"
 }, {
 "number": "190",
 "names": {
@@ -2764,7 +2940,8 @@
     "kanto": "190",
     "johto": "123",
     "sinnoh": "063"
-}
+},
+"evolution": "Breed #190, #424"
 }, {
 "number": "191",
 "names": {
@@ -2778,7 +2955,8 @@
     "kanto": "191",
     "johto": "103",
     "unova": "020"
-}
+},
+"evolution": "Breed #191, #192"
 }, {
 "number": "192",
 "names": {
@@ -2792,7 +2970,8 @@
     "kanto": "192",
     "johto": "104",
     "unova": "021"
-}
+},
+"evolution": "Use Sun Stone on #191"
 }, {
 "number": "193",
 "names": {
@@ -2806,7 +2985,8 @@
     "sinnoh": "183",
     "unova": "286",
     "kalos": "087"
-}
+},
+"evolution": "Breed #193, #469"
 }, {
 "number": "194",
 "names": {
@@ -2821,7 +3001,8 @@
     "johto": "056",
     "sinnoh": "117",
     "kalos": "017"
-}
+},
+"evolution": "Breed #194, #195"
 }, {
 "number": "195",
 "names": {
@@ -2836,7 +3017,8 @@
     "johto": "057",
     "sinnoh": "118",
     "kalos": "019"
-}
+},
+"evolution": "Evolve #194 to Level 20"
 }, {
 "number": "196",
 "names": {
@@ -2853,7 +3035,8 @@
     "unova": "095",
     "kalos": "081",
     "alola": "127"
-}
+},
+"evolution": "Evolve #133 with Happiness, at Daytime"
 }, {
 "number": "197",
 "names": {
@@ -2870,7 +3053,8 @@
     "unova": "096",
     "kalos": "082",
     "alola": "128"
-}
+},
+"evolution": "Evolve #196 with Happiness, at Nighttime"
 }, {
 "number": "198",
 "names": {
@@ -2886,7 +3070,8 @@
     "sinnoh": "074",
     "kalos": "051",
     "alola": "277"
-}
+},
+"evolution": "Breed #198, #430"
 }, {
 "number": "199",
 "names": {
@@ -2901,7 +3086,8 @@
     "johto": "082",
     "kalos": "135",
     "alola": "039"
-}
+},
+"evolution": "Trade #080 holding King's Rock"
 }, {
 "number": "200",
 "names": {
@@ -2916,7 +3102,8 @@
     "johto": "219",
     "sinnoh": "072",
     "alola": "066"
-}
+},
+"evolution": "Breed #200, #429"
 }, {
 "number": "201",
 "names": {
@@ -2945,7 +3132,8 @@
     "johto": "108",
     "hoenn": "168",
     "kalos": "119"
-}
+},
+"evolution": "Evolve #360 to Level 15"
 }, {
 "number": "203",
 "names": {
@@ -2971,7 +3159,8 @@
 "regions": {
     "kanto": "204",
     "johto": "093"
-}
+},
+"evolution": "Breed #204, #205"
 }, {
 "number": "205",
 "names": {
@@ -2984,7 +3173,8 @@
 "regions": {
     "kanto": "205",
     "johto": "094"
-}
+},
+"evolution": "Evolve #204 to Level 31"
 }, {
 "number": "206",
 "names": {
@@ -3015,7 +3205,8 @@
     "sinnoh": "153",
     "unova": "221",
     "kalos": "115"
-}
+},
+"evolution": "Breed #207, #472"
 }, {
 "number": "208",
 "names": {
@@ -3030,7 +3221,8 @@
     "sinnoh": "035",
     "unova": "072",
     "kalos": "054"
-}
+},
+"evolution": "Trade #095 holding Metal Coat"
 }, {
 "number": "209",
 "names": {
@@ -3043,7 +3235,8 @@
     "johto": "125",
     "kalos": "071",
     "alola": "258"
-}
+},
+"evolution": "Breed #209, #210"
 }, {
 "number": "210",
 "names": {
@@ -3056,7 +3249,8 @@
     "johto": "126",
     "kalos": "072",
     "alola": "259"
-}
+},
+"evolution": "Evolve #209 to Level 23"
 }, {
 "number": "211",
 "names": {
@@ -3085,7 +3279,8 @@
     "sinnoh": "196",
     "kalos": "137",
     "alola": "276"
-}
+},
+"evolution": "Trade #123 holding Metal Coat"
 }, {
 "number": "213",
 "names": {
@@ -3134,7 +3329,8 @@
     "unova": "252",
     "kalos": "091",
     "alola": "249"
-}
+},
+"evolution": "Breed #215, #461"
 }, {
 "number": "216",
 "names": {
@@ -3146,7 +3342,8 @@
     "kanto": "216",
     "johto": "198",
     "kalos": "132"
-}
+},
+"evolution": "Breed #216, #217"
 }, {
 "number": "217",
 "names": {
@@ -3158,7 +3355,8 @@
     "kanto": "217",
     "johto": "199",
     "kalos": "133"
-}
+},
+"evolution": "Evolve #216 to Level 30"
 }, {
 "number": "218",
 "names": {
@@ -3173,7 +3371,8 @@
     "johto": "216",
     "hoenn": "108",
     "kalos": "012"
-}
+},
+"evolution": "Breed #218, #219"
 }, {
 "number": "219",
 "names": {
@@ -3187,7 +3386,8 @@
     "johto": "217",
     "hoenn": "109",
     "kalos": "013"
-}
+},
+"evolution": "Evolve #218 to Level 38"
 }, {
 "number": "220",
 "names": {
@@ -3203,7 +3403,8 @@
     "sinnoh": "203",
     "unova": "258",
     "kalos": "076"
-}
+},
+"evolution": "Breed #220, #221, #473"
 }, {
 "number": "221",
 "names": {
@@ -3219,7 +3420,8 @@
     "sinnoh": "204",
     "unova": "259",
     "kalos": "077"
-}
+},
+"evolution": "Evolve #220 to Level 33"
 }, {
 "number": "222",
 "names": {
@@ -3251,7 +3453,8 @@
     "sinnoh": "132",
     "unova": "235",
     "kalos": "144"
-}
+},
+"evolution": "Breed #223, #224"
 }, {
 "number": "224",
 "names": {
@@ -3265,7 +3468,8 @@
     "sinnoh": "133",
     "unova": "236",
     "kalos": "145"
-}
+},
+"evolution": "Evolve #223 to Level 25"
 }, {
 "number": "225",
 "names": {
@@ -3297,7 +3501,8 @@
     "sinnoh": "141",
     "unova": "234",
     "kalos": "140"
-}
+},
+"evolution": "Evolve #458 with #223 in party"
 }, {
 "number": "227",
 "names": {
@@ -3329,7 +3534,8 @@
     "johto": "214",
     "sinnoh": "176",
     "kalos": "075"
-}
+},
+"evolution": "Breed #228, #229"
 }, {
 "number": "229",
 "names": {
@@ -3344,7 +3550,8 @@
     "johto": "215",
     "sinnoh": "177",
     "kalos": "076"
-}
+},
+"evolution": "Evolve #228 to Level 24"
 }, {
 "number": "230",
 "names": {
@@ -3359,7 +3566,8 @@
     "johto": "192",
     "hoenn": "195",
     "kalos": "041"
-}
+},
+"evolution": "Trade #117 holding Dragon Scale"
 }, {
 "number": "231",
 "names": {
@@ -3371,7 +3579,8 @@
     "kanto": "231",
     "johto": "200",
     "hoenn": "172"
-}
+},
+"evolution": "Breed #231, #232"
 }, {
 "number": "232",
 "names": {
@@ -3383,7 +3592,8 @@
     "kanto": "232",
     "johto": "201",
     "hoenn": "173"
-}
+},
+"evolution": "Evolve #231 to Level 25"
 }, {
 "number": "233",
 "names": {
@@ -3396,7 +3606,8 @@
     "johto": "221",
     "sinnoh": "193",
     "alola": "218"
-}
+},
+"evolution": "Trade #137 holding Up-Grade"
 }, {
 "number": "234",
 "names": {
@@ -3437,7 +3648,8 @@
 "regions": {
     "kanto": "236",
     "johto": "145"
-}
+},
+"evolution": "Breed #236, #106, #107, #237"
 }, {
 "number": "237",
 "names": {
@@ -3450,7 +3662,8 @@
 "regions": {
     "kanto": "237",
     "johto": "148"
-}
+},
+"evolution": "Evolve #107 to Level 20, Attack = Defense"
 }, {
 "number": "238",
 "names": {
@@ -3464,7 +3677,8 @@
     "kanto": "238",
     "johto": "154",
     "kalos": "083"
-}
+},
+"evolution": "Breed #238, #124"
 }, {
 "number": "239",
 "names": {
@@ -3479,7 +3693,8 @@
     "sinnoh": "197",
     "unova": "056",
     "alola": "226"
-}
+},
+"evolution": "Breed #239, #125, #466"
 }, {
 "number": "240",
 "names": {
@@ -3493,7 +3708,8 @@
     "sinnoh": "200",
     "unova": "053",
     "alola": "166"
-}
+},
+"evolution": "Breed #240, #126, #467"
 }, {
 "number": "241",
 "names": {
@@ -3522,7 +3738,8 @@
     "johto": "223",
     "sinnoh": "098",
     "alola": "034"
-}
+},
+"evolution": "Evolve #113 with Happiness"
 }, {
 "number": "243",
 "names": {
@@ -3578,7 +3795,8 @@
     "johto": "249",
     "unova": "292",
     "kalos": "102"
-}
+},
+"evolution": "Breed #246, #247, #248"
 }, {
 "number": "247",
 "names": {
@@ -3592,7 +3810,8 @@
     "johto": "250",
     "unova": "293",
     "kalos": "103"
-}
+},
+"evolution": "Evolve #246 to Level 30"
 }, {
 "number": "248",
 "names": {
@@ -3607,7 +3826,8 @@
     "johto": "251",
     "unova": "294",
     "kalos": "104"
-}
+},
+"evolution": "Evolve #247 to Level 55"
 }, {
 "number": "249",
 "names": {
@@ -3653,7 +3873,8 @@
 "regions": {
     "kanto": "252",
     "hoenn": "001"
-}
+},
+"evolution": "Breed #252, #253, #254"
 }, {
 "number": "253",
 "names": {
@@ -3666,7 +3887,8 @@
 "regions": {
     "kanto": "253",
     "hoenn": "002"
-}
+},
+"evolution": "Evolve #252 to Level 16"
 }, {
 "number": "254",
 "names": {
@@ -3679,7 +3901,8 @@
 "regions": {
     "kanto": "254",
     "hoenn": "003"
-}
+},
+"evolution": "Evolve #253 to Level 36"
 }, {
 "number": "255",
 "names": {
@@ -3692,7 +3915,8 @@
 "regions": {
     "kanto": "255",
     "hoenn": "004"
-}
+},
+"evolution": "Breed #255, #256, #257"
 }, {
 "number": "256",
 "names": {
@@ -3705,7 +3929,8 @@
 "regions": {
     "kanto": "256",
     "hoenn": "005"
-}
+},
+"evolution": "Evolve #255 to Level 16"
 }, {
 "number": "257",
 "names": {
@@ -3718,7 +3943,8 @@
 "regions": {
     "kanto": "257",
     "hoenn": "006"
-}
+},
+"evolution": "Evolve #256 to Level 36"
 }, {
 "number": "258",
 "names": {
@@ -3731,7 +3957,8 @@
 "regions": {
     "kanto": "258",
     "hoenn": "007"
-}
+},
+"evolution": "Breed #258, #259, #260"
 }, {
 "number": "259",
 "names": {
@@ -3744,7 +3971,8 @@
 "regions": {
     "kanto": "259",
     "hoenn": "008"
-}
+},
+"evolution": "Evolve #258 to Level 16"
 }, {
 "number": "260",
 "names": {
@@ -3757,7 +3985,8 @@
 "regions": {
     "kanto": "260",
     "hoenn": "009"
-}
+},
+"evolution": "Evolve #259 to Level 36"
 }, {
 "number": "261",
 "names": {
@@ -3771,7 +4000,8 @@
     "kanto": "261",
     "hoenn": "010",
     "kalos": "044"
-}
+},
+"evolution": "Breed #261, #262"
 }, {
 "number": "262",
 "names": {
@@ -3785,7 +4015,8 @@
     "kanto": "262",
     "hoenn": "011",
     "kalos": "045"
-}
+},
+"evolution": "Evolve #261 to Level 18"
 }, {
 "number": "263",
 "names": {
@@ -3799,7 +4030,8 @@
     "kanto": "263",
     "hoenn": "012",
     "kalos": "012"
-}
+},
+"evolution": "Breed #263, #264"
 }, {
 "number": "264",
 "names": {
@@ -3813,7 +4045,8 @@
     "kanto": "264",
     "hoenn": "013",
     "kalos": "013"
-}
+},
+"evolution": "Evolve #263 to Level 20"
 }, {
 "number": "265",
 "names": {
@@ -3827,7 +4060,8 @@
     "kanto": "265",
     "hoenn": "014",
     "sinnoh": "048"
-}
+},
+"evolution": "Breed #265, #266, #267, #268, #269"
 }, {
 "number": "266",
 "names": {
@@ -3841,7 +4075,8 @@
     "kanto": "266",
     "hoenn": "015",
     "sinnoh": "049"
-}
+},
+"evolution": "Evolve #265 to Level 7, random based on personality"
 }, {
 "number": "267",
 "names": {
@@ -3855,7 +4090,8 @@
     "kanto": "267",
     "hoenn": "016",
     "sinnoh": "050"
-}
+},
+"evolution": "Evolve #266 to Level 10"
 }, {
 "number": "268",
 "names": {
@@ -3869,7 +4105,8 @@
     "kanto": "268",
     "hoenn": "017",
     "sinnoh": "051"
-}
+},
+"evolution": "Evolve #267 to Level 7, random based on personality"
 }, {
 "number": "269",
 "names": {
@@ -3883,7 +4120,8 @@
     "kanto": "269",
     "hoenn": "018",
     "sinnoh": "052"
-}
+},
+"evolution": "Evolve #268 to Level 10"
 }, {
 "number": "270",
 "names": {
@@ -3897,7 +4135,8 @@
     "kanto": "270",
     "hoenn": "019",
     "kalos": "055"
-}
+},
+"evolution": "Breed #270, #271, #272"
 }, {
 "number": "271",
 "names": {
@@ -3910,7 +4149,8 @@
     "kanto": "271",
     "hoenn": "020",
     "kalos": "056"
-}
+},
+"evolution": "Evolve #270 to Level 14"
 }, {
 "number": "272",
 "names": {
@@ -3923,7 +4163,8 @@
     "kanto": "272",
     "hoenn": "021",
     "kalos": "057"
-}
+},
+"evolution": "Use Water Stone on #271"
 }, {
 "number": "273",
 "names": {
@@ -3936,7 +4177,8 @@
 "regions": {
     "kanto": "273",
     "hoenn": "022"
-}
+},
+"evolution": "Breed #273, #274, #275"
 }, {
 "number": "274",
 "names": {
@@ -3949,7 +4191,8 @@
 "regions": {
     "kanto": "274",
     "hoenn": "023"
-}
+},
+"evolution": "Evolve #273 to Level 14"
 }, {
 "number": "275",
 "names": {
@@ -3962,7 +4205,8 @@
 "regions": {
     "kanto": "275",
     "hoenn": "024"
-}
+},
+"evolution": "Use Leaf Stone on #274"
 }, {
 "number": "276",
 "names": {
@@ -3976,7 +4220,8 @@
     "kanto": "276",
     "hoenn": "025",
     "kalos": "019"
-}
+},
+"evolution": "Breed #276, #277"
 }, {
 "number": "277",
 "names": {
@@ -3990,7 +4235,8 @@
     "kanto": "277",
     "hoenn": "026",
     "kalos": "020"
-}
+},
+"evolution": "Evolve #276 to Level 22"
 }, {
 "number": "278",
 "names": {
@@ -4006,7 +4252,8 @@
     "unova": "212",
     "kalos": "017",
     "alola": "040"
-}
+},
+"evolution": "Breed #278, #279"
 }, {
 "number": "279",
 "names": {
@@ -4022,7 +4269,8 @@
     "unova": "213",
     "kalos": "018",
     "alola": "041"
-}
+},
+"evolution": "Evolve #278 to Level 25"
 }, {
 "number": "280",
 "names": {
@@ -4037,7 +4285,8 @@
     "hoenn": "029",
     "sinnoh": "157",
     "kalos": "064"
-}
+},
+"evolution": "Breed #280, #281, #282, #475"
 }, {
 "number": "281",
 "names": {
@@ -4050,7 +4299,8 @@
     "hoenn": "030",
     "sinnoh": "158",
     "kalos": "065"
-}
+},
+"evolution": "Evolve #280 to Level 20"
 }, {
 "number": "282",
 "names": {
@@ -4064,7 +4314,8 @@
     "hoenn": "031",
     "sinnoh": "159",
     "kalos": "066"
-}
+},
+"evolution": "Evolve #281 to Level 30"
 }, {
 "number": "283",
 "names": {
@@ -4079,7 +4330,8 @@
     "hoenn": "033",
     "kalos": "047",
     "alola": "139"
-}
+},
+"evolution": "Breed #283, #284"
 }, {
 "number": "284",
 "names": {
@@ -4094,7 +4346,8 @@
     "hoenn": "034",
     "kalos": "048",
     "alola": "140"
-}
+},
+"evolution": "Evolve #283 to Level 22"
 }, {
 "number": "285",
 "names": {
@@ -4107,7 +4360,8 @@
 "regions": {
     "kanto": "285",
     "hoenn": "035"
-}
+},
+"evolution": "Breed #285, #286"
 }, {
 "number": "286",
 "names": {
@@ -4120,7 +4374,8 @@
 "regions": {
     "kanto": "286",
     "hoenn": "036"
-}
+},
+"evolution": "Evolve #285 to Level 23"
 }, {
 "number": "287",
 "names": {
@@ -4134,7 +4389,8 @@
     "kanto": "287",
     "hoenn": "037",
     "unova": "276"
-}
+},
+"evolution": "Breed #287, #288, #289"
 }, {
 "number": "288",
 "names": {
@@ -4147,7 +4403,8 @@
     "kanto": "288",
     "hoenn": "038",
     "unova": "277"
-}
+},
+"evolution": "Evolve #287 to Level 18"
 }, {
 "number": "289",
 "names": {
@@ -4161,7 +4418,8 @@
     "kanto": "289",
     "hoenn": "039",
     "unova": "278"
-}
+},
+"evolution": "Evolve #288 to Level 36"
 }, {
 "number": "290",
 "names": {
@@ -4174,7 +4432,8 @@
     "kanto": "290",
     "hoenn": "043",
     "kalos": "111"
-}
+},
+"evolution": "Breed #290, #291, #291, #292"
 }, {
 "number": "291",
 "names": {
@@ -4186,7 +4445,8 @@
     "kanto": "291",
     "hoenn": "044",
     "kalos": "112"
-}
+},
+"evolution": "Evolve #291 to Level 20, wth an empty spot in party and a Pok\u00e9ball in bag"
 }, {
 "number": "292",
 "names": {
@@ -4200,7 +4460,8 @@
     "kanto": "292",
     "hoenn": "045",
     "kalos": "113"
-}
+},
+"evolution": "Breed #290, #291, #291, #292"
 }, {
 "number": "293",
 "names": {
@@ -4214,7 +4475,8 @@
     "kanto": "293",
     "hoenn": "046",
     "kalos": "140"
-}
+},
+"evolution": "Breed #293, #294, #295"
 }, {
 "number": "294",
 "names": {
@@ -4228,7 +4490,8 @@
     "kanto": "294",
     "hoenn": "047",
     "kalos": "141"
-}
+},
+"evolution": "Evolve #293 to Level 20"
 }, {
 "number": "295",
 "names": {
@@ -4242,7 +4505,8 @@
     "kanto": "295",
     "hoenn": "048",
     "kalos": "142"
-}
+},
+"evolution": "Evolve #294 to Level 40"
 }, {
 "number": "296",
 "names": {
@@ -4255,7 +4519,8 @@
     "hoenn": "049",
     "kalos": "095",
     "alola": "056"
-}
+},
+"evolution": "Breed #296, #297"
 }, {
 "number": "297",
 "names": {
@@ -4268,7 +4533,8 @@
     "hoenn": "050",
     "kalos": "096",
     "alola": "057"
-}
+},
+"evolution": "Evolve #296 to Level 24"
 }, {
 "number": "298",
 "names": {
@@ -4282,7 +4548,8 @@
     "sinnoh": "124",
     "unova": "030",
     "kalos": "041"
-}
+},
+"evolution": "Breed #298, #183, #184"
 }, {
 "number": "299",
 "names": {
@@ -4299,7 +4566,8 @@
     "unova": "164",
     "kalos": "093",
     "alola": "198"
-}
+},
+"evolution": "Breed #299, #476"
 }, {
 "number": "300",
 "names": {
@@ -4313,7 +4581,8 @@
     "hoenn": "063",
     "unova": "078",
     "kalos": "078"
-}
+},
+"evolution": "Breed #300, #301"
 }, {
 "number": "301",
 "names": {
@@ -4327,7 +4596,8 @@
     "hoenn": "064",
     "unova": "079",
     "kalos": "079"
-}
+},
+"evolution": "Use Moon Stone on #300"
 }, {
 "number": "302",
 "names": {
@@ -4371,7 +4641,8 @@
     "hoenn": "072",
     "unova": "166",
     "kalos": "099"
-}
+},
+"evolution": "Breed #304, #305, #306"
 }, {
 "number": "305",
 "names": {
@@ -4386,7 +4657,8 @@
     "hoenn": "073",
     "unova": "167",
     "kalos": "100"
-}
+},
+"evolution": "Evolve #304 to Level 32"
 }, {
 "number": "306",
 "names": {
@@ -4401,7 +4673,8 @@
     "hoenn": "074",
     "unova": "168",
     "kalos": "101"
-}
+},
+"evolution": "Evolve #305 to Level 42"
 }, {
 "number": "307",
 "names": {
@@ -4416,7 +4689,8 @@
     "hoenn": "078",
     "sinnoh": "086",
     "kalos": "143"
-}
+},
+"evolution": "Breed #307, #308"
 }, {
 "number": "308",
 "names": {
@@ -4431,7 +4705,8 @@
     "hoenn": "079",
     "sinnoh": "087",
     "kalos": "144"
-}
+},
+"evolution": "Evolve #307 to Level 37"
 }, {
 "number": "309",
 "names": {
@@ -4445,7 +4720,8 @@
     "kanto": "309",
     "hoenn": "080",
     "kalos": "073"
-}
+},
+"evolution": "Breed #309, #310"
 }, {
 "number": "310",
 "names": {
@@ -4459,7 +4735,8 @@
     "kanto": "310",
     "hoenn": "081",
     "kalos": "074"
-}
+},
+"evolution": "Evolve #309 to Level 26"
 }, {
 "number": "311",
 "names": {
@@ -4526,7 +4803,8 @@
     "sinnoh": "026",
     "unova": "134",
     "kalos": "072"
-}
+},
+"evolution": "Evolve #406 with Happiness, at Daytime"
 }, {
 "number": "316",
 "names": {
@@ -4540,7 +4818,8 @@
     "kanto": "316",
     "hoenn": "100",
     "kalos": "098"
-}
+},
+"evolution": "Breed #316, #317"
 }, {
 "number": "317",
 "names": {
@@ -4554,7 +4833,8 @@
     "kanto": "317",
     "hoenn": "101",
     "kalos": "099"
-}
+},
+"evolution": "Evolve #316 to Level 26"
 }, {
 "number": "318",
 "names": {
@@ -4568,7 +4848,8 @@
     "hoenn": "102",
     "kalos": "055",
     "alola": "264"
-}
+},
+"evolution": "Breed #318, #319"
 }, {
 "number": "319",
 "names": {
@@ -4582,7 +4863,8 @@
     "hoenn": "103",
     "kalos": "056",
     "alola": "265"
-}
+},
+"evolution": "Evolve #318 to Level 30"
 }, {
 "number": "320",
 "names": {
@@ -4596,7 +4878,8 @@
     "unova": "240",
     "kalos": "027",
     "alola": "266"
-}
+},
+"evolution": "Breed #320, #321"
 }, {
 "number": "321",
 "names": {
@@ -4610,7 +4893,8 @@
     "unova": "241",
     "kalos": "028",
     "alola": "267"
-}
+},
+"evolution": "Evolve #320 to Level 40"
 }, {
 "number": "322",
 "names": {
@@ -4624,7 +4908,8 @@
     "kanto": "322",
     "hoenn": "106",
     "unova": "204"
-}
+},
+"evolution": "Breed #322, #323"
 }, {
 "number": "323",
 "names": {
@@ -4637,7 +4922,8 @@
     "kanto": "323",
     "hoenn": "107",
     "unova": "205"
-}
+},
+"evolution": "Evolve #322 to Level 33"
 }, {
 "number": "324",
 "names": {
@@ -4665,7 +4951,8 @@
     "hoenn": "115",
     "unova": "206",
     "kalos": "007"
-}
+},
+"evolution": "Breed #325, #326"
 }, {
 "number": "326",
 "names": {
@@ -4680,7 +4967,8 @@
     "hoenn": "116",
     "unova": "207",
     "kalos": "008"
-}
+},
+"evolution": "Evolve #325 to Level 32"
 }, {
 "number": "327",
 "names": {
@@ -4710,7 +4998,8 @@
     "unova": "121",
     "kalos": "003",
     "alola": "235"
-}
+},
+"evolution": "Breed #328, #329, #330"
 }, {
 "number": "329",
 "names": {
@@ -4725,7 +5014,8 @@
     "unova": "122",
     "kalos": "004",
     "alola": "236"
-}
+},
+"evolution": "Evolve #328 to Level 35"
 }, {
 "number": "330",
 "names": {
@@ -4741,7 +5031,8 @@
     "unova": "123",
     "kalos": "005",
     "alola": "237"
-}
+},
+"evolution": "Evolve #329 to Level 45"
 }, {
 "number": "331",
 "names": {
@@ -4753,7 +5044,8 @@
 "regions": {
     "kanto": "331",
     "hoenn": "124"
-}
+},
+"evolution": "Breed #331, #332"
 }, {
 "number": "332",
 "names": {
@@ -4765,7 +5057,8 @@
 "regions": {
     "kanto": "332",
     "hoenn": "125"
-}
+},
+"evolution": "Evolve #331 to Level 32"
 }, {
 "number": "333",
 "names": {
@@ -4781,7 +5074,8 @@
     "sinnoh": "171",
     "unova": "246",
     "kalos": "139"
-}
+},
+"evolution": "Breed #333, #334"
 }, {
 "number": "334",
 "names": {
@@ -4795,7 +5089,8 @@
     "sinnoh": "172",
     "unova": "247",
     "kalos": "140"
-}
+},
+"evolution": "Evolve #333 to Level 35"
 }, {
 "number": "335",
 "names": {
@@ -4871,7 +5166,8 @@
     "sinnoh": "080",
     "kalos": "040",
     "alola": "093"
-}
+},
+"evolution": "Breed #339, #340"
 }, {
 "number": "340",
 "names": {
@@ -4887,7 +5183,8 @@
     "sinnoh": "081",
     "kalos": "041",
     "alola": "094"
-}
+},
+"evolution": "Evolve #339 to Level 30"
 }, {
 "number": "341",
 "names": {
@@ -4902,7 +5199,8 @@
     "hoenn": "134",
     "unova": "279",
     "kalos": "051"
-}
+},
+"evolution": "Breed #341, #342"
 }, {
 "number": "342",
 "names": {
@@ -4917,7 +5215,8 @@
     "hoenn": "135",
     "unova": "280",
     "kalos": "052"
-}
+},
+"evolution": "Evolve #341 to Level 30"
 }, {
 "number": "343",
 "names": {
@@ -4931,7 +5230,8 @@
     "kanto": "343",
     "hoenn": "136",
     "unova": "169"
-}
+},
+"evolution": "Breed #343, #344"
 }, {
 "number": "344",
 "names": {
@@ -4945,7 +5245,8 @@
     "kanto": "344",
     "hoenn": "137",
     "unova": "170"
-}
+},
+"evolution": "Evolve #343 to Level 36"
 }, {
 "number": "345",
 "names": {
@@ -4958,7 +5259,8 @@
 "regions": {
     "kanto": "345",
     "hoenn": "138"
-}
+},
+"evolution": "Breed #345, #346"
 }, {
 "number": "346",
 "names": {
@@ -4971,7 +5273,8 @@
 "regions": {
     "kanto": "346",
     "hoenn": "139"
-}
+},
+"evolution": "Evolve #345 to Level 40"
 }, {
 "number": "347",
 "names": {
@@ -4982,7 +5285,8 @@
 "regions": {
     "kanto": "347",
     "hoenn": "140"
-}
+},
+"evolution": "Breed #347, #348"
 }, {
 "number": "348",
 "names": {
@@ -4993,7 +5297,8 @@
 "regions": {
     "kanto": "348",
     "hoenn": "141"
-}
+},
+"evolution": "Evolve #347 to Level 40"
 }, {
 "number": "349",
 "names": {
@@ -5008,7 +5313,8 @@
     "hoenn": "145",
     "sinnoh": "138",
     "alola": "155"
-}
+},
+"evolution": "Breed #349, #350"
 }, {
 "number": "350",
 "names": {
@@ -5022,7 +5328,8 @@
     "hoenn": "146",
     "sinnoh": "139",
     "alola": "156"
-}
+},
+"evolution": "Trade #349 holding Prism Scale"
 }, {
 "number": "351",
 "names": {
@@ -5063,7 +5370,8 @@
     "hoenn": "151",
     "unova": "210",
     "kalos": "122"
-}
+},
+"evolution": "Breed #353, #354"
 }, {
 "number": "354",
 "names": {
@@ -5077,7 +5385,8 @@
     "hoenn": "152",
     "unova": "211",
     "kalos": "123"
-}
+},
+"evolution": "Evolve #353 to Level 37"
 }, {
 "number": "355",
 "names": {
@@ -5091,7 +5400,8 @@
     "kanto": "355",
     "hoenn": "153",
     "sinnoh": "189"
-}
+},
+"evolution": "Breed #355, #356, #477"
 }, {
 "number": "356",
 "names": {
@@ -5105,7 +5415,8 @@
     "kanto": "356",
     "hoenn": "154",
     "sinnoh": "190"
-}
+},
+"evolution": "Evolve #355 to Level 37"
 }, {
 "number": "357",
 "names": {
@@ -5133,7 +5444,8 @@
     "hoenn": "158",
     "sinnoh": "083",
     "kalos": "112"
-}
+},
+"evolution": "Evolve #433 with Happiness, at Nighttime"
 }, {
 "number": "359",
 "names": {
@@ -5162,7 +5474,8 @@
     "kanto": "360",
     "hoenn": "167",
     "kalos": "118"
-}
+},
+"evolution": "Breed #360, #202"
 }, {
 "number": "361",
 "names": {
@@ -5177,7 +5490,8 @@
     "hoenn": "179",
     "sinnoh": "206",
     "alola": "246"
-}
+},
+"evolution": "Breed #361, #362, #478"
 }, {
 "number": "362",
 "names": {
@@ -5192,7 +5506,8 @@
     "hoenn": "180",
     "sinnoh": "207",
     "alola": "247"
-}
+},
+"evolution": "Evolve #361 to Level 42"
 }, {
 "number": "363",
 "names": {
@@ -5206,7 +5521,8 @@
     "kanto": "363",
     "hoenn": "182",
     "unova": "243"
-}
+},
+"evolution": "Breed #363, #364, #365"
 }, {
 "number": "364",
 "names": {
@@ -5220,7 +5536,8 @@
     "kanto": "364",
     "hoenn": "183",
     "unova": "244"
-}
+},
+"evolution": "Evolve #363 to Level 32"
 }, {
 "number": "365",
 "names": {
@@ -5234,7 +5551,8 @@
     "kanto": "365",
     "hoenn": "184",
     "unova": "245"
-}
+},
+"evolution": "Evolve #364 to Level 44"
 }, {
 "number": "366",
 "names": {
@@ -5248,7 +5566,8 @@
     "kanto": "366",
     "hoenn": "185",
     "kalos": "141"
-}
+},
+"evolution": "Breed #366, #367, #368"
 }, {
 "number": "367",
 "names": {
@@ -5262,7 +5581,8 @@
     "kanto": "367",
     "hoenn": "186",
     "kalos": "142"
-}
+},
+"evolution": "Trade #366 holding Deepseatooth"
 }, {
 "number": "368",
 "names": {
@@ -5276,7 +5596,8 @@
     "kanto": "368",
     "hoenn": "187",
     "kalos": "143"
-}
+},
+"evolution": "Trade #367 holding Deepseascale"
 }, {
 "number": "369",
 "names": {
@@ -5319,7 +5640,8 @@
     "hoenn": "196",
     "kalos": "014",
     "alola": "117"
-}
+},
+"evolution": "Breed #371, #372, #373"
 }, {
 "number": "372",
 "names": {
@@ -5334,7 +5656,8 @@
     "hoenn": "197",
     "kalos": "015",
     "alola": "118"
-}
+},
+"evolution": "Evolve #371 to Level 30"
 }, {
 "number": "373",
 "names": {
@@ -5349,7 +5672,8 @@
     "hoenn": "198",
     "kalos": "016",
     "alola": "119"
-}
+},
+"evolution": "Evolve #372 to Level 50"
 }, {
 "number": "374",
 "names": {
@@ -5364,7 +5688,8 @@
     "hoenn": "199",
     "unova": "262",
     "alola": "214"
-}
+},
+"evolution": "Breed #374, #375, #376"
 }, {
 "number": "375",
 "names": {
@@ -5378,7 +5703,8 @@
     "hoenn": "200",
     "unova": "263",
     "alola": "215"
-}
+},
+"evolution": "Evolve #374 to Level 20"
 }, {
 "number": "376",
 "names": {
@@ -5392,7 +5718,8 @@
     "hoenn": "201",
     "unova": "264",
     "alola": "216"
-}
+},
+"evolution": "Evolve #375 to Level 45"
 }, {
 "number": "377",
 "names": {
@@ -5515,7 +5842,8 @@
 "regions": {
     "kanto": "387",
     "sinnoh": "001"
-}
+},
+"evolution": "Breed #387, #388, #389"
 }, {
 "number": "388",
 "names": {
@@ -5528,7 +5856,8 @@
 "regions": {
     "kanto": "388",
     "sinnoh": "002"
-}
+},
+"evolution": "Evolve #387 to Level 18"
 }, {
 "number": "389",
 "names": {
@@ -5540,7 +5869,8 @@
 "regions": {
     "kanto": "389",
     "sinnoh": "003"
-}
+},
+"evolution": "Evolve #388 to Level 32"
 }, {
 "number": "390",
 "names": {
@@ -5553,7 +5883,8 @@
 "regions": {
     "kanto": "390",
     "sinnoh": "004"
-}
+},
+"evolution": "Breed #390, #391, #392"
 }, {
 "number": "391",
 "names": {
@@ -5566,7 +5897,8 @@
 "regions": {
     "kanto": "391",
     "sinnoh": "005"
-}
+},
+"evolution": "Evolve #390 to Level 14"
 }, {
 "number": "392",
 "names": {
@@ -5579,7 +5911,8 @@
 "regions": {
     "kanto": "392",
     "sinnoh": "006"
-}
+},
+"evolution": "Evolve #391 to Level 36"
 }, {
 "number": "393",
 "names": {
@@ -5592,7 +5925,8 @@
 "regions": {
     "kanto": "393",
     "sinnoh": "007"
-}
+},
+"evolution": "Breed #393, #394, #395"
 }, {
 "number": "394",
 "names": {
@@ -5605,7 +5939,8 @@
 "regions": {
     "kanto": "394",
     "sinnoh": "008"
-}
+},
+"evolution": "Evolve #393 to Level 16"
 }, {
 "number": "395",
 "names": {
@@ -5618,7 +5953,8 @@
 "regions": {
     "kanto": "395",
     "sinnoh": "009"
-}
+},
+"evolution": "Evolve #394 to Level 36"
 }, {
 "number": "396",
 "names": {
@@ -5632,7 +5968,8 @@
     "kanto": "396",
     "sinnoh": "010",
     "kalos": "099"
-}
+},
+"evolution": "Breed #396, #397, #398"
 }, {
 "number": "397",
 "names": {
@@ -5645,7 +5982,8 @@
     "kanto": "397",
     "sinnoh": "011",
     "kalos": "100"
-}
+},
+"evolution": "Evolve #396 to Level 14"
 }, {
 "number": "398",
 "names": {
@@ -5658,7 +5996,8 @@
     "kanto": "398",
     "sinnoh": "012",
     "kalos": "101"
-}
+},
+"evolution": "Evolve #397 to Level 34"
 }, {
 "number": "399",
 "names": {
@@ -5672,7 +6011,8 @@
     "kanto": "399",
     "sinnoh": "013",
     "kalos": "038"
-}
+},
+"evolution": "Breed #399, #400"
 }, {
 "number": "400",
 "names": {
@@ -5686,7 +6026,8 @@
     "kanto": "400",
     "sinnoh": "014",
     "kalos": "039"
-}
+},
+"evolution": "Evolve #399 to Level 15"
 }, {
 "number": "401",
 "names": {
@@ -5700,7 +6041,8 @@
 "regions": {
     "kanto": "401",
     "sinnoh": "015"
-}
+},
+"evolution": "Breed #401, #402"
 }, {
 "number": "402",
 "names": {
@@ -5713,7 +6055,8 @@
 "regions": {
     "kanto": "402",
     "sinnoh": "016"
-}
+},
+"evolution": "Evolve #401 to Level 10"
 }, {
 "number": "403",
 "names": {
@@ -5726,7 +6069,8 @@
 "regions": {
     "kanto": "403",
     "sinnoh": "017"
-}
+},
+"evolution": "Breed #403, #404, #405"
 }, {
 "number": "404",
 "names": {
@@ -5737,7 +6081,8 @@
 "regions": {
     "kanto": "404",
     "sinnoh": "018"
-}
+},
+"evolution": "Evolve #403 to Level 15"
 }, {
 "number": "405",
 "names": {
@@ -5749,7 +6094,8 @@
 "regions": {
     "kanto": "405",
     "sinnoh": "019"
-}
+},
+"evolution": "Evolve #404 to Level 30"
 }, {
 "number": "406",
 "names": {
@@ -5765,7 +6111,8 @@
     "sinnoh": "025",
     "unova": "133",
     "kalos": "071"
-}
+},
+"evolution": "Breed #406, #315, #407"
 }, {
 "number": "407",
 "names": {
@@ -5779,7 +6126,8 @@
     "sinnoh": "027",
     "unova": "135",
     "kalos": "073"
-}
+},
+"evolution": "Use Shiny Stone on #315"
 }, {
 "number": "408",
 "names": {
@@ -5793,7 +6141,8 @@
     "kanto": "408",
     "sinnoh": "036",
     "alola": "188"
-}
+},
+"evolution": "Breed #408, #409"
 }, {
 "number": "409",
 "names": {
@@ -5807,7 +6156,8 @@
     "kanto": "409",
     "sinnoh": "037",
     "alola": "189"
-}
+},
+"evolution": "Evolve #408 to Level 30"
 }, {
 "number": "410",
 "names": {
@@ -5821,7 +6171,8 @@
     "kanto": "410",
     "sinnoh": "038",
     "alola": "190"
-}
+},
+"evolution": "Breed #410, #411"
 }, {
 "number": "411",
 "names": {
@@ -5834,7 +6185,8 @@
     "kanto": "411",
     "sinnoh": "039",
     "alola": "191"
-}
+},
+"evolution": "Evolve #410 to Level 30"
 }, {
 "number": "412",
 "names": {
@@ -5847,7 +6199,8 @@
     "kanto": "412",
     "sinnoh": "045",
     "kalos": "044"
-}
+},
+"evolution": "Breed #412, #414, #412, #413, #412, #413, #412, #413"
 }, {
 "number": "413",
 "names": {
@@ -5861,7 +6214,8 @@
     "kanto": "413",
     "sinnoh": "046",
     "kalos": "045"
-}
+},
+"evolution": "Evolve #412 to Level 20, Female, in buildings"
 }, {
 "number": "414",
 "names": {
@@ -5875,7 +6229,8 @@
     "kanto": "414",
     "sinnoh": "047",
     "kalos": "046"
-}
+},
+"evolution": "Evolve #412 to Level 20, Male"
 }, {
 "number": "415",
 "names": {
@@ -5890,7 +6245,8 @@
     "sinnoh": "053",
     "unova": "142",
     "kalos": "076"
-}
+},
+"evolution": "Breed #415, #416"
 }, {
 "number": "416",
 "names": {
@@ -5905,7 +6261,8 @@
     "sinnoh": "054",
     "unova": "143",
     "kalos": "077"
-}
+},
+"evolution": "Evolve #415 to Level 21, Female"
 }, {
 "number": "417",
 "names": {
@@ -5932,7 +6289,8 @@
     "sinnoh": "056",
     "unova": "149",
     "kalos": "058"
-}
+},
+"evolution": "Breed #418, #419"
 }, {
 "number": "419",
 "names": {
@@ -5947,7 +6305,8 @@
     "sinnoh": "057",
     "unova": "150",
     "kalos": "059"
-}
+},
+"evolution": "Evolve #418 to Level 26"
 }, {
 "number": "420",
 "names": {
@@ -5960,7 +6319,8 @@
 "regions": {
     "kanto": "420",
     "sinnoh": "058"
-}
+},
+"evolution": "Breed #420, #421"
 }, {
 "number": "421",
 "names": {
@@ -5973,7 +6333,8 @@
 "regions": {
     "kanto": "421",
     "sinnoh": "059"
-}
+},
+"evolution": "Evolve #420 to Level 25"
 }, {
 "number": "422",
 "names": {
@@ -5987,7 +6348,8 @@
     "kanto": "422",
     "sinnoh": "060",
     "alola": "260"
-}
+},
+"evolution": "Breed #422, #423"
 }, {
 "number": "423",
 "names": {
@@ -6000,7 +6362,8 @@
     "kanto": "423",
     "sinnoh": "061",
     "alola": "261"
-}
+},
+"evolution": "Evolve #422 to Level 30"
 }, {
 "number": "424",
 "names": {
@@ -6014,7 +6377,8 @@
     "kanto": "424",
     "johto": "124",
     "sinnoh": "064"
-}
+},
+"evolution": "Evolve #190 after Double Hit learned"
 }, {
 "number": "425",
 "names": {
@@ -6030,7 +6394,8 @@
     "unova": "208",
     "kalos": "001",
     "alola": "064"
-}
+},
+"evolution": "Breed #425, #426"
 }, {
 "number": "426",
 "names": {
@@ -6046,7 +6411,8 @@
     "unova": "209",
     "kalos": "002",
     "alola": "065"
-}
+},
+"evolution": "Evolve #425 to Level 28"
 }, {
 "number": "427",
 "names": {
@@ -6060,7 +6426,8 @@
     "kanto": "427",
     "sinnoh": "067",
     "unova": "080"
-}
+},
+"evolution": "Breed #427, #428"
 }, {
 "number": "428",
 "names": {
@@ -6074,7 +6441,8 @@
     "kanto": "428",
     "sinnoh": "068",
     "unova": "081"
-}
+},
+"evolution": "Evolve #427 with Happiness"
 }, {
 "number": "429",
 "names": {
@@ -6088,7 +6456,8 @@
     "kanto": "429",
     "sinnoh": "073",
     "alola": "067"
-}
+},
+"evolution": "Use Dusk Stone on #200"
 }, {
 "number": "430",
 "names": {
@@ -6103,7 +6472,8 @@
     "sinnoh": "075",
     "kalos": "052",
     "alola": "278"
-}
+},
+"evolution": "Use Dusk Stone on #198"
 }, {
 "number": "431",
 "names": {
@@ -6116,7 +6486,8 @@
 "regions": {
     "kanto": "431",
     "sinnoh": "076"
-}
+},
+"evolution": "Breed #431, #432"
 }, {
 "number": "432",
 "names": {
@@ -6129,7 +6500,8 @@
 "regions": {
     "kanto": "432",
     "sinnoh": "077"
-}
+},
+"evolution": "Evolve #431 to Level 38"
 }, {
 "number": "433",
 "names": {
@@ -6145,7 +6517,8 @@
     "hoenn": "157",
     "sinnoh": "082",
     "kalos": "111"
-}
+},
+"evolution": "Breed #433, #358"
 }, {
 "number": "434",
 "names": {
@@ -6159,7 +6532,8 @@
     "kanto": "434",
     "sinnoh": "084",
     "kalos": "102"
-}
+},
+"evolution": "Breed #434, #435"
 }, {
 "number": "435",
 "names": {
@@ -6172,7 +6546,8 @@
     "kanto": "435",
     "sinnoh": "085",
     "kalos": "103"
-}
+},
+"evolution": "Evolve #434 to Level 34"
 }, {
 "number": "436",
 "names": {
@@ -6187,7 +6562,8 @@
     "kanto": "436",
     "sinnoh": "088",
     "unova": "250"
-}
+},
+"evolution": "Breed #436, #437"
 }, {
 "number": "437",
 "names": {
@@ -6202,7 +6578,8 @@
     "kanto": "437",
     "sinnoh": "089",
     "unova": "251"
-}
+},
+"evolution": "Evolve #436 to Level 33"
 }, {
 "number": "438",
 "names": {
@@ -6217,7 +6594,8 @@
     "sinnoh": "092",
     "kalos": "129",
     "alola": "030"
-}
+},
+"evolution": "Breed #438, #185"
 }, {
 "number": "439",
 "names": {
@@ -6232,7 +6610,8 @@
     "kanto": "439",
     "sinnoh": "094",
     "kalos": "113"
-}
+},
+"evolution": "Breed #439, #122"
 }, {
 "number": "440",
 "names": {
@@ -6246,7 +6625,8 @@
     "kanto": "440",
     "sinnoh": "096",
     "alola": "032"
-}
+},
+"evolution": "Breed #440, #113, #242"
 }, {
 "number": "441",
 "names": {
@@ -6290,7 +6670,8 @@
     "sinnoh": "109",
     "kalos": "006",
     "alola": "238"
-}
+},
+"evolution": "Breed #443, #444, #445"
 }, {
 "number": "444",
 "names": {
@@ -6306,7 +6687,8 @@
     "sinnoh": "110",
     "kalos": "007",
     "alola": "239"
-}
+},
+"evolution": "Evolve #443 to Level 24"
 }, {
 "number": "445",
 "names": {
@@ -6322,7 +6704,8 @@
     "sinnoh": "111",
     "kalos": "008",
     "alola": "240"
-}
+},
+"evolution": "Evolve #444 to Level 48"
 }, {
 "number": "446",
 "names": {
@@ -6337,7 +6720,8 @@
     "sinnoh": "112",
     "kalos": "138",
     "alola": "035"
-}
+},
+"evolution": "Breed #446, #143"
 }, {
 "number": "447",
 "names": {
@@ -6351,7 +6735,8 @@
     "unova": "033",
     "kalos": "062",
     "alola": "279"
-}
+},
+"evolution": "Breed #447, #448"
 }, {
 "number": "448",
 "names": {
@@ -6365,7 +6750,8 @@
     "unova": "034",
     "kalos": "063",
     "alola": "280"
-}
+},
+"evolution": "Evolve #447 with Happiness, at Daytime"
 }, {
 "number": "449",
 "names": {
@@ -6380,7 +6766,8 @@
     "kanto": "449",
     "sinnoh": "122",
     "kalos": "048"
-}
+},
+"evolution": "Breed #449, #450"
 }, {
 "number": "450",
 "names": {
@@ -6395,7 +6782,8 @@
     "kanto": "450",
     "sinnoh": "123",
     "kalos": "049"
-}
+},
+"evolution": "Evolve #449 to Level 34"
 }, {
 "number": "451",
 "names": {
@@ -6410,7 +6798,8 @@
     "sinnoh": "127",
     "unova": "201",
     "kalos": "015"
-}
+},
+"evolution": "Breed #451, #452"
 }, {
 "number": "452",
 "names": {
@@ -6425,7 +6814,8 @@
     "sinnoh": "128",
     "unova": "202",
     "kalos": "016"
-}
+},
+"evolution": "Evolve #451 to Level 40"
 }, {
 "number": "453",
 "names": {
@@ -6441,7 +6831,8 @@
     "sinnoh": "129",
     "unova": "290",
     "kalos": "125"
-}
+},
+"evolution": "Breed #453, #454"
 }, {
 "number": "454",
 "names": {
@@ -6457,7 +6848,8 @@
     "sinnoh": "130",
     "unova": "291",
     "kalos": "126"
-}
+},
+"evolution": "Evolve #453 to Level 37"
 }, {
 "number": "455",
 "names": {
@@ -6487,7 +6879,8 @@
     "kanto": "456",
     "sinnoh": "134",
     "alola": "108"
-}
+},
+"evolution": "Breed #456, #457"
 }, {
 "number": "457",
 "names": {
@@ -6502,7 +6895,8 @@
     "kanto": "457",
     "sinnoh": "135",
     "alola": "109"
-}
+},
+"evolution": "Evolve #456 to Level 31"
 }, {
 "number": "458",
 "names": {
@@ -6517,7 +6911,8 @@
     "sinnoh": "140",
     "unova": "233",
     "kalos": "139"
-}
+},
+"evolution": "Breed #458, #226"
 }, {
 "number": "459",
 "names": {
@@ -6532,7 +6927,8 @@
     "kanto": "459",
     "sinnoh": "142",
     "kalos": "088"
-}
+},
+"evolution": "Breed #459, #460"
 }, {
 "number": "460",
 "names": {
@@ -6547,7 +6943,8 @@
     "kanto": "460",
     "sinnoh": "143",
     "kalos": "089"
-}
+},
+"evolution": "Evolve #459 to Level 40"
 }, {
 "number": "461",
 "names": {
@@ -6563,7 +6960,8 @@
     "unova": "253",
     "kalos": "092",
     "alola": "250"
-}
+},
+"evolution": "Evolve #215 hold Razor Claw, at Nighttime"
 }, {
 "number": "462",
 "names": {
@@ -6579,7 +6977,8 @@
     "unova": "050",
     "kalos": "071",
     "alola": "049"
-}
+},
+"evolution": "Evolve #082 in a Magnetic Field area"
 }, {
 "number": "463",
 "names": {
@@ -6595,7 +6994,8 @@
     "sinnoh": "162",
     "unova": "285",
     "kalos": "135"
-}
+},
+"evolution": "Evolve #108 after Rollout learned"
 }, {
 "number": "464",
 "names": {
@@ -6610,7 +7010,8 @@
     "hoenn": "178",
     "sinnoh": "188",
     "kalos": "052"
-}
+},
+"evolution": "Trade #112 holding Protector"
 }, {
 "number": "465",
 "names": {
@@ -6625,7 +7026,8 @@
     "johto": "183",
     "sinnoh": "182",
     "unova": "218"
-}
+},
+"evolution": "Evolve #114 after Ancient Power learned"
 }, {
 "number": "466",
 "names": {
@@ -6640,7 +7042,8 @@
     "sinnoh": "199",
     "unova": "058",
     "alola": "228"
-}
+},
+"evolution": "Trade #125 holding Electrizer"
 }, {
 "number": "467",
 "names": {
@@ -6655,7 +7058,8 @@
     "sinnoh": "202",
     "unova": "055",
     "alola": "168"
-}
+},
+"evolution": "Trade #126 holding Magmarizer"
 }, {
 "number": "468",
 "names": {
@@ -6666,7 +7070,8 @@
 "regions": {
     "kanto": "468",
     "sinnoh": "175"
-}
+},
+"evolution": "Use Shiny Stone on #176"
 }, {
 "number": "469",
 "names": {
@@ -6681,7 +7086,8 @@
     "sinnoh": "184",
     "unova": "287",
     "kalos": "088"
-}
+},
+"evolution": "Evolve #193 after Ancient Power learned"
 }, {
 "number": "470",
 "names": {
@@ -6697,7 +7103,8 @@
     "unova": "097",
     "kalos": "083",
     "alola": "129"
-}
+},
+"evolution": "Evolve #197 near a Mossy Rock"
 }, {
 "number": "471",
 "names": {
@@ -6713,7 +7120,8 @@
     "unova": "098",
     "kalos": "084",
     "alola": "130"
-}
+},
+"evolution": "Evolve #470 near an Icy Rock"
 }, {
 "number": "472",
 "names": {
@@ -6728,7 +7136,8 @@
     "sinnoh": "154",
     "unova": "222",
     "kalos": "116"
-}
+},
+"evolution": "Evolve #207 hold Razor Fang, at Nighttime"
 }, {
 "number": "473",
 "names": {
@@ -6744,7 +7153,8 @@
     "sinnoh": "205",
     "unova": "260",
     "kalos": "078"
-}
+},
+"evolution": "Evolve #221 after Ancient Power learned"
 }, {
 "number": "474",
 "names": {
@@ -6756,7 +7166,8 @@
     "kanto": "474",
     "sinnoh": "194",
     "alola": "219"
-}
+},
+"evolution": "Trade #233 holding Dubious Disc"
 }, {
 "number": "475",
 "names": {
@@ -6771,7 +7182,8 @@
     "hoenn": "032",
     "sinnoh": "160",
     "kalos": "067"
-}
+},
+"evolution": "Use Dawn Stone on Male #282"
 }, {
 "number": "476",
 "names": {
@@ -6788,7 +7200,8 @@
     "unova": "165",
     "kalos": "094",
     "alola": "199"
-}
+},
+"evolution": "Evolve #299 in a Magnetic Field area"
 }, {
 "number": "477",
 "names": {
@@ -6802,7 +7215,8 @@
     "kanto": "477",
     "hoenn": "155",
     "sinnoh": "191"
-}
+},
+"evolution": "Trade #356 holding Reaper Cloth"
 }, {
 "number": "478",
 "names": {
@@ -6817,7 +7231,8 @@
     "hoenn": "181",
     "sinnoh": "208",
     "alola": "248"
-}
+},
+"evolution": "Use Dawn Stone on Female #362"
 }, {
 "number": "479",
 "names": {
@@ -7009,7 +7424,8 @@
 "regions": {
     "kanto": "495",
     "unova": "001"
-}
+},
+"evolution": "Breed #495, #496, #497"
 }, {
 "number": "496",
 "names": {
@@ -7022,7 +7438,8 @@
 "regions": {
     "kanto": "496",
     "unova": "002"
-}
+},
+"evolution": "Evolve #495 to Level 17"
 }, {
 "number": "497",
 "names": {
@@ -7035,7 +7452,8 @@
 "regions": {
     "kanto": "497",
     "unova": "003"
-}
+},
+"evolution": "Evolve #496 to Level 36"
 }, {
 "number": "498",
 "names": {
@@ -7048,7 +7466,8 @@
 "regions": {
     "kanto": "498",
     "unova": "004"
-}
+},
+"evolution": "Breed #498, #499, #500"
 }, {
 "number": "499",
 "names": {
@@ -7061,7 +7480,8 @@
 "regions": {
     "kanto": "499",
     "unova": "005"
-}
+},
+"evolution": "Evolve #498 to Level 17"
 }, {
 "number": "500",
 "names": {
@@ -7074,7 +7494,8 @@
 "regions": {
     "kanto": "500",
     "unova": "006"
-}
+},
+"evolution": "Evolve #499 to Level 36"
 }, {
 "number": "501",
 "names": {
@@ -7087,7 +7508,8 @@
 "regions": {
     "kanto": "501",
     "unova": "007"
-}
+},
+"evolution": "Breed #501, #502, #503"
 }, {
 "number": "502",
 "names": {
@@ -7100,7 +7522,8 @@
 "regions": {
     "kanto": "502",
     "unova": "008"
-}
+},
+"evolution": "Evolve #501 to Level 17"
 }, {
 "number": "503",
 "names": {
@@ -7113,7 +7536,8 @@
 "regions": {
     "kanto": "503",
     "unova": "009"
-}
+},
+"evolution": "Evolve #502 to Level 36"
 }, {
 "number": "504",
 "names": {
@@ -7127,7 +7551,8 @@
     "kanto": "504",
     "unova": "010",
     "kalos": "046"
-}
+},
+"evolution": "Breed #504, #505"
 }, {
 "number": "505",
 "names": {
@@ -7141,7 +7566,8 @@
     "kanto": "505",
     "unova": "011",
     "kalos": "047"
-}
+},
+"evolution": "Evolve #504 to Level 20"
 }, {
 "number": "506",
 "names": {
@@ -7155,7 +7581,8 @@
     "kanto": "506",
     "unova": "012",
     "alola": "120"
-}
+},
+"evolution": "Breed #506, #507, #508"
 }, {
 "number": "507",
 "names": {
@@ -7169,7 +7596,8 @@
     "kanto": "507",
     "unova": "013",
     "alola": "121"
-}
+},
+"evolution": "Evolve #506 to Level 16"
 }, {
 "number": "508",
 "names": {
@@ -7183,7 +7611,8 @@
     "kanto": "508",
     "unova": "014",
     "alola": "122"
-}
+},
+"evolution": "Evolve #507 to Level 32"
 }, {
 "number": "509",
 "names": {
@@ -7197,7 +7626,8 @@
     "kanto": "509",
     "unova": "015",
     "kalos": "042"
-}
+},
+"evolution": "Breed #509, #510"
 }, {
 "number": "510",
 "names": {
@@ -7211,7 +7641,8 @@
     "kanto": "510",
     "unova": "016",
     "kalos": "043"
-}
+},
+"evolution": "Evolve #509 to Level 20"
 }, {
 "number": "511",
 "names": {
@@ -7225,7 +7656,8 @@
     "kanto": "511",
     "unova": "017",
     "kalos": "029"
-}
+},
+"evolution": "Breed #511, #512"
 }, {
 "number": "512",
 "names": {
@@ -7239,7 +7671,8 @@
     "kanto": "512",
     "unova": "018",
     "kalos": "030"
-}
+},
+"evolution": "Use Leaf Stone on #511"
 }, {
 "number": "513",
 "names": {
@@ -7253,7 +7686,8 @@
     "kanto": "513",
     "unova": "019",
     "kalos": "031"
-}
+},
+"evolution": "Breed #513, #514"
 }, {
 "number": "514",
 "names": {
@@ -7267,7 +7701,8 @@
     "kanto": "514",
     "unova": "020",
     "kalos": "032"
-}
+},
+"evolution": "Use Fire Stone on #513"
 }, {
 "number": "515",
 "names": {
@@ -7281,7 +7716,8 @@
     "kanto": "515",
     "unova": "021",
     "kalos": "033"
-}
+},
+"evolution": "Breed #515, #516"
 }, {
 "number": "516",
 "names": {
@@ -7295,7 +7731,8 @@
     "kanto": "516",
     "unova": "022",
     "kalos": "034"
-}
+},
+"evolution": "Use Water Stone on #515"
 }, {
 "number": "517",
 "names": {
@@ -7307,7 +7744,8 @@
 "regions": {
     "kanto": "517",
     "unova": "023"
-}
+},
+"evolution": "Breed #517, #518"
 }, {
 "number": "518",
 "names": {
@@ -7320,7 +7758,8 @@
 "regions": {
     "kanto": "518",
     "unova": "024"
-}
+},
+"evolution": "Use Moon Stone on #517"
 }, {
 "number": "519",
 "names": {
@@ -7333,7 +7772,8 @@
 "regions": {
     "kanto": "519",
     "unova": "025"
-}
+},
+"evolution": "Breed #519, #520, #521"
 }, {
 "number": "520",
 "names": {
@@ -7346,7 +7786,8 @@
 "regions": {
     "kanto": "520",
     "unova": "026"
-}
+},
+"evolution": "Evolve #519 to Level 21"
 }, {
 "number": "521",
 "names": {
@@ -7359,7 +7800,8 @@
 "regions": {
     "kanto": "521",
     "unova": "027"
-}
+},
+"evolution": "Evolve #520 to Level 32"
 }, {
 "number": "522",
 "names": {
@@ -7372,7 +7814,8 @@
 "regions": {
     "kanto": "522",
     "unova": "028"
-}
+},
+"evolution": "Breed #522, #523"
 }, {
 "number": "523",
 "names": {
@@ -7385,7 +7828,8 @@
 "regions": {
     "kanto": "523",
     "unova": "029"
-}
+},
+"evolution": "Evolve #522 to Level 27"
 }, {
 "number": "524",
 "names": {
@@ -7400,7 +7844,8 @@
     "unova": "030",
     "kalos": "120",
     "alola": "098"
-}
+},
+"evolution": "Breed #524, #525, #526"
 }, {
 "number": "525",
 "names": {
@@ -7415,7 +7860,8 @@
     "unova": "031",
     "kalos": "121",
     "alola": "099"
-}
+},
+"evolution": "Evolve #524 to Level 25"
 }, {
 "number": "526",
 "names": {
@@ -7430,7 +7876,8 @@
     "unova": "032",
     "kalos": "122",
     "alola": "100"
-}
+},
+"evolution": "Trade #525 "
 }, {
 "number": "527",
 "names": {
@@ -7444,7 +7891,8 @@
     "kanto": "527",
     "unova": "033",
     "kalos": "055"
-}
+},
+"evolution": "Breed #527, #528"
 }, {
 "number": "528",
 "names": {
@@ -7458,7 +7906,8 @@
     "kanto": "528",
     "unova": "034",
     "kalos": "056"
-}
+},
+"evolution": "Evolve #527 with Happiness"
 }, {
 "number": "529",
 "names": {
@@ -7471,7 +7920,8 @@
 "regions": {
     "kanto": "529",
     "unova": "035"
-}
+},
+"evolution": "Breed #529, #530"
 }, {
 "number": "530",
 "names": {
@@ -7484,7 +7934,8 @@
 "regions": {
     "kanto": "530",
     "unova": "036"
-}
+},
+"evolution": "Evolve #529 to Level 31"
 }, {
 "number": "531",
 "names": {
@@ -7512,7 +7963,8 @@
     "kanto": "532",
     "unova": "038",
     "kalos": "093"
-}
+},
+"evolution": "Breed #532, #533, #534"
 }, {
 "number": "533",
 "names": {
@@ -7526,7 +7978,8 @@
     "kanto": "533",
     "unova": "039",
     "kalos": "094"
-}
+},
+"evolution": "Evolve #532 to Level 25"
 }, {
 "number": "534",
 "names": {
@@ -7540,7 +7993,8 @@
     "kanto": "534",
     "unova": "040",
     "kalos": "095"
-}
+},
+"evolution": "Trade #533 "
 }, {
 "number": "535",
 "names": {
@@ -7553,7 +8007,8 @@
 "regions": {
     "kanto": "535",
     "unova": "041"
-}
+},
+"evolution": "Breed #535, #536, #537"
 }, {
 "number": "536",
 "names": {
@@ -7566,7 +8021,8 @@
 "regions": {
     "kanto": "536",
     "unova": "042"
-}
+},
+"evolution": "Evolve #535 to Level 25"
 }, {
 "number": "537",
 "names": {
@@ -7579,7 +8035,8 @@
 "regions": {
     "kanto": "537",
     "unova": "043"
-}
+},
+"evolution": "Evolve #536 to Level 36"
 }, {
 "number": "538",
 "names": {
@@ -7620,7 +8077,8 @@
 "regions": {
     "kanto": "540",
     "unova": "046"
-}
+},
+"evolution": "Breed #540, #541, #542"
 }, {
 "number": "541",
 "names": {
@@ -7633,7 +8091,8 @@
 "regions": {
     "kanto": "541",
     "unova": "047"
-}
+},
+"evolution": "Evolve #540 to Level 20"
 }, {
 "number": "542",
 "names": {
@@ -7646,7 +8105,8 @@
 "regions": {
     "kanto": "542",
     "unova": "048"
-}
+},
+"evolution": "Evolve #541 with Happiness"
 }, {
 "number": "543",
 "names": {
@@ -7660,7 +8120,8 @@
     "kanto": "543",
     "unova": "049",
     "kalos": "120"
-}
+},
+"evolution": "Breed #543, #544, #545"
 }, {
 "number": "544",
 "names": {
@@ -7674,7 +8135,8 @@
     "kanto": "544",
     "unova": "050",
     "kalos": "121"
-}
+},
+"evolution": "Evolve #543 to Level 22"
 }, {
 "number": "545",
 "names": {
@@ -7688,7 +8150,8 @@
     "kanto": "545",
     "unova": "051",
     "kalos": "122"
-}
+},
+"evolution": "Evolve #544 to Level 30"
 }, {
 "number": "546",
 "names": {
@@ -7702,7 +8165,8 @@
     "kanto": "546",
     "unova": "052",
     "alola": "087"
-}
+},
+"evolution": "Breed #546, #547"
 }, {
 "number": "547",
 "names": {
@@ -7716,7 +8180,8 @@
     "kanto": "547",
     "unova": "053",
     "alola": "088"
-}
+},
+"evolution": "Use Sun Stone on #546"
 }, {
 "number": "548",
 "names": {
@@ -7730,7 +8195,8 @@
     "kanto": "548",
     "unova": "054",
     "alola": "085"
-}
+},
+"evolution": "Breed #548, #549"
 }, {
 "number": "549",
 "names": {
@@ -7744,7 +8210,8 @@
     "kanto": "549",
     "unova": "055",
     "alola": "086"
-}
+},
+"evolution": "Use Sun Stone on #548"
 }, {
 "number": "550",
 "names": {
@@ -7773,7 +8240,8 @@
     "unova": "057",
     "kalos": "043",
     "alola": "232"
-}
+},
+"evolution": "Breed #551, #552, #553"
 }, {
 "number": "552",
 "names": {
@@ -7788,7 +8256,8 @@
     "unova": "058",
     "kalos": "044",
     "alola": "233"
-}
+},
+"evolution": "Evolve #551 to Level 29"
 }, {
 "number": "553",
 "names": {
@@ -7803,7 +8272,8 @@
     "unova": "059",
     "kalos": "045",
     "alola": "234"
-}
+},
+"evolution": "Evolve #552 to Level 40"
 }, {
 "number": "554",
 "names": {
@@ -7816,7 +8286,8 @@
 "regions": {
     "kanto": "554",
     "unova": "060"
-}
+},
+"evolution": "Breed #554, #555"
 }, {
 "number": "555",
 "names": {
@@ -7829,7 +8300,8 @@
 "regions": {
     "kanto": "555",
     "unova": "061"
-}
+},
+"evolution": "Evolve #554 to Level 35"
 }, {
 "number": "556",
 "names": {
@@ -7856,7 +8328,8 @@
     "kanto": "557",
     "unova": "063",
     "kalos": "023"
-}
+},
+"evolution": "Breed #557, #558"
 }, {
 "number": "558",
 "names": {
@@ -7870,7 +8343,8 @@
     "kanto": "558",
     "unova": "064",
     "kalos": "024"
-}
+},
+"evolution": "Evolve #557 to Level 34"
 }, {
 "number": "559",
 "names": {
@@ -7884,7 +8358,8 @@
     "kanto": "559",
     "unova": "065",
     "kalos": "100"
-}
+},
+"evolution": "Breed #559, #560"
 }, {
 "number": "560",
 "names": {
@@ -7898,7 +8373,8 @@
     "kanto": "560",
     "unova": "066",
     "kalos": "101"
-}
+},
+"evolution": "Evolve #559 to Level 39"
 }, {
 "number": "561",
 "names": {
@@ -7925,7 +8401,8 @@
 "regions": {
     "kanto": "562",
     "unova": "068"
-}
+},
+"evolution": "Breed #562, #563"
 }, {
 "number": "563",
 "names": {
@@ -7938,7 +8415,8 @@
 "regions": {
     "kanto": "563",
     "unova": "069"
-}
+},
+"evolution": "Evolve #562 to Level 34"
 }, {
 "number": "564",
 "names": {
@@ -7952,7 +8430,8 @@
     "kanto": "564",
     "unova": "070",
     "alola": "194"
-}
+},
+"evolution": "Breed #564, #565"
 }, {
 "number": "565",
 "names": {
@@ -7966,7 +8445,8 @@
     "kanto": "565",
     "unova": "071",
     "alola": "195"
-}
+},
+"evolution": "Evolve #564 to Level 37"
 }, {
 "number": "566",
 "names": {
@@ -7980,7 +8460,8 @@
     "kanto": "566",
     "unova": "072",
     "alola": "192"
-}
+},
+"evolution": "Breed #566, #567"
 }, {
 "number": "567",
 "names": {
@@ -7994,7 +8475,8 @@
     "kanto": "567",
     "unova": "073",
     "alola": "193"
-}
+},
+"evolution": "Evolve #566 to Level 37"
 }, {
 "number": "568",
 "names": {
@@ -8009,7 +8491,8 @@
     "unova": "074",
     "kalos": "074",
     "alola": "206"
-}
+},
+"evolution": "Breed #568, #569"
 }, {
 "number": "569",
 "names": {
@@ -8024,7 +8507,8 @@
     "unova": "075",
     "kalos": "075",
     "alola": "207"
-}
+},
+"evolution": "Evolve #568 to Level 36"
 }, {
 "number": "570",
 "names": {
@@ -8036,7 +8520,8 @@
     "kanto": "570",
     "unova": "076",
     "kalos": "124"
-}
+},
+"evolution": "Breed #570, #571"
 }, {
 "number": "571",
 "names": {
@@ -8048,7 +8533,8 @@
     "kanto": "571",
     "unova": "077",
     "kalos": "125"
-}
+},
+"evolution": "Evolve #570 to Level 30"
 }, {
 "number": "572",
 "names": {
@@ -8061,7 +8547,8 @@
 "regions": {
     "kanto": "572",
     "unova": "078"
-}
+},
+"evolution": "Breed #572, #573"
 }, {
 "number": "573",
 "names": {
@@ -8074,7 +8561,8 @@
 "regions": {
     "kanto": "573",
     "unova": "079"
-}
+},
+"evolution": "Use Shiny Stone on #572"
 }, {
 "number": "574",
 "names": {
@@ -8088,7 +8576,8 @@
     "kanto": "574",
     "unova": "080",
     "kalos": "126"
-}
+},
+"evolution": "Breed #574, #575, #576"
 }, {
 "number": "575",
 "names": {
@@ -8102,7 +8591,8 @@
     "kanto": "575",
     "unova": "081",
     "kalos": "127"
-}
+},
+"evolution": "Evolve #574 to Level 32"
 }, {
 "number": "576",
 "names": {
@@ -8116,7 +8606,8 @@
     "kanto": "576",
     "unova": "082",
     "kalos": "128"
-}
+},
+"evolution": "Evolve #575 to Level 41"
 }, {
 "number": "577",
 "names": {
@@ -8130,7 +8621,8 @@
     "kanto": "577",
     "unova": "083",
     "kalos": "115"
-}
+},
+"evolution": "Breed #577, #578, #579"
 }, {
 "number": "578",
 "names": {
@@ -8144,7 +8636,8 @@
     "kanto": "578",
     "unova": "084",
     "kalos": "116"
-}
+},
+"evolution": "Evolve #577 to Level 32"
 }, {
 "number": "579",
 "names": {
@@ -8158,7 +8651,8 @@
     "kanto": "579",
     "unova": "085",
     "kalos": "117"
-}
+},
+"evolution": "Evolve #578 to Level 41"
 }, {
 "number": "580",
 "names": {
@@ -8172,7 +8666,8 @@
     "kanto": "580",
     "unova": "086",
     "kalos": "127"
-}
+},
+"evolution": "Breed #580, #581"
 }, {
 "number": "581",
 "names": {
@@ -8186,7 +8681,8 @@
     "kanto": "581",
     "unova": "087",
     "kalos": "128"
-}
+},
+"evolution": "Evolve #580 to Level 35"
 }, {
 "number": "582",
 "names": {
@@ -8201,7 +8697,8 @@
     "unova": "088",
     "kalos": "085",
     "alola": "255"
-}
+},
+"evolution": "Breed #582, #583, #584"
 }, {
 "number": "583",
 "names": {
@@ -8216,7 +8713,8 @@
     "unova": "089",
     "kalos": "086",
     "alola": "256"
-}
+},
+"evolution": "Evolve #582 to Level 35"
 }, {
 "number": "584",
 "names": {
@@ -8231,7 +8729,8 @@
     "unova": "090",
     "kalos": "087",
     "alola": "257"
-}
+},
+"evolution": "Evolve #583 to Level 47"
 }, {
 "number": "585",
 "names": {
@@ -8244,7 +8743,8 @@
 "regions": {
     "kanto": "585",
     "unova": "091"
-}
+},
+"evolution": "Breed #585, #586"
 }, {
 "number": "586",
 "names": {
@@ -8257,7 +8757,8 @@
 "regions": {
     "kanto": "586",
     "unova": "092"
-}
+},
+"evolution": "Evolve #585 to Level 34"
 }, {
 "number": "587",
 "names": {
@@ -8284,7 +8785,8 @@
     "kanto": "588",
     "unova": "094",
     "kalos": "022"
-}
+},
+"evolution": "Breed #588, #589"
 }, {
 "number": "589",
 "names": {
@@ -8298,7 +8800,8 @@
     "kanto": "589",
     "unova": "095",
     "kalos": "023"
-}
+},
+"evolution": "Trade #588 with Shelmet"
 }, {
 "number": "590",
 "names": {
@@ -8312,7 +8815,8 @@
     "kanto": "590",
     "unova": "096",
     "kalos": "053"
-}
+},
+"evolution": "Breed #590, #591"
 }, {
 "number": "591",
 "names": {
@@ -8326,7 +8830,8 @@
     "kanto": "591",
     "unova": "097",
     "kalos": "054"
-}
+},
+"evolution": "Evolve #590 to Level 39"
 }, {
 "number": "592",
 "names": {
@@ -8339,7 +8844,8 @@
 "regions": {
     "kanto": "592",
     "unova": "098"
-}
+},
+"evolution": "Breed #592, #593"
 }, {
 "number": "593",
 "names": {
@@ -8352,7 +8858,8 @@
 "regions": {
     "kanto": "593",
     "unova": "099"
-}
+},
+"evolution": "Evolve #592 to Level 40"
 }, {
 "number": "594",
 "names": {
@@ -8380,7 +8887,8 @@
 "regions": {
     "kanto": "595",
     "unova": "101"
-}
+},
+"evolution": "Breed #595, #596"
 }, {
 "number": "596",
 "names": {
@@ -8393,7 +8901,8 @@
 "regions": {
     "kanto": "596",
     "unova": "102"
-}
+},
+"evolution": "Evolve #595 to Level 36"
 }, {
 "number": "597",
 "names": {
@@ -8407,7 +8916,8 @@
     "kanto": "597",
     "unova": "103",
     "kalos": "069"
-}
+},
+"evolution": "Breed #597, #598"
 }, {
 "number": "598",
 "names": {
@@ -8421,7 +8931,8 @@
     "kanto": "598",
     "unova": "104",
     "kalos": "070"
-}
+},
+"evolution": "Evolve #597 to Level 40"
 }, {
 "number": "599",
 "names": {
@@ -8434,7 +8945,8 @@
 "regions": {
     "kanto": "599",
     "unova": "105"
-}
+},
+"evolution": "Breed #599, #600, #601"
 }, {
 "number": "600",
 "names": {
@@ -8447,7 +8959,8 @@
 "regions": {
     "kanto": "600",
     "unova": "106"
-}
+},
+"evolution": "Evolve #599 to Level 38"
 }, {
 "number": "601",
 "names": {
@@ -8460,7 +8973,8 @@
 "regions": {
     "kanto": "601",
     "unova": "107"
-}
+},
+"evolution": "Evolve #600 to Level 49"
 }, {
 "number": "602",
 "names": {
@@ -8473,7 +8987,8 @@
 "regions": {
     "kanto": "602",
     "unova": "108"
-}
+},
+"evolution": "Breed #602, #603, #604"
 }, {
 "number": "603",
 "names": {
@@ -8486,7 +9001,8 @@
 "regions": {
     "kanto": "603",
     "unova": "109"
-}
+},
+"evolution": "Evolve #602 to Level 39"
 }, {
 "number": "604",
 "names": {
@@ -8499,7 +9015,8 @@
 "regions": {
     "kanto": "604",
     "unova": "110"
-}
+},
+"evolution": "Use Thunderstone on #603"
 }, {
 "number": "605",
 "names": {
@@ -8512,7 +9029,8 @@
 "regions": {
     "kanto": "605",
     "unova": "111"
-}
+},
+"evolution": "Breed #605, #606"
 }, {
 "number": "606",
 "names": {
@@ -8525,7 +9043,8 @@
 "regions": {
     "kanto": "606",
     "unova": "112"
-}
+},
+"evolution": "Evolve #605 to Level 42"
 }, {
 "number": "607",
 "names": {
@@ -8539,7 +9058,8 @@
     "kanto": "607",
     "unova": "113",
     "kalos": "065"
-}
+},
+"evolution": "Breed #607, #608, #609"
 }, {
 "number": "608",
 "names": {
@@ -8553,7 +9073,8 @@
     "kanto": "608",
     "unova": "114",
     "kalos": "066"
-}
+},
+"evolution": "Evolve #607 to Level 41"
 }, {
 "number": "609",
 "names": {
@@ -8567,7 +9088,8 @@
     "kanto": "609",
     "unova": "115",
     "kalos": "067"
-}
+},
+"evolution": "Use Dusk Stone on #608"
 }, {
 "number": "610",
 "names": {
@@ -8581,7 +9103,8 @@
     "kanto": "610",
     "unova": "116",
     "kalos": "148"
-}
+},
+"evolution": "Breed #610, #611, #612"
 }, {
 "number": "611",
 "names": {
@@ -8595,7 +9118,8 @@
     "kanto": "611",
     "unova": "117",
     "kalos": "149"
-}
+},
+"evolution": "Evolve #610 to Level 38"
 }, {
 "number": "612",
 "names": {
@@ -8609,7 +9133,8 @@
     "kanto": "612",
     "unova": "118",
     "kalos": "150"
-}
+},
+"evolution": "Evolve #611 to Level 48"
 }, {
 "number": "613",
 "names": {
@@ -8623,7 +9148,8 @@
     "kanto": "613",
     "unova": "119",
     "kalos": "081"
-}
+},
+"evolution": "Breed #613, #614"
 }, {
 "number": "614",
 "names": {
@@ -8637,7 +9163,8 @@
     "kanto": "614",
     "unova": "120",
     "kalos": "082"
-}
+},
+"evolution": "Evolve #613 to Level 37"
 }, {
 "number": "615",
 "names": {
@@ -8665,7 +9192,8 @@
     "kanto": "616",
     "unova": "122",
     "kalos": "024"
-}
+},
+"evolution": "Breed #616, #617"
 }, {
 "number": "617",
 "names": {
@@ -8679,7 +9207,8 @@
     "kanto": "617",
     "unova": "123",
     "kalos": "025"
-}
+},
+"evolution": "Trade #616 with Karrablast"
 }, {
 "number": "618",
 "names": {
@@ -8707,7 +9236,8 @@
     "kanto": "619",
     "unova": "125",
     "kalos": "003"
-}
+},
+"evolution": "Breed #619, #620"
 }, {
 "number": "620",
 "names": {
@@ -8721,7 +9251,8 @@
     "kanto": "620",
     "unova": "126",
     "kalos": "004"
-}
+},
+"evolution": "Evolve #619 to Level 50"
 }, {
 "number": "621",
 "names": {
@@ -8749,7 +9280,8 @@
     "kanto": "622",
     "unova": "128",
     "kalos": "091"
-}
+},
+"evolution": "Breed #622, #623"
 }, {
 "number": "623",
 "names": {
@@ -8763,7 +9295,8 @@
     "kanto": "623",
     "unova": "129",
     "kalos": "092"
-}
+},
+"evolution": "Evolve #622 to Level 43"
 }, {
 "number": "624",
 "names": {
@@ -8777,7 +9310,8 @@
     "kanto": "624",
     "unova": "130",
     "kalos": "048"
-}
+},
+"evolution": "Breed #624, #625"
 }, {
 "number": "625",
 "names": {
@@ -8791,7 +9325,8 @@
     "kanto": "625",
     "unova": "131",
     "kalos": "049"
-}
+},
+"evolution": "Evolve #624 to Level 52"
 }, {
 "number": "626",
 "names": {
@@ -8818,7 +9353,8 @@
     "kanto": "627",
     "unova": "133",
     "alola": "075"
-}
+},
+"evolution": "Breed #627, #628"
 }, {
 "number": "628",
 "names": {
@@ -8832,7 +9368,8 @@
     "kanto": "628",
     "unova": "134",
     "alola": "076"
-}
+},
+"evolution": "Evolve #627 to Level 54"
 }, {
 "number": "629",
 "names": {
@@ -8846,7 +9383,8 @@
     "kanto": "629",
     "unova": "135",
     "alola": "077"
-}
+},
+"evolution": "Breed #629, #630"
 }, {
 "number": "630",
 "names": {
@@ -8860,7 +9398,8 @@
     "kanto": "630",
     "unova": "136",
     "alola": "078"
-}
+},
+"evolution": "Evolve #629 to Level 54"
 }, {
 "number": "631",
 "names": {
@@ -8902,7 +9441,8 @@
     "kanto": "633",
     "unova": "139",
     "kalos": "142"
-}
+},
+"evolution": "Breed #633, #634, #635"
 }, {
 "number": "634",
 "names": {
@@ -8916,7 +9456,8 @@
     "kanto": "634",
     "unova": "140",
     "kalos": "143"
-}
+},
+"evolution": "Evolve #633 to Level 50"
 }, {
 "number": "635",
 "names": {
@@ -8930,7 +9471,8 @@
     "kanto": "635",
     "unova": "141",
     "kalos": "144"
-}
+},
+"evolution": "Evolve #634 to Level 64"
 }, {
 "number": "636",
 "names": {
@@ -8943,7 +9485,8 @@
 "regions": {
     "kanto": "636",
     "unova": "142"
-}
+},
+"evolution": "Breed #636, #637"
 }, {
 "number": "637",
 "names": {
@@ -8956,7 +9499,8 @@
 "regions": {
     "kanto": "637",
     "unova": "143"
-}
+},
+"evolution": "Evolve #636 to Level 59"
 }, {
 "number": "638",
 "names": {
@@ -9113,7 +9657,8 @@
 "regions": {
     "kanto": "650",
     "kalos": "001"
-}
+},
+"evolution": "Breed #650, #651, #652"
 }, {
 "number": "651",
 "names": {
@@ -9126,7 +9671,8 @@
 "regions": {
     "kanto": "651",
     "kalos": "002"
-}
+},
+"evolution": "Evolve #650 to Level 16"
 }, {
 "number": "652",
 "names": {
@@ -9139,7 +9685,8 @@
 "regions": {
     "kanto": "652",
     "kalos": "003"
-}
+},
+"evolution": "Evolve #651 to Level 36"
 }, {
 "number": "653",
 "names": {
@@ -9152,7 +9699,8 @@
 "regions": {
     "kanto": "653",
     "kalos": "004"
-}
+},
+"evolution": "Breed #653, #654, #655"
 }, {
 "number": "654",
 "names": {
@@ -9165,7 +9713,8 @@
 "regions": {
     "kanto": "654",
     "kalos": "005"
-}
+},
+"evolution": "Evolve #653 to Level 16"
 }, {
 "number": "655",
 "names": {
@@ -9178,7 +9727,8 @@
 "regions": {
     "kanto": "655",
     "kalos": "006"
-}
+},
+"evolution": "Evolve #654 to Level 36"
 }, {
 "number": "656",
 "names": {
@@ -9191,7 +9741,8 @@
 "regions": {
     "kanto": "656",
     "kalos": "007"
-}
+},
+"evolution": "Breed #656, #657, #658"
 }, {
 "number": "657",
 "names": {
@@ -9204,7 +9755,8 @@
 "regions": {
     "kanto": "657",
     "kalos": "008"
-}
+},
+"evolution": "Evolve #656 to Level 16"
 }, {
 "number": "658",
 "names": {
@@ -9217,7 +9769,8 @@
 "regions": {
     "kanto": "658",
     "kalos": "009"
-}
+},
+"evolution": "Evolve #657 to Level 36"
 }, {
 "number": "659",
 "names": {
@@ -9230,7 +9783,8 @@
 "regions": {
     "kanto": "659",
     "kalos": "010"
-}
+},
+"evolution": "Breed #659, #660"
 }, {
 "number": "660",
 "names": {
@@ -9243,7 +9797,8 @@
 "regions": {
     "kanto": "660",
     "kalos": "011"
-}
+},
+"evolution": "Evolve #659 to Level 20"
 }, {
 "number": "661",
 "names": {
@@ -9257,7 +9812,8 @@
     "kanto": "661",
     "kalos": "014",
     "alola": "158"
-}
+},
+"evolution": "Breed #661, #662, #663"
 }, {
 "number": "662",
 "names": {
@@ -9271,7 +9827,8 @@
     "kanto": "662",
     "kalos": "015",
     "alola": "159"
-}
+},
+"evolution": "Evolve #661 to Level 17"
 }, {
 "number": "663",
 "names": {
@@ -9285,7 +9842,8 @@
     "kanto": "663",
     "kalos": "016",
     "alola": "160"
-}
+},
+"evolution": "Evolve #662 to Level 35"
 }, {
 "number": "664",
 "names": {
@@ -9298,7 +9856,8 @@
 "regions": {
     "kanto": "664",
     "kalos": "020"
-}
+},
+"evolution": "Breed #664, #665, #666"
 }, {
 "number": "665",
 "names": {
@@ -9311,7 +9870,8 @@
 "regions": {
     "kanto": "665",
     "kalos": "021"
-}
+},
+"evolution": "Evolve #664 to Level 9"
 }, {
 "number": "666",
 "names": {
@@ -9323,7 +9883,8 @@
 "regions": {
     "kanto": "666",
     "kalos": "022"
-}
+},
+"evolution": "Evolve #665 to Level 12"
 }, {
 "number": "667",
 "names": {
@@ -9336,7 +9897,8 @@
 "regions": {
     "kanto": "667",
     "kalos": "057"
-}
+},
+"evolution": "Breed #667, #668"
 }, {
 "number": "668",
 "names": {
@@ -9349,7 +9911,8 @@
 "regions": {
     "kanto": "668",
     "kalos": "058"
-}
+},
+"evolution": "Evolve #667 to Level 35"
 }, {
 "number": "669",
 "names": {
@@ -9360,7 +9923,8 @@
 "regions": {
     "kanto": "669",
     "kalos": "068"
-}
+},
+"evolution": "Breed #669, #670, #671"
 }, {
 "number": "670",
 "names": {
@@ -9371,7 +9935,8 @@
 "regions": {
     "kanto": "670",
     "kalos": "069"
-}
+},
+"evolution": "Evolve #669 to Level 19"
 }, {
 "number": "671",
 "names": {
@@ -9382,7 +9947,8 @@
 "regions": {
     "kanto": "671",
     "kalos": "070"
-}
+},
+"evolution": "Use Shiny Stone on #670"
 }, {
 "number": "672",
 "names": {
@@ -9395,7 +9961,8 @@
 "regions": {
     "kanto": "672",
     "kalos": "089"
-}
+},
+"evolution": "Breed #672, #673"
 }, {
 "number": "673",
 "names": {
@@ -9408,7 +9975,8 @@
 "regions": {
     "kanto": "673",
     "kalos": "090"
-}
+},
+"evolution": "Evolve #672 to Level 32"
 }, {
 "number": "674",
 "names": {
@@ -9422,7 +9990,8 @@
     "kanto": "674",
     "kalos": "091",
     "alola": "220"
-}
+},
+"evolution": "Breed #674, #675"
 }, {
 "number": "675",
 "names": {
@@ -9436,7 +10005,8 @@
     "kanto": "675",
     "kalos": "092",
     "alola": "221"
-}
+},
+"evolution": "Evolve #674 to Level 32, with a Dark type Pok\u00e9mon in party"
 }, {
 "number": "676",
 "names": {
@@ -9462,7 +10032,8 @@
 "regions": {
     "kanto": "677",
     "kalos": "114"
-}
+},
+"evolution": "Breed #677, #678"
 }, {
 "number": "678",
 "names": {
@@ -9475,7 +10046,8 @@
 "regions": {
     "kanto": "678",
     "kalos": "115"
-}
+},
+"evolution": "Evolve #677 to Level 25"
 }, {
 "number": "679",
 "names": {
@@ -9488,7 +10060,8 @@
 "regions": {
     "kanto": "679",
     "kalos": "117"
-}
+},
+"evolution": "Breed #679, #680, #681"
 }, {
 "number": "680",
 "names": {
@@ -9501,7 +10074,8 @@
 "regions": {
     "kanto": "680",
     "kalos": "118"
-}
+},
+"evolution": "Evolve #679 to Level 35"
 }, {
 "number": "681",
 "names": {
@@ -9514,7 +10088,8 @@
 "regions": {
     "kanto": "681",
     "kalos": "119"
-}
+},
+"evolution": "Use Dusk Stone on #680"
 }, {
 "number": "682",
 "names": {
@@ -9527,7 +10102,8 @@
 "regions": {
     "kanto": "682",
     "kalos": "129"
-}
+},
+"evolution": "Breed #682, #683"
 }, {
 "number": "683",
 "names": {
@@ -9540,7 +10116,8 @@
 "regions": {
     "kanto": "683",
     "kalos": "130"
-}
+},
+"evolution": "Trade #682 holding Sachet"
 }, {
 "number": "684",
 "names": {
@@ -9553,7 +10130,8 @@
 "regions": {
     "kanto": "684",
     "kalos": "131"
-}
+},
+"evolution": "Breed #684, #685"
 }, {
 "number": "685",
 "names": {
@@ -9566,7 +10144,8 @@
 "regions": {
     "kanto": "685",
     "kalos": "132"
-}
+},
+"evolution": "Trade #684 holding Whipped Dream"
 }, {
 "number": "686",
 "names": {
@@ -9579,7 +10158,8 @@
 "regions": {
     "kanto": "686",
     "kalos": "010"
-}
+},
+"evolution": "Breed #686, #687"
 }, {
 "number": "687",
 "names": {
@@ -9592,7 +10172,8 @@
 "regions": {
     "kanto": "687",
     "kalos": "011"
-}
+},
+"evolution": "Evolve #686 to Level 30, holding 3DS upside down"
 }, {
 "number": "688",
 "names": {
@@ -9605,7 +10186,8 @@
 "regions": {
     "kanto": "688",
     "kalos": "021"
-}
+},
+"evolution": "Breed #688, #689"
 }, {
 "number": "689",
 "names": {
@@ -9618,7 +10200,8 @@
 "regions": {
     "kanto": "689",
     "kalos": "022"
-}
+},
+"evolution": "Evolve #688 to Level 39"
 }, {
 "number": "690",
 "names": {
@@ -9631,7 +10214,8 @@
 "regions": {
     "kanto": "690",
     "kalos": "030"
-}
+},
+"evolution": "Breed #690, #691"
 }, {
 "number": "691",
 "names": {
@@ -9644,7 +10228,8 @@
 "regions": {
     "kanto": "691",
     "kalos": "031"
-}
+},
+"evolution": "Evolve #690 to Level 48"
 }, {
 "number": "692",
 "names": {
@@ -9657,7 +10242,8 @@
 "regions": {
     "kanto": "692",
     "kalos": "032"
-}
+},
+"evolution": "Breed #692, #693"
 }, {
 "number": "693",
 "names": {
@@ -9670,7 +10256,8 @@
 "regions": {
     "kanto": "693",
     "kalos": "033"
-}
+},
+"evolution": "Evolve #692 to Level 37"
 }, {
 "number": "694",
 "names": {
@@ -9683,7 +10270,8 @@
 "regions": {
     "kanto": "694",
     "kalos": "046"
-}
+},
+"evolution": "Breed #694, #695"
 }, {
 "number": "695",
 "names": {
@@ -9696,7 +10284,8 @@
 "regions": {
     "kanto": "695",
     "kalos": "047"
-}
+},
+"evolution": "Use Sun Stone on #694"
 }, {
 "number": "696",
 "names": {
@@ -9709,7 +10298,8 @@
 "regions": {
     "kanto": "696",
     "kalos": "064"
-}
+},
+"evolution": "Breed #696, #697"
 }, {
 "number": "697",
 "names": {
@@ -9722,7 +10312,8 @@
 "regions": {
     "kanto": "697",
     "kalos": "065"
-}
+},
+"evolution": "Evolve #696 to Level 39, at Daytime"
 }, {
 "number": "698",
 "names": {
@@ -9735,7 +10326,8 @@
 "regions": {
     "kanto": "698",
     "kalos": "066"
-}
+},
+"evolution": "Breed #698, #699"
 }, {
 "number": "699",
 "names": {
@@ -9748,7 +10340,8 @@
 "regions": {
     "kanto": "699",
     "kalos": "067"
-}
+},
+"evolution": "Evolve #698 to Level 39, at Nighttime"
 }, {
 "number": "700",
 "names": {
@@ -9762,7 +10355,8 @@
     "kanto": "700",
     "kalos": "085",
     "alola": "131"
-}
+},
+"evolution": "Use Fire Stone on #136"
 }, {
 "number": "701",
 "names": {
@@ -9814,7 +10408,8 @@
     "kanto": "704",
     "kalos": "019",
     "alola": "178"
-}
+},
+"evolution": "Breed #704, #705, #706"
 }, {
 "number": "705",
 "names": {
@@ -9828,7 +10423,8 @@
     "kanto": "705",
     "kalos": "020",
     "alola": "179"
-}
+},
+"evolution": "Evolve #704 to Level 40"
 }, {
 "number": "706",
 "names": {
@@ -9842,7 +10438,8 @@
     "kanto": "706",
     "kalos": "021",
     "alola": "180"
-}
+},
+"evolution": "Evolve #705 to Level 50, during rain"
 }, {
 "number": "707",
 "names": {
@@ -9870,7 +10467,8 @@
     "kanto": "708",
     "kalos": "061",
     "alola": "196"
-}
+},
+"evolution": "Breed #708, #709"
 }, {
 "number": "709",
 "names": {
@@ -9884,7 +10482,8 @@
     "kanto": "709",
     "kalos": "062",
     "alola": "197"
-}
+},
+"evolution": "Trade #708 "
 }, {
 "number": "710",
 "names": {
@@ -9897,7 +10496,8 @@
 "regions": {
     "kanto": "710",
     "kalos": "063"
-}
+},
+"evolution": "Breed #710, #711"
 }, {
 "number": "711",
 "names": {
@@ -9910,7 +10510,8 @@
 "regions": {
     "kanto": "711",
     "kalos": "064"
-}
+},
+"evolution": "Trade #710 "
 }, {
 "number": "712",
 "names": {
@@ -9923,7 +10524,8 @@
 "regions": {
     "kanto": "712",
     "kalos": "079"
-}
+},
+"evolution": "Breed #712, #713"
 }, {
 "number": "713",
 "names": {
@@ -9936,7 +10538,8 @@
 "regions": {
     "kanto": "713",
     "kalos": "080"
-}
+},
+"evolution": "Evolve #712 to Level 37"
 }, {
 "number": "714",
 "names": {
@@ -9949,7 +10552,8 @@
 "regions": {
     "kanto": "714",
     "kalos": "113"
-}
+},
+"evolution": "Breed #714, #715"
 }, {
 "number": "715",
 "names": {
@@ -9962,7 +10566,8 @@
 "regions": {
     "kanto": "715",
     "kalos": "114"
-}
+},
+"evolution": "Evolve #714 to Level 48"
 }, {
 "number": "716",
 "names": {
@@ -10042,7 +10647,8 @@
 "regions": {
     "kanto": "722",
     "alola": "001"
-}
+},
+"evolution": "Breed #722, #723, #724"
 }, {
 "number": "723",
 "names": {
@@ -10055,7 +10661,8 @@
 "regions": {
     "kanto": "723",
     "alola": "002"
-}
+},
+"evolution": "Evolve #722 to Level 17"
 }, {
 "number": "724",
 "names": {
@@ -10068,7 +10675,8 @@
 "regions": {
     "kanto": "724",
     "alola": "003"
-}
+},
+"evolution": "Evolve #723 to Level 34"
 }, {
 "number": "725",
 "names": {
@@ -10081,7 +10689,8 @@
 "regions": {
     "kanto": "725",
     "alola": "004"
-}
+},
+"evolution": "Breed #725, #726, #727"
 }, {
 "number": "726",
 "names": {
@@ -10094,7 +10703,8 @@
 "regions": {
     "kanto": "726",
     "alola": "005"
-}
+},
+"evolution": "Evolve #725 to Level 17"
 }, {
 "number": "727",
 "names": {
@@ -10107,7 +10717,8 @@
 "regions": {
     "kanto": "727",
     "alola": "006"
-}
+},
+"evolution": "Evolve #726 to Level 34"
 }, {
 "number": "728",
 "names": {
@@ -10120,7 +10731,8 @@
 "regions": {
     "kanto": "728",
     "alola": "007"
-}
+},
+"evolution": "Breed #728, #729, #730"
 }, {
 "number": "729",
 "names": {
@@ -10133,7 +10745,8 @@
 "regions": {
     "kanto": "729",
     "alola": "008"
-}
+},
+"evolution": "Evolve #728 to Level 17"
 }, {
 "number": "730",
 "names": {
@@ -10146,7 +10759,8 @@
 "regions": {
     "kanto": "730",
     "alola": "009"
-}
+},
+"evolution": "Evolve #729 to Level 34"
 }, {
 "number": "731",
 "names": {
@@ -10159,7 +10773,8 @@
 "regions": {
     "kanto": "731",
     "alola": "010"
-}
+},
+"evolution": "Breed #731, #732, #733"
 }, {
 "number": "732",
 "names": {
@@ -10172,7 +10787,8 @@
 "regions": {
     "kanto": "732",
     "alola": "011"
-}
+},
+"evolution": "Evolve #731 to Level 14"
 }, {
 "number": "733",
 "names": {
@@ -10185,7 +10801,8 @@
 "regions": {
     "kanto": "733",
     "alola": "012"
-}
+},
+"evolution": "Evolve #732 to Level 28"
 }, {
 "number": "734",
 "names": {
@@ -10198,7 +10815,8 @@
 "regions": {
     "kanto": "734",
     "alola": "013"
-}
+},
+"evolution": "Breed #734, #735"
 }, {
 "number": "735",
 "names": {
@@ -10211,7 +10829,8 @@
 "regions": {
     "kanto": "735",
     "alola": "014"
-}
+},
+"evolution": "Evolve #734 to Level 20, at Daytime"
 }, {
 "number": "736",
 "names": {
@@ -10224,7 +10843,8 @@
 "regions": {
     "kanto": "736",
     "alola": "027"
-}
+},
+"evolution": "Breed #736, #737, #738"
 }, {
 "number": "737",
 "names": {
@@ -10237,7 +10857,8 @@
 "regions": {
     "kanto": "737",
     "alola": "028"
-}
+},
+"evolution": "Evolve #736 to Level 20"
 }, {
 "number": "738",
 "names": {
@@ -10250,7 +10871,8 @@
 "regions": {
     "kanto": "738",
     "alola": "029"
-}
+},
+"evolution": "Evolve #737 at Vast Poni Canyon"
 }, {
 "number": "739",
 "names": {
@@ -10263,7 +10885,8 @@
 "regions": {
     "kanto": "739",
     "alola": "059"
-}
+},
+"evolution": "Breed #739, #740"
 }, {
 "number": "740",
 "names": {
@@ -10275,7 +10898,8 @@
 "regions": {
     "kanto": "740",
     "alola": "060"
-}
+},
+"evolution": "Evolve #739 at Mount Lanakila"
 }, {
 "number": "741",
 "names": {
@@ -10301,7 +10925,8 @@
 "regions": {
     "kanto": "742",
     "alola": "083"
-}
+},
+"evolution": "Breed #742, #743"
 }, {
 "number": "743",
 "names": {
@@ -10314,7 +10939,8 @@
 "regions": {
     "kanto": "743",
     "alola": "084"
-}
+},
+"evolution": "Evolve #742 to Level 25"
 }, {
 "number": "744",
 "names": {
@@ -10327,7 +10953,8 @@
 "regions": {
     "kanto": "744",
     "alola": "103"
-}
+},
+"evolution": "Breed #744, #745, #745"
 }, {
 "number": "745",
 "names": {
@@ -10340,7 +10967,8 @@
 "regions": {
     "kanto": "745",
     "alola": "104"
-}
+},
+"evolution": "Evolve #745 to Level 25, at Nighttime, in Pok\u00e9mon Moon"
 }, {
 "number": "746",
 "names": {
@@ -10366,7 +10994,8 @@
 "regions": {
     "kanto": "747",
     "alola": "113"
-}
+},
+"evolution": "Breed #747, #748"
 }, {
 "number": "748",
 "names": {
@@ -10379,7 +11008,8 @@
 "regions": {
     "kanto": "748",
     "alola": "114"
-}
+},
+"evolution": "Evolve #747 to Level 38"
 }, {
 "number": "749",
 "names": {
@@ -10392,7 +11022,8 @@
 "regions": {
     "kanto": "749",
     "alola": "132"
-}
+},
+"evolution": "Breed #749, #750"
 }, {
 "number": "750",
 "names": {
@@ -10405,7 +11036,8 @@
 "regions": {
     "kanto": "750",
     "alola": "133"
-}
+},
+"evolution": "Evolve #749 to Level 30"
 }, {
 "number": "751",
 "names": {
@@ -10418,7 +11050,8 @@
 "regions": {
     "kanto": "751",
     "alola": "141"
-}
+},
+"evolution": "Breed #751, #752"
 }, {
 "number": "752",
 "names": {
@@ -10431,7 +11064,8 @@
 "regions": {
     "kanto": "752",
     "alola": "142"
-}
+},
+"evolution": "Evolve #751 to Level 22"
 }, {
 "number": "753",
 "names": {
@@ -10444,7 +11078,8 @@
 "regions": {
     "kanto": "753",
     "alola": "143"
-}
+},
+"evolution": "Breed #753, #754"
 }, {
 "number": "754",
 "names": {
@@ -10457,7 +11092,8 @@
 "regions": {
     "kanto": "754",
     "alola": "144"
-}
+},
+"evolution": "Evolve #753 to Level 34, at Daytime"
 }, {
 "number": "755",
 "names": {
@@ -10470,7 +11106,8 @@
 "regions": {
     "kanto": "755",
     "alola": "145"
-}
+},
+"evolution": "Breed #755, #756"
 }, {
 "number": "756",
 "names": {
@@ -10483,7 +11120,8 @@
 "regions": {
     "kanto": "756",
     "alola": "146"
-}
+},
+"evolution": "Evolve #755 to Level 24"
 }, {
 "number": "757",
 "names": {
@@ -10496,7 +11134,8 @@
 "regions": {
     "kanto": "757",
     "alola": "161"
-}
+},
+"evolution": "Breed #757, #758"
 }, {
 "number": "758",
 "names": {
@@ -10509,7 +11148,8 @@
 "regions": {
     "kanto": "758",
     "alola": "162"
-}
+},
+"evolution": "Evolve #757 to Level 33, Female"
 }, {
 "number": "759",
 "names": {
@@ -10522,7 +11162,8 @@
 "regions": {
     "kanto": "759",
     "alola": "169"
-}
+},
+"evolution": "Breed #759, #760"
 }, {
 "number": "760",
 "names": {
@@ -10535,7 +11176,8 @@
 "regions": {
     "kanto": "760",
     "alola": "170"
-}
+},
+"evolution": "Evolve #759 to Level 27"
 }, {
 "number": "761",
 "names": {
@@ -10548,7 +11190,8 @@
 "regions": {
     "kanto": "761",
     "alola": "171"
-}
+},
+"evolution": "Breed #761, #762, #763"
 }, {
 "number": "762",
 "names": {
@@ -10561,7 +11204,8 @@
 "regions": {
     "kanto": "762",
     "alola": "172"
-}
+},
+"evolution": "Evolve #761 to Level 18"
 }, {
 "number": "763",
 "names": {
@@ -10574,7 +11218,8 @@
 "regions": {
     "kanto": "763",
     "alola": "173"
-}
+},
+"evolution": "Evolve #762 after Stomp learned"
 }, {
 "number": "764",
 "names": {
@@ -10626,7 +11271,8 @@
 "regions": {
     "kanto": "767",
     "alola": "182"
-}
+},
+"evolution": "Breed #767, #768"
 }, {
 "number": "768",
 "names": {
@@ -10639,7 +11285,8 @@
 "regions": {
     "kanto": "768",
     "alola": "183"
-}
+},
+"evolution": "Evolve #767 to Level 30"
 }, {
 "number": "769",
 "names": {
@@ -10652,7 +11299,8 @@
 "regions": {
     "kanto": "769",
     "alola": "186"
-}
+},
+"evolution": "Breed #769, #770"
 }, {
 "number": "770",
 "names": {
@@ -10665,7 +11313,8 @@
 "regions": {
     "kanto": "770",
     "alola": "187"
-}
+},
+"evolution": "Evolve #769 to Level 42"
 }, {
 "number": "771",
 "names": {
@@ -10692,7 +11341,8 @@
 "regions": {
     "kanto": "772",
     "alola": "203"
-}
+},
+"evolution": "Breed #772, #773"
 }, {
 "number": "773",
 "names": {
@@ -10705,7 +11355,8 @@
 "regions": {
     "kanto": "773",
     "alola": "204"
-}
+},
+"evolution": "Evolve #772 with Happiness"
 }, {
 "number": "774",
 "names": {
@@ -10820,7 +11471,8 @@
 "regions": {
     "kanto": "782",
     "alola": "271"
-}
+},
+"evolution": "Breed #782, #783, #784"
 }, {
 "number": "783",
 "names": {
@@ -10833,7 +11485,8 @@
 "regions": {
     "kanto": "783",
     "alola": "272"
-}
+},
+"evolution": "Evolve #782 to Level 35"
 }, {
 "number": "784",
 "names": {
@@ -10846,7 +11499,8 @@
 "regions": {
     "kanto": "784",
     "alola": "273"
-}
+},
+"evolution": "Evolve #783 to Level 45"
 }, {
 "number": "785",
 "names": {
@@ -10913,7 +11567,8 @@
 "regions": {
     "kanto": "789",
     "alola": "289"
-}
+},
+"evolution": "After Post-Game in Alola"
 }, {
 "number": "790",
 "names": {
@@ -10926,7 +11581,8 @@
 "regions": {
     "kanto": "790",
     "alola": "290"
-}
+},
+"evolution": "Evolve #789 to Level 43"
 }, {
 "number": "791",
 "names": {
@@ -10937,7 +11593,8 @@
 "regions": {
     "kanto": "791",
     "alola": "291"
-}
+},
+"evolution": "Evolve #790 to Level 53, in Pok\u00e9mon Sun"
 }, {
 "number": "792",
 "names": {
@@ -10948,7 +11605,8 @@
 "regions": {
     "kanto": "792",
     "alola": "292"
-}
+},
+"evolution": "Evolve #791 to Level 53, in Pok\u00e9mon Moon"
 }, {
 "number": "793",
 "names": {
