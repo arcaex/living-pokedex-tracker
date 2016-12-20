@@ -106,9 +106,9 @@
 
         <script id="pokemon-detail.html" type="text/ng-template">
         <ion-modal-view>
-          <ion-header-bar>
+          <ion-header-bar class="bar-pokedex">
             <h1 class="title">#{{pokemon.current_number}} - {{pokemon.name}}</h1>
-            <button class="button button-clear button-positive" ng-click="closeModal()">Cancel</button>
+            <button class="button button-clear button-positive" ng-click="closeModal()">Close</button>
           </ion-header-bar>
           <ion-content>
             <form ng-submit="closeModal()">
@@ -120,7 +120,7 @@
                             <br />
                             {{settings[config_key]['description']}}
                             </div>
-                            <label class="toggle toggle-assertive">
+                            <label class="toggle toggle-positive">
                                 <input type="checkbox" ng-model="pokemon_settings[pokemon.number][config_key]">
                                 <div class="track">
                                     <div class="handle"></div>
