@@ -81,5 +81,7 @@
  p.pokemon-settings i.active {
      color: #666;
  }
-     color: #666;
+
+ .setting-description {
+    white-space: normal;
  }

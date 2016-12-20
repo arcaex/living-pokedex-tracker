@@ -116,7 +116,7 @@
                         <li class="item"><strong>How to get:</strong> {{pokemon.current_evolution}}</li>
                         <li class="item item-setting item-icon-left" ng-repeat="(config_key, config_value) in settings">
                             <i class="icon {{settings[config_key]['icon']}}"></i>
-                            <div>
+                            <div class="setting-description">
                             <strong>{{settings[config_key]['label']}}</strong>
                             <br />
                             {{settings[config_key]['description']}}
