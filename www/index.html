@@ -35,7 +35,8 @@
                 <ion-content>
                     <ul class="list">
                         <li class="item item-divider">Hide Pokemon Matching :</li>
-                        <li class="item item-toggle" ng-repeat="(config_key, config_value) in $parent.settings">
+                        <li class="item item-icon-left item-toggle" ng-repeat="(config_key, config_value) in $parent.settings">
+                            <i class="icon {{settings[config_key]['icon']}}"></i>
                             {{settings[config_key]['label']}}
                             <label class="toggle toggle-assertive">
                                 <input type="checkbox" ng-model="$parent.config['hide'][config_key]" ng-change="configHasChanged()">
