@@ -69,3 +69,13 @@
     color: #666;
     padding-bottom: 6px;
  }
+
+ p.pokemon-settings i {
+     padding-right: 10px;
+     color: #dcdcdc;
+ }
+ p.pokemon-settings i.active {
+     color: #666;
+ }
+     color: #666;
+ }
