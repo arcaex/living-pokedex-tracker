@@ -1,4 +1,4 @@
-pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ionicSideMenuDelegate, PokemonFactory, PokedexService, ConfigService) {
+pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollDelegate, $ionicSideMenuDelegate, PokemonFactory, PokedexService, ConfigService) {
     $scope.pokemon_master = [];
     $scope.pokemon_current_list = [];
 
@@ -7,6 +7,13 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
     $scope.config = {};
 
     $scope.languages = {};
+
+    $ionicModal.fromTemplateUrl('pokemon-detail.html', {
+        scope: $scope,
+        animation: 'slide-in-up'
+    }).then(function(modal) {
+        $scope.modal = modal;
+    });
 
     /*
      * Load the Pokemon list and the Pokemon settings
@@ -115,8 +122,9 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
         console.log("toggle..." + pokemon_number);
         for (var i=0; i<$scope.pokemon_current_list.length; i++) {
             if ($scope.pokemon_current_list[i].number == pokemon_number) {
-            $scope.pokemon_current_list[i].open = !$scope.pokemon_current_list[i].open; 
-            break;
+                $scope.pokemon = $scope.pokemon_current_list[i];
+                $scope.modal.show();
+                break;
             }
         }
         $ionicScrollDelegate.resize();
@@ -131,6 +139,18 @@ pokedexApp.controller('pokemonList', function($scope, $ionicScrollDelegate, $ion
             return 71;
         }
     }
+
+    /*
+     * Modals
+     * */
+
+    $scope.closeModal = function() {
+        $scope.saveSettings();
+
+        $scope.modal.hide();
+    }
+
+
 
     /*
      * Pokemon settings related methods
