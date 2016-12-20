@@ -150,6 +150,7 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
         for (var i=0; i<$scope.pokemon_current_list.length; i++) {
             if ($scope.pokemon_current_list[i].number == pokemon_number) {
                 $scope.pokemon = $scope.pokemon_current_list[i];
+                $ionicScrollDelegate.scrollTop();
                 $scope.modal.show();
                 break;
             }
@@ -225,6 +226,7 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
 
 
     $scope.configHasChanged = function() {
+        $ionicScrollDelegate.scrollTop();
         $scope.refreshList();
         $scope.saveConfig();
     }
