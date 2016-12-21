@@ -62,8 +62,8 @@
             </ion-side-menu>
             <ion-side-menu-content>
                 <ion-pane>
-                    <ion-header-bar class="bar-pokedex">
-                        <button class="button button-icon" ng-click="toggleMenu()"><i class="icon ion-navicon"></i></button>
+                    <ion-header-bar class="bar-pokedex" ng-click="scrollToTop()">
+                        <button class="button button-icon" ng-click="toggleMenu()" ion-stop-event="click"><i class="icon ion-navicon"></i></button>
                         <h1 class="title">Living Pokedex</h1>
                     </ion-header-bar>
                     <ion-content overflow-scroll='true'>

@@ -219,5 +219,10 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
     }
 
 
+    $scope.scrollToTop = function() {
+        console.log("scroll....");
+        
+        $ionicScrollDelegate.scrollTop();
+    }
 });
 
