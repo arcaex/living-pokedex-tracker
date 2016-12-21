@@ -106,7 +106,6 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
                 if (matches != null) {
                     for (var m=0; m<matches.length; m++) {
                         var number = matches[m];
-                        //console.log(matches[m]);
                         evolution = evolution.replace(number, $scope.getPokemonName(number.substr(1), $scope.config['language']));
                     }
 
@@ -145,7 +144,6 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
 
 
     $scope.toggleControls = function(filtered, index) {
-        console.log(filtered.length + "..." + index);
         $scope.pokemon = filtered[index];
         $scope.filtered_list = filtered;
         $scope.index = index;
@@ -207,7 +205,6 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
      * */
 
     $scope.saveConfig = function() {
-        console.log('save config...');
         ConfigService.save($scope.config);
     }
 
@@ -220,8 +217,6 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
 
 
     $scope.scrollToTop = function() {
-        console.log("scroll....");
-        
         $ionicScrollDelegate.scrollTop();
     }
 });
