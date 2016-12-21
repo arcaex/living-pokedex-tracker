@@ -149,21 +149,10 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
         $scope.pokemon = filtered[index];
         $scope.filtered_list = filtered;
         $scope.index = index;
-        //$ionicScrollDelegate.scrollTop();
         if (!$scope.modal.isShown()) {
             $scope.modal.show();
         }
         $ionicScrollDelegate.resize();
-    }
-
-
-
-    $scope.getHeight = function(pokemon) {
-        if (pokemon.open) {
-            return 206;
-        } else {
-            return 71;
-        }
     }
 
 
