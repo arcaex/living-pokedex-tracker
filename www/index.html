@@ -104,39 +104,5 @@
             </ion-side-menu-content>
         </ion-side-menus>
 
-        <script id="pokemon-detail.html" type="text/ng-template">
-        <ion-modal-view>
-          <ion-header-bar class="bar-pokedex">
-            <button class="button button-clear button-positive" ng-click="toggleControls(filtered_list, index - 1)" ng-hide="filtered_list.length <= 1" ng-disabled="index <= 0"><i class="icon ion-arrow-left-b"></i></button>
-            <h1 class="title">#{{pokemon.current_number}} - {{pokemon.name}}</h1>
-            <button class="button button-clear button-positive" ng-click="toggleControls(filtered_list, index + 1)" ng-hide="filtered_list.length <= 1" ng-disabled="index >= filtered_list.length - 1"><i class="icon ion-arrow-right-b"></i></button>
-          </ion-header-bar>
-          <ion-content>
-            <form ng-submit="closeModal()">
-                    <ul class="list">
-                        <li class="item pokemon-evolution"><strong>How to get:</strong> {{pokemon.current_evolution}}</li>
-                        <li class="item item-setting item-icon-left" ng-repeat="(config_key, config_value) in settings">
-                            <i class="icon {{settings[config_key]['icon']}}"></i>
-                            <div class="setting-description">
-                            <strong>{{settings[config_key]['label']}}</strong>
-                            <br />
-                            {{settings[config_key]['description']}}
-                            </div>
-                            <label class="toggle toggle-positive">
-                                <input type="checkbox" ng-model="pokemon_settings[pokemon.number][config_key]">
-                                <div class="track">
-                                    <div class="handle"></div>
-                                </div>
-                            </label>
-                        </li> 
-                    </ul>
-                  <div class="padding">
-                    <button type="submit" class="button button-block button-positive">OK</button>
-                  </div>
-            </form>
-          </ion-content>
-        </ion-modal-view>
-        </script>
-
     </body>
 </html>
