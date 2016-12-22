@@ -107,9 +107,9 @@
         <script id="pokemon-detail.html" type="text/ng-template">
         <ion-modal-view>
           <ion-header-bar class="bar-pokedex">
-            <button class="button button-clear button-positive" ng-click="toggleControls(filtered_list, index - 1)" ng-disabled="index <= 0"><i class="icon ion-arrow-left-b"></i></button>
+            <button class="button button-clear button-positive" ng-click="toggleControls(filtered_list, index - 1)" ng-hide="filtered_list.length <= 1" ng-disabled="index <= 0"><i class="icon ion-arrow-left-b"></i></button>
             <h1 class="title">#{{pokemon.current_number}} - {{pokemon.name}}</h1>
-            <button class="button button-clear button-positive" ng-click="toggleControls(filtered_list, index + 1)" ng-disabled="index >= filtered_list.length - 1"><i class="icon ion-arrow-right-b"></i></button>
+            <button class="button button-clear button-positive" ng-click="toggleControls(filtered_list, index + 1)" ng-hide="filtered_list.length <= 1" ng-disabled="index >= filtered_list.length - 1"><i class="icon ion-arrow-right-b"></i></button>
           </ion-header-bar>
           <ion-content>
             <form ng-submit="closeModal()">
