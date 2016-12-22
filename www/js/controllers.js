@@ -146,7 +146,7 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
 
 
     /*
-     * Show the Pokemon detail fron the filtered list with the index
+     * Show the Pokemon detail fron the filtered list with an index
      * */
     $scope.showPokemonDetail = function(filtered, index) {
         $scope.pokemon = filtered[index];
@@ -160,7 +160,7 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
 
 
     /*
-     * Modals
+     * Close the modal 
      * */
 
     $scope.closeModal = function() {
