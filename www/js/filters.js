@@ -1,7 +1,7 @@
 pokedexApp.filter('searchPokemon', function() {
     return function(items, query) {
         var filtered = [];
-        var myRe = new RegExp(query, "ig");
+        var myRe = new RegExp(query, "i");
         var result = [];
 
         for (var i=0; i<items.length; i++) {
