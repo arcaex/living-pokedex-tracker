@@ -8,12 +8,16 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
 
     $scope.languages = {};
 
+    /*
+     * Prepare the Pokemon detail modal
+     * */
     $ionicModal.fromTemplateUrl('pokemon-detail.html', {
         scope: $scope,
         animation: 'slide-in-up'
     }).then(function(modal) {
         $scope.modal = modal;
     });
+
 
     /*
      * Load the Pokemon list and the Pokemon settings
@@ -22,17 +26,11 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
         PokemonFactory.get().then(function(pokemon_list) {
             $scope.pokemon_master = pokemon_list;
 
-            // Get settings
+            // Get settings from the Pokemon list (and create new if needed)
             $scope.pokemon_settings = PokedexService.load(pokemon_list);
-
-            // Prepare the list
-            for (var i=0; i<$scope.pokemon_master; i++) {
-                $scope.pokemon_master[i].open = false;
-            }
 
             $scope.changeLanguage();
 
-            // Refresh the list
             $scope.refreshList();
         });
 
@@ -56,11 +54,12 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
 
             pokemon = $scope.pokemon_master[i]; 
 
-            // Verify if it's in the current pokedex
+            // If this Pokemon is not in the current region Pokedex (and we are not usign the National Pokedex)
             if ($scope.config['pokedex'] != 'national' && pokemon['regions'][ $scope.config['pokedex'] ] == null) {
                 continue; 
             }
 
+            // From our filters, determine if we can add this Pokemon
             var canBeAdded = true;
             for (key in $scope.settings) {
                 if ($scope.config['hide'][key] && $scope.pokemon_settings[pokemon.number][key]) {
@@ -72,6 +71,7 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
                 continue;
             }
 
+            // Update the pokedex number depending on the selected region
             pokemon.current_number = pokemon.number;
             if ($scope.config['pokedex'] != 'national') {
                 pokemon.current_number = pokemon['regions'][$scope.config['pokedex']];
@@ -80,8 +80,7 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
             $scope.pokemon_current_list.push(pokemon);
         }
 
-
-        // Order the Pokemon with the current region number
+        // Order the Pokemon with their current number
         function compare(a,b) {
             if (a.current_number < b.current_number)
                 return -1;
@@ -94,7 +93,7 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
 
 
     /*
-     * Change the shown Pokemon name
+     * Change the shown Pokemon name and their evolution description
      * */
     $scope.changeLanguage = function() {
         for(var index=0; index < $scope.pokemon_master.length; index++) {
@@ -112,13 +111,16 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
                     $scope.pokemon_master[index].current_evolution = evolution;
                 }
             }
-
         }
 
         $scope.saveConfig();
     }
 
 
+    /*
+     * Helper to get the Pokemon name depending on the current language
+     * Fallback to the English name if the name is not available
+     * */
     $scope.getPokemonName = function(number, language) {
         var pokemon;
         for(var index=0; index<$scope.pokemon_master.length; index++) {
@@ -136,14 +138,17 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
 
 
     /*
-     * Toggle
+     * Show the left menu 
      * */
     $scope.toggleMenu = function() {
         $ionicSideMenuDelegate.toggleLeft();
     }
 
 
-    $scope.toggleControls = function(filtered, index) {
+    /*
+     * Show the Pokemon detail fron the filtered list with the index
+     * */
+    $scope.showPokemonDetail = function(filtered, index) {
         $scope.pokemon = filtered[index];
         $scope.filtered_list = filtered;
         $scope.index = index;
@@ -210,7 +215,7 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
 
 
     $scope.configHasChanged = function() {
-        $ionicScrollDelegate.scrollTop();
+        $scope.scrollToTop();
         $scope.refreshList();
         $scope.saveConfig();
     }

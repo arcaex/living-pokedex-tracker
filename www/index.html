@@ -74,7 +74,7 @@
                             </label>
                         </div>
                         <div class="list pokemon" collection-repeat="pokemon in filtered = (pokemon_current_list | searchPokemon:search_text)">
-                            <div class="item item-avatar item-pokemon" ng-click="toggleControls(filtered, $index)">
+                            <div class="item item-avatar item-pokemon" ng-click="showPokemonDetail(filtered, $index)">
                                 <img src="img/pokemon/{{pokemon.number}}.png" />
                                 <div>
                                 <h2>#<span ng-bind="pokemon.current_number"></span> - <span ng-bind="pokemon.name"></span></h2>
