@@ -3743,8 +3743,8 @@
 }, {
 "number": "243",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Raikou",
+    "jp": "ライコウ",
     "fr": "Raikou",
     "es": "Raikou",
     "de": "Raikou",
@@ -3757,8 +3757,8 @@
 }, {
 "number": "244",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Entei",
+    "jp": "エンテイ",
     "fr": "Entei",
     "es": "Entei",
     "de": "Entei",
@@ -3771,8 +3771,8 @@
 }, {
 "number": "245",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Suicune",
+    "jp": "スイクン",
     "fr": "Suicune",
     "es": "Suicune",
     "de": "Suicune",
@@ -6031,8 +6031,8 @@
 }, {
 "number": "401",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Kricketot",
+    "jp": "コロボーシ",
     "fr": "Crikzik",
     "es": "Kricketot",
     "de": "Zirpurze",
@@ -6505,8 +6505,8 @@
 }, {
 "number": "433",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Chingling",
+    "jp": "リーシャン",
     "fr": "Korillon",
     "es": "Chingling",
     "de": "Klingplim",
@@ -6551,8 +6551,8 @@
 }, {
 "number": "436",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Bronzor",
+    "jp": "ドーミラー",
     "fr": "Arch\u00e9omire",
     "es": "Bronzor",
     "de": "Bronzel",
@@ -6567,8 +6567,8 @@
 }, {
 "number": "437",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Bronzong",
+    "jp": "ドータクン",
     "fr": "Arch\u00e9odong",
     "es": "Bronzong",
     "de": "Bronzong",
@@ -6644,8 +6644,8 @@
 }, {
 "number": "442",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Spiritomb",
+    "jp": "ミカルゲ",
     "fr": "Spiritomb",
     "es": "Spiritomb",
     "de": "Kryppuk",
@@ -6658,8 +6658,8 @@
 }, {
 "number": "443",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Gible",
+    "jp": "フカマル",
     "fr": "Griknot",
     "es": "Gible",
     "de": "Kaumalat",
@@ -6675,8 +6675,8 @@
 }, {
 "number": "444",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Gabite",
+    "jp": "ガバイト",
     "fr": "Carmache",
     "es": "Gabite",
     "de": "Knarksel",
@@ -6692,8 +6692,8 @@
 }, {
 "number": "445",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Garchomp",
+    "jp": "ガブリアス",
     "fr": "Carchacrok",
     "es": "Garchomp",
     "de": "Knakrack",
@@ -6755,8 +6755,8 @@
 }, {
 "number": "449",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Hippopotas",
+    "jp": "ヒポポタス",
     "fr": "Hippopotas",
     "es": "Hippopotas",
     "de": "Hippopotas",
@@ -6771,8 +6771,8 @@
 }, {
 "number": "450",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Hippowdon",
+    "jp": "カバルドン",
     "fr": "Hippodocus",
     "es": "Hippowdon",
     "de": "Hippoterus",
@@ -6819,8 +6819,8 @@
 }, {
 "number": "453",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Croagunk",
+    "jp": "グレッグル",
     "fr": "Cradopaud",
     "es": "Croagunk",
     "de": "Glibunkel",
@@ -6836,8 +6836,8 @@
 }, {
 "number": "454",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Toxicroak",
+    "jp": "ドクロッグ",
     "fr": "Coatox",
     "es": "Toxicroak",
     "de": "Toxiquak",
@@ -6868,8 +6868,8 @@
 }, {
 "number": "456",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Finneon",
+    "jp": "ケイコウオ",
     "fr": "\u00c9cayon",
     "es": "Finneon",
     "de": "Finneon",
@@ -6884,8 +6884,8 @@
 }, {
 "number": "457",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Lumineon",
+    "jp": "ネオラント",
     "fr": "Lumin\u00e9on",
     "es": "Lumineon",
     "de": "Lumineon",
@@ -6916,8 +6916,8 @@
 }, {
 "number": "459",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Snover",
+    "jp": "ユキカブリ",
     "fr": "Blizzi",
     "es": "Snover",
     "de": "Shnebedeck",
@@ -6932,8 +6932,8 @@
 }, {
 "number": "460",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Abomasnow",
+    "jp": "ユキノオー",
     "fr": "Blizzaroi",
     "es": "Abomasnow",
     "de": "Rexblisar",
@@ -7351,8 +7351,8 @@
 }, {
 "number": "489",
 "names": {
-    "en": null,
-    "jp": null,
+    "en": "Phione",
+    "jp": "フィオネ",
     "fr": "Phione",
     "es": "Phione",
     "de": "Phione",
