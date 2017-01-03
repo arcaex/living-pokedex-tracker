@@ -9922,7 +9922,7 @@
     "jp": "\u30d5\u30e9\u30d9\u30d9",
     "kr": "\ud50c\ub77c\ubca0\ubca0"
 },
-"form_name": "red",
+"form_name": "Red",
 "regions": {
     "kanto": "669",
     "kalos": "068"
@@ -9935,6 +9935,7 @@
     "jp": "\u30d5\u30e9\u30a8\u30c3\u30c6",
     "kr": "\ud50c\ub77c\uc5e3\ud14c"
 },
+"form_name": "Red",
 "regions": {
     "kanto": "670",
     "kalos": "069"
@@ -9947,6 +9948,7 @@
     "jp": "\u30d5\u30e9\u30fc\u30b8\u30a7\u30b9",
     "kr": "\ud50c\ub77c\uc81c\uc2a4"
 },
+"form_name": "Red",
 "regions": {
     "kanto": "671",
     "kalos": "070"
