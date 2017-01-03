@@ -20,18 +20,22 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
 
 
     /*
-     * Load the Pokemon list and the Pokemon settings
+     * Load the Pokemon list, the Pokemon settings and the Pokemon forms
      * */
     $scope.getPokemon = function() {
-        PokemonFactory.get().then(function(pokemon_list) {
+        PokemonFactory.get("pokemon.json").then(function(pokemon_list) {
             $scope.pokemon_master = pokemon_list;
 
-            // Get settings from the Pokemon list (and create new if needed)
-            $scope.pokemon_settings = PokedexService.load(pokemon_list);
+            PokemonFactory.get("forms.json").then(function(form_list) {
+                $scope.pokemon_forms = form_list;
 
-            $scope.changeLanguage();
+                // Get settings from the Pokemon list (and create new if needed)
+                $scope.pokemon_settings = PokedexService.load(pokemon_list.concat(form_list));
 
-            $scope.refreshList();
+                $scope.changeLanguage();
+
+                $scope.refreshList();
+            });
         });
 
         // Load the config
@@ -75,6 +79,11 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
             pokemon.current_number = pokemon.number;
             if ($scope.config['pokedex'] != 'national') {
                 pokemon.current_number = pokemon['regions'][$scope.config['pokedex']];
+            }
+
+            // If we should show alternate forms
+            if ($scope.config['forms']) {
+
             }
 
             $scope.pokemon_current_list.push(pokemon);

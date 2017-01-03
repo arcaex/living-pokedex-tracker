@@ -1,7 +1,7 @@
 pokedexApp.factory('PokemonFactory', function($http) {
     return {
-        get: function() {
-            var pokemon_json = "data/pokemon.json";
+        get: function(filename) {
+            var pokemon_json = "data/" + filename;
             if (ionic.Platform.isAndroid()) {
                 pokemon_json = "/android_asset/www/" + pokemon_json;
             }

@@ -45,6 +45,16 @@
                                 </div>
                             </label>
                         </li>
+                        <li class="item item-divider">Show alternate forms</li>
+                        <li class="item item-toggle">
+                            Show
+                            <label class="toggle toggle-assertive">
+                                <input type="checkbox" ng-model="$parent.config['forms']" ng-change="configHasChanged()">
+                                <div class="track">
+                                    <div class="handle"></div>
+                                </div>
+                            </label>
+                        </li>
                         <li class="item item-divider">Pokedex</li>
                         <li class="item item-choice">
                             <div ng-repeat="region in regions">
