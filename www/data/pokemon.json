@@ -3113,6 +3113,7 @@
     "de": "Icognito",
     "kr": "\uc548\ub18d"
 },
+"form_name": "A",
 "regions": {
     "kanto": "201",
     "johto": "061",
@@ -9880,6 +9881,7 @@
     "fr": "Prismillon",
     "kr": "\ube44\ube44\uc6a9"
 },
+"form_name": "Pokeball",
 "regions": {
     "kanto": "666",
     "kalos": "022"

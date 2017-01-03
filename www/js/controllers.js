@@ -91,6 +91,7 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
                         var pokemon_form =  angular.copy(pokemon);
                         pokemon_form.number = $scope.pokemon_forms[f].number;
                         pokemon_form.form_name = $scope.pokemon_forms[f].names.en; 
+                        pokemon_form.type = 'form';
 
                         $scope.pokemon_current_list.push(pokemon_form);
                         console.log(pokemon_form);
