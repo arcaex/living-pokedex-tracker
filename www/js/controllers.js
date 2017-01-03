@@ -81,12 +81,22 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
                 pokemon.current_number = pokemon['regions'][$scope.config['pokedex']];
             }
 
+            $scope.pokemon_current_list.push(pokemon);
+
             // If we should show alternate forms
             if ($scope.config['forms']) {
+                for (var f=0; f<$scope.pokemon_forms.length; f++) {
+                    if ($scope.pokemon_forms[f].origin_number == pokemon.number) {
+                        
+                        var pokemon_form =  angular.copy(pokemon);
+                        pokemon_form.number = $scope.pokemon_forms[f].number;
+                        pokemon_form.form_name = $scope.pokemon_forms[f].names.en; 
 
+                        $scope.pokemon_current_list.push(pokemon_form);
+                    }
+                }
             }
 
-            $scope.pokemon_current_list.push(pokemon);
         }
 
         // Order the Pokemon with their current number
