@@ -93,6 +93,7 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
                         pokemon_form.form_name = $scope.pokemon_forms[f].names.en; 
 
                         $scope.pokemon_current_list.push(pokemon_form);
+                        console.log(pokemon_form);
                     }
                 }
             }

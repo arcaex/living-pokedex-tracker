@@ -87,7 +87,7 @@
                             <div class="item item-avatar item-pokemon{{pokemon.form_name?' pokemon-form':''}}" ng-click="showPokemonDetail(filtered, $index)">
                                 <img src="img/{{pokemon.form_name?'forms':'pokemon'}}/{{pokemon.number}}.png" />
                                 <div>
-                                <h2>#<span ng-bind="pokemon.current_number"></span> - <span ng-bind="pokemon.name"></span></h2>
+                                    <h2>#<span ng-bind="pokemon.current_number"></span> - <span ng-bind="pokemon.name"></span>{{pokemon.form_name?' - '+pokemon.form_name:''}}</h2>
                                 <p class="pokemon-settings">
                                 <i class="icon {{settings[config_key]['icon']}}{{pokemon_settings[pokemon.number][config_key] ? ' active':''}}" ng-repeat="(config_key, config_value) in settings"></i>
                                 </p>
