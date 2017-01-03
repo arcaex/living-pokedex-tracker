@@ -313,4 +313,32 @@
         "en": "Tundra"
     },
     "evolution": ""
+},{
+    "number": "669-Yellow",
+    "origin_number": "669",
+    "names": {
+        "en": "Yellow"
+    },
+    "evolution": ""
+},{
+    "number": "669-Orange",
+    "origin_number": "669",
+    "names": {
+        "en": "Orange"
+    },
+    "evolution": ""
+},{
+    "number": "669-Blue",
+    "origin_number": "669",
+    "names": {
+        "en": "Blue"
+    },
+    "evolution": ""
+},{
+    "number": "669-White",
+    "origin_number": "669",
+    "names": {
+        "en": "White"
+    },
+    "evolution": ""
 }]

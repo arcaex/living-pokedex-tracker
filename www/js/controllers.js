@@ -94,7 +94,6 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
                         pokemon_form.type = 'form';
 
                         $scope.pokemon_current_list.push(pokemon_form);
-                        console.log(pokemon_form);
                     }
                 }
             }
