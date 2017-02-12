@@ -431,6 +431,19 @@
 },
 "evolution": "Use Ice Stone, in Alola on #027"
 }, {
+"number":"029",
+"names":{
+    "en":"Nidoran\u2640",
+    "jp":"\u30cb\u30c9\u30e9\u30f3\u2640",
+    "kr":"\ub2c8\ub4dc\ub7f0\u2640"
+},
+"regions":{
+    "kanto":"029",
+    "johto":"095",
+    "kalos":"104"
+},
+"evolution":"Breed #029, #030, #031"
+},{
 "number": "030",
 "names": {
     "en": "Nidorina",

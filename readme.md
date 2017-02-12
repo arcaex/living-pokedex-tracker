@@ -1,0 +1,1 @@
+- Add an option to MARK ALL as own (with a confirm)
