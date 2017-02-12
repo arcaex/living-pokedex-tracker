@@ -1,4 +1,4 @@
-pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollDelegate, $ionicSideMenuDelegate, PokemonFactory, PokedexService, ConfigService) {
+pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollDelegate, $ionicSideMenuDelegate, $ionicPopup, PokemonFactory, PokedexService, ConfigService) {
     $scope.pokemon_master = [];
     $scope.pokemon_current_list = [];
 
@@ -177,6 +177,22 @@ pokedexApp.controller('pokemonList', function($ionicModal, $scope, $ionicScrollD
         }
         $ionicScrollDelegate.resize();
     }
+
+    $scope.markAll = function() {
+        var confirmPopup = $ionicPopup.confirm({
+            title: 'Please confirm!',
+            template: 'Are you sure you want to mark all Pokemons from this region as owned?'
+        });
+
+        confirmPopup.then(function(res) {
+            if(res) {
+                for (var i=0; i<$scope.pokemon_current_list.length; i++) {
+                    $scope.pokemon_settings[ $scope.pokemon_current_list[i].number ]['own'] = true;
+                }
+                $scope.saveSettings();
+            }
+        });
+    };
 
 
     /*
