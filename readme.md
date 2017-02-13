@@ -1,1 +1,1 @@
-- Add an option to MARK ALL as own (with a confirm)
+- Should check the How to get for the EEvolutions

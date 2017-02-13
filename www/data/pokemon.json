@@ -2103,7 +2103,7 @@
     "kalos": "077",
     "alola": "123"
 },
-"evolution": "Evolve #700 with 2 hearts Affection in Pok\u00e9mon Amie, knowing Fairy move"
+"evolution": "Breed #134, #135, #136, #700, #133, #196, #197, #470, #471"
 }, {
 "number": "134",
 "names": {
@@ -2121,7 +2121,7 @@
     "kalos": "078",
     "alola": "124"
 },
-"evolution": "Breed #134, #135, #136, #700, #133, #196, #197, #470, #471"
+"evolution": "Use Water Stone on #133"
 }, {
 "number": "135",
 "names": {
@@ -2139,7 +2139,7 @@
     "kalos": "079",
     "alola": "125"
 },
-"evolution": "Use Water Stone on #134"
+"evolution": "Use Thunder Stone on #133"
 }, {
 "number": "136",
 "names": {
@@ -2157,7 +2157,7 @@
     "kalos": "080",
     "alola": "126"
 },
-"evolution": "Use Thunderstone on #135"
+"evolution": "Use Fire Stone on #133"
 }, {
 "number": "137",
 "names": {
@@ -3067,7 +3067,7 @@
     "kalos": "082",
     "alola": "128"
 },
-"evolution": "Evolve #196 with Happiness, at Nighttime"
+"evolution": "Evolve #133 with Happiness, at Nighttime"
 }, {
 "number": "198",
 "names": {
@@ -7118,7 +7118,7 @@
     "kalos": "083",
     "alola": "129"
 },
-"evolution": "Evolve #197 near a Mossy Rock"
+"evolution": "Evolve #133 near a Mossy Rock"
 }, {
 "number": "471",
 "names": {
@@ -7135,7 +7135,7 @@
     "kalos": "084",
     "alola": "130"
 },
-"evolution": "Evolve #470 near an Icy Rock"
+"evolution": "Evolve #133 near an Icy Rock"
 }, {
 "number": "472",
 "names": {
@@ -10374,7 +10374,7 @@
     "kalos": "085",
     "alola": "131"
 },
-"evolution": "Use Fire Stone on #136"
+"evolution": "Evolve #133 with 2 hearts Affection in Pok\u00e9mon Amie, knowing Fairy move"
 }, {
 "number": "701",
 "names": {
