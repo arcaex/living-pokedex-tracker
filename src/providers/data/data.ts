@@ -14,7 +14,7 @@ export class DataProvider {
 
     private master:Array<Object> = [];
 
-    constructor(public http: Http, public config:ConfigProvider) { }
+    constructor(public http:Http, public config:ConfigProvider) { }
 
     load() {
         return this.http.get('assets/json/data.json').toPromise().then(res => {
@@ -67,16 +67,5 @@ export class DataProvider {
 
     getPokemons() {
         return this.master;
-        /*
-        return this.pokemons.filter(single_pokemon => {
-            if (this.config.region['selected'] != 'national') {
-                if (single_pokemon['regions'][this.config.region['selected']] == null) {
-                    //return false;
-                }
-            }
-
-            return true;
-        });
-        */
     }
 }

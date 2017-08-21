@@ -16,7 +16,7 @@
                 <ion-icon *ngFor="let single_filter of config.getFilters()" [name]="single_filter.icon" class="active"></ion-icon>
             </p>
             </ion-label>
-            <ion-toggle ng-change="saveSettings()"></ion-toggle>
+            <ion-toggle [(ngModel)]="pokedex.pokemons[single_pokemon.number]['own']" (ionChange)="pokedexChanged()"></ion-toggle>
         </ion-item>
     </ion-list>
 

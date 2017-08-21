@@ -8,48 +8,9 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class ConfigProvider {
 
-    private _languages:Array<Object> = [{
-        'suffix':'en',
-        'name':'English'
-    },{
-        'suffix':'fr',
-        'name':'French'
-    },{
-        'suffix':'de',
-        'name':'German'
-    },{
-        'suffix':'es',
-        'name': 'Spanish'
-    },{
-        'suffix':'jp',
-        'name':'Japanese'
-    }];
+    private _languages:Array<Object> = [{'suffix':'en', 'name':'English'},{'suffix':'fr', 'name':'French'},{'suffix':'de', 'name':'German'},{'suffix':'es', 'name': 'Spanish'},{'suffix':'jp', 'name':'Japanese'}];
 
-    private _regions:Array<Object> = [{
-        'id':'national',
-        'name':'National'
-    },{
-        'id':'alola',
-        'name':'Alola'
-    },{
-        'id':'kanto',
-        'name':'Kanto'
-    },{
-        'id':'johto',
-        'name':'Johto'
-    },{
-        'id':'hoenn',
-        'name':'Hoenn'
-    },{
-        'id':'sinnoh',
-        'name':'Sinnoh'
-    },{
-        'id':'unova',
-        'name':'Unova'
-    },{
-        'id':'kalos',
-        'name':'kalos'
-    }];
+    private _regions:Array<Object> = [{'id':'national', 'name':'National'},{'id':'alola', 'name':'Alola'},{'id':'kanto', 'name':'Kanto'},{'id':'johto', 'name':'Johto'},{'id':'hoenn', 'name':'Hoenn'},{'id':'sinnoh', 'name':'Sinnoh'},{'id':'unova', 'name':'Unova'},{'id':'kalos', 'name':'kalos'}];
 
     private _filters:Array<Object> = [{
             'id':'own',
@@ -106,21 +67,6 @@ export class ConfigProvider {
 
         console.log("Initial configs");
         console.log(JSON.stringify(this.configs));
-
-        /*
-        console.log('Hello ConfigProvider Provider');
-        console.log( storage.driver );
-        console.log(window.localStorage['pokedex.pokemon']);
-        storage.set("def", "ghi");
-        storage.get('pokemon').then((val) => {
-            console.log("pokemon");
-            console.log(val);
-        });
-        storage.get('config').then((val) => {
-            console.log("config");
-            console.log(val);
-        });
-        */
     }
 
     load() {

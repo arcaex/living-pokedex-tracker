@@ -12,6 +12,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ConfigProvider } from '../providers/config/config';
 import { DataProvider } from '../providers/data/data';
+import { PokedexProvider } from '../providers/pokedex/pokedex';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { DataProvider } from '../providers/data/data';
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     ConfigProvider,
-    DataProvider
+    DataProvider,
+    PokedexProvider
   ]
 })
 export class AppModule {}
