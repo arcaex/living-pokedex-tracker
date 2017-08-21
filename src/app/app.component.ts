@@ -5,6 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { ConfigProvider } from '../providers/config/config';
+import { DataProvider } from '../providers/data/data';
 
 @Component({
     templateUrl: 'app.html'
@@ -12,7 +13,7 @@ import { ConfigProvider } from '../providers/config/config';
 export class MyApp {
     rootPage:any;
 
-    constructor(platform:Platform, statusBar:StatusBar, splashScreen:SplashScreen, public config:ConfigProvider) {
+    constructor(platform:Platform, statusBar:StatusBar, splashScreen:SplashScreen, public config:ConfigProvider, public data:DataProvider) {
 
         platform.ready().then(() => {
             statusBar.styleDefault();
@@ -20,7 +21,9 @@ export class MyApp {
 
             /* Load the configs */
             this.config.load().then(result => {
-                this.rootPage = HomePage;
+                this.data.load().then(result => {
+                    this.rootPage = HomePage;
+                });
             });
         });
     }

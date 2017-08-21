@@ -11,6 +11,7 @@ import { IonicStorageModule } from '@ionic/storage';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ConfigProvider } from '../providers/config/config';
+import { DataProvider } from '../providers/data/data';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ConfigProvider } from '../providers/config/config';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    ConfigProvider
+    ConfigProvider,
+    DataProvider
   ]
 })
 export class AppModule {}
