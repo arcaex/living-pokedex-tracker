@@ -30,6 +30,7 @@ export class MyApp {
 
     configChanged(ev, type) {
         console.log("CONFIG CHANGED: " + ev);
+        this.data.refresh();
         this.config.save();
     }
 }

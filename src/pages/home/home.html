@@ -10,7 +10,7 @@
     <ion-list [virtualScroll]="data.getPokemons()">
         <ion-item *virtualItem="let single_pokemon" (click)="selectPokemon(single_pokemon)">
             <ion-label>
-            <h2>#{{ single_pokemon.number }} - {{ single_pokemon.names[config.language.selected] }}</h2>
+            <h2>#{{ single_pokemon.current_number }} - {{ single_pokemon.current_name }}</h2>
 
             <p class="pokemon-settings">
                 <ion-icon *ngFor="let single_filter of config.getFilters()" [name]="single_filter.icon" class="active"></ion-icon>
