@@ -8,7 +8,32 @@
 
     <ion-content padding>
         <ion-list>
-            <ion-item-divider color="secondary">Test</ion-item-divider>
+            <ion-item-divider color="secondary">Hide Pokemons matching </ion-item-divider>
+            <ion-item *ngFor="let filter of config.getFilters()">
+                <ion-label><ion-icon name="{{ filter.icon }}"></ion-icon> {{ filter.name }}</ion-label>
+                <ion-toggle [(ngModel)]="config.filters[filter.id]" (ionChange)="configChanged($event, filter.id)" color="primary"></ion-toggle>
+            </ion-item>
+        </ion-list>
+        <ion-list>
+            <ion-item-divider color="secondary">Show alternate forms</ion-item-divider>
+            <ion-item>
+                <ion-label>Show</ion-label>
+                <ion-toggle [(ngModel)]="config.alternate_forms['all']" (ionChange)="configChanged($event, 'all')" color="primary"></ion-toggle>
+            </ion-item>
+        </ion-list>
+        <ion-list radio-group [(ngModel)]="config.region['selected']">
+            <ion-item-divider color="secondary">Pokedex</ion-item-divider>
+            <ion-item *ngFor="let region of config.getRegions()">
+                <ion-label>{{ region.name }}</ion-label>
+                <ion-radio [value]="region.id" color="primary" (ionSelect)="configChanged($event, 'region');"></ion-radio>
+            </ion-item>
+        </ion-list>
+        <ion-list radio-group [(ngModel)]="config.language['selected']">
+            <ion-item-divider color="secondary">Language</ion-item-divider>
+            <ion-item *ngFor="let language of config.getLanguages()">
+                <ion-label>{{ language.name }}</ion-label>
+                <ion-radio [value]="language.suffix" color="primary" (ionSelect)="configChanged($event, 'language');"></ion-radio>
+            </ion-item>
         </ion-list>
     </ion-content>
     
