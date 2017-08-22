@@ -11,7 +11,11 @@ import { PokedexProvider } from '../../providers/pokedex/pokedex';
 })
 export class DetailPage {
 
-    constructor(public navCtrl: NavController, public navParams: NavParams, public config:ConfigProvider, public data:DataProvider, public pokedex:PokedexProvider) { }
+    private pokemon:Object = {};
+
+    constructor(public navCtrl: NavController, public navParams: NavParams, public config:ConfigProvider, public data:DataProvider, public pokedex:PokedexProvider) {
+        this.pokemon = this.navParams.get("pokemon");
+    }
 
     ionViewDidLoad() {
         console.log('ionViewDidLoad DetailPage');
@@ -19,5 +23,10 @@ export class DetailPage {
 
     closeModal() {
         this.navCtrl.pop();
+    }
+
+    configChanged() {
+        this.data.refresh();
+        this.config.save();
     }
 }

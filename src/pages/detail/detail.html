@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar color="secondary">
-    <ion-title>Pokemon Detail</ion-title>
+      <ion-title>#{{ pokemon.current_number }} - {{ pokemon.current_name }}</ion-title>
     <ion-buttons end>
         <button ion-button icon-only (click)="closeModal()"><ion-icon name="close"></ion-icon></button>
     </ion-buttons>
@@ -10,5 +10,13 @@
 
 
 <ion-content padding>
+
+        <ion-list *ngFor="let filter of config.getFilters()">
+            <ion-item-divider color="secondary">{{ filter.description }}</ion-item-divider>
+            <ion-item>
+                <ion-label><ion-icon name="{{ filter.icon }}"></ion-icon> {{ filter.name }}</ion-label>
+                <ion-toggle [(ngModel)]="pokedex.pokemons[pokemon.number][filter.id]" (ionChange)="configChanged()" color="primary"></ion-toggle>
+            </ion-item>
+        </ion-list>
 
 </ion-content>
