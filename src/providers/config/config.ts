@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 
+import { Events } from 'ionic-angular';
+
 import { Storage } from '@ionic/storage';
 
 import 'rxjs/add/operator/map';
@@ -52,7 +54,7 @@ export class ConfigProvider {
 
     private configs:Object = {};
 
-    constructor(public http:Http, public storage:Storage) {
+    constructor(public http:Http, public storage:Storage, public events:Events) {
         /* Filters default values */
         this.configs['filters'] = {};
         this.getFilters().forEach(single_filter => {
@@ -115,6 +117,7 @@ export class ConfigProvider {
 
         console.log("Saved configs");
         console.log(JSON.stringify(this.configs));
+        this.events.publish('configSaved', this.configs);
     }
 
     getFilters():Array<Object> {

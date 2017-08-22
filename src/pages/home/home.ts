@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, ModalController } from 'ionic-angular';
+import { Events, NavController, ModalController } from 'ionic-angular';
 
 import { DetailPage } from '../detail/detail';
 
@@ -12,9 +12,18 @@ import { PokedexProvider } from '../../providers/pokedex/pokedex';
     templateUrl: 'home.html'
 })
 export class HomePage {
+    private search_filter:string = "";
 
-    constructor(public navCtrl:NavController, public config:ConfigProvider, public data:DataProvider, public pokedex:PokedexProvider, public modalCtrl:ModalController) {
-        console.log(this.pokedex.pokemons);
+    private pokemons:Array<Object> = [];
+
+    constructor(public navCtrl:NavController, public config:ConfigProvider, public data:DataProvider, public pokedex:PokedexProvider, public modalCtrl:ModalController, public events:Events) {
+        this.events.subscribe('configSaved', data => {
+            this.getPokemons();
+        });
+    }
+
+    ionViewDidEnter() {
+        this.getPokemons();
     }
 
     selectPokemon(single_pokemon) {
@@ -26,14 +35,23 @@ export class HomePage {
         this.pokedex.save();
     }
 
+    getPokemons() {
+        console.log("get...");
+        this.pokemons = this.data.getPokemons().filter(single_pokemon => {
+            if (this.search_filter != "") {
+                if (single_pokemon['current_name'].toLowerCase().indexOf(this.search_filter.toLowerCase()) == -1) {
+                    return false;
+                }
+            }
+
+            return true;
+        });
+    }
+
     search(ev) {
         console.log("SEARCH: ");
         console.log(ev);
-    }
-    
-    cancelSearch(ev) {
-        console.log("CANCEL SEARCH: ");
-        console.log(ev);
+        this.getPokemons();
     }
 
     virtualScrollTracker(index, pokemon) {
