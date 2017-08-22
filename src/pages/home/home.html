@@ -13,7 +13,7 @@
             <h2>#{{ single_pokemon.current_number }} - {{ single_pokemon.current_name }}</h2>
 
             <p class="pokemon-settings">
-                <ion-icon *ngFor="let single_filter of config.getFilters()" [name]="single_filter.icon" class="active"></ion-icon>
+                <ion-icon *ngFor="let single_filter of config.getFilters()" [name]="single_filter.icon" [ngClass]="{'active':pokedex.pokemons[single_pokemon.number][single_filter.id]}"></ion-icon>
             </p>
             </ion-label>
             <ion-toggle [(ngModel)]="pokedex.pokemons[single_pokemon.number]['own']" (ionChange)="pokedexChanged()"></ion-toggle>
