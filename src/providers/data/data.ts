@@ -44,6 +44,21 @@ export class DataProvider {
             return true;
         });
 
+        /* Add alternate forms (if they are in the master list) */
+        if (this.config.alternate_forms['all']) {
+            this.alternate_forms.forEach(single_form => {
+                let existingPokemon = this.master.filter(single_pokemon => (single_pokemon['number'] == single_form['origin_number']));
+                existingPokemon.forEach(single_pokemon => {
+                    let newPokemon = Object.create(single_pokemon);
+                    newPokemon.number = single_form['number'];
+                    newPokemon.alt_form = single_form['names']['en'];
+                    this.master.push(newPokemon);
+                });
+            });
+        }
+
+
+
         /* Update the field */
         this.master.forEach(single_pokemon => {
             single_pokemon['current_number'] = single_pokemon['number'];
@@ -55,6 +70,15 @@ export class DataProvider {
             if (single_pokemon['names'][this.config.language['selected']]) {
                 single_pokemon['current_name'] = single_pokemon['names'][this.config.language['selected']];
             }
+
+            single_pokemon['sprite'] = 'pokemon-' + single_pokemon['number'];
+
+            if (single_pokemon['form_name'] != null) {
+                single_pokemon['current_name'] += ' - ' + single_pokemon['form_name'];
+            }
+            if (single_pokemon['alt_form'] != null) {
+                single_pokemon['current_name'] += ' - ' + single_pokemon['alt_form'];
+            }
         });
 
         /* Order the list */
@@ -63,8 +87,7 @@ export class DataProvider {
                 return -1;
             if (a['current_number'] > b['current_number'])
                 return 1;
-            return 0;
-
+            return (a['current_name'] < b['current_number'] ? -1 : 1);
 		});
     }
 

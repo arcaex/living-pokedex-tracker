@@ -10,6 +10,7 @@
     <ion-list [virtualScroll]="data.getPokemons()">
         <ion-item *virtualItem="let single_pokemon" (click)="selectPokemon(single_pokemon)">
             <ion-label>
+                <div class="pokemon-image {{ single_pokemon.sprite }}"></div>
             <h2>#{{ single_pokemon.current_number }} - {{ single_pokemon.current_name }}</h2>
 
             <p class="pokemon-settings">
