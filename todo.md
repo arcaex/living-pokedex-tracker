@@ -3,23 +3,10 @@ Pages
 
 * Search (refresh filters)
 * Pokemons list
-    * Ordered by the Pokedex choosen
-    * Shows:
-        * Image
-        * Pokedex number (depending on the pokedex choosen)
-        * Which filters we changed for it
-        * If we own it or not
-    * onClick:
+    * onClick (detail):
         * Show where to get (must find better way)
-        * For each filters, show the description and the status
     * Options
         * Mark all (Mark all pokemon as owned)
-
-* Options
-    * Activate filters visibility
-    * Alternate forms
-    * Choose the pokedex
-    * Language
 
 * Nice to have
     * 3D Models
