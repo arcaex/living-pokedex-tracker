@@ -1,4 +1,15 @@
 page-home {
+    ion-label {
+        display: flex;
+        margin: 0 !important;
+
+        div.pokemon-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
     p.pokemon-settings {
         ion-icon {
             padding-right: 8px;
