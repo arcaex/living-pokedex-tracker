@@ -25,4 +25,18 @@ export class HomePage {
     pokedexChanged() {
         this.pokedex.save();
     }
+
+    search(ev) {
+        console.log("SEARCH: ");
+        console.log(ev);
+    }
+    
+    cancelSearch(ev) {
+        console.log("CANCEL SEARCH: ");
+        console.log(ev);
+    }
+
+    virtualScrollTracker(index, pokemon) {
+        return pokemon['current_number'];
+    }
 }
