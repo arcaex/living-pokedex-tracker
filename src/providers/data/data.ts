@@ -72,7 +72,7 @@ export class DataProvider {
 
             single_pokemon['sprite'] = 'pokemon-' + single_pokemon['number'];
 
-            if (single_pokemon['form_name'] != null) {
+            if (single_pokemon['form_name'] != null && this.config.alternate_forms['all']) {
                 single_pokemon['current_name'] += ' - ' + single_pokemon['form_name'];
             }
         });
@@ -83,7 +83,7 @@ export class DataProvider {
                 return -1;
             if (a['current_number'] > b['current_number'])
                 return 1;
-            return (a['current_name'] < b['current_number'] ? -1 : 1);
+            return (a['current_name'] < b['current_name'] ? -1 : 1);
 		});
     }
 
