@@ -51,17 +51,16 @@ export class DataProvider {
                 existingPokemon.forEach(single_pokemon => {
                     let newPokemon = Object.create(single_pokemon);
                     newPokemon.number = single_form['number'];
-                    newPokemon.alt_form = single_form['names']['en'];
+                    newPokemon.form_name = single_form['names']['en'];
+                    newPokemon.origin_number = single_form['origin_number'];
                     this.master.push(newPokemon);
                 });
             });
         }
 
-
-
         /* Update the field */
         this.master.forEach(single_pokemon => {
-            single_pokemon['current_number'] = single_pokemon['number'];
+            single_pokemon['current_number'] = (single_pokemon['origin_number'] != null ? single_pokemon['origin_number'] : single_pokemon['number']);
             if (this.config.region['selected'] != 'national') {
                 single_pokemon['current_number'] = single_pokemon['regions'][this.config.region['selected']];
             }
@@ -75,9 +74,6 @@ export class DataProvider {
 
             if (single_pokemon['form_name'] != null) {
                 single_pokemon['current_name'] += ' - ' + single_pokemon['form_name'];
-            }
-            if (single_pokemon['alt_form'] != null) {
-                single_pokemon['current_name'] += ' - ' + single_pokemon['alt_form'];
             }
         });
 
