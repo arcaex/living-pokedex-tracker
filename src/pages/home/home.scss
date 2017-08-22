@@ -7,6 +7,11 @@ page-home {
             display: flex;
             flex-direction: column;
             justify-content: center;
+
+            h2 {
+                padding-bottom: 8px;
+                font-weight: bold;
+            }
         }
     }
 

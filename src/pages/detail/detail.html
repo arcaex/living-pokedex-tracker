@@ -1,6 +1,9 @@
 <ion-header>
   <ion-navbar color="secondary">
-      <ion-title>#{{ pokemon.current_number }} - {{ pokemon.current_name }}</ion-title>
+      <ion-title>
+          <div class="pokemon-image {{ pokemon.sprite }}"></div>
+          <div class="pokemon-name">#{{ pokemon.current_number }} - {{ pokemon.current_name }}</div>
+      </ion-title>
     <ion-buttons end>
         <button ion-button icon-only (click)="closeModal()"><ion-icon name="close"></ion-icon></button>
     </ion-buttons>
@@ -10,6 +13,8 @@
 
 
 <ion-content padding>
+
+    <p>How to get : {{ pokemon['current_evolution'] }}</p>
 
         <ion-list *ngFor="let filter of config.getFilters()">
             <ion-item-divider color="secondary">{{ filter.description }}</ion-item-divider>

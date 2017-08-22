@@ -77,6 +77,27 @@ export class DataProvider {
             }
         });
 
+        this.master.forEach(single_pokemon => {
+            single_pokemon['current_evolution'] = single_pokemon['evolution'];
+            var evolution = single_pokemon['current_evolution'];
+            if (evolution != '' && evolution != undefined) {
+                var matches = evolution.match(/#([0-9]+)/g);
+                if (matches != null) {
+                    for (var m=0; m<matches.length; m++) {
+                        var number = matches[m];
+                        console.log("lol: " + number);
+                        this.master.forEach(named_pokemon => {
+                            if (named_pokemon['number'] == number.substr(1)) {
+                                evolution = evolution.replace(number, named_pokemon['current_name']);
+                            }
+                        });
+                    }
+
+                    single_pokemon['current_evolution'] = evolution;
+                }
+            }
+        });
+
         /* Order the list */
 		this.master.sort(function(a, b) {
             if (a['current_number'] < b['current_number'])

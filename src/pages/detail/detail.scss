@@ -1,2 +1,12 @@
 page-detail {
+    ion-title {
+        div.toolbar-title {
+            display: flex;
+
+            div.pokemon-name {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
 }
