@@ -5,6 +5,7 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/toPromise';
 
 import { ConfigProvider } from '../config/config';
+import { PokedexProvider } from '../pokedex/pokedex';
 
 @Injectable()
 export class DataProvider {
@@ -14,7 +15,7 @@ export class DataProvider {
 
     private master:Array<Object> = [];
 
-    constructor(public http:Http, public config:ConfigProvider) { }
+    constructor(public http:Http, public config:ConfigProvider, public pokedex:PokedexProvider) { }
 
     load() {
         return this.http.get('assets/json/data.json').toPromise().then(res => {
@@ -31,6 +32,15 @@ export class DataProvider {
                     return false;
                 }
             }
+
+            for (let filter_id in this.config.filters) {
+                if (this.config.filters[filter_id]) {
+                    if (this.pokedex.pokemons[single_pokemon['number']][filter_id]) {
+                        return false;
+                    }
+                }
+            };
+
             return true;
         });
 
