@@ -9,7 +9,10 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { IonicStorageModule } from '@ionic/storage';
 
 import { MyApp } from './app.component';
+
 import { HomePage } from '../pages/home/home';
+import { DetailPage } from '../pages/detail/detail';
+
 import { ConfigProvider } from '../providers/config/config';
 import { DataProvider } from '../providers/data/data';
 import { PokedexProvider } from '../providers/pokedex/pokedex';
@@ -17,7 +20,8 @@ import { PokedexProvider } from '../providers/pokedex/pokedex';
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    DetailPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +32,8 @@ import { PokedexProvider } from '../providers/pokedex/pokedex';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    DetailPage
   ],
   providers: [
     StatusBar,
