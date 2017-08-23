@@ -25,9 +25,7 @@ export class MyApp {
             this.pokedex.load().then(result => {
                 this.config.load().then(result => {
                     this.data.load().then(result => {
-                        this.data.loadCSV('pokemons').then(result => {
-                            this.rootPage = HomePage;
-                        });
+                        this.rootPage = HomePage;
                     });
                 });
             });
