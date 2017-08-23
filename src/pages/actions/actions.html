@@ -1,0 +1,11 @@
+<ion-list>
+    <ion-item-divider color="secondary">Marking Owned Pokemon</ion-item-divider>
+    <ion-item>
+        <button ion-button item-start (click)="mark(true)">Mark all</button>
+        <button ion-button item-end (click)="mark(false)">Unmark all</button>
+    </ion-item>
+    <ion-item-divider color="secondary">Reset all data</ion-item-divider>
+    <ion-item>
+        <button ion-button (click)="resetConfigs()">Reset</button>
+    </ion-item>
+</ion-list>

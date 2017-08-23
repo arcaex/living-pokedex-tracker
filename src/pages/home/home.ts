@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { Events, NavController, ModalController } from 'ionic-angular';
+import { Events, NavController, ModalController, PopoverController } from 'ionic-angular';
 
+import { ActionsPage } from '../actions/actions';
 import { DetailPage } from '../detail/detail';
 
 import { ConfigProvider } from '../../providers/config/config';
@@ -16,7 +17,7 @@ export class HomePage {
 
     private pokemons:Array<Object> = [];
 
-    constructor(public navCtrl:NavController, public config:ConfigProvider, public data:DataProvider, public pokedex:PokedexProvider, public modalCtrl:ModalController, public events:Events) {
+    constructor(public navCtrl:NavController, public config:ConfigProvider, public data:DataProvider, public pokedex:PokedexProvider, public modalCtrl:ModalController, public events:Events, public popoverCtrl:PopoverController) {
         this.events.subscribe('configSaved', data => {
             this.getPokemons();
         });
@@ -56,5 +57,10 @@ export class HomePage {
 
     virtualScrollTracker(index, pokemon) {
         return pokemon['current_number'];
+    }
+
+    showActions(event) {
+        let popover = this.popoverCtrl.create(ActionsPage);
+        popover.present({ev: event});
     }
 }

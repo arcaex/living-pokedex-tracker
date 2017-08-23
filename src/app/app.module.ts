@@ -11,6 +11,7 @@ import { IonicStorageModule } from '@ionic/storage';
 import { MyApp } from './app.component';
 
 import { HomePage } from '../pages/home/home';
+import { ActionsPage } from '../pages/actions/actions';
 import { DetailPage } from '../pages/detail/detail';
 
 import { ConfigProvider } from '../providers/config/config';
@@ -21,7 +22,8 @@ import { PokedexProvider } from '../providers/pokedex/pokedex';
   declarations: [
     MyApp,
     HomePage,
-    DetailPage
+    DetailPage,
+    ActionsPage
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,8 @@ import { PokedexProvider } from '../providers/pokedex/pokedex';
   entryComponents: [
     MyApp,
     HomePage,
-    DetailPage
+    DetailPage,
+    ActionsPage
   ],
   providers: [
     StatusBar,

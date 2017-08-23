@@ -85,7 +85,6 @@ export class DataProvider {
                 if (matches != null) {
                     for (var m=0; m<matches.length; m++) {
                         var number = matches[m];
-                        console.log("lol: " + number);
                         this.master.forEach(named_pokemon => {
                             if (named_pokemon['number'] == number.substr(1)) {
                                 evolution = evolution.replace(number, named_pokemon['current_name']);
