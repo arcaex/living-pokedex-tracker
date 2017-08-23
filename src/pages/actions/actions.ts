@@ -62,7 +62,7 @@ export class ActionsPage {
                     "text": "Yes",
                     handler: () => {
                         this.pokemons.forEach(single_pokemon => {
-                            this.pokedex.pokemons[single_pokemon.number]['own'] = state;
+                            this.pokedex.pokemons[single_pokemon['number']]['own'] = state;
                         });
                         this.pokedex.save();
                     }

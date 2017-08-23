@@ -26,7 +26,7 @@ export class DataProvider {
 
     loadCSV(filename) {
         return this.http.get('assets/csv/' + filename + '.csv').toPromise().then(res => {
-            console.log( this.CSVToArray(res) );
+            this.pokemons = this.parseArray(this.CSVToArray(res.text(), ','));
             return Promise.resolve(true);
         });
     }
@@ -121,6 +121,9 @@ export class DataProvider {
         this.refresh();
     }
 
+    private parseArray(csv:Array<any>):Array<Object> {
+        let list:Array<Object> = [];
+    }
 
     private CSVToArray(strData, strDelimiter) {
         // Check to see if the delimiter is defined. If not,

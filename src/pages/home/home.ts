@@ -63,7 +63,7 @@ export class HomePage {
     }
 
     showActions(event) {
-        let popover = this.popoverCtrl.create(ActionsPage, {pokemons:this.pokemon});
+        let popover = this.popoverCtrl.create(ActionsPage, {pokemons:this.pokemons});
         popover.present({ev: event});
     }
 }
