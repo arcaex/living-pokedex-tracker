@@ -1,0 +1,803 @@
+number,names/en,names/fr,names/jp,names/es,names/de,names/kr,regions/alola,regions/kanto,regions/johto,regions/hoenn,regions/sinnoh,regions/unova,regions/kalos,form_name,evolution
+1,Bulbasaur,Bulbizarre,フシギダネ,,Bisasam,이상해씨,,1,231,,,,80,,"Breed #001, #002, #003"
+2,Ivysaur,Herbizarre,フシギソウ,,Bisaknosp,이상해풀,,2,232,,,,81,,Evolve #001 to Level 16
+3,Venusaur,Florizarre,フシギバナ,,Bisaflor,이상해꽃,,3,233,,,,82,,Evolve #002 to Level 32
+4,Charmander,Salamèche,ヒトカゲ,,Glumanda,파이리,,4,234,,,,83,,"Breed #004, #005, #006"
+5,Charmeleon,Reptincel,リザード,,Glutexo,리자드,,5,235,,,,84,,Evolve #004 to Level 16
+6,Charizard,Dracaufeu,リザードン,,Glurak,리자몽,,6,236,,,,85,,Evolve #005 to Level 36
+7,Squirtle,Carapuce,ゼニガメ,,Schiggy,꼬부기,,7,237,,,,86,,"Breed #007, #008, #009"
+8,Wartortle,Carabaffe,カメール,,Schillok,어니부기,,8,238,,,,87,,Evolve #007 to Level 16
+9,Blastoise,Tortank,カメックス,,Turtok,거북왕,,9,239,,,,88,,Evolve #008 to Level 36
+10,Caterpie,Chenipan,キャタピー,,Raupy,캐터피,17,10,24,,,,23,,"Breed #010, #011, #012"
+11,Metapod,Chrysacier,トランセル,,Safcon,단데기,18,11,25,,,,24,,Evolve #010 to Level 7
+12,Butterfree,Papilusion,バタフリー,,Smettbo,버터플,19,12,26,,,,25,,Evolve #011 to Level 10
+13,Weedle,Aspicot,ビードル,,Hornliu,뿔충이,,13,27,,,,26,,"Breed #013, #014, #015"
+14,Kakuna,Coconfort,コクーン,,Kokuna,딱충이,,14,28,,,,27,,Evolve #013 to Level 7
+15,Beedrill,Dardargnan,スピアー,,Bibor,독침붕,,15,29,,,,28,,Evolve #014 to Level 10
+16,Pidgey,Roucool,ポッポ,,Taubsi,구구,,16,10,,,,17,,"Breed #016, #017, #018"
+17,Pidgeotto,Roucoups,ピジョン,,Tauboga,피죤,,17,11,,,,18,,Evolve #016 to Level 18
+18,Pidgeot,Roucarnage,ピジョット,,Tauboss,피죤투,,18,12,,,,19,,Evolve #017 to Level 36
+19,Rattata,,コラッタ,,Rattfratz,꼬렛,15,19,17,,,59,,,"Breed #019, #020"
+20,Raticate,Rattatac,,Raticate,Rattikarl,레트라,16,20,18,,,60,,,"Evolve #019 to Level 20, at Nighttime, in Alola"
+21,Spearow,Piafabec,オニスズメ,,Habitak,깨비참,73,21,13,,,,109,,"Breed #021, #022"
+22,Fearow,Rapasdepic,オニドリル,,Ibitak,깨비드릴조,74,22,14,,,,110,,Evolve #021 to Level 20
+23,Ekans,Abo,アーボ,,Rettan,아보,,23,50,,,,37,,"Breed #023, #024"
+24,Arbok,,アーボック,,,아보크,,24,51,,,,38,,Evolve #023 to Level 22
+25,Pikachu,,ピカチュウ,,,피카츄,25,25,22,163,104,,36,,Evolve #172 with Happiness
+26,Raichu,,ライチュウ,,,라이츄,26,26,23,164,105,,37,,"Use Thunder Stone, in Alola on #025"
+27,Sandshrew,Sabelette,サンド,,Sandan,모래두지,251,27,48,117,,113,97,,"Breed #027, #028"
+28,Sandslash,Sablaireau,,Sandslash,Sandamer,고지,252,28,49,118,,114,98,,"Use Ice Stone, in Alola on #027"
+29,Nidoran♀,,ニドラン♀,,,니드런♀,,29,95,,,,104,,"Breed #029, #030, #031"
+30,Nidorina,,ニドリーナ,,,니드리나,,30,96,,,,105,,Evolve #029 to Level 16
+31,Nidoqueen,,ニドクイン,,,니드퀸,,31,97,,,,106,,Use Moon Stone on #030
+32,Nidoran♂,,ニドラン♂,,,니드런♂,,32,98,,,,107,,"Breed #032, #033, #034"
+33,Nidorino,,ニドリーノ,,,니드리노,,33,99,,,,108,,Evolve #032 to Level 16
+34,Nidoking,,ニドキング,,,니드킹,,34,100,,,,109,,Use Moon Stone on #033
+35,Clefairy,Mélofée,ピッピ,,Piepi,삐삐,211,35,41,,100,89,,,Evolve #173 with Happiness
+36,Clefable,Mélodelfe,ピクシー,,Pixi,픽시,212,36,42,,101,90,,,Use Moon Stone on #035
+37,Vulpix,Ke'oke'o,ロコン,Keo-Keo,Ke'oke'o,케오케오,253,37,127,160,,248,,,"Breed #037, #038"
+38,Ninetales,Feunard,キュウコン,,Vulnona,나인테일,254,38,128,161,,249,,,"Use Ice Stone, in Alola on #037"
+39,Jigglypuff,Rondoudou,プリン,,Pummeluff,푸린,135,39,44,143,,282,120,,Evolve #174 with Happiness
+40,Wigglytuff,Grodoudou,プクリン,,Knuddeluff,푸크린,136,40,45,144,,283,121,,Use Moon Stone on #039
+41,Zubat,Nosferapti,ズバット,,,주뱃,68,41,37,65,28,61,145,,"Breed #041, #042, #169"
+42,Golbat,Nosferalto,ゴルバット,,,골뱃,69,42,38,66,29,62,146,,Evolve #041 to Level 22
+43,Oddish,Mystherbe,ナゾノクサ,,Myrapla,뚜벅쵸,,43,83,91,,,105,,"Breed #043, #044, #045, #182"
+44,Gloom,Ortide,クサイハナ,,Duflor,냄새꼬,,44,84,92,,,106,,Evolve #043 to Level 21
+45,Vileplume,Rafflesia,ラフレシア,,Giflor,라플레시아,,45,85,93,,,107,,Use Leaf Stone on #044
+46,Paras,,パラス,,,파라스,147,46,70,,,,,,"Breed #046, #047"
+47,Parasect,,パラセクト,,Parasek,파라섹트,148,47,71,,,,,,Evolve #046 to Level 24
+48,Venonat,Mimitoss,コンパン,,Bluzuk,콘팡,,48,109,,,,,,"Breed #048, #049"
+49,Venomoth,Aéromite,モルフォン,,Omot,도나리,,49,110,,,,,,Evolve #048 to Level 31
+50,Diglett,Taupiqueur,ディグダ,,Digda,디그다,71,50,134,,,,1,,"Breed #050, #051"
+51,Dugtrio,Triopikeur,ダグトリオ,,Digdri,닥트리오,72,51,135,,,,2,,"Evolve #050 to Level 26, in Alola"
+52,Meowth,Miaouss,ニャース,,Mauzi,나옹,45,52,138,,,,,,"Breed #052, #053"
+53,Persian,,ペルシアン,,Snobilikat,페르시온,46,53,139,,,,,,"Evolve #052 with Happiness, in Alola"
+54,Psyduck,Psykokwak,コダック,,Enton,고라파덕,89,54,140,165,43,28,59,,"Breed #054, #055"
+55,Golduck,Akwakwak,ゴルダック,,Entoron,골덕,90,55,141,166,44,29,60,,Evolve #054 to Level 33
+56,Mankey,Férosinge,マンキー,,Menki,망키,79,56,136,,,,,,"Breed #056, #057"
+57,Primeape,Colossinge,オコリザル,,Rasaff,성원숭,80,57,137,,,,,,Evolve #056 to Level 28
+58,Growlithe,Caninos,ガーディ,,Fukano,가디,52,58,129,,,51,,,"Breed #058, #059"
+59,Arcanine,Arcanin,ウインディ,,Arkani,윈디,53,59,130,,,52,,,Use Fire Stone on #058
+60,Poliwag,Ptitard,ニョロモ,,Quapsel,발챙이,149,60,72,,,,33,,"Breed #060, #061, #062, #186"
+61,Poliwhirl,Têtarte,ニョロゾ,,Quaputzi,슈륙챙이,150,61,73,,,,34,,Evolve #060 to Level 25
+62,Poliwrath,Tartard,ニョロボン,,Quappo,강챙이,151,62,74,,,,35,,Use Water Stone on #061
+63,Abra,,ケーシィ,,,캐이시,42,63,89,40,20,,102,,"Breed #063, #064, #065"
+64,Kadabra,,ユンゲラー,,,윤겔라,43,64,90,41,21,,103,,Evolve #063 to Level 16
+65,Alakazam,,フーディン,,Simsala,후딘,44,65,91,42,22,,104,,Trade #064
+66,Machop,Machoc,ワンリキー,,Machollo,알통몬,95,66,142,75,40,,57,,"Breed #066, #067, #068"
+67,Machoke,Machopeur,ゴーリキー,,Maschock,근육몬,96,67,143,76,41,,58,,Evolve #066 to Level 28
+68,Machamp,Mackogneur,カイリキー,,Machomei,괴력몬,97,68,144,77,42,,59,,Trade #067
+69,Bellsprout,Chétiflor,マダツボミ,,Knofensa,모다피,,69,64,,,,26,,"Breed #069, #070, #071"
+70,Weepinbell,Boustiflor,ウツドン,,Ultrigaria,우츠동,,70,65,,,,27,,Evolve #069 to Level 21
+71,Victreebel,Empiflor,ウツボット,,Sarzenia,우츠보트,,71,66,,,,28,,Use Leaf Stone on #070
+72,Tentacool,,メノクラゲ,,Tentacha,왕눈해,106,72,164,68,136,,25,,"Breed #072, #073"
+73,Tentacruel,,ドククラゲ,,Tentoxa,독파리,107,73,165,69,137,,26,,Evolve #072 to Level 30
+74,Geodude,Racaillou,イシツブテ,,Kleinstein,꼬마돌,229,74,34,58,31,,9,,"Breed #074, #075, #076"
+75,Graveler,Gravalanch,ゴローン,,Georok,데구리,230,75,35,59,32,,10,,"Evolve #074 to Level 25, in Alola"
+76,Golem,Grolem,ゴローニャ,,Geowaz,딱구리,231,76,36,60,33,,11,,Trade #075 in Alola
+77,Ponyta,,ポニータ,,Ponita,포니타,,77,206,,90,,,,"Breed #077, #078"
+78,Rapidash,Galopa,ギャロップ,,Gallopa,날쌩마,,78,207,,91,,,,Evolve #077 to Level 40
+79,Slowpoke,Ramoloss,ヤドン,,Flegmon,야돈,37,79,80,,,,133,,"Breed #079, #080, #199"
+80,Slowbro,Flagadoss,ヤドラン,,Lahmus,야도란,38,80,81,,,,134,,Evolve #079 to Level 37
+81,Magnemite,Magnéti,コイル,,Magnetilo,코일,47,81,119,84,178,48,69,,"Breed #081, #082, #462"
+82,Magneton,Magnéton,レアコイル,,,레어코일,48,82,120,85,179,49,70,,Evolve #081 to Level 30
+83,Farfetch'd,Canarticho,カモネギ,,Porenta,파오리,,83,160,,,,61,,
+84,Doduo,,ドードー,,Dodu,두두,,84,204,95,,,94,,"Breed #084, #085"
+85,Dodrio,,ドードリオ,,Dodri,두트리오,,85,205,96,,,95,,Evolve #084 to Level 31
+86,Seel,Otaria,パウワウ,,Jurob,쥬쥬,,86,178,,,265,,,"Breed #086, #087"
+87,Dewgong,Lamantine,ジュゴン,,Jugong,쥬레곤,,87,179,,,266,,,Evolve #086 to Level 34
+88,Grimer,Tadmorv,ベトベター,,Sleima,질퍽이,50,88,117,111,,64,,,"Breed #088, #089"
+89,Muk,Grotadmorv,ベトベトン,,Sleimok,질뻐기,51,89,118,112,,65,,,"Evolve #088 to Level 38, in Alola"
+90,Shellder,Kokiyas,シェルダー,,Muschas,셀러,115,90,171,,,,36,,"Breed #090, #091"
+91,Cloyster,Crustabri,パルシェン,,Austos,파르셀,116,91,172,,,,37,,Use Water Stone on #090
+92,Gastly,Fantominus,ゴース,,Nebulak,고오스,61,92,58,,69,,30,,"Breed #092, #093, #094"
+93,Haunter,Spectrum,ゴースト,,Alpollo,고우스트,62,93,59,,70,,31,,Evolve #092 to Level 25
+94,Gengar,Ectoplasma,ゲンガー,,,팬텀,63,94,60,,71,,32,,Trade #093
+95,Onix,,イワーク,,,롱스톤,,95,62,,34,71,53,,"Breed #095, #208"
+96,Drowzee,Soporifik,スリープ,,Traumato,슬리프,54,96,87,,,,,,"Breed #096, #097"
+97,Hypno,Hypnomade,スリーパー,,,슬리퍼,55,97,88,,,,,,Evolve #096 to Level 26
+98,Krabby,,クラブ,,,크랩,,98,166,,,,,,"Breed #098, #099"
+99,Kingler,Krabboss,キングラー,,,킹크랩,,99,167,,,,,,Evolve #098 to Level 28
+100,Voltorb,Voltorbe,ビリリダマ,,Voltobal,찌리리공,,100,121,87,,,72,,"Breed #100, #101"
+101,Electrode,Électrode,マルマイン,,Lektrobal,붐볼,,101,122,88,,,73,,Evolve #100 to Level 30
+102,Exeggcute,Nœunœuf,タマタマ,,Owei,아라리,269,102,105,,,,136,,"Breed #102, #103"
+103,Exeggutor,Noadkoko,ナッシー,,Kokowei,나시,270,103,106,,,,137,,"Use Leaf Stone, in Alola on #102"
+104,Cubone,Osselait,カラカラ,,Tragosso,탕구리,163,104,208,,,,60,,"Breed #104, #105"
+105,Marowak,Ossatueur,ガラガラ,,Knogga,텅구리,164,105,209,,,,61,,"Evolve #104 to Level 28, at Nighttime, in Alola"
+106,Hitmonlee,Kicklee,サワムラー,,Kicklee,시라소몬,,106,146,,,,,,"Evolve #236 to Level 20, Attack > Defense"
+107,Hitmonchan,Tygnon,エビワラー,,Nockchan,홍수몬,,107,147,,,,,,"Evolve #106 to Level 20, Attack < Defense"
+108,Lickitung,Excelangue,ベロリンガ,,Schlurp,내루미,,108,180,,161,284,134,,"Breed #108, #463"
+109,Koffing,Smogo,ドガース,,Smogon,또가스,,109,115,113,,46,,,"Breed #109, #110"
+110,Weezing,Smogogo,マタドガス,,Smogmog,또도가스,,110,116,114,,47,,,Evolve #109 to Level 35
+111,Rhyhorn,Rhinocorne,サイホーン,,Rihorn,뿔카노,,111,211,176,186,,50,,"Breed #111, #112, #464"
+112,Rhydon,Rhinoféros,サイドン,,Rizeros,코뿌리,,112,212,177,187,,51,,Evolve #111 to Level 42
+113,Chansey,Leveinard,ラッキー,,Chaneira,럭키,33,113,222,,97,,,,"Evolve #440 hold Oval Stone, at Daytime"
+114,Tangela,Saquedeneu,モンジャラ,,,덩쿠리,,114,182,,181,217,,,"Breed #114, #465"
+115,Kangaskhan,Kangourex,ガルーラ,,Kangama,캥카,165,115,210,,,,62,,
+116,Horsea,Hypotrempe,タッツー,,Seeper,쏘드라,,116,190,193,,,39,,"Breed #116, #117, #230"
+117,Seadra,Hypocéan,シードラ,,Seemon,시드라,,117,191,194,,,40,,Evolve #116 to Level 32
+118,Goldeen,Poissirène,トサキント,,Goldini,콘치,153,118,78,51,78,,53,,"Breed #118, #119"
+119,Seaking,Poissoroy,アズマオウ,,Golking,왕콘치,154,119,79,52,79,,54,,Evolve #118 to Level 33
+120,Staryu,Stari,ヒトデマン,,Sterndu,별가사리,184,120,169,148,,238,34,,"Breed #120, #121"
+121,Starmie,Staross,スターミー,,,아쿠스타,185,121,170,149,,239,35,,Use Water Stone on #120
+122,Mr. Mime,M.,バリヤード,Mr.,Pantimos,마임맨,,122,158,,95,,114,,Evolve #439 after Mimic learned
+123,Scyther,Insécateur,ストライク,,Sichlor,스라크,275,123,111,,195,,136,,"Breed #123, #212"
+124,Jynx,Lippoutou,ルージュラ,,Rossana,루주라,,124,155,,,,84,,Evolve #238 to Level 30
+125,Electabuzz,Élektek,エレブー,,Elektek,에레브,227,125,157,,198,57,,,Evolve #239 to Level 30
+126,Magmar,,ブーバー,,,마그마,167,126,153,,201,54,,,Evolve #240 to Level 30
+127,Pinsir,Scarabrute,カイロス,,,쁘사이저,175,127,113,174,,146,130,,
+128,Tauros,,ケンタロス,,,켄타로스,137,128,150,,,,125,,
+129,Magikarp,Magicarpe,コイキング,,Karpador,잉어킹,91,129,76,53,23,,49,,"Breed #129, #130"
+130,Gyarados,Léviator,ギャラドス,,Garados,갸라도스,92,130,77,54,24,,50,,Evolve #129 to Level 20
+131,Lapras,Lokhlass,ラプラス,,,라프라스,268,131,224,,,242,150,,
+132,Ditto,Métamorph,メタモン,,,메타몽,209,132,92,,,261,138,,
+133,Eevee,Évoli,イーブイ,,Evoli,이브이,123,133,184,,163,91,77,,"Breed #134, #135, #136, #700, #133, #196, #197, #470, #471"
+134,Vaporeon,Aquali,シャワーズ,,Aquana,샤미드,124,134,185,,164,92,78,,Use Water Stone on #133
+135,Jolteon,Voltali,サンダース,,Blitza,쥬피썬더,125,135,186,,165,93,79,,Use Thunder Stone on #133
+136,Flareon,Pyroli,ブースター,,Flamara,부스터,126,136,187,,166,94,80,,Use Fire Stone on #133
+137,Porygon,,ポリゴン,,,폴리곤,217,137,220,,192,,,,"Breed #137, #233, #474"
+138,Omanyte,Amonita,オムナイト,,Amonitas,암나이트,,138,225,,,,,,"Breed #138, #139"
+139,Omastar,Amonistar,オムスター,,Amoroso,암스타,,139,226,,,,,,Evolve #138 to Level 40
+140,Kabuto,,カブト,,,투구,,140,227,,,,,,"Breed #140, #141"
+141,Kabutops,,カブトプス,,,투구푸스,,141,228,,,,,,Evolve #140 to Level 40
+142,Aerodactyl,Ptéra,プテラ,,,프테라,284,142,229,,,,68,,
+143,Snorlax,Ronflex,カビゴン,,Relaxo,잠만보,36,143,230,,113,,139,,Evolve #446 with Happiness
+144,Articuno,Artikodin,フリーザー,,Arktos,프리져,,144,240,,,,151,,
+145,Zapdos,Électhor,サンダー,,,썬더,,145,241,,,,152,,
+146,Moltres,Sulfura,ファイヤー,,Lavados,파이어,,146,242,,,,153,,
+147,Dratini,Minidraco,ミニリュウ,,,미뇽,281,147,246,,,,145,,"Breed #147, #148, #149"
+148,Dragonair,Draco,ハクリュー,,Dragonir,신뇽,282,148,247,,,,146,,Evolve #147 to Level 30
+149,Dragonite,Dracolosse,カイリュー,,Dragoran,망나뇽,283,149,248,,,,147,,Evolve #148 to Level 55
+150,Mewtwo,,ミュウツー,,Mewtu,뮤츠,,150,254,,,,151,,
+151,Mew,,ミュウ,,,뮤,,151,255,,,,,,
+152,Chikorita,Germignon,チコリータ,,Endivie,치코리타,,152,1,,,,,,"Breed #152, #153, #154"
+153,Bayleef,Macronium,ベイリーフ,,Lorblatt,베이리프,,153,2,,,,,,Evolve #152 to Level 16
+154,Meganium,Méganium,メガニウム,,Meganie,메가니움,,154,3,,,,,,Evolve #153 to Level 32
+155,Cyndaquil,Héricendre,ヒノアラシ,,Feurigel,브케인,,155,4,,,,,,"Breed #155, #156, #157"
+156,Quilava,Feurisson,マグマラシ,,Igelavar,마그케인,,156,5,,,,,,Evolve #155 to Level 14
+157,Typhlosion,,バクフーン,,Tornupto,블레이범,,157,6,,,,,,Evolve #156 to Level 36
+158,Totodile,Kaiminus,ワニノコ,,Karnimani,리아코,,158,7,,,,,,"Breed #158, #159, #160"
+159,Croconaw,Crocrodil,アリゲイツ,,Tyracroc,엘리게이,,159,8,,,,,,Evolve #158 to Level 18
+160,Feraligatr,Aligatueur,オーダイル,,Impergator,장크로다일,,160,9,,,,,,Evolve #159 to Level 30
+161,Sentret,Fouinette,オタチ,,Wiesor,꼬리선,,161,19,,,,109,,"Breed #161, #162"
+162,Furret,Fouinar,オオタチ,,Wiesenior,다꼬리,,162,20,,,,110,,Evolve #161 to Level 15
+163,Hoothoot,,ホーホー,,,부우부,,163,15,,106,,117,,"Breed #163, #164"
+164,Noctowl,Noarfang,ヨルノズク,,Noctuh,야부엉,,164,16,,107,,118,,Evolve #163 to Level 20
+165,Ledyba,Coxy,レディバ,,,레디바,20,165,30,,,,74,,"Breed #165, #166"
+166,Ledian,Coxyclaque,レディアン,,,레디안,21,166,31,,,,75,,Evolve #165 to Level 18
+167,Spinarak,Mimigal,イトマル,,Webarak,페이검,22,167,32,,,,107,,"Breed #167, #168"
+168,Ariados,Migalos,アリアドス,,,아리아도스,23,168,33,,,,108,,Evolve #167 to Level 22
+169,Crobat,Nostenfer,クロバット,,Iksbat,크로뱃,70,169,39,67,30,63,147,,Evolve #042 with Happiness
+170,Chinchou,Loupio,チョンチー,,Lampi,초라기,201,170,176,190,,,147,,"Breed #170, #171"
+171,Lanturn,,ランターン,,,랜턴,202,171,177,191,,,148,,Evolve #170 to Level 27
+172,Pichu,,ピチュー,,,피츄,24,172,21,162,103,,35,,"Breed #025, #026"
+173,Cleffa,Mélo,ピィ,,Pii,삐,210,173,40,,99,88,,,"Breed #173, #035, #036"
+174,Igglybuff,Toudoudou,ププリン,,Fluffeluff,푸푸린,134,174,43,142,,281,119,,"Breed #174, #039, #040"
+175,Togepi,,トゲピー,,,토게피,,175,46,,173,,,,"Breed #175, #176, #468"
+176,Togetic,,トゲチック,,,토게틱,,176,47,,174,,,,Evolve #175 with Happiness
+177,Natu,,ネイティ,,,네이티,,177,161,169,,,,,"Breed #177, #178"
+178,Xatu,,ネイティオ,,,네이티오,,178,162,170,,,,,Evolve #177 to Level 25
+179,Mareep,Wattouat,メリープ,,Voltilamm,메리프,,179,53,,,25,127,,"Breed #179, #180, #181"
+180,Flaaffy,Lainergie,モココ,,Waaty,보송송,,180,54,,,26,128,,Evolve #179 to Level 15
+181,Ampharos,Pharamp,デンリュウ,,,전룡,,181,55,,,27,129,,Evolve #180 to Level 30
+182,Bellossom,Joliflor,キレイハナ,,Blubella,아르코,,182,86,94,,,108,,Use Sun Stone on #045
+183,Marill,,マリル,,,마릴,,183,132,56,125,31,42,,Evolve #298 with Happiness
+184,Azumarill,,マリルリ,,,마릴리,,184,133,57,126,32,43,,Evolve #183 to Level 18
+185,Sudowoodo,Simularbre,ウソッキー,,Mogelbaum,꼬지모,31,185,107,,93,,130,,Evolve #438 after Mimic learned
+186,Politoed,Tarpaud,ニョロトノ,,Quaxo,왕구리,152,186,75,,,,36,,Trade #062 holding King's Rock
+187,Hoppip,Granivol,ハネッコ,,Hoppspross,통통코,,187,67,,,,135,,"Breed #187, #188, #189"
+188,Skiploom,Floravol,ポポッコ,,Hubelupf,두코,,188,68,,,,136,,Evolve #187 to Level 18
+189,Jumpluff,Cotovol,ワタッコ,,Papungha,솜솜코,,189,69,,,,137,,Evolve #188 to Level 27
+190,Aipom,Capumain,エイパム,,Griffel,에이팜,,190,123,,63,,,,"Breed #190, #424"
+191,Sunkern,Tournegrin,ヒマナッツ,,Sonnkern,해너츠,,191,103,,,20,,,"Breed #191, #192"
+192,Sunflora,Héliatronc,キマワリ,,Sonnflora,해루미,,192,104,,,21,,,Use Sun Stone on #191
+193,Yanma,,ヤンヤンマ,,,왕자리,,193,101,,183,286,87,,"Breed #193, #469"
+194,Wooper,Axoloto,ウパー,,Felino,우파,,194,56,,117,,17,,"Breed #194, #195"
+195,Quagsire,Maraiste,ヌオー,,Morlord,누오,,195,57,,118,,19,,Evolve #194 to Level 20
+196,Espeon,Mentali,エーフィ,,Psiana,에브이,127,196,188,,167,95,81,,"Evolve #133 with Happiness, at Daytime"
+197,Umbreon,Noctali,ブラッキー,,Nachtara,블래키,128,197,189,,168,96,82,,"Evolve #133 with Happiness, at Nighttime"
+198,Murkrow,Cornèbre,ヤミカラス,,Kramurx,니로우,277,198,213,,74,,51,,"Breed #198, #430"
+199,Slowking,Roigada,ヤドキング,,Laschoking,야도킹,39,199,82,,,,135,,Trade #080 holding King's Rock
+200,Misdreavus,Feuforêve,ムウマ,,Traunfugil,무우마,66,200,219,,72,,,,"Breed #200, #429"
+201,Unown,Zarbi,アンノーン,,Icognito,안농,,201,61,,114,,,A,
+202,Wobbuffet,Qulbutoké,ソーナンス,,Woingenau,마자용,,202,108,168,,,119,,Evolve #360 to Level 15
+203,Girafarig,,キリンリキ,,,키링키,,203,149,171,121,,,,
+204,Pineco,Pomdepik,クヌギダマ,,Tannza,피콘,,204,93,,,,,,"Breed #204, #205"
+205,Forretress,Foretress,フォレトス,,Forstellka,쏘콘,,205,94,,,,,,Evolve #204 to Level 31
+206,Dunsparce,Insolourdo,ノコッチ,,Dummisel,노고치,,206,52,,,35,40,,
+207,Gligar,Scorplane,グライガー,,Skorgla,글라이거,,207,193,,153,221,115,,"Breed #207, #472"
+208,Steelix,,ハガネール,,Stahlos,강철톤,,208,63,,35,72,54,,Trade #095 holding Metal Coat
+209,Snubbull,,ブルー,,,블루,258,209,125,,,,71,,"Breed #209, #210"
+210,Granbull,,グランブル,,,그랑블루,259,210,126,,,,72,,Evolve #209 to Level 23
+211,Qwilfish,,ハリーセン,,Baldorfish,침바루,,211,163,,,,38,,
+212,Scizor,Cizayox,ハッサム,,Scherox,핫삼,276,212,112,,196,,137,,Trade #123 holding Metal Coat
+213,Shuckle,Caratroc,ツボツボ,,Pottrott,단단지,,213,168,,,232,14,,
+214,Heracross,Scarhino,ヘラクロス,,Skaraborn,헤라크로스,,214,114,175,62,145,131,,
+215,Sneasel,Farfuret,ニューラ,,Sniebel,포푸니,249,215,218,,144,252,91,,"Breed #215, #461"
+216,Teddiursa,,ヒメグマ,,,깜지곰,,216,198,,,,132,,"Breed #216, #217"
+217,Ursaring,,リングマ,,,링곰,,217,199,,,,133,,Evolve #216 to Level 30
+218,Slugma,Limagma,マグマッグ,,Schneckmag,마그마그,,218,216,108,,,12,,"Breed #218, #219"
+219,Magcargo,Volcaropod,マグカルゴ,,,마그카르고,,219,217,109,,,13,,Evolve #218 to Level 38
+220,Swinub,Marcacrin,ウリムー,,Quiekel,꾸꾸리,,220,195,,203,258,76,,"Breed #220, #221, #473"
+221,Piloswine,Cochignon,イノムー,,Keifel,메꾸리,,221,196,,204,259,77,,Evolve #220 to Level 33
+222,Corsola,Corayon,サニーゴ,,Corasonn,코산호,112,222,173,189,,237,146,,
+223,Remoraid,Rémoraid,テッポウオ,,,총어,,223,174,,132,235,144,,"Breed #223, #224"
+224,Octillery,,オクタン,,,대포무노,,224,175,,133,236,145,,Evolve #223 to Level 25
+225,Delibird,Cadoizo,デリバード,,Botogel,딜리버드,81,225,194,,,254,90,,
+226,Mantine,Démanta,マンタイン,,Mantax,만타인,,226,202,,141,234,140,,Evolve #458 with #223 in party
+227,Skarmory,Airmure,エアームド,,Panzaeron,무장조,208,227,203,120,,203,112,,
+228,Houndour,Malosse,デルビル,,Hunduster,델빌,,228,214,,176,,75,,"Breed #228, #229"
+229,Houndoom,Démolosse,ヘルガー,,Hundemon,헬가,,229,215,,177,,76,,Evolve #228 to Level 24
+230,Kingdra,Hyporoi,キングドラ,,Seedraking,킹드라,,230,192,195,,,41,,Trade #117 holding Dragon Scale
+231,Phanpy,,ゴマゾウ,,,코코리,,231,200,172,,,,,"Breed #231, #232"
+232,Donphan,,ドンファン,,,코리갑,,232,201,173,,,,,Evolve #231 to Level 25
+233,Porygon2,,ポリゴン２,,,폴리곤2,218,233,221,,193,,,,Trade #137 holding Up-Grade
+234,Stantler,Cerfrousse,オドシシ,,Damhirplex,노라키,,234,131,,,,,,
+235,Smeargle,Queulorior,ドーブル,,Farbeagle,루브도,58,235,159,,,,124,,
+236,Tyrogue,Debugant,バルキー,,Rabauz,배루키,,236,145,,,,,,"Breed #236, #106, #107, #237"
+237,Hitmontop,Kapoera,カポエラー,,Kapoera,카포에라,,237,148,,,,,,"Evolve #107 to Level 20, Attack = Defense"
+238,Smoochum,Lippouti,ムチュール,,Kussilla,뽀뽀라,,238,154,,,,83,,"Breed #238, #124"
+239,Elekid,Élekid,エレキッド,,,<span,226,239,156,,197,56,,,"Breed #239, #125, #466"
+240,Magby,,ブビィ,,,마그비,166,240,152,,200,53,,,"Breed #240, #126, #467"
+241,Miltank,Écrémeuh,ミルタンク,,,밀탱크,138,241,151,,,,126,,
+242,Blissey,Leuphorie,ハピナス,,Heiteira,해피너스,34,242,223,,98,,,,Evolve #113 with Happiness
+243,Raikou,Raikou,ライコウ,Raikou,Raikou,라이코,,243,243,,,,,,
+244,Entei,Entei,エンテイ,Entei,Entei,앤테이,,244,244,,,,,,
+245,Suicune,Suicune,スイクン,Suicune,Suicune,스이쿤,,245,245,,,,,,
+246,Larvitar,Embrylex,ヨーギラス,,,애버라스,,246,249,,,292,102,,"Breed #246, #247, #248"
+247,Pupitar,Ymphect,サナギラス,,,데기라스,,247,250,,,293,103,,Evolve #246 to Level 30
+248,Tyranitar,Tyranocif,バンギラス,,Despotar,마기라스,,248,251,,,294,104,,Evolve #247 to Level 55
+249,Lugia,,ルギア,,,루기아,,249,252,,,,,,
+250,Ho-Oh,,ホウオウ,,,칠색조,,250,253,,,,,,
+251,Celebi,,セレビィ,,,세레비,,251,256,,,,,,
+252,Treecko,Arcko,キモリ,,Geckarbor,나무지기,,252,,1,,,,,"Breed #252, #253, #254"
+253,Grovyle,Massko,ジュプトル,,Reptain,나무돌이,,253,,2,,,,,Evolve #252 to Level 16
+254,Sceptile,Jungko,ジュカイン,,Gewaldro,나무킹,,254,,3,,,,,Evolve #253 to Level 36
+255,Torchic,Poussifeu,アチャモ,,Flemmli,아차모,,255,,4,,,,,"Breed #255, #256, #257"
+256,Combusken,Galifeu,ワカシャモ,,Jungglut,영치코,,256,,5,,,,,Evolve #255 to Level 16
+257,Blaziken,Braségali,バシャーモ,,Lohgock,번치코,,257,,6,,,,,Evolve #256 to Level 36
+258,Mudkip,Gobou,ミズゴロウ,,Hydropi,물짱이,,258,,7,,,,,"Breed #258, #259, #260"
+259,Marshtomp,Flobio,ヌマクロー,,Moorabbel,늪짱이,,259,,8,,,,,Evolve #258 to Level 16
+260,Swampert,Laggron,ラグラージ,,Sumpex,대짱이,,260,,9,,,,,Evolve #259 to Level 36
+261,Poochyena,Medhyèna,ポチエナ,,Fiffyen,포챠나,,261,,10,,,44,,"Breed #261, #262"
+262,Mightyena,Grahyèna,グラエナ,,Magnayen,그라에나,,262,,11,,,45,,Evolve #261 to Level 18
+263,Zigzagoon,Zigzaton,ジグザグマ,,Zigzachs,지그제구리,,263,,12,,,12,,"Breed #263, #264"
+264,Linoone,Linéon,マッスグマ,,Geradaks,직구리,,264,,13,,,13,,Evolve #263 to Level 20
+265,Wurmple,Chenipotte,ケムッソ,,Waumpel,개무소,,265,,14,48,,,,"Breed #265, #266, #267, #268, #269"
+266,Silcoon,Armulys,カラサリス,,Schaloko,실쿤,,266,,15,49,,,,"Evolve #265 to Level 7, random based on personality"
+267,Beautifly,Charmillon,アゲハント,,Papinella,뷰티플라이,,267,,16,50,,,,Evolve #266 to Level 10
+268,Cascoon,Blindalys,マユルド,,Panekon,카스쿤,,268,,17,51,,,,"Evolve #267 to Level 7, random based on personality"
+269,Dustox,Papinox,ドクケイル,,Pudox,독케일,,269,,18,52,,,,Evolve #268 to Level 10
+270,Lotad,Nénupiot,ハスボー,,Loturzel,연꽃몬,,270,,19,,,55,,"Breed #270, #271, #272"
+271,Lombre,,ハスブレロ,,Lombrero,로토스,,271,,20,,,56,,Evolve #270 to Level 14
+272,Ludicolo,,ルンパッパ,,Kappalores,로파파,,272,,21,,,57,,Use Water Stone on #271
+273,Seedot,Grainipiot,タネボー,,Samurzel,도토링,,273,,22,,,,,"Breed #273, #274, #275"
+274,Nuzleaf,Pifeuil,コノハナ,,Blanas,잎새코,,274,,23,,,,,Evolve #273 to Level 14
+275,Shiftry,Tengalice,ダーテング,,Tengulist,다탱구,,275,,24,,,,,Use Leaf Stone on #274
+276,Taillow,Nirondelle,スバメ,,Schwalbini,테일로,,276,,25,,,19,,"Breed #276, #277"
+277,Swellow,Hélédelle,オオスバメ,,Schwalboss,스왈로,,277,,26,,,20,,Evolve #276 to Level 22
+278,Wingull,Goélise,キャモメ,,,갈모매,40,278,,27,119,212,17,,"Breed #278, #279"
+279,Pelipper,Bekipan,ペリッパー,,,패리퍼,41,279,,28,120,213,18,,Evolve #278 to Level 25
+280,Ralts,Tarsal,ラルトス,,Trasla,랄토스,,280,,29,157,,64,,"Breed #280, #281, #282, #475"
+281,Kirlia,,キルリア,,,킬리아,,281,,30,158,,65,,Evolve #280 to Level 20
+282,Gardevoir,,サーナイト,,Guardevoir,가디안,,282,,31,159,,66,,Evolve #281 to Level 30
+283,Surskit,Arakdo,アメタマ,,Gehweiher,비구술,139,283,,33,,,47,,"Breed #283, #284"
+284,Masquerain,Maskadra,アメモース,,Maskeregen,비나방,140,284,,34,,,48,,Evolve #283 to Level 22
+285,Shroomish,Balignon,キノココ,,Knilz,버섯꼬,,285,,35,,,,,"Breed #285, #286"
+286,Breloom,Chapignon,キノガッサ,,Kapilz,버섯모,,286,,36,,,,,Evolve #285 to Level 23
+287,Slakoth,Parecool,ナマケロ,,Bummelz,게을로,,287,,37,,276,,,"Breed #287, #288, #289"
+288,Vigoroth,,ヤルキモノ,,Muntier,발바로,,288,,38,,277,,,Evolve #287 to Level 18
+289,Slaking,Monaflèmit,ケッキング,,Letarking,게을킹,,289,,39,,278,,,Evolve #288 to Level 36
+290,Nincada,Ningale,ツチニン,,,토중몬,,290,,43,,,111,,"Breed #290, #291, #292"
+291,Ninjask,,テッカニン,,,아이스크,,291,,44,,,112,,Evolve #290 to Level 20
+292,Shedinja,Munja,ヌケニン,,Ninjatom,껍질몬,,292,,45,,,113,,"Evolve #290 to Level 20, with an empty slot in your party and a Pokéball in bag"
+293,Whismur,Chuchmur,ゴニョニョ,,Flurmel,소곤룡,,293,,46,,,140,,"Breed #293, #294, #295"
+294,Loudred,Ramboum,ドゴーム,,Krakeelo,노공룡,,294,,47,,,141,,Evolve #293 to Level 20
+295,Exploud,Brouhabam,バクオング,,Krawumms,폭음룡,,295,,48,,,142,,Evolve #294 to Level 40
+296,Makuhita,,マクノシタ,,,마크탕,56,296,,49,,,95,,"Breed #296, #297"
+297,Hariyama,,ハリテヤマ,,,하리뭉,57,297,,50,,,96,,Evolve #296 to Level 24
+298,Azurill,,ルリリ,,,루리리,,298,,55,124,30,41,,"Breed #298, #183, #184"
+299,Nosepass,Tarinor,ノズパス,,Nasgnet,코코파스,198,299,,61,155,164,93,,"Breed #299, #476"
+300,Skitty,,エネコ,,Eneco,에나비,,300,,63,,78,78,,"Breed #300, #301"
+301,Delcatty,,エネコロロ,,Enekoro,델케티,,301,,64,,79,79,,Use Moon Stone on #300
+302,Sableye,Ténéfix,ヤミラミ,,Zobiris,깜까미,102,302,,70,,,123,,
+303,Mawile,Mysdibule,クチート,,Flunkifer,입치트,,303,,71,,,63,,
+304,Aron,Galekid,ココドラ,,Stollunior,가보리,,304,,72,,166,99,,"Breed #304, #305, #306"
+305,Lairon,Galegon,コドラ,,Stollrak,갱도라,,305,,73,,167,100,,Evolve #304 to Level 32
+306,Aggron,Galeking,ボスゴドラ,,Stolloss,보스로라,,306,,74,,168,101,,Evolve #305 to Level 42
+307,Meditite,Méditikka,アサナン,,Meditie,요가랑,,307,,78,86,,143,,"Breed #307, #308"
+308,Medicham,Charmina,チャーレム,,Meditalis,요가램,,308,,79,87,,144,,Evolve #307 to Level 37
+309,Electrike,Dynavolt,ラクライ,,Frizelbliz,썬더라이,,309,,80,,,73,,"Breed #309, #310"
+310,Manectric,Élecsprint,ライボルト,,Voltenso,썬더볼트,,310,,81,,,74,,Evolve #309 to Level 26
+311,Plusle,Posipi,プラスル,,,플러시,,311,,82,,,96,,
+312,Minun,Négapi,マイナン,,,마이농,,312,,83,,,97,,
+313,Volbeat,Muciole,バルビート,,,볼비트,,313,,89,,,133,,
+314,Illumise,Lumivole,イルミーゼ,,,네오비트,,314,,90,,,134,,
+315,Roselia,Rosélia,ロゼリア,,,로젤리아,,315,,98,26,134,72,,"Evolve #406 with Happiness, at Daytime"
+316,Gulpin,Gloupti,ゴクリン,,Schluppuck,꼴깍몬,,316,,100,,,98,,"Breed #316, #317"
+317,Swalot,Avaltout,マルノーム,,Schlukwech,꿀꺽몬,,317,,101,,,99,,Evolve #316 to Level 26
+318,Carvanha,,キバニア,,Kanivanha,샤프니아,264,318,,102,,,55,,"Breed #318, #319"
+319,Sharpedo,,サメハダー,,Tohaido,샤크니아,265,319,,103,,,56,,Evolve #318 to Level 30
+320,Wailmer,,ホエルコ,,,고래왕자,266,320,,104,,240,27,,"Breed #320, #321"
+321,Wailord,,ホエルオー,,,고래왕,267,321,,105,,241,28,,Evolve #320 to Level 40
+322,Numel,Chamallot,ドンメル,,Camaub,둔타,,322,,106,,204,,,"Breed #322, #323"
+323,Camerupt,Camérupt,バクーダ,,,폭타,,323,,107,,205,,,Evolve #322 to Level 33
+324,Torkoal,Chartor,コータス,,Qurtel,코터스,223,324,,110,,,96,,
+325,Spoink,,バネブー,,,피그점프,,325,,115,,206,7,,"Breed #325, #326"
+326,Grumpig,Groret,ブーピッグ,,Groink,피그킹,,326,,116,,207,8,,Evolve #325 to Level 32
+327,Spinda,,パッチール,,Pandir,얼루기,105,327,,119,,,131,,
+328,Trapinch,Kraknoix,ナックラー,,Knacklion,톱치,235,328,,121,,121,3,,"Breed #328, #329, #330"
+329,Vibrava,Vibraninf,ビブラーバ,,,비브라바,236,329,,122,,122,4,,Evolve #328 to Level 35
+330,Flygon,Libégon,フライゴン,,Libelldra,플라이곤,237,330,,123,,123,5,,Evolve #329 to Level 45
+331,Cacnea,,サボネア,,Tuska,선인왕,,331,,124,,,,,"Breed #331, #332"
+332,Cacturne,,ノクタス,,Noktuska,밤선인,,332,,125,,,,,Evolve #331 to Level 32
+333,Swablu,Tylton,チルット,,Wablu,파비코,,333,,126,171,246,139,,"Breed #333, #334"
+334,Altaria,,チルタリス,,,파비코리,,334,,127,172,247,140,,Evolve #333 to Level 35
+335,Zangoose,Mangriff,ザングース,,Sengo,쟝고,,335,,128,,186,5,,
+336,Seviper,Séviper,ハブネーク,,Vipitis,세비퍼,,336,,129,,187,6,,
+337,Lunatone,Séléroc,ルナトーン,,Lunastein,루나톤,,337,,130,,214,12,,
+338,Solrock,Solaroc,ソルロック,,Sonnfel,솔록,,338,,131,,215,13,,
+339,Barboach,Barloche,ドジョッチ,,Schmerbe,미꾸리,93,339,,132,80,,40,,"Breed #339, #340"
+340,Whiscash,Barbicha,ナマズン,,Welsar,메깅,94,340,,133,81,,41,,Evolve #339 to Level 30
+341,Corphish,Écrapince,ヘイガニ,,Krebscorps,가재군,,341,,134,,279,51,,"Breed #341, #342"
+342,Crawdaunt,Colhomard,シザリガー,,Krebutack,가재장군,,342,,135,,280,52,,Evolve #341 to Level 30
+343,Baltoy,Balbuto,ヤジロン,,Puppance,오뚝군,,343,,136,,169,,,"Breed #343, #344"
+344,Claydol,Kaorine,ネンドール,,Lepumentas,점토도리,,344,,137,,170,,,Evolve #343 to Level 36
+345,Lileep,Lilia,リリーラ,,Liliep,릴링,,345,,138,,,,,"Breed #345, #346"
+346,Cradily,Vacilys,ユレイドル,,Wielie,릴리요,,346,,139,,,,,Evolve #345 to Level 40
+347,Anorith,,アノプス,,,아노딥스,,347,,140,,,,,"Breed #347, #348"
+348,Armaldo,,アーマルド,,,아말도,,348,,141,,,,,Evolve #347 to Level 40
+349,Feebas,Barpau,ヒンバス,,Barschwa,빈티나,155,349,,145,138,,,,"Breed #349, #350"
+350,Milotic,Milobellus,ミロカロス,,,밀로틱,156,350,,146,139,,,,Trade #349 holding Prism Scale
+351,Castform,Morphéo,ポワルン,,Formeo,캐스퐁,181,351,,147,,163,,,
+352,Kecleon,,カクレオン,,,켈리몬,,352,,150,,,116,,
+353,Shuppet,Polichombr,カゲボウズ,,,어둠대신,,353,,151,,210,122,,"Breed #353, #354"
+354,Banette,Branette,ジュペッタ,,,다크펫,,354,,152,,211,123,,Evolve #353 to Level 37
+355,Duskull,Skelénox,ヨマワル,,Zwirrlicht,해골몽,,355,,153,189,,,,"Breed #355, #356, #477"
+356,Dusclops,Téraclope,サマヨール,,Zwirrklop,미라몽,,356,,154,190,,,,Evolve #355 to Level 37
+357,Tropius,,トロピウス,,,트로피우스,,357,,156,185,288,,,
+358,Chimecho,Éoko,チリーン,,Palimpalim,치렁,,358,,158,83,,112,,"Evolve #433 with Happiness, at Nighttime"
+359,Absol,,アブソル,,,앱솔,245,359,,159,209,216,9,,
+360,Wynaut,Okéoké,ソーナノ,,Isso,마자,,360,,167,,,118,,"Breed #360, #202"
+361,Snorunt,Stalgamin,ユキワラシ,,Schneppke,눈꼬마,246,361,,179,206,,,,"Breed #361, #362, #478"
+362,Glalie,Oniglali,オニゴーリ,,Firnontor,얼음귀신,247,362,,180,207,,,,Evolve #361 to Level 42
+363,Spheal,Obalie,タマザラシ,,Seemops,대굴레오,,363,,182,,243,,,"Breed #363, #364, #365"
+364,Sealeo,Phogleur,トドグラー,,Seejong,씨레오,,364,,183,,244,,,Evolve #363 to Level 32
+365,Walrein,Kaimorse,トドゼルガ,,Walraisa,씨카이저,,365,,184,,245,,,Evolve #364 to Level 44
+366,Clamperl,Coquiperl,パールル,,Perlu,진주몽,,366,,185,,,141,,"Breed #366, #367, #368"
+367,Huntail,Serpang,ハンテール,,Aalabyss,헌테일,,367,,186,,,142,,Trade #366 holding Deepseatooth
+368,Gorebyss,Rosabyss,サクラビス,,Saganabyss,분홍장이,,368,,187,,,143,,Trade #367 holding Deepseascale
+369,Relicanth,,ジーランス,,,시라칸,262,369,,188,,,42,,
+370,Luvdisc,Lovdisc,ラブカス,,Liebiskus,사랑동이,111,370,,192,,,29,,
+371,Bagon,Draby,タツベイ,,Kindwurm,아공이,117,371,,196,,,14,,"Breed #371, #372, #373"
+372,Shelgon,Drackhaus,コモルー,,Draschel,쉘곤,118,372,,197,,,15,,Evolve #371 to Level 30
+373,Salamence,Drattak,ボーマンダ,,Brutalanda,보만다,119,373,,198,,,16,,Evolve #372 to Level 50
+374,Beldum,Terhal,ダンバル,,Tanhel,메탕,214,374,,199,,262,,,"Breed #374, #375, #376"
+375,Metang,Métang,メタング,,,메탕구,215,375,,200,,263,,,Evolve #374 to Level 20
+376,Metagross,Métalosse,メタグロス,,,메타그로스,216,376,,201,,264,,,Evolve #375 to Level 45
+377,Regirock,,レジロック,,,레지락,,377,,202,,,,,
+378,Regice,,レジアイス,,,레지아이스,,378,,203,,,,,
+379,Registeel,,レジスチル,,,레지스틸,,379,,204,,,,,
+380,Latias,,ラティアス,,,라티아스,,380,,205,,,,,
+381,Latios,,ラティオス,,,라티오스,,381,,206,,,,,
+382,Kyogre,,カイオーガ,,,가이오가,,382,,207,,,,,
+383,Groudon,,グラードン,,,그란돈,,383,,208,,,,,
+384,Rayquaza,,レックウザ,,,레쿠쟈,,384,,209,,,,,
+385,Jirachi,,ジラーチ,,,지라치,,385,,210,,,,,
+386,Deoxys,,デオキシス,,,테오키스,,386,,211,,,,,
+387,Turtwig,Tortipouss,ナエトル,,Chelast,모부기,,387,,,1,,,,"Breed #387, #388, #389"
+388,Grotle,Boskara,ハヤシガメ,,Chelcarain,수풀부기,,388,,,2,,,,Evolve #387 to Level 18
+389,Torterra,,ドダイトス,,Chelterrar,토대부기,,389,,,3,,,,Evolve #388 to Level 32
+390,Chimchar,Ouisticram,ヒコザル,,Panflam,불꽃숭이,,390,,,4,,,,"Breed #390, #391, #392"
+391,Monferno,Chimpenfeu,モウカザル,,Panpyro,파이숭이,,391,,,5,,,,Evolve #390 to Level 14
+392,Infernape,Simiabraz,ゴウカザル,,Panferno,초염몽,,392,,,6,,,,Evolve #391 to Level 36
+393,Piplup,Tiplouf,ポッチャマ,,Plinfa,팽도리,,393,,,7,,,,"Breed #393, #394, #395"
+394,Prinplup,Prinplouf,ポッタイシ,,Pliprin,팽태자,,394,,,8,,,,Evolve #393 to Level 16
+395,Empoleon,Pingoléon,エンペルト,,Impoleon,엠페르트,,395,,,9,,,,Evolve #394 to Level 36
+396,Starly,Étourmi,ムックル,,Staralili,찌르꼬,,396,,,10,,99,,"Breed #396, #397, #398"
+397,Staravia,Étourvol,ムクバード,,,찌르버드,,397,,,11,,100,,Evolve #396 to Level 14
+398,Staraptor,Étouraptor,ムクホーク,,,찌르호크,,398,,,12,,101,,Evolve #397 to Level 34
+399,Bidoof,Keunottor,ビッパ,,Bidiza,비버니,,399,,,13,,38,,"Breed #399, #400"
+400,Bibarel,Castorno,ビーダル,,Bidifas,비버통,,400,,,14,,39,,Evolve #399 to Level 15
+401,Kricketot,Crikzik,コロボーシ,Kricketot,Zirpurze,귀뚤뚜기,,401,,,15,,,,"Breed #401, #402"
+402,Kricketune,Mélokrik,コロトック,,Zirpeise,귀뚤톡크,,402,,,16,,,,Evolve #401 to Level 10
+403,Shinx,Lixy,コリンク,,Sheinux,꼬링크,,403,,,17,,,,"Breed #403, #404, #405"
+404,Luxio,,ルクシオ,,,럭시오,,404,,,18,,,,Evolve #403 to Level 15
+405,Luxray,,レントラー,,Luxtra,렌트라,,405,,,19,,,,Evolve #404 to Level 30
+406,Budew,Rozbouton,スボミー,,Knospi,꼬몽울,,406,,97,25,133,71,,"Breed #406, #315, #407"
+407,Roserade,,ロズレイド,,,로즈레이드,,407,,99,27,135,73,,Use Shiny Stone on #315
+408,Cranidos,Kranidos,ズガイドス,,Koknodon,두개도스,188,408,,,36,,,,"Breed #408, #409"
+409,Rampardos,Charkos,ラムパルド,,Rameidon,램펄드,189,409,,,37,,,,Evolve #408 to Level 30
+410,Shieldon,Dinoclier,タテトプス,,Schilterus,방패톱스,190,410,,,38,,,,"Breed #410, #411"
+411,Bastiodon,,トリデプス,,Bollterus,바리톱스,191,411,,,39,,,,Evolve #410 to Level 30
+412,Burmy,Cheniti,ミノムッチ,,,도롱충이,,412,,,45,,44,,"Breed #412, #414, #412, #413, #412, #413, #412, #413"
+413,Wormadam,Cheniselle,ミノマダム,,Burmadame,도롱마담,,413,,,46,,45,,"Evolve #412 to Level 20, Female, in buildings"
+414,Mothim,Papilord,ガーメイル,,Moterpel,나메일,,414,,,47,,46,,"Evolve #412 to Level 20, Male"
+415,Combee,Apitrini,ミツハニー,,Wadribie,세꿀버리,,415,,,53,142,76,,"Breed #415, #416"
+416,Vespiquen,Apireine,ビークイン,,Honweisel,비퀸,,416,,,54,143,77,,"Evolve #415 to Level 21, Female"
+417,Pachirisu,,パチリス,,,파치리스,,417,,,55,,132,,
+418,Buizel,Mustébouée,ブイゼル,,Bamelin,브이젤,,418,,,56,149,58,,"Breed #418, #419"
+419,Floatzel,Mustéflott,フローゼル,,Bojelin,플로젤,,419,,,57,150,59,,Evolve #418 to Level 26
+420,Cherubi,Ceribou,チェリンボ,,Kikugi,체리버,,420,,,58,,,,"Breed #420, #421"
+421,Cherrim,Ceriflor,チェリム,,Kinoso,체리꼬,,421,,,59,,,,Evolve #420 to Level 25
+422,Shellos,Sancoki,カラナクシ,,Schalellos,깝질무,260,422,,,60,,,,"Breed #422, #423"
+423,Gastrodon,Tritosor,トリトドン,,,트리토돈,261,423,,,61,,,,Evolve #422 to Level 30
+424,Ambipom,Capidextre,エテボース,,Ambidiffel,겟핸보숭,,424,124,,64,,,,Evolve #190 after Double Hit learned
+425,Drifloon,Baudrive,フワンテ,,Driftlon,흔들풍손,64,425,,,65,208,1,,"Breed #425, #426"
+426,Drifblim,Grodrive,フワライド,,Drifzepeli,둥실라이드,65,426,,,66,209,2,,Evolve #425 to Level 28
+427,Buneary,Laporeille,ミミロル,,Haspiror,이어롤,,427,,,67,80,,,"Breed #427, #428"
+428,Lopunny,Lockpin,ミミロップ,,Schlapor,이어롭,,428,,,68,81,,,Evolve #427 with Happiness
+429,Mismagius,Magirêve,ムウマージ,,Traunmagil,무우마직,67,429,,,73,,,,Use Dusk Stone on #200
+430,Honchkrow,Corboss,ドンカラス,,Kramshef,돈크로우,278,430,,,75,,52,,Use Dusk Stone on #198
+431,Glameow,Chaglam,ニャルマー,,Charmian,나옹마,,431,,,76,,,,"Breed #431, #432"
+432,Purugly,Chaffreux,ブニャット,,Shnurgarst,몬냥이,,432,,,77,,,,Evolve #431 to Level 38
+433,Chingling,Korillon,リーシャン,Chingling,Klingplim,랑딸랑,,433,,157,82,,111,,"Breed #433, #358"
+434,Stunky,Moufouette,スカンプー,,Skunkapuh,스컹뿡,,434,,,84,,102,,"Breed #434, #435"
+435,Skuntank,Moufflair,スカタンク,,,스컹탱크,,435,,,85,,103,,Evolve #434 to Level 34
+436,Bronzor,Archéomire,ドーミラー,Bronzor,Bronzel,동미러,,436,,,88,250,,,"Breed #436, #437"
+437,Bronzong,Archéodong,ドータクン,Bronzong,Bronzong,동탁군,,437,,,89,251,,,Evolve #436 to Level 33
+438,Bonsly,Manzaï,ウソハチ,,Mobai,꼬지지,30,438,,,92,,129,,Breed #185
+439,Mime Jr.,Mime,マネネ,Mime,Pantimimi,흉내내,,439,,,94,,113,,"Breed #439, #122"
+440,Happiny,Ptiravi,ピンプク,,Wonneira,핑복,32,440,,,96,,,,"Breed #440, #113, #242"
+441,Chatot,Pijako,ペラップ,,Plaudagei,페라페,,441,,,102,,138,,
+442,Spiritomb,Spiritomb,ミカルゲ,Spiritomb,Kryppuk,화강돌,,442,,,108,,,,
+443,Gible,Griknot,フカマル,Gible,Kaumalat,딥상어동,238,443,,,109,,6,,"Breed #443, #444, #445"
+444,Gabite,Carmache,ガバイト,Gabite,Knarksel,한바이트,239,444,,,110,,7,,Evolve #443 to Level 24
+445,Garchomp,Carchacrok,ガブリアス,Garchomp,Knakrack,한카리아스,240,445,,,111,,8,,Evolve #444 to Level 48
+446,Munchlax,Goinfrex,ゴンベ,,Mampfaxo,먹고자,35,446,,,112,,138,,"Breed #446, #143"
+447,Riolu,,リオル,,,리오르,279,447,,,115,33,62,,"Breed #447, #448"
+448,Lucario,,ルカリオ,,,루카리오,280,448,,,116,34,63,,"Evolve #447 with Happiness, at Daytime"
+449,Hippopotas,Hippopotas,ヒポポタス,Hippopotas,Hippopotas,히포포타스,,449,,,122,,48,,"Breed #449, #450"
+450,Hippowdon,Hippodocus,カバルドン,Hippowdon,Hippoterus,하마돈,,450,,,123,,49,,Evolve #449 to Level 34
+451,Skorupi,Rapion,スコルピ,,Pionskora,스콜피,,451,,,127,201,15,,"Breed #451, #452"
+452,Drapion,Drascore,ドラピオン,,Piondragi,드래피온,,452,,,128,202,16,,Evolve #451 to Level 40
+453,Croagunk,Cradopaud,グレッグル,Croagunk,Glibunkel,삐딱구리,,453,,,129,290,125,,"Breed #453, #454"
+454,Toxicroak,Coatox,ドクロッグ,Toxicroak,Toxiquak,독개굴,,454,,,130,291,126,,Evolve #453 to Level 37
+455,Carnivine,Vortente,マスキッパ,,Venuflibis,무스틈니,,455,,,131,289,29,,
+456,Finneon,Écayon,ケイコウオ,Finneon,Finneon,형광어,108,456,,,134,,,,"Breed #456, #457"
+457,Lumineon,Luminéon,ネオラント,Lumineon,Lumineon,네오라이트,109,457,,,135,,,,Evolve #456 to Level 31
+458,Mantyke,Babimanta,タマンタ,,Mantirps,타만타,,458,,,140,233,139,,"Breed #458, #226"
+459,Snover,Blizzi,ユキカブリ,Snover,Shnebedeck,눈쓰개,,459,,,142,,88,,"Breed #459, #460"
+460,Abomasnow,Blizzaroi,ユキノオー,Abomasnow,Rexblisar,눈설왕,,460,,,143,,89,,Evolve #459 to Level 40
+461,Weavile,Dimoret,マニューラ,,Snibunna,포푸니라,250,461,,,145,253,92,,"Evolve #215 hold Razor Claw, at Nighttime"
+462,Magnezone,Magnézone,ジバコイル,,,자포코일,49,462,,86,180,50,71,,Evolve #082 in a Magnetic Field area
+463,Lickilicky,Coudlangue,ベロベルト,,Schlurplek,내룸벨트,,463,181,,162,285,135,,Evolve #108 after Rollout learned
+464,Rhyperior,Rhinastoc,ドサイドン,,Rihornior,거대코뿌리,,464,,178,188,,52,,Trade #112 holding Protector
+465,Tangrowth,Bouldeneu,モジャンボ,,Tangoloss,덩쿠림보,,465,183,,182,218,,,Evolve #114 after Ancient Power learned
+466,Electivire,Élekable,エレキブル,,Elevoltek,에레키블,228,466,,,199,58,,,Trade #125 holding Electrizer
+467,Magmortar,Maganon,ブーバーン,,Magbrant,마그마번,168,467,,,202,55,,,Trade #126 holding Magmarizer
+468,Togekiss,,トゲキッス,,,토게키스,,468,,,175,,,,Use Shiny Stone on #176
+469,Yanmega,Yanméga,メガヤンマ,,,메가자리,,469,102,,184,287,88,,Evolve #193 after Ancient Power learned
+470,Leafeon,Phyllali,リーフィア,,Folipurba,리피아,129,470,,,169,97,83,,Evolve #133 near a Mossy Rock
+471,Glaceon,Givrali,グレイシア,,Glaziola,글레이시아,130,471,,,170,98,84,,Evolve #133 near an Icy Rock
+472,Gliscor,Scorvol,グライオン,,Skorgro,글라이온,,472,,,154,222,116,,"Evolve #207 hold Razor Fang, at Nighttime"
+473,Mamoswine,Mammochon,マンムー,,Mamutel,맘모꾸리,,473,197,,205,260,78,,Evolve #221 after Ancient Power learned
+474,Porygon-Z,,ポリゴンZ,,,폴리곤Ｚ,219,474,,,194,,,,Trade #233 holding Dubious Disc
+475,Gallade,Gallame,エルレイド,,Galagladi,엘레이드,,475,,32,160,,67,,Use Dawn Stone on Male #282
+476,Probopass,Tarinorme,ダイノーズ,,Voluminas,대코파스,199,476,,62,156,165,94,,Evolve #299 in a Magnetic Field area
+477,Dusknoir,Noctunoir,ヨノワール,,Zwirrfinst,야느와르몽,,477,,155,191,,,,Trade #356 holding Reaper Cloth
+478,Froslass,Momartik,ユキメノコ,,Frosdedje,눈여아,248,478,,181,208,,,,Use Dawn Stone on Female #362
+479,Rotom,Motisma,ロトム,,,로토무,,479,,,152,,68,,
+480,Uxie,Créhelf,ユクシー,,Selfe,유크시,,480,,,146,,,,
+481,Mesprit,Créfollet,エムリット,,Vesprit,엠라이트,,481,,,147,,,,
+482,Azelf,Créfadet,アグノム,,Tobutz,아그놈,,482,,,148,,,,
+483,Dialga,,ディアルガ,,,디아루가,,483,,,149,,,,
+484,Palkia,,パルキア,,,펄기아,,484,,,150,,,,
+485,Heatran,,ヒードラン,,,히드런,,485,,,,,,,
+486,Regigigas,,レジギガス,,,레지기가스,,486,,,,,,,
+487,Giratina,,ギラティナ,,,기라티나,,487,,,210,,,,
+488,Cresselia,,クレセリア,,,크레세리아,,488,,,,,,,
+489,Phione,Phione,フィオネ,Phione,Phione,피오네,,489,,,,,,,
+490,Manaphy,,マナフィ,,,마나피,,490,,,151,,,,
+491,Darkrai,,ダークライ,,,다크라이,,491,,,,,,,
+492,Shaymin,,シェイミ,,,쉐이미,,492,,,,,,,
+493,Arceus,,アルセウス,,,아르세우스,,493,,,,,,,
+494,Victini,,ビクティニ,,,비크티니,,494,,,,,,,
+495,Snivy,Vipélierre,ツタージャ,,Serpifeu,주리비얀,,495,,,,1,,,"Breed #495, #496, #497"
+496,Servine,Lianaja,ジャノビー,,Efoserp,샤비,,496,,,,2,,,Evolve #495 to Level 17
+497,Serperior,Majaspic,ジャローダ,,Serpiroyal,샤로다,,497,,,,3,,,Evolve #496 to Level 36
+498,Tepig,Gruikui,ポカブ,,Floink,뚜꾸리,,498,,,,4,,,"Breed #498, #499, #500"
+499,Pignite,Grotichon,チャオブー,,Ferkokel,차오꿀,,499,,,,5,,,Evolve #498 to Level 17
+500,Emboar,Roitiflam,エンブオー,,Flambirex,염무왕,,500,,,,6,,,Evolve #499 to Level 36
+501,Oshawott,Moustillon,ミジュマル,,Ottaro,수댕이,,501,,,,7,,,"Breed #501, #502, #503"
+502,Dewott,Mateloutre,フタチマル,,Zwottronin,쌍검자비,,502,,,,8,,,Evolve #501 to Level 17
+503,Samurott,Clamiral,ダイケンキ,,Admurai,대검귀,,503,,,,9,,,Evolve #502 to Level 36
+504,Patrat,Ratentif,ミネズミ,,Nagelotz,보르쥐,,504,,,,10,46,,"Breed #504, #505"
+505,Watchog,Miradar,ミルホッグ,,Kukmarda,보르그,,505,,,,11,47,,Evolve #504 to Level 20
+506,Lillipup,Ponchiot,ヨーテリー,,Yorkleff,요테리,120,506,,,,12,,,"Breed #506, #507, #508"
+507,Herdier,Ponchien,ハーデリア,,Terribark,하데리어,121,507,,,,13,,,Evolve #506 to Level 16
+508,Stoutland,Mastouffe,ムーランド,,Bissbark,바랜드,122,508,,,,14,,,Evolve #507 to Level 32
+509,Purrloin,Chacripan,チョロネコ,,Felilou,쌔비냥,,509,,,,15,42,,"Breed #509, #510"
+510,Liepard,Léopardus,レパルダス,,Kleoparda,레파르다스,,510,,,,16,43,,Evolve #509 to Level 20
+511,Pansage,Feuillajou,ヤナップ,,Vegimak,야나프,,511,,,,17,29,,"Breed #511, #512"
+512,Simisage,Feuilloutan,ヤナッキー,,Vegichita,야나키,,512,,,,18,30,,Use Leaf Stone on #511
+513,Pansear,Flamajou,バオップ,,Grillmak,바오프,,513,,,,19,31,,"Breed #513, #514"
+514,Simisear,Flamoutan,バオッキー,,Grillchita,바오키,,514,,,,20,32,,Use Fire Stone on #513
+515,Panpour,Flotajou,ヒヤップ,,Sodamak,앗차프,,515,,,,21,33,,"Breed #515, #516"
+516,Simipour,Flotoutan,ヒヤッキー,,Sodachita,앗차키,,516,,,,22,34,,Use Water Stone on #515
+517,Munna,,ムンナ,,Somniam,몽나,,517,,,,23,,,"Breed #517, #518"
+518,Musharna,Mushana,ムシャーナ,,Somnivora,몽얌나,,518,,,,24,,,Use Moon Stone on #517
+519,Pidove,Poichigeon,マメパト,,Dusselgurr,콩둘기,,519,,,,25,,,"Breed #519, #520, #521"
+520,Tranquill,Colombeau,ハトーボー,,Navitaub,유토브,,520,,,,26,,,Evolve #519 to Level 21
+521,Unfezant,Déflaisan,ケンホロウ,,Fasasnob,켄호로우,,521,,,,27,,,Evolve #520 to Level 32
+522,Blitzle,Zébibron,シママ,,Elezeba,줄뮤마,,522,,,,28,,,"Breed #522, #523"
+523,Zebstrika,Zéblitz,ゼブライカ,,Zebritz,제브라이카,,523,,,,29,,,Evolve #522 to Level 27
+524,Roggenrola,Nodulithe,ダンゴロ,,Kiesling,단굴,98,524,,,,30,120,,"Breed #524, #525, #526"
+525,Boldore,Géolithe,ガントル,,Sedimantur,암트르,99,525,,,,31,121,,Evolve #524 to Level 25
+526,Gigalith,Gigalithe,ギガイアス,,Brockoloss,기가이어스,100,526,,,,32,122,,Trade #525
+527,Woobat,Chovsourir,コロモリ,,Fleknoil,또르박쥐,,527,,,,33,55,,"Breed #527, #528"
+528,Swoobat,Rhinolove,ココロモリ,,Fletiamo,맘박쥐,,528,,,,34,56,,Evolve #527 with Happiness
+529,Drilbur,Rototaupe,モグリュー,,Rotomurf,두더류,,529,,,,35,,,"Breed #529, #530"
+530,Excadrill,Minotaupe,ドリュウズ,,Stalobor,몰드류,,530,,,,36,,,Evolve #529 to Level 31
+531,Audino,Nanméouïe,タブンネ,,Ohrdoch,다부니,,531,,,,37,123,,
+532,Timburr,Charpenti,ドッコラー,,Praktibalk,으랏차,,532,,,,38,93,,"Breed #532, #533, #534"
+533,Gurdurr,Ouvrifier,ドテッコツ,,Strepoli,토쇠골,,533,,,,39,94,,Evolve #532 to Level 25
+534,Conkeldurr,Bétochef,ローブシン,,Meistagrif,노보청,,534,,,,40,95,,Trade #533
+535,Tympole,Tritonde,オタマロ,,Schallquap,동챙이,,535,,,,41,,,"Breed #535, #536, #537"
+536,Palpitoad,Batracné,ガマガル,,Mebrana,두까비,,536,,,,42,,,Evolve #535 to Level 25
+537,Seismitoad,Crapustule,ガマゲロゲ,,Branawarz,두빅굴,,537,,,,43,,,Evolve #536 to Level 36
+538,Throh,Judokrak,ナゲキ,,Jiutesto,던지미,,538,,,,44,97,,
+539,Sawk,Karaclée,ダゲキ,,Karadonis,타격귀,,539,,,,45,98,,
+540,Sewaddle,Larveyette,クルミル,,Strawickl,두르보,,540,,,,46,,,"Breed #540, #541, #542"
+541,Swadloon,Couverdure,クルマユ,,Folikon,두르쿤,,541,,,,47,,,Evolve #540 to Level 20
+542,Leavanny,Manternel,ハハコモリ,,Matrifol,모아머,,542,,,,48,,,Evolve #541 with Happiness
+543,Venipede,Venipatte,フシデ,,Toxiped,마디네,,543,,,,49,120,,"Breed #543, #544, #545"
+544,Whirlipede,Scobolide,ホイーガ,,Rollum,휠구,,544,,,,50,121,,Evolve #543 to Level 22
+545,Scolipede,Brutapode,ペンドラー,,Cerapendra,펜드라,,545,,,,51,122,,Evolve #544 to Level 30
+546,Cottonee,Doudouvet,モンメン,,Waumboll,소미안,87,546,,,,52,,,"Breed #546, #547"
+547,Whimsicott,Farfaduvet,エルフーン,,Elfun,엘풍,88,547,,,,53,,,Use Sun Stone on #546
+548,Petilil,Chlorobule,チュリネ,,Lilminip,치릴리,85,548,,,,54,,,"Breed #548, #549"
+549,Lilligant,Fragilady,ドレディア,,Dressella,드레디어,86,549,,,,55,,,Use Sun Stone on #548
+550,Basculin,Bargantua,バスラオ,,Barschuft,배쓰나이,,550,,,,56,60,,
+551,Sandile,Mascaïman,メグロコ,,Ganovil,깜눈크,232,551,,,,57,43,,"Breed #551, #552, #553"
+552,Krokorok,Escroco,ワルビル,,Rokkaiman,악비르,233,552,,,,58,44,,Evolve #551 to Level 29
+553,Krookodile,Crocorible,ワルビアル,,Rabigator,악비아르,234,553,,,,59,45,,Evolve #552 to Level 40
+554,Darumaka,Darumarond,ダルマッカ,,Flampion,달막화,,554,,,,60,,,"Breed #554, #555"
+555,Darmanitan,Darumacho,ヒヒダルマ,,Flampivian,불비달마,,555,,,,61,,,Evolve #554 to Level 35
+556,Maractus,Maracachi,マラカッチ,,Maracamba,마라카치,,556,,,,62,,,
+557,Dwebble,Crabicoque,イシズマイ,,Lithomith,돌살이,,557,,,,63,23,,"Breed #557, #558"
+558,Crustle,Crabaraque,イワパレス,,Castellith,암팰리스,,558,,,,64,24,,Evolve #557 to Level 34
+559,Scraggy,Baggiguane,ズルッグ,,Zurrokex,곤율랭,,559,,,,65,100,,"Breed #559, #560"
+560,Scrafty,Baggaïd,ズルズキン,,Irokex,곤율거니,,560,,,,66,101,,Evolve #559 to Level 39
+561,Sigilyph,Cryptéro,シンボラー,,Symvolara,심보러,,561,,,,67,90,,
+562,Yamask,Tutafeh,デスマス,,Makabaja,데스마스,,562,,,,68,,,"Breed #562, #563"
+563,Cofagrigus,Tutankafer,デスカーン,,Echnatoll,데스니칸,,563,,,,69,,,Evolve #562 to Level 34
+564,Tirtouga,Carapagos,プロトーガ,,Galapaflos,프로토가,194,564,,,,70,,,"Breed #564, #565"
+565,Carracosta,Mégapagos,アバゴーラ,,Karippas,늑골라,195,565,,,,71,,,Evolve #564 to Level 37
+566,Archen,Arkéapti,アーケン,,Flapteryx,아켄,192,566,,,,72,,,"Breed #566, #567"
+567,Archeops,Aéroptéryx,アーケオス,,Aeropteryx,아케오스,193,567,,,,73,,,Evolve #566 to Level 37
+568,Trubbish,Miamiasme,ヤブクロン,,Unratütox,깨봉이,206,568,,,,74,74,,"Breed #568, #569"
+569,Garbodor,Miasmax,ダストダス,,Deponitox,더스트나,207,569,,,,75,75,,Evolve #568 to Level 36
+570,Zorua,,ゾロア,,,조로아,,570,,,,76,124,,"Breed #570, #571"
+571,Zoroark,,ゾロアーク,,,조로아크,,571,,,,77,125,,Evolve #570 to Level 30
+572,Minccino,Chinchidou,チラーミィ,,Picochilla,치라미,,572,,,,78,,,"Breed #572, #573"
+573,Cinccino,Pashmilla,チラチーノ,,Chillabell,치라치노,,573,,,,79,,,Use Shiny Stone on #572
+574,Gothita,Scrutella,ゴチム,,Mollimorba,고디탱,,574,,,,80,126,,"Breed #574, #575, #576"
+575,Gothorita,Mesmérella,ゴチミル,,Hypnomorba,고디보미,,575,,,,81,127,,Evolve #574 to Level 32
+576,Gothitelle,Sidérella,ゴチルゼル,,Morbitesse,고디모아젤,,576,,,,82,128,,Evolve #575 to Level 41
+577,Solosis,Nucléos,ユニラン,,Monozyto,유니란,,577,,,,83,115,,"Breed #577, #578, #579"
+578,Duosion,Méios,ダブラン,,Mitodos,듀란,,578,,,,84,116,,Evolve #577 to Level 32
+579,Reuniclus,Symbios,ランクルス,,Zytomega,란쿨루스,,579,,,,85,117,,Evolve #578 to Level 41
+580,Ducklett,Couaneton,コアルヒー,,Piccolente,꼬지보리,,580,,,,86,127,,"Breed #580, #581"
+581,Swanna,Lakmécygne,スワンナ,,Swaroness,스완나,,581,,,,87,128,,Evolve #580 to Level 35
+582,Vanillite,Sorbébé,バニプッチ,,Gelatini,바닐프티,255,582,,,,88,85,,"Breed #582, #583, #584"
+583,Vanillish,Sorboul,バニリッチ,,Gelatroppo,바닐리치,256,583,,,,89,86,,Evolve #582 to Level 35
+584,Vanilluxe,Sorbouboul,バイバニラ,,Gelatwino,배바닐라,257,584,,,,90,87,,Evolve #583 to Level 47
+585,Deerling,Vivaldaim,シキジカ,,Sesokitz,사철록,,585,,,,91,,,"Breed #585, #586"
+586,Sawsbuck,Haydaim,メブキジカ,,Kronjuwild,바라철록,,586,,,,92,,,Evolve #585 to Level 34
+587,Emolga,,エモンガ,,,에몽가,274,587,,,,93,86,,
+588,Karrablast,Carabing,カブルモ,,Laukaps,딱정곤,,588,,,,94,22,,"Breed #588, #589"
+589,Escavalier,Lançargot,シュバルゴ,,Cavalanzas,슈바르고,,589,,,,95,23,,Trade #588 with Shelmet
+590,Foongus,Trompignon,タマゲタケ,,Tarnpignon,깜놀버슬,,590,,,,96,53,,"Breed #590, #591"
+591,Amoonguss,Gaulet,モロバレル,,Hutsassa,뽀록나,,591,,,,97,54,,Evolve #590 to Level 39
+592,Frillish,Viskuse,プルリル,,Quabbel,탱그릴,,592,,,,98,,,"Breed #592, #593"
+593,Jellicent,Moyade,ブルンゲル,,Apoquallyp,탱탱겔,,593,,,,99,,,Evolve #592 to Level 40
+594,Alomomola,Mamanbo,ママンボウ,,Mamolida,맘복치,157,594,,,,100,149,,
+595,Joltik,Statitik,バチュル,,Wattzapf,파쪼옥,,595,,,,101,,,"Breed #595, #596"
+596,Galvantula,Mygavolt,デンチュラ,,Voltula,전툴라,,596,,,,102,,,Evolve #595 to Level 36
+597,Ferroseed,Grindur,テッシード,,Kastadur,철시드,,597,,,,103,69,,"Breed #597, #598"
+598,Ferrothorn,Noacier,ナットレイ,,Tentantel,너트령,,598,,,,104,70,,Evolve #597 to Level 40
+599,Klink,Tic,ギアル,,Klikk,기어르,,599,,,,105,,,"Breed #599, #600, #601"
+600,Klang,Clic,ギギアル,,Kliklak,기기어르,,600,,,,106,,,Evolve #599 to Level 38
+601,Klinklang,Cliticlic,ギギギアル,,Klikdiklak,기기기어르,,601,,,,107,,,Evolve #600 to Level 49
+602,Tynamo,Anchwatt,シビシラス,,Zapplardin,저리어,,602,,,,108,,,"Breed #602, #603, #604"
+603,Eelektrik,Lampéroie,シビビール,,Zapplalek,저리릴,,603,,,,109,,,Evolve #602 to Level 39
+604,Eelektross,Ohmassacre,シビルドン,,Zapplarang,저리더프,,604,,,,110,,,Use Thunderstone on #603
+605,Elgyem,Lewsor,リグレー,,Pygraulon,리그레,,605,,,,111,,,"Breed #605, #606"
+606,Beheeyem,Neitram,オーベム,,Megalon,벰크,,606,,,,112,,,Evolve #605 to Level 42
+607,Litwick,Funécire,ヒトモシ,,Lichtel,불켜미,,607,,,,113,65,,"Breed #607, #608, #609"
+608,Lampent,Mélancolux,ランプラー,,Laternecto,램프라,,608,,,,114,66,,Evolve #607 to Level 41
+609,Chandelure,Lugulabre,シャンデラ,,Skelabra,샹델라,,609,,,,115,67,,Use Dusk Stone on #608
+610,Axew,Coupenotte,キバゴ,,Milza,터검니,,610,,,,116,148,,"Breed #610, #611, #612"
+611,Fraxure,Incisache,オノンド,,Sharfax,액슨도,,611,,,,117,149,,Evolve #610 to Level 38
+612,Haxorus,Tranchodon,オノノクス,,Maxax,액스라이즈,,612,,,,118,150,,Evolve #611 to Level 48
+613,Cubchoo,Polarhume,クマシュン,,Petznief,코고미,,613,,,,119,81,,"Breed #613, #614"
+614,Beartic,Polagriffe,ツンベアー,,Siberio,툰베어,,614,,,,120,82,,Evolve #613 to Level 37
+615,Cryogonal,Hexagel,フリージオ,,Frigometri,프리지오,,615,,,,121,111,,
+616,Shelmet,Escargaume,チョボマキ,,Schnuthelm,쪼마리,,616,,,,122,24,,"Breed #616, #617"
+617,Accelgor,Limaspeed,アギルダー,,Hydragil,어지리더,,617,,,,123,25,,Trade #616 with Karrablast
+618,Stunfisk,Limonde,マッギョ,,Flunschlik,메더,,618,,,,124,39,,
+619,Mienfoo,Kungfouine,コジョフー,,Lin-Fu,비조푸,,619,,,,125,3,,"Breed #619, #620"
+620,Mienshao,Shaofouine,コジョンド,,Wie-Shu,비조도,,620,,,,126,4,,Evolve #619 to Level 50
+621,Druddigon,Drakkarmin,クリムガン,,Shardrago,크리만,,621,,,,127,141,,
+622,Golett,Gringolem,ゴビット,,Golbit,골비람,,622,,,,128,91,,"Breed #622, #623"
+623,Golurk,Golemastoc,ゴルーグ,,Golgantes,골루그,,623,,,,129,92,,Evolve #622 to Level 43
+624,Pawniard,Scalpion,コマタナ,,Gladiantri,자망칼,,624,,,,130,48,,"Breed #624, #625"
+625,Bisharp,Scalproie,キリキザン,,Caesurio,절각참,,625,,,,131,49,,Evolve #624 to Level 52
+626,Bouffalant,Frison,バッフロン,,Bisofank,버프론,,626,,,,132,,,
+627,Rufflet,Furaiglon,ワシボン,,Geronimatz,수리둥보,75,627,,,,133,,,"Breed #627, #628"
+628,Braviary,Gueriaigle,ウォーグル,,Washakwil,워글,76,628,,,,134,,,Evolve #627 to Level 54
+629,Vullaby,Vostourno,バルチャイ,,Skallyk,벌차이,77,629,,,,135,,,"Breed #629, #630"
+630,Mandibuzz,Vaututrice,バルジーナ,,Grypheldis,버랜지나,78,630,,,,136,,,Evolve #629 to Level 54
+631,Heatmor,Aflamanoir,クイタラン,,Furnifraß,앤티골,,631,,,,137,105,,
+632,Durant,Fermite,アイアント,,Fermicula,아이앤트,,632,,,,138,106,,
+633,Deino,Solochi,モノズ,,Kapuno,모노두,,633,,,,139,142,,"Breed #633, #634, #635"
+634,Zweilous,Diamat,ジヘッド,,Duodino,디헤드,,634,,,,140,143,,Evolve #633 to Level 50
+635,Hydreigon,Trioxhydre,サザンドラ,,Trikephalo,삼삼드래,,635,,,,141,144,,Evolve #634 to Level 64
+636,Larvesta,Pyronille,メラルバ,,Ignivor,활화르바,,636,,,,142,,,"Breed #636, #637"
+637,Volcarona,Pyrax,ウルガモス,,Ramoth,불카모스,,637,,,,143,,,Evolve #636 to Level 59
+638,Cobalion,Cobaltium,コバルオン,,Kobalium,코바르온,,638,,,,144,,,
+639,Terrakion,Terrakium,テラキオン,,Terrakium,테라키온,,639,,,,145,,,
+640,Virizion,Viridium,ビリジオン,,Viridium,비리디온,,640,,,,146,,,
+641,Tornadus,Boréas,トルネロス,,Boreos,토네로스,,641,,,,147,,,
+642,Thundurus,Fulguris,ボルトロス,,Voltolos,볼트로스,,642,,,,148,,,
+643,Reshiram,,レシラム,,,레시라무,,643,,,,149,,,
+644,Zekrom,,ゼクロム,,,제크로무,,644,,,,150,,,
+645,Landorus,Démétéros,ランドロス,,Demeteros,랜드로스,,645,,,,151,,,
+646,Kyurem,,キュレム,,,큐레무,,646,,,,152,,,
+647,Keldeo,,ケルディオ,,,케르디오,,647,,,,153,,,
+648,Meloetta,,メロエッタ,,,메로엣타,,648,,,,154,,,
+649,Genesect,,ゲノセクト,,,게노세크트,,649,,,,155,,,
+650,Chespin,Marisson,ハリマロン,,Igamaro,도치마론,,650,,,,,1,,"Breed #650, #651, #652"
+651,Quilladin,Boguérisse,ハリボーグ,,Igastarnish,도치보구,,651,,,,,2,,Evolve #650 to Level 16
+652,Chesnaught,Blindépique,ブリガロン,,Brigaron,브리가론,,652,,,,,3,,Evolve #651 to Level 36
+653,Fennekin,Feunnec,フォッコ,,Fynx,푸호꼬,,653,,,,,4,,"Breed #653, #654, #655"
+654,Braixen,Roussil,テールナー,,Rutena,테르나,,654,,,,,5,,Evolve #653 to Level 16
+655,Delphox,Goupelin,マフォクシー,,Fennexis,마폭시,,655,,,,,6,,Evolve #654 to Level 36
+656,Froakie,Grenousse,ケロマツ,,Froxy,개구마르,,656,,,,,7,,"Breed #656, #657, #658"
+657,Frogadier,Croâporal,ゲコガシラ,,Amphizel,개굴반장,,657,,,,,8,,Evolve #656 to Level 16
+658,Greninja,Amphinobi,ゲッコウガ,,Quajutsu,개굴닌자,,658,,,,,9,,Evolve #657 to Level 36
+659,Bunnelby,Sapereau,ホルビー,,Scoppel,파르빗,,659,,,,,10,,"Breed #659, #660"
+660,Diggersby,Excavarenne,ホルード,,Grebbit,파르토,,660,,,,,11,,Evolve #659 to Level 20
+661,Fletchling,Passerouge,ヤヤコマ,,Dartiri,화살꼬빈,158,661,,,,,14,,"Breed #661, #662, #663"
+662,Fletchinder,Braisillon,ヒノヤコマ,,Dartignis,불화살빈,159,662,,,,,15,,Evolve #661 to Level 17
+663,Talonflame,Flambusard,ファイアロー,,Fiaro,파이어로,160,663,,,,,16,,Evolve #662 to Level 35
+664,Scatterbug,Lépidonille,コフキムシ,,Purmel,분이벌레,,664,,,,,20,,"Breed #664, #665, #666"
+665,Spewpa,Pérégrain,コフーライ,,Puponcho,분떠도리,,665,,,,,21,,Evolve #664 to Level 9
+666,Vivillon,Prismillon,ビビヨン,,,비비용,,666,,,,,22,Pokeball,Evolve #665 to Level 12
+667,Litleo,Hélionceau,シシコ,,Leufeo,레오꼬,,667,,,,,57,,"Breed #667, #668"
+668,Pyroar,Némélios,カエンジシ,,Pyroleo,화염레오,,668,,,,,58,,Evolve #667 to Level 35
+669,Flabébé,,フラベベ,,,플라베베,,669,,,,,68,Red,"Breed #669, #670, #671"
+670,Floette,,フラエッテ,,,플라엣테,,670,,,,,69,Red,Evolve #669 to Level 19
+671,Florges,,フラージェス,,,플라제스,,671,,,,,70,Red,Use Shiny Stone on #670
+672,Skiddo,Cabriolaine,メェークル,,Mähikel,메이클,,672,,,,,89,,"Breed #672, #673"
+673,Gogoat,Chevroum,ゴーゴート,,Chevrumm,고고트,,673,,,,,90,,Evolve #672 to Level 32
+674,Pancham,Pandespiègle,ヤンチャム,,Pam-Pam,판짱,220,674,,,,,91,,"Breed #674, #675"
+675,Pangoro,Pandarbare,ゴロンダ,,Pandagro,부란다,221,675,,,,,92,,"Evolve #674 to Level 32, with a Dark type Pokémon in party"
+676,Furfrou,Couafarel,トリミアン,,Coiffwaff,트리미앙,,676,,,,,93,,
+677,Espurr,Psystigri,ニャスパー,,Psiau,냐스퍼,,677,,,,,114,,"Breed #677, #678"
+678,Meowstic,Mistigrix,ニャオニクス,,Psiaugon,냐오닉스,,678,,,,,115,,Evolve #677 to Level 25
+679,Honedge,Monorpale,ヒトツキ,,Gramokles,단칼빙,,679,,,,,117,,"Breed #679, #680, #681"
+680,Doublade,Dimoclès,ニダンギル,,Duokles,쌍검킬,,680,,,,,118,,Evolve #679 to Level 35
+681,Aegislash,Exagide,ギルガルド,,Durengard,킬가르도,,681,,,,,119,,Use Dusk Stone on #680
+682,Spritzee,Fluvetin,シュシュプ,,Parfi,슈쁘,,682,,,,,129,,"Breed #682, #683"
+683,Aromatisse,Cocotine,フレフワン,,Parfinesse,프레프티르,,683,,,,,130,,Trade #682 holding Sachet
+684,Swirlix,Sucroquin,ペロッパフ,,Flauschling,나룸퍼프,,684,,,,,131,,"Breed #684, #685"
+685,Slurpuff,Cupcanaille,ペロリーム,,Sabbaione,나루림,,685,,,,,132,,Trade #684 holding Whipped Dream
+686,Inkay,Sepiatop,マーイーカ,,Iscalar,오케이징,,686,,,,,10,,"Breed #686, #687"
+687,Malamar,Sepiatroce,カラマネロ,,Calamanero,칼라마네로,,687,,,,,11,,"Evolve #686 to Level 30, holding 3DS upside down"
+688,Binacle,Opermine,カメテテ,,Bithora,거북손손,,688,,,,,21,,"Breed #688, #689"
+689,Barbaracle,Golgopathe,ガメノデス,,Thanathora,거북손데스,,689,,,,,22,,Evolve #688 to Level 39
+690,Skrelp,Venalgue,クズモー,,Algitt,수레기,,690,,,,,30,,"Breed #690, #691"
+691,Dragalge,Kravarech,ドラミドロ,,Tandrak,드래캄,,691,,,,,31,,Evolve #690 to Level 48
+692,Clauncher,Flingouste,ウデッポウ,,Scampisto,완철포,,692,,,,,32,,"Breed #692, #693"
+693,Clawitzer,Gamblast,ブロスター,,Wummer,블로스터,,693,,,,,33,,Evolve #692 to Level 37
+694,Helioptile,Galvaran,エリキテル,,Eguana,목도리키텔,,694,,,,,46,,"Breed #694, #695"
+695,Heliolisk,Iguolta,エレザード,,Elezard,일레도리자드,,695,,,,,47,,Use Sun Stone on #694
+696,Tyrunt,Ptyranidur,チゴラス,,Balgoras,티고라스,,696,,,,,64,,"Breed #696, #697"
+697,Tyrantrum,Rexillius,ガチゴラス,,Monargoras,견고라스,,697,,,,,65,,"Evolve #696 to Level 39, at Daytime"
+698,Amaura,Amagara,アマルス,,Amarino,아마루스,,698,,,,,66,,"Breed #698, #699"
+699,Aurorus,Dragmara,アマルルガ,,Amagarga,아마루르가,,699,,,,,67,,"Evolve #698 to Level 39, at Nighttime"
+700,Sylveon,Nymphali,ニンフィア,,Feelinara,님피아,131,700,,,,,85,,"Evolve #133 with 2 hearts Affection in Pokémon Amie, knowing Fairy move"
+701,Hawlucha,Brutalibré,ルチャブル,,Resladero,루차불,,701,,,,,89,,
+702,Dedenne,,デデンネ,,,데덴네,,702,,,,,110,,
+703,Carbink,Strassie,メレシー,,Rocara,멜리시,101,703,,,,,124,,
+704,Goomy,Mucuscule,ヌメラ,,Viscora,미끄메라,178,704,,,,,19,,"Breed #704, #705, #706"
+705,Sliggoo,Colimucus,ヌメイル,,Viscargot,미끄네일,179,705,,,,,20,,Evolve #704 to Level 40
+706,Goodra,Muplodocus,ヌメルゴン,,Viscogon,미끄래곤,180,706,,,,,21,,"Evolve #705 to Level 50, during rain"
+707,Klefki,Trousselin,クレッフィ,,Clavion,클레피,241,707,,,,,50,,
+708,Phantump,Brocélôme,ボクレー,,Paragoni,나목령,196,708,,,,,61,,"Breed #708, #709"
+709,Trevenant,Desséliande,オーロット,,Trombork,대로트,197,709,,,,,62,,Trade #708
+710,Pumpkaboo,Pitrouille,バケッチャ,,Irrbis,호바귀,,710,,,,,63,,"Breed #710, #711"
+711,Gourgeist,Banshitrouye,パンプジン,,Pumpdjinn,펌킨인,,711,,,,,64,,Trade #710
+712,Bergmite,Grelaçon,カチコール,,Arktip,꽁어름,,712,,,,,79,,"Breed #712, #713"
+713,Avalugg,Séracrawl,クレベース,,Arktilas,크레베이스,,713,,,,,80,,Evolve #712 to Level 37
+714,Noibat,Sonistrelle,オンバット,,eF-eM,음뱃,,714,,,,,113,,"Breed #714, #715"
+715,Noivern,Bruyverne,オンバーン,,UHaFnir,음번,,715,,,,,114,,Evolve #714 to Level 48
+716,Xerneas,,ゼルネアス,,,제르네아스,,716,,,,,148,,
+717,Yveltal,,イベルタル,,,이벨타르,,717,,,,,149,,
+718,Zygarde,,ジガルデ,,,지가르데,205,718,,,,,150,,
+719,Diancie,,ディアンシー,,,디안시,,719,,,,,151,,
+720,Hoopa,,フーパ,,,후파,,720,,,,,152,,
+721,Volcanion,,ボルケニオン,,,볼케니온,,721,,,,,153,,
+722,Rowlet,Brindibou,モクロー,,Bauz,나몰빼미,1,722,,,,,,,"Breed #722, #723, #724"
+723,Dartrix,Efflèche,フクスロー,,Arboretoss,빼미스로우,2,723,,,,,,,Evolve #722 to Level 17
+724,Decidueye,Archéduc,ジュナイパー,,Silvarro,모크나이퍼,3,724,,,,,,,Evolve #723 to Level 34
+725,Litten,Flamiaou‎‎,ニャビー,,Flamiau,냐오불,4,725,,,,,,,"Breed #725, #726, #727"
+726,Torracat,Matoufeu,ニャヒート,,Miezunder,냐오히트,5,726,,,,,,,Evolve #725 to Level 17
+727,Incineroar,Félinferno,ガオガエン,,Fuegro,어흥염,6,727,,,,,,,Evolve #726 to Level 34
+728,Popplio,Otaquin,アシマリ,,Robball,누리공,7,728,,,,,,,"Breed #728, #729, #730"
+729,Brionne,Otarlette,オシャマリ,,Marikeck,키요공,8,729,,,,,,,Evolve #728 to Level 17
+730,Primarina,Oratoria,アシレーヌ,,Primarene,누리레느,9,730,,,,,,,Evolve #729 to Level 34
+731,Pikipek,Picassaut,ツツケラ,,Peppeck,콕코구리,10,731,,,,,,,"Breed #731, #732, #733"
+732,Trumbeak,Piclairon,ケララッパ,,Trompeck,크라파,11,732,,,,,,,Evolve #731 to Level 14
+733,Toucannon,Bazoucan,ドデカバシ,,Tukanon,왕큰부리,12,733,,,,,,,Evolve #732 to Level 28
+734,Yungoos,Manglouton,ヤングース,,Mangunior,영구스,13,734,,,,,,,"Breed #734, #735"
+735,Gumshoos,Argouste,デカグース,,Manguspektor,형사구스,14,735,,,,,,,"Evolve #734 to Level 20, at Daytime"
+736,Grubbin,Larvibule,アゴジムシ,,Mabula,턱지충이,27,736,,,,,,,"Breed #736, #737, #738"
+737,Charjabug,Chrysapile,デンヂムシ,,Akkup,전지충이,28,737,,,,,,,Evolve #736 to Level 20
+738,Vikavolt,Lucanon,クワガノン,,Donarion,투구뿌논,29,738,,,,,,,Evolve #737 at Vast Poni Canyon
+739,Crabrawler,Crabagarre,マケンカニ,,Krabbox,오기지게,59,739,,,,,,,"Breed #739, #740"
+740,Crabominable,,ケケンカニ,,Krawell,모단단게,60,740,,,,,,,Evolve #739 at Mount Lanakila
+741,Oricorio,Plumeline,オドリドリ,,Choreogel,춤추새,82,741,,,,,,,
+742,Cutiefly,Bombydou,アブリー,,Wommel,에블리,83,742,,,,,,,"Breed #742, #743"
+743,Ribombee,Rubombelle,アブリボン,,Bandelby,에리본,84,743,,,,,,,Evolve #742 to Level 25
+744,Rockruff,Rocabot,イワンコ,,Wuffels,암멍이,103,744,,,,,,,"Breed #744, #745, #745"
+745,Lycanroc,Lougaroc,ルガルガン,,Wolwerock,루가루암,104,745,,,,,,,"Evolve #745 to Level 25, at Nighttime, in Pokémon Moon"
+746,Wishiwashi,Froussardine,ヨワシ,,Lusardin,약어리,110,746,,,,,,,
+747,Mareanie,Vorastérie,ヒドイデ,,Garstella,시마사리,113,747,,,,,,,"Breed #747, #748"
+748,Toxapex,Prédastérie,ドヒドイデ,,Aggrostella,더시마사리,114,748,,,,,,,Evolve #747 to Level 38
+749,Mudbray,Tiboudet,ドロバンコ,,Pampuli,머드나기,132,749,,,,,,,"Breed #749, #750"
+750,Mudsdale,Bourrinos,バンバドロ,,Pampross,만마드,133,750,,,,,,,Evolve #749 to Level 30
+751,Dewpider,Araqua,シズクモ,,Araqua,물거미,141,751,,,,,,,"Breed #751, #752"
+752,Araquanid,Tarenbulle,オニシズクモ,,Aranestro,깨비물거미,142,752,,,,,,,Evolve #751 to Level 22
+753,Fomantis,Mimantis,カリキリ,,Imantis,짜랑랑,143,753,,,,,,,"Breed #753, #754"
+754,Lurantis,Floramantis,ラランテス,,Mantidea,라란티스,144,754,,,,,,,"Evolve #753 to Level 34, at Daytime"
+755,Morelull,Spododo,ネマシュ,,Bubungus,자마슈,145,755,,,,,,,"Breed #755, #756"
+756,Shiinotic,Lampignon,マシェード,,Lamellux,마셰이드,146,756,,,,,,,Evolve #755 to Level 24
+757,Salandit,Tritox,ヤトウモリ,,Molunk,야도뇽,161,757,,,,,,,"Breed #757, #758"
+758,Salazzle,Malamandre,エンニュート,,Amfira,염뉴트,162,758,,,,,,,"Evolve #757 to Level 33, Female"
+759,Stufful,Nounourson,ヌイコグマ,,Velursi,포곰곰,169,759,,,,,,,"Breed #759, #760"
+760,Bewear,Chelours,キテルグマ,,Kosturso,이븐곰,170,760,,,,,,,Evolve #759 to Level 27
+761,Bounsweet,Croquine,アマカジ,,Frubberl,달콤아,171,761,,,,,,,"Breed #761, #762, #763"
+762,Steenee,Candine,アママイコ,,Frubaila,달무리나,172,762,,,,,,,Evolve #761 to Level 18
+763,Tsareena,Sucreine,アマージョ,,Fruyal,달코퀸,173,763,,,,,,,Evolve #762 after Stomp learned
+764,Comfey,Guérilande,キュワワー,,Curelei,큐아링,174,764,,,,,,,
+765,Oranguru,Gouroutan,ヤレユータン,,Kommandutan,하랑우탄,176,765,,,,,,,
+766,Passimian,Quartermac,ナゲツケサル,,Quartermak,내던숭이,177,766,,,,,,,
+767,Wimpod,Sovkipou,コソクムシ,,Reißlaus,꼬시레,182,767,,,,,,,"Breed #767, #768"
+768,Golisopod,Sarmuraï,グソクムシャ,,Tectass,갑주무사,183,768,,,,,,,Evolve #767 to Level 30
+769,Sandygast,Bacabouh,スナバァ,,Sankabuh,모래꿍,186,769,,,,,,,"Breed #769, #770"
+770,Palossand,Trépassable,シロデスナ,,Colossand,모래성이당,187,770,,,,,,,Evolve #769 to Level 42
+771,Pyukumuku,Concombaffe,ナマコブシ,,Gufa,해무기,200,771,,,,,,,
+772,Type: Null,Type:0,タイプ：ヌル,Código,Typ:Null,타입:널,203,772,,,,,,,"Breed #772, #773"
+773,Silvally,Silvallié,シルヴァディ,,Amigento,실버디,204,773,,,,,,,Evolve #772 with Happiness
+774,Minior,Météno,メテノ,,Meteno,메테노,213,774,,,,,,,
+775,Komala,Dodoala,ネッコアラ,,Koalelu,자말라,222,775,,,,,,,
+776,Turtonator,Boumata,バクガメス,,Tortunator,폭거북스,224,776,,,,,,,
+777,Togedemaru,,トゲデマル,,,토게데마루,225,777,,,,,,,
+778,Mimikyu,Mimiqui,ミミッキュ,,Mimigma,따라큐,242,778,,,,,,,
+779,Bruxish,Denticrisse,ハギギシリ,,Knirfish,치갈기,243,779,,,,,,,
+780,Drampa,Draïeul,ジジーロン,,Sen-Long,할비롱,244,780,,,,,,,
+781,Dhelmise,Sinistrail,ダダリン,,Moruda,타타륜,263,781,,,,,,,
+782,Jangmo-o,Bébécaille,ジャラコ,,Miniras,짜랑꼬,271,782,,,,,,,"Breed #782, #783, #784"
+783,Hakamo-o,Écaïd,ジャランゴ,,Mediras,짜랑고우,272,783,,,,,,,Evolve #782 to Level 35
+784,Kommo-o,Ékaïser,ジャラランガ,,Grandiras,짜랑고우거,273,784,,,,,,,Evolve #783 to Level 45
+785,Tapu Koko,Tokorico,カプ・コケコ,Tapu,Kapu-Riki,카푸꼬꼬꼭,285,785,,,,,,,
+786,Tapu Lele,Tokopiyon,カプ・テテフ,Tapu,Kapu-Fala,카푸나비나,286,786,,,,,,,
+787,Tapu Bulu,Tokotoro,カプ・ブルル,Tapu,Kapu-Toro,카푸브루루,287,787,,,,,,,
+788,Tapu Fini,Tokopisco,カプ・レヒレ,Tapu,Kapu-Kime,카푸느지느,288,788,,,,,,,
+789,Cosmog,,コスモッグ,,,코스모그,289,789,,,,,,,After Post-Game in Alola
+790,Cosmoem,Cosmovum,コスモウム,,Cosmovum,코스모움,290,790,,,,,,,Evolve #789 to Level 43
+791,Solgaleo,,ソルガレオ,,,솔가레오,291,791,,,,,,,"Evolve #790 to Level 53, in Pokémon Sun"
+792,Lunala,,ルナアーラ,,,루나아라,292,792,,,,,,,"Evolve #791 to Level 53, in Pokémon Moon"
+793,Nihilego,Zéroïd,ウツロイド,,Anego,텅비드,293,793,,,,,,,
+794,Buzzwole,Mouscoto,マッシブーン,,Masskito,매시붕,294,794,,,,,,,
+795,Pheromosa,Cancrelove,フェローチェ,,Schabelle,페로코체,295,795,,,,,,,
+796,Xurkitree,Câblifère,デンジュモク,,Voltriant,전수목,296,796,,,,,,,
+797,Celesteela,Bamboiselle,テッカグヤ,,Kaguron,철화구야,297,797,,,,,,,
+798,Kartana,Katagami,カミツルギ,,Katagami,종이신도,298,798,,,,,,,
+799,Guzzlord,Engloutyran,アクジキング,,Schlingking,악식킹,299,799,,,,,,,
+800,Necrozma,,ネクロズマ,,,네크로즈마,300,800,,,,,,,
+801,Magearna,,マギアナ,,,마기아나,301,801,,,,,,,
+802,Marshadow,,マーシャドー,,,마샤도,302,802,,,,,,,
