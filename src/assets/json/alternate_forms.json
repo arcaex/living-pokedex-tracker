@@ -1,377 +1,379 @@
 {
-  "201-b" : {
-    "number" : "201-b",
-    "origin_number" : 201,
-    "names/en" : "B",
-  },
-  "201-c" : {
-    "number" : "201-c",
-    "origin_number" : 201,
-    "names/en" : "C",
-  },
-  "201-d" : {
-    "number" : "201-d",
-    "origin_number" : 201,
-    "names/en" : "D",
-  },
-  "201-e" : {
-    "number" : "201-e",
-    "origin_number" : 201,
-    "names/en" : "E",
-  },
-  "201-f" : {
-    "number" : "201-f",
-    "origin_number" : 201,
-    "names/en" : "F",
-  },
-  "201-g" : {
-    "number" : "201-g",
-    "origin_number" : 201,
-    "names/en" : "G",
-  },
-  "201-h" : {
-    "number" : "201-h",
-    "origin_number" : 201,
-    "names/en" : "H",
-  },
-  "201-i" : {
-    "number" : "201-i",
-    "origin_number" : 201,
-    "names/en" : "I",
-  },
-  "201-j" : {
-    "number" : "201-j",
-    "origin_number" : 201,
-    "names/en" : "J",
-  },
-  "201-k" : {
-    "number" : "201-k",
-    "origin_number" : 201,
-    "names/en" : "K",
-  },
-  "201-l" : {
-    "number" : "201-l",
-    "origin_number" : 201,
-    "names/en" : "L",
-  },
-  "201-m" : {
-    "number" : "201-m",
-    "origin_number" : 201,
-    "names/en" : "M",
-  },
-  "201-n" : {
-    "number" : "201-n",
-    "origin_number" : 201,
-    "names/en" : "N",
-  },
-  "201-o" : {
-    "number" : "201-o",
-    "origin_number" : 201,
-    "names/en" : "O",
-  },
-  "201-p" : {
-    "number" : "201-p",
-    "origin_number" : 201,
-    "names/en" : "P",
-  },
-  "201-q" : {
-    "number" : "201-q",
-    "origin_number" : 201,
-    "names/en" : "Q",
-  },
-  "201-r" : {
-    "number" : "201-r",
-    "origin_number" : 201,
-    "names/en" : "R",
-  },
-  "201-s" : {
-    "number" : "201-s",
-    "origin_number" : 201,
-    "names/en" : "S",
-  },
-  "201-t" : {
-    "number" : "201-t",
-    "origin_number" : 201,
-    "names/en" : "T",
-  },
-  "201-u" : {
-    "number" : "201-u",
-    "origin_number" : 201,
-    "names/en" : "U",
-  },
-  "201-v" : {
-    "number" : "201-v",
-    "origin_number" : 201,
-    "names/en" : "V",
-  },
-  "201-w" : {
-    "number" : "201-w",
-    "origin_number" : 201,
-    "names/en" : "W",
-  },
-  "201-x" : {
-    "number" : "201-x",
-    "origin_number" : 201,
-    "names/en" : "X",
-  },
-  "201-y" : {
-    "number" : "201-y",
-    "origin_number" : 201,
-    "names/en" : "Y",
-  },
-  "201-z" : {
-    "number" : "201-z",
-    "origin_number" : 201,
-    "names/en" : "Z",
-  },
-  "201-excl" : {
-    "number" : "201-excl",
-    "origin_number" : 201,
-    "names/en" : "Exclamation",
-  },
-  "201-ques" : {
-    "number" : "201-ques",
-    "origin_number" : 201,
-    "names/en" : "Question",
-  },
-  "666-Continental" : {
-    "number" : "666-Continental",
-    "origin_number" : 666,
-    "names/en" : "Continental",
-  },
-  "666-Elegant" : {
-    "number" : "666-Elegant",
-    "origin_number" : 666,
-    "names/en" : "Elegant",
-  },
-  "666-Fancy" : {
-    "number" : "666-Fancy",
-    "origin_number" : 666,
-    "names/en" : "Fancy",
-  },
-  "666-Garden" : {
-    "number" : "666-Garden",
-    "origin_number" : 666,
-    "names/en" : "Garden",
-  },
-  "666-High_Plains" : {
-    "number" : "666-High_Plains",
-    "origin_number" : 666,
-    "names/en" : "High Plains",
-  },
-  "666-Icy_Snow" : {
-    "number" : "666-Icy_Snow",
-    "origin_number" : 666,
-    "names/en" : "Icy Snow",
-  },
-  "666-Jungle" : {
-    "number" : "666-Jungle",
-    "origin_number" : 666,
-    "names/en" : "Jungle",
-  },
-  "666-Marine" : {
-    "number" : "666-Marine",
-    "origin_number" : 666,
-    "names/en" : "Marine",
-  },
-  "666-Meadow" : {
-    "number" : "666-Meadow",
-    "origin_number" : 666,
-    "names/en" : "Meadow",
-  },
-  "666-Modern" : {
-    "number" : "666-Modern",
-    "origin_number" : 666,
-    "names/en" : "Modern",
-  },
-  "666-Monsoon" : {
-    "number" : "666-Monsoon",
-    "origin_number" : 666,
-    "names/en" : "Monsoon",
-  },
-  "666-Ocean" : {
-    "number" : "666-Ocean",
-    "origin_number" : 666,
-    "names/en" : "Ocean",
-  },
-  "666-Polar" : {
-    "number" : "666-Polar",
-    "origin_number" : 666,
-    "names/en" : "Polar",
-  },
-  "666-River" : {
-    "number" : "666-River",
-    "origin_number" : 666,
-    "names/en" : "River",
-  },
-  "666-Sandstorm" : {
-    "number" : "666-Sandstorm",
-    "origin_number" : 666,
-    "names/en" : "Sandstorm",
-  },
-  "666-Savanna" : {
-    "number" : "666-Savanna",
-    "origin_number" : 666,
-    "names/en" : "Savanna",
-  },
-  "666-Sun" : {
-    "number" : "666-Sun",
-    "origin_number" : 666,
-    "names/en" : "Sun",
-  },
-  "666-Tundra" : {
-    "number" : "666-Tundra",
-    "origin_number" : 666,
-    "names/en" : "Tundra",
-  },
-  "669-Yellow" : {
-    "number" : "669-Yellow",
-    "origin_number" : 669,
-    "names/en" : "Yellow",
-  },
-  "669-Orange" : {
-    "number" : "669-Orange",
-    "origin_number" : 669,
-    "names/en" : "Orange",
-  },
-  "669-Blue" : {
-    "number" : "669-Blue",
-    "origin_number" : 669,
-    "names/en" : "Blue",
-  },
-  "669-White" : {
-    "number" : "669-White",
-    "origin_number" : 669,
-    "names/en" : "White",
-  },
-  "670-Yellow" : {
-    "number" : "670-Yellow",
-    "origin_number" : 670,
-    "names/en" : "Yellow",
-  },
-  "670-Orange" : {
-    "number" : "670-Orange",
-    "origin_number" : 670,
-    "names/en" : "Orange",
-  },
-  "670-Blue" : {
-    "number" : "670-Blue",
-    "origin_number" : 670,
-    "names/en" : "Blue",
-  },
-  "670-White" : {
-    "number" : "670-White",
-    "origin_number" : 670,
-    "names/en" : "White",
-  },
-  "671-Yellow" : {
-    "number" : "671-Yellow",
-    "origin_number" : 671,
-    "names/en" : "Yellow",
-  },
-  "671-Orange" : {
-    "number" : "671-Orange",
-    "origin_number" : 671,
-    "names/en" : "Orange",
-  },
-  "671-Blue" : {
-    "number" : "671-Blue",
-    "origin_number" : 671,
-    "names/en" : "Blue",
-  },
-  "671-White" : {
-    "number" : "671-White",
-    "origin_number" : 671,
-    "names/en" : "White",
-  },
-  "019-alola" : {
-    "number" : "019-alola",
-    "origin_number" : 19,
-    "names/en" : "Alola",
-  },
-  "020-alola" : {
-    "number" : "020-alola",
-    "origin_number" : 20,
-    "names/en" : "Alola",
-  },
-  "026-alola" : {
-    "number" : "026-alola",
-    "origin_number" : 26,
-    "names/en" : "Alola",
-  },
-  "027-alola" : {
-    "number" : "027-alola",
-    "origin_number" : 27,
-    "names/en" : "Alola",
-  },
-  "028-alola" : {
-    "number" : "028-alola",
-    "origin_number" : 28,
-    "names/en" : "Alola",
-  },
-  "037-alola" : {
-    "number" : "037-alola",
-    "origin_number" : 37,
-    "names/en" : "Alola",
-  },
-  "038-alola" : {
-    "number" : "038-alola",
-    "origin_number" : 38,
-    "names/en" : "Alola",
-  },
-  "050-alola" : {
-    "number" : "050-alola",
-    "origin_number" : 50,
-    "names/en" : "Alola",
-  },
-  "051-alola" : {
-    "number" : "051-alola",
-    "origin_number" : 51,
-    "names/en" : "Alola",
-  },
-  "052-alola" : {
-    "number" : "052-alola",
-    "origin_number" : 52,
-    "names/en" : "Alola",
-  },
-  "053-alola" : {
-    "number" : "053-alola",
-    "origin_number" : 53,
-    "names/en" : "Alola",
-  },
-  "074-alola" : {
-    "number" : "074-alola",
-    "origin_number" : 74,
-    "names/en" : "Alola",
-  },
-  "075-alola" : {
-    "number" : "075-alola",
-    "origin_number" : 75,
-    "names/en" : "Alola",
-  },
-  "076-alola" : {
-    "number" : "076-alola",
-    "origin_number" : 76,
-    "names/en" : "Alola",
-  },
-  "088-alola" : {
-    "number" : "088-alola",
-    "origin_number" : 88,
-    "names/en" : "Alola",
-  },
-  "089-alola" : {
-    "number" : "089-alola",
-    "origin_number" : 89,
-    "names/en" : "Alola",
-  },
-  "103-alola" : {
-    "number" : "103-alola",
-    "origin_number" : 103,
-    "names/en" : "Alola",
-  },
-  "105-alola" : {
-    "number" : "105-alola",
-    "origin_number" : 105,
-    "names/en" : "Alola",
-  }
+  "alternate_forms" : [
+    {
+      "number" : "201-b",
+      "origin_number" : "201",
+      "names/en" : "B"
+    },
+    {
+      "number" : "201-c",
+      "origin_number" : "201",
+      "names/en" : "C"
+    },
+    {
+      "number" : "201-d",
+      "origin_number" : "201",
+      "names/en" : "D"
+    },
+    {
+      "number" : "201-e",
+      "origin_number" : "201",
+      "names/en" : "E"
+    },
+    {
+      "number" : "201-f",
+      "origin_number" : "201",
+      "names/en" : "F"
+    },
+    {
+      "number" : "201-g",
+      "origin_number" : "201",
+      "names/en" : "G"
+    },
+    {
+      "number" : "201-h",
+      "origin_number" : "201",
+      "names/en" : "H"
+    },
+    {
+      "number" : "201-i",
+      "origin_number" : "201",
+      "names/en" : "I"
+    },
+    {
+      "number" : "201-j",
+      "origin_number" : "201",
+      "names/en" : "J"
+    },
+    {
+      "number" : "201-k",
+      "origin_number" : "201",
+      "names/en" : "K"
+    },
+    {
+      "number" : "201-l",
+      "origin_number" : "201",
+      "names/en" : "L"
+    },
+    {
+      "number" : "201-m",
+      "origin_number" : "201",
+      "names/en" : "M"
+    },
+    {
+      "number" : "201-n",
+      "origin_number" : "201",
+      "names/en" : "N"
+    },
+    {
+      "number" : "201-o",
+      "origin_number" : "201",
+      "names/en" : "O"
+    },
+    {
+      "number" : "201-p",
+      "origin_number" : "201",
+      "names/en" : "P"
+    },
+    {
+      "number" : "201-q",
+      "origin_number" : "201",
+      "names/en" : "Q"
+    },
+    {
+      "number" : "201-r",
+      "origin_number" : "201",
+      "names/en" : "R"
+    },
+    {
+      "number" : "201-s",
+      "origin_number" : "201",
+      "names/en" : "S"
+    },
+    {
+      "number" : "201-t",
+      "origin_number" : "201",
+      "names/en" : "T"
+    },
+    {
+      "number" : "201-u",
+      "origin_number" : "201",
+      "names/en" : "U"
+    },
+    {
+      "number" : "201-v",
+      "origin_number" : "201",
+      "names/en" : "V"
+    },
+    {
+      "number" : "201-w",
+      "origin_number" : "201",
+      "names/en" : "W"
+    },
+    {
+      "number" : "201-x",
+      "origin_number" : "201",
+      "names/en" : "X"
+    },
+    {
+      "number" : "201-y",
+      "origin_number" : "201",
+      "names/en" : "Y"
+    },
+    {
+      "number" : "201-z",
+      "origin_number" : "201",
+      "names/en" : "Z"
+    },
+    {
+      "number" : "201-excl",
+      "origin_number" : "201",
+      "names/en" : "Exclamation"
+    },
+    {
+      "number" : "201-ques",
+      "origin_number" : "201",
+      "names/en" : "Question"
+    },
+    {
+      "number" : "666-Continental",
+      "origin_number" : "666",
+      "names/en" : "Continental"
+    },
+    {
+      "number" : "666-Elegant",
+      "origin_number" : "666",
+      "names/en" : "Elegant"
+    },
+    {
+      "number" : "666-Fancy",
+      "origin_number" : "666",
+      "names/en" : "Fancy"
+    },
+    {
+      "number" : "666-Garden",
+      "origin_number" : "666",
+      "names/en" : "Garden"
+    },
+    {
+      "number" : "666-High_Plains",
+      "origin_number" : "666",
+      "names/en" : "High Plains"
+    },
+    {
+      "number" : "666-Icy_Snow",
+      "origin_number" : "666",
+      "names/en" : "Icy Snow"
+    },
+    {
+      "number" : "666-Jungle",
+      "origin_number" : "666",
+      "names/en" : "Jungle"
+    },
+    {
+      "number" : "666-Marine",
+      "origin_number" : "666",
+      "names/en" : "Marine"
+    },
+    {
+      "number" : "666-Meadow",
+      "origin_number" : "666",
+      "names/en" : "Meadow"
+    },
+    {
+      "number" : "666-Modern",
+      "origin_number" : "666",
+      "names/en" : "Modern"
+    },
+    {
+      "number" : "666-Monsoon",
+      "origin_number" : "666",
+      "names/en" : "Monsoon"
+    },
+    {
+      "number" : "666-Ocean",
+      "origin_number" : "666",
+      "names/en" : "Ocean"
+    },
+    {
+      "number" : "666-Polar",
+      "origin_number" : "666",
+      "names/en" : "Polar"
+    },
+    {
+      "number" : "666-River",
+      "origin_number" : "666",
+      "names/en" : "River"
+    },
+    {
+      "number" : "666-Sandstorm",
+      "origin_number" : "666",
+      "names/en" : "Sandstorm"
+    },
+    {
+      "number" : "666-Savanna",
+      "origin_number" : "666",
+      "names/en" : "Savanna"
+    },
+    {
+      "number" : "666-Sun",
+      "origin_number" : "666",
+      "names/en" : "Sun"
+    },
+    {
+      "number" : "666-Tundra",
+      "origin_number" : "666",
+      "names/en" : "Tundra"
+    },
+    {
+      "number" : "669-Yellow",
+      "origin_number" : "669",
+      "names/en" : "Yellow"
+    },
+    {
+      "number" : "669-Orange",
+      "origin_number" : "669",
+      "names/en" : "Orange"
+    },
+    {
+      "number" : "669-Blue",
+      "origin_number" : "669",
+      "names/en" : "Blue"
+    },
+    {
+      "number" : "669-White",
+      "origin_number" : "669",
+      "names/en" : "White"
+    },
+    {
+      "number" : "670-Yellow",
+      "origin_number" : "670",
+      "names/en" : "Yellow"
+    },
+    {
+      "number" : "670-Orange",
+      "origin_number" : "670",
+      "names/en" : "Orange"
+    },
+    {
+      "number" : "670-Blue",
+      "origin_number" : "670",
+      "names/en" : "Blue"
+    },
+    {
+      "number" : "670-White",
+      "origin_number" : "670",
+      "names/en" : "White"
+    },
+    {
+      "number" : "671-Yellow",
+      "origin_number" : "671",
+      "names/en" : "Yellow"
+    },
+    {
+      "number" : "671-Orange",
+      "origin_number" : "671",
+      "names/en" : "Orange"
+    },
+    {
+      "number" : "671-Blue",
+      "origin_number" : "671",
+      "names/en" : "Blue"
+    },
+    {
+      "number" : "671-White",
+      "origin_number" : "671",
+      "names/en" : "White"
+    },
+    {
+      "number" : "019-alola",
+      "origin_number" : "019",
+      "names/en" : "Alola"
+    },
+    {
+      "number" : "020-alola",
+      "origin_number" : "020",
+      "names/en" : "Alola"
+    },
+    {
+      "number" : "026-alola",
+      "origin_number" : "026",
+      "names/en" : "Alola"
+    },
+    {
+      "number" : "027-alola",
+      "origin_number" : "027",
+      "names/en" : "Alola"
+    },
+    {
+      "number" : "028-alola",
+      "origin_number" : "028",
+      "names/en" : "Alola"
+    },
+    {
+      "number" : "037-alola",
+      "origin_number" : "037",
+      "names/en" : "Alola"
+    },
+    {
+      "number" : "038-alola",
+      "origin_number" : "038",
+      "names/en" : "Alola"
+    },
+    {
+      "number" : "050-alola",
+      "origin_number" : "050",
+      "names/en" : "Alola"
+    },
+    {
+      "number" : "051-alola",
+      "origin_number" : "051",
+      "names/en" : "Alola"
+    },
+    {
+      "number" : "052-alola",
+      "origin_number" : "052",
+      "names/en" : "Alola"
+    },
+    {
+      "number" : "053-alola",
+      "origin_number" : "053",
+      "names/en" : "Alola"
+    },
+    {
+      "number" : "074-alola",
+      "origin_number" : "074",
+      "names/en" : "Alola"
+    },
+    {
+      "number" : "075-alola",
+      "origin_number" : "075",
+      "names/en" : "Alola"
+    },
+    {
+      "number" : "076-alola",
+      "origin_number" : "076",
+      "names/en" : "Alola"
+    },
+    {
+      "number" : "088-alola",
+      "origin_number" : "088",
+      "names/en" : "Alola"
+    },
+    {
+      "number" : "089-alola",
+      "origin_number" : "089",
+      "names/en" : "Alola"
+    },
+    {
+      "number" : "103-alola",
+      "origin_number" : "103",
+      "names/en" : "Alola"
+    },
+    {
+      "number" : "105-alola",
+      "origin_number" : "105",
+      "names/en" : "Alola"
+    }
+  ]
 }

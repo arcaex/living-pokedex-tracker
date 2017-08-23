@@ -15,15 +15,11 @@ export class PokedexProvider {
     constructor(public http:Http, public storage:Storage, public events:Events) { }
 
     load() {
-        console.log("load");
         return this.storage.get("pokemons").then(data => {
             if (data != null) {
                 let loadedPokedex:Object = JSON.parse(data);
 
                 this._pokemons = loadedPokedex;
-
-                console.log("Loading pokedex");
-                console.log(loadedPokedex);
             } else {
                 /* Try to load the existing pokedex from version 1 */
                 if (window.localStorage['pokedex.pokemon'] != null) {

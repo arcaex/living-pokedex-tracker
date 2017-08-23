@@ -58,8 +58,6 @@ export class ConfigProvider {
         /* Filters default values */
         this.reset();
 
-        console.log("Initial configs");
-        console.log(JSON.stringify(this.configs));
     }
 
     load() {
@@ -67,7 +65,6 @@ export class ConfigProvider {
             if (data != null) {
                 let loadedConfig:Object = JSON.parse(data);
 
-                console.log(loadedConfig);
 
                 ["filters", "alternate_forms", "region", "language"].forEach(single_filter => {
                     if (loadedConfig[single_filter] != null) {
@@ -75,8 +72,6 @@ export class ConfigProvider {
                     }
                 });
 
-                console.log("Loaded configs");
-                console.log(JSON.stringify(this.configs));
             } else {
                 /* Try to load the existing configs from version 1 */
                 if (window.localStorage['pokedex.config'] != null) {
@@ -118,11 +113,8 @@ export class ConfigProvider {
     }
 
     save() {
-        console.log("SAVE");
         this.storage.set("configs", JSON.stringify(this.configs));
 
-        console.log("Saved configs");
-        console.log(JSON.stringify(this.configs));
         this.events.publish('configSaved', this.configs);
     }
 

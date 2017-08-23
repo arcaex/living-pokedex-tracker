@@ -24,8 +24,10 @@ export class MyApp {
             /* Load the configs */
             this.pokedex.load().then(result => {
                 this.config.load().then(result => {
-                    this.data.load().then(result => {
-                        this.rootPage = HomePage;
+                    this.data.load('pokemons').then(result => {
+                        this.data.load('alternate_forms').then(result => {
+                            this.rootPage = HomePage;
+                        });
                     });
                 });
             });
