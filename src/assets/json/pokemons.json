@@ -1554,9 +1554,8 @@
     {
       "number" : "122",
       "names/en" : "Mr. Mime",
-      "names/fr" : "M.",
+      "names/fr" : "M. Mime",
       "names/jp" : "バリヤード",
-      "names/es" : "Mr.",
       "names/de" : "Pantimos",
       "names/kr" : "마임맨",
       "regions/kanto" : "122",
@@ -5360,9 +5359,8 @@
     {
       "number" : "439",
       "names/en" : "Mime Jr.",
-      "names/fr" : "Mime",
+      "names/fr" : "Mime Jr",
       "names/jp" : "マネネ",
-      "names/es" : "Mime",
       "names/de" : "Pantimimi",
       "names/kr" : "흉내내",
       "regions/kanto" : "439",

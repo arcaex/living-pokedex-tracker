@@ -1,9 +1,6 @@
 Pages
 -----
 
-* Fix Mr. Mime/Mime Jr. names in es and fr
-* Verify Magby
-
 * Find 3D model if possible (and allow to toggle them)
 * Find shiny sprite if possible (and allow to toggle them)
 
