@@ -1,13 +1,19 @@
 import { Component } from '@angular/core';
 import { AlertController, NavController, NavParams } from 'ionic-angular';
 
+import { PokedexProvider } from '../../providers/pokedex/pokedex';
+
 @Component({
     selector: 'page-actions',
     templateUrl: 'actions.html',
 })
 export class ActionsPage {
 
-    constructor(public navCtrl:NavController, public navParams:NavParams, public alertCtrl:AlertController) { }
+    private pokemons:Array<Object> = [];
+
+    constructor(public navCtrl:NavController, public navParams:NavParams, public alertCtrl:AlertController, public pokedex:PokedexProvider) {
+        this.pokemons = this.navParams.get("pokemons");
+    }
 
     ionViewDidLoad() {
         console.log('ionViewDidLoad ActionsPage');
@@ -36,7 +42,7 @@ export class ActionsPage {
     mark(state) {
         let alert = this.alertCtrl.create({
             title:"Confirmation",
-            message:"Are you sure you want to <strong>" + (state ? "mark" : "unmark") + "</strong> all visible Pokemons",
+            message:"Are you sure you want to <strong>" + (state ? "mark" : "unmark") + "</strong> as owned " + this.pokemons.length + " Pokemons",
             buttons: [
                 {
                     "text": "No",
@@ -45,7 +51,10 @@ export class ActionsPage {
                 {
                     "text": "Yes",
                     handler: () => {
-                        console.log("OK");
+                        this.pokemons.forEach(single_pokemon => {
+                            this.pokedex.pokemons[single_pokemon.number]['own'] = state;
+                        });
+                        this.pokedex.save();
                     }
                 }
             ]

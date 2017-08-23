@@ -21,6 +21,9 @@ export class HomePage {
         this.events.subscribe('configSaved', data => {
             this.getPokemons();
         });
+        this.events.subscribe('pokedexSaved', data => {
+            this.getPokemons();
+        });
     }
 
     ionViewDidEnter() {
@@ -60,7 +63,7 @@ export class HomePage {
     }
 
     showActions(event) {
-        let popover = this.popoverCtrl.create(ActionsPage);
+        let popover = this.popoverCtrl.create(ActionsPage, {pokemons:this.pokemon});
         popover.present({ev: event});
     }
 }

@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 
+import { Events } from 'ionic-angular';
+
 import { Storage } from '@ionic/storage';
 
 import 'rxjs/add/operator/map';
@@ -10,7 +12,7 @@ export class PokedexProvider {
 
     private _pokemons:Object = {};
 
-    constructor(public http:Http, public storage:Storage) { }
+    constructor(public http:Http, public storage:Storage, public events:Events) { }
 
     load() {
         console.log("load");
@@ -39,6 +41,8 @@ export class PokedexProvider {
 
     save() {
         this.storage.set("pokemons", JSON.stringify(this._pokemons));
+
+        this.events.publish('pokedexSaved', this._pokemons);
     }
 
     get pokemons():Object {
