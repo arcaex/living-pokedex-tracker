@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { AlertController, NavController, NavParams } from 'ionic-angular';
 
+import { ConfigProvider } from '../../providers/config/config';
 import { PokedexProvider } from '../../providers/pokedex/pokedex';
 
 @Component({
@@ -11,7 +12,7 @@ export class ActionsPage {
 
     private pokemons:Array<Object> = [];
 
-    constructor(public navCtrl:NavController, public navParams:NavParams, public alertCtrl:AlertController, public pokedex:PokedexProvider) {
+    constructor(public navCtrl:NavController, public navParams:NavParams, public alertCtrl:AlertController, public pokedex:PokedexProvider, public config:ConfigProvider) {
         this.pokemons = this.navParams.get("pokemons");
     }
 
@@ -31,7 +32,16 @@ export class ActionsPage {
                 {
                     "text": "Yes",
                     handler: () => {
-                        console.log("OK");
+                        /* Version 0.x data */
+                        window.localStorage['pokedex.pokemon'] = null;
+                        window.localStorage['pokedex.config'] = null;
+
+                        /* Version 1.x data */
+                        this.pokedex.reset();
+                        this.pokedex.save();
+
+                        this.config.reset();
+                        this.config.save();
                     }
                 }
             ]

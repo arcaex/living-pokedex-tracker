@@ -39,6 +39,10 @@ export class PokedexProvider {
         });
     }
 
+    reset() {
+        this._pokemons = {};
+    }
+
     save() {
         this.storage.set("pokemons", JSON.stringify(this._pokemons));
 

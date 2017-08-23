@@ -56,16 +56,7 @@ export class ConfigProvider {
 
     constructor(public http:Http, public storage:Storage, public events:Events) {
         /* Filters default values */
-        this.configs['filters'] = {};
-        this.getFilters().forEach(single_filter => {
-            this.configs['filters'][single_filter['id']] = single_filter['default'];
-        });
-
-        this.configs['alternate_forms'] = {'all': false};
-
-        this.configs['region'] = {'selected':'alola'};
-
-        this.configs['language'] = {'selected':'en'};
+        this.reset();
 
         console.log("Initial configs");
         console.log(JSON.stringify(this.configs));
@@ -109,6 +100,21 @@ export class ConfigProvider {
                 }
             }
         });
+    }
+
+    reset() {
+        this.configs = {};
+
+        this.configs['filters'] = {};
+        this.getFilters().forEach(single_filter => {
+            this.configs['filters'][single_filter['id']] = single_filter['default'];
+        });
+
+        this.configs['alternate_forms'] = {'all': false};
+
+        this.configs['region'] = {'selected':'alola'};
+
+        this.configs['language'] = {'selected':'en'};
     }
 
     save() {
