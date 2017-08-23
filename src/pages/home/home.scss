@@ -1,4 +1,8 @@
 page-home {
+    ion-searchbar {
+        background-color: map-get($colors, secondary) !important;
+    }
+
     ion-label {
         display: flex;
         margin: 0 !important;
