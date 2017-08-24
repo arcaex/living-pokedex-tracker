@@ -54,8 +54,16 @@ export class HomePage {
             return true;
         });
 
-        this.totalPokemons = this.data.getRegionalPokemons().length;
-        this.ownedPokemons = this.data.getRegionalPokemons().filter(single_pokemon => (this.pokedex.pokemons[single_pokemon['number']]['own'])).length;
+        /* Build stats */
+        let pokemons:Array<Object> = this.data.getRegionalPokemons();
+        console.log(this.config.alternate_forms);
+        if (this.config.alternate_forms['all']) {
+            this.data.getData()['alternate_forms'].forEach(single_form => {
+                pokemons.push({number: single_form['number']});
+            });
+        }
+        this.totalPokemons = pokemons.length;
+        this.ownedPokemons = pokemons.filter(single_pokemon => (this.pokedex.pokemons[single_pokemon['number']]['own'])).length;
     }
 
     search(ev) {
