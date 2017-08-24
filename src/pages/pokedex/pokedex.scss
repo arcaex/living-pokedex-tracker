@@ -1,0 +1,32 @@
+page-pokedex {
+    ion-searchbar {
+        background-color: map-get($colors, secondary) !important;
+    }
+
+    ion-label {
+        display: flex;
+        margin: 0 !important;
+
+        div.pokemon-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h2 {
+                padding-bottom: 8px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    p.pokemon-settings {
+        ion-icon {
+            padding-right: 8px;
+            color: #dcdcdc;
+
+            &.active {
+                color: #666666;
+            }
+        }
+    }
+}

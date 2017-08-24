@@ -10,9 +10,12 @@ import { IonicStorageModule } from '@ionic/storage';
 
 import { MyApp } from './app.component';
 
-import { HomePage } from '../pages/home/home';
+import { PokedexPage } from '../pages/pokedex/pokedex';
 import { ActionsPage } from '../pages/actions/actions';
+import { FormsPage } from '../pages/forms/forms';
 import { DetailPage } from '../pages/detail/detail';
+
+import { Tabs } from '../pages/tabs/tabs';
 
 import { ConfigProvider } from '../providers/config/config';
 import { DataProvider } from '../providers/data/data';
@@ -21,9 +24,11 @@ import { PokedexProvider } from '../providers/pokedex/pokedex';
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
+    PokedexPage,
     DetailPage,
-    ActionsPage
+    ActionsPage,
+    Tabs,
+    FormsPage
   ],
   imports: [
     BrowserModule,
@@ -34,9 +39,11 @@ import { PokedexProvider } from '../providers/pokedex/pokedex';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
+    PokedexPage,
     DetailPage,
-    ActionsPage
+    ActionsPage,
+    Tabs,
+    FormsPage
   ],
   providers: [
     StatusBar,

@@ -3,7 +3,7 @@ import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { HomePage } from '../pages/home/home';
+import { Tabs } from '../pages/tabs/tabs';
 
 import { ConfigProvider } from '../providers/config/config';
 import { DataProvider } from '../providers/data/data';
@@ -27,7 +27,7 @@ export class MyApp {
                     this.data.load('alternate_forms').then(result => {
                         this.pokedex.load().then(result => {
                             this.pokedex.init(this.data.getData(), this.config.getFilters());
-                            this.rootPage = HomePage;
+                            this.rootPage = Tabs;
                         });
                     });
                 });
