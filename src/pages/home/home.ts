@@ -17,6 +17,9 @@ export class HomePage {
 
     private pokemons:Array<Object> = [];
 
+    private totalPokemons:number = 0;
+    private ownedPokemons:number = 0;
+
     constructor(public navCtrl:NavController, public config:ConfigProvider, public data:DataProvider, public pokedex:PokedexProvider, public modalCtrl:ModalController, public events:Events, public popoverCtrl:PopoverController) {
         this.events.subscribe('configSaved', data => {
             this.getPokemons();
@@ -50,6 +53,9 @@ export class HomePage {
 
             return true;
         });
+
+        this.totalPokemons = this.data.getRegionalPokemons().length;
+        this.ownedPokemons = this.data.getRegionalPokemons().filter(single_pokemon => (this.pokedex.pokemons[single_pokemon]['own']));
     }
 
     search(ev) {

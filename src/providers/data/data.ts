@@ -24,16 +24,23 @@ export class DataProvider {
         });
     }
 
+    getRegionalPokemons() {
+        return this.data['pokemons'].filter(single_pokemon => {
+            if (this.config.region['selected'] != 'national') {
+                if (single_pokemon['regions'][this.config.region['selected']] == null) {
+                    return false;
+                }
+            }
+            return true;
+        });
+    }
+
     refresh() {
         /* Filter the list */
         if (this.data['pokemons'] != null && this.data['alternate_forms'] != null) {
-            this.master = this.data['pokemons'].filter(single_pokemon => {
-                if (this.config.region['selected'] != 'national') {
-                    if (single_pokemon['regions'][this.config.region['selected']] == null) {
-                        return false;
-                    }
-                }
+            this.master = this.getRegionalPokemons();
 
+            this.master = this.master.filter(single_pokemon => {
                 for (let filter_id in this.config.filters) {
                     if (this.config.filters[filter_id]) {
                         if (this.pokedex.pokemons[single_pokemon['number']][filter_id]) {
@@ -41,7 +48,6 @@ export class DataProvider {
                         }
                     }
                 };
-
                 return true;
             });
 
@@ -111,5 +117,9 @@ export class DataProvider {
 
     getPokemons() {
         return this.master;
+    }
+
+    getData():Object {
+        return this.data;
     }
 }

@@ -22,10 +22,10 @@ export class MyApp {
             splashScreen.hide();
 
             /* Load the configs */
-            this.pokedex.load().then(result => {
-                this.config.load().then(result => {
-                    this.data.load('pokemons').then(result => {
-                        this.data.load('alternate_forms').then(result => {
+            this.config.load().then(result => {
+                this.data.load('pokemons').then(result => {
+                    this.data.load('alternate_forms').then(result => {
+                        this.pokedex.load().then(result => {
                             this.rootPage = HomePage;
                         });
                     });
