@@ -22,7 +22,7 @@
       "regions/kanto" : "002",
       "regions/johto" : "232",
       "regions/kalos" : "081",
-      "evolution" : "Evolve #001 to Level 16"
+      "evolution" : "Level up #001 to 16"
     },
     {
       "number" : "003",
@@ -34,7 +34,7 @@
       "regions/kanto" : "003",
       "regions/johto" : "233",
       "regions/kalos" : "082",
-      "evolution" : "Evolve #002 to Level 32"
+      "evolution" : "Level up #002 to 32"
     },
     {
       "number" : "004",
@@ -58,7 +58,7 @@
       "regions/kanto" : "005",
       "regions/johto" : "235",
       "regions/kalos" : "084",
-      "evolution" : "Evolve #004 to Level 16"
+      "evolution" : "Level up #004 to 16"
     },
     {
       "number" : "006",
@@ -70,7 +70,7 @@
       "regions/kanto" : "006",
       "regions/johto" : "236",
       "regions/kalos" : "085",
-      "evolution" : "Evolve #005 to Level 36"
+      "evolution" : "Level up #005 to 36"
     },
     {
       "number" : "007",
@@ -94,7 +94,7 @@
       "regions/kanto" : "008",
       "regions/johto" : "238",
       "regions/kalos" : "087",
-      "evolution" : "Evolve #007 to Level 16"
+      "evolution" : "Level up #007 to 16"
     },
     {
       "number" : "009",
@@ -106,7 +106,7 @@
       "regions/kanto" : "009",
       "regions/johto" : "239",
       "regions/kalos" : "088",
-      "evolution" : "Evolve #008 to Level 36"
+      "evolution" : "Level up #008 to 36"
     },
     {
       "number" : "010",
@@ -132,7 +132,7 @@
       "regions/kanto" : "011",
       "regions/johto" : "025",
       "regions/kalos" : "024",
-      "evolution" : "Evolve #010 to Level 7"
+      "evolution" : "Level up #010 to 7"
     },
     {
       "number" : "012",
@@ -145,7 +145,7 @@
       "regions/kanto" : "012",
       "regions/johto" : "026",
       "regions/kalos" : "025",
-      "evolution" : "Evolve #011 to Level 10"
+      "evolution" : "Level up #011 to 10"
     },
     {
       "number" : "013",
@@ -169,7 +169,7 @@
       "regions/kanto" : "014",
       "regions/johto" : "028",
       "regions/kalos" : "027",
-      "evolution" : "Evolve #013 to Level 7"
+      "evolution" : "Level up #013 to 7"
     },
     {
       "number" : "015",
@@ -181,7 +181,7 @@
       "regions/kanto" : "015",
       "regions/johto" : "029",
       "regions/kalos" : "028",
-      "evolution" : "Evolve #014 to Level 10"
+      "evolution" : "Level up #014 to 10"
     },
     {
       "number" : "016",
@@ -205,7 +205,7 @@
       "regions/kanto" : "017",
       "regions/johto" : "011",
       "regions/kalos" : "018",
-      "evolution" : "Evolve #016 to Level 18"
+      "evolution" : "Level up #016 to 18"
     },
     {
       "number" : "018",
@@ -217,7 +217,7 @@
       "regions/kanto" : "018",
       "regions/johto" : "012",
       "regions/kalos" : "019",
-      "evolution" : "Evolve #017 to Level 36"
+      "evolution" : "Level up #017 to 36"
     },
     {
       "number" : "019",
@@ -242,7 +242,7 @@
       "regions/kanto" : "020",
       "regions/johto" : "018",
       "regions/unova" : "060",
-      "evolution" : "Evolve #019 to Level 20, at Nighttime, in Alola"
+      "evolution" : "Level up #019 to 20, at Nighttime, in Alola"
     },
     {
       "number" : "021",
@@ -268,7 +268,7 @@
       "regions/kanto" : "022",
       "regions/johto" : "014",
       "regions/kalos" : "110",
-      "evolution" : "Evolve #021 to Level 20"
+      "evolution" : "Level up #021 to 20"
     },
     {
       "number" : "023",
@@ -290,7 +290,7 @@
       "regions/kanto" : "024",
       "regions/johto" : "051",
       "regions/kalos" : "038",
-      "evolution" : "Evolve #023 to Level 22"
+      "evolution" : "Level up #023 to 22"
     },
     {
       "number" : "025",
@@ -303,7 +303,7 @@
       "regions/hoenn" : "163",
       "regions/sinnoh" : "104",
       "regions/kalos" : "036",
-      "evolution" : "Evolve #172 with Happiness"
+      "evolution" : "Level up #172 with Happiness"
     },
     {
       "number" : "026",
@@ -366,7 +366,7 @@
       "regions/kanto" : "030",
       "regions/johto" : "096",
       "regions/kalos" : "105",
-      "evolution" : "Evolve #029 to Level 16"
+      "evolution" : "Level up #029 to 16"
     },
     {
       "number" : "031",
@@ -396,7 +396,7 @@
       "regions/kanto" : "033",
       "regions/johto" : "099",
       "regions/kalos" : "108",
-      "evolution" : "Evolve #032 to Level 16"
+      "evolution" : "Level up #032 to 16"
     },
     {
       "number" : "034",
@@ -420,7 +420,7 @@
       "regions/johto" : "041",
       "regions/sinnoh" : "100",
       "regions/unova" : "089",
-      "evolution" : "Evolve #173 with Happiness"
+      "evolution" : "Level up #173 with Happiness"
     },
     {
       "number" : "036",
@@ -478,7 +478,7 @@
       "regions/hoenn" : "143",
       "regions/unova" : "282",
       "regions/kalos" : "120",
-      "evolution" : "Evolve #174 with Happiness"
+      "evolution" : "Level up #174 with Happiness"
     },
     {
       "number" : "040",
@@ -523,7 +523,7 @@
       "regions/sinnoh" : "029",
       "regions/unova" : "062",
       "regions/kalos" : "146",
-      "evolution" : "Evolve #041 to Level 22"
+      "evolution" : "Level up #041 to 22"
     },
     {
       "number" : "043",
@@ -549,7 +549,7 @@
       "regions/johto" : "084",
       "regions/hoenn" : "092",
       "regions/kalos" : "106",
-      "evolution" : "Evolve #043 to Level 21"
+      "evolution" : "Level up #043 to 21"
     },
     {
       "number" : "045",
@@ -583,7 +583,7 @@
       "regions/alola" : "148",
       "regions/kanto" : "047",
       "regions/johto" : "071",
-      "evolution" : "Evolve #046 to Level 24"
+      "evolution" : "Level up #046 to 24"
     },
     {
       "number" : "048",
@@ -605,7 +605,7 @@
       "names/kr" : "도나리",
       "regions/kanto" : "049",
       "regions/johto" : "110",
-      "evolution" : "Evolve #048 to Level 31"
+      "evolution" : "Level up #048 to 31"
     },
     {
       "number" : "050",
@@ -631,7 +631,7 @@
       "regions/kanto" : "051",
       "regions/johto" : "135",
       "regions/kalos" : "002",
-      "evolution" : "Evolve #050 to Level 26, in Alola"
+      "evolution" : "Level up #050 to 26, in Alola"
     },
     {
       "number" : "052",
@@ -654,7 +654,7 @@
       "regions/alola" : "046",
       "regions/kanto" : "053",
       "regions/johto" : "139",
-      "evolution" : "Evolve #052 with Happiness, in Alola"
+      "evolution" : "Level up #052 with Happiness, in Alola"
     },
     {
       "number" : "054",
@@ -686,7 +686,7 @@
       "regions/sinnoh" : "044",
       "regions/unova" : "029",
       "regions/kalos" : "060",
-      "evolution" : "Evolve #054 to Level 33"
+      "evolution" : "Level up #054 to 33"
     },
     {
       "number" : "056",
@@ -710,7 +710,7 @@
       "regions/alola" : "080",
       "regions/kanto" : "057",
       "regions/johto" : "137",
-      "evolution" : "Evolve #056 to Level 28"
+      "evolution" : "Level up #056 to 28"
     },
     {
       "number" : "058",
@@ -762,7 +762,7 @@
       "regions/kanto" : "061",
       "regions/johto" : "073",
       "regions/kalos" : "034",
-      "evolution" : "Evolve #060 to Level 25"
+      "evolution" : "Level up #060 to 25"
     },
     {
       "number" : "062",
@@ -801,7 +801,7 @@
       "regions/hoenn" : "041",
       "regions/sinnoh" : "021",
       "regions/kalos" : "103",
-      "evolution" : "Evolve #063 to Level 16"
+      "evolution" : "Level up #063 to 16"
     },
     {
       "number" : "065",
@@ -845,7 +845,7 @@
       "regions/hoenn" : "076",
       "regions/sinnoh" : "041",
       "regions/kalos" : "058",
-      "evolution" : "Evolve #066 to Level 28"
+      "evolution" : "Level up #066 to 28"
     },
     {
       "number" : "068",
@@ -884,7 +884,7 @@
       "regions/kanto" : "070",
       "regions/johto" : "065",
       "regions/kalos" : "027",
-      "evolution" : "Evolve #069 to Level 21"
+      "evolution" : "Level up #069 to 21"
     },
     {
       "number" : "071",
@@ -924,7 +924,7 @@
       "regions/hoenn" : "069",
       "regions/sinnoh" : "137",
       "regions/kalos" : "026",
-      "evolution" : "Evolve #072 to Level 30"
+      "evolution" : "Level up #072 to 30"
     },
     {
       "number" : "074",
@@ -954,7 +954,7 @@
       "regions/hoenn" : "059",
       "regions/sinnoh" : "032",
       "regions/kalos" : "010",
-      "evolution" : "Evolve #074 to Level 25, in Alola"
+      "evolution" : "Level up #074 to 25, in Alola"
     },
     {
       "number" : "076",
@@ -992,7 +992,7 @@
       "regions/kanto" : "078",
       "regions/johto" : "207",
       "regions/sinnoh" : "091",
-      "evolution" : "Evolve #077 to Level 40"
+      "evolution" : "Level up #077 to 40"
     },
     {
       "number" : "079",
@@ -1018,7 +1018,7 @@
       "regions/kanto" : "080",
       "regions/johto" : "081",
       "regions/kalos" : "134",
-      "evolution" : "Evolve #079 to Level 37"
+      "evolution" : "Level up #079 to 37"
     },
     {
       "number" : "081",
@@ -1049,7 +1049,7 @@
       "regions/sinnoh" : "179",
       "regions/unova" : "049",
       "regions/kalos" : "070",
-      "evolution" : "Evolve #081 to Level 30"
+      "evolution" : "Level up #081 to 30"
     },
     {
       "number" : "083",
@@ -1085,7 +1085,7 @@
       "regions/johto" : "205",
       "regions/hoenn" : "096",
       "regions/kalos" : "095",
-      "evolution" : "Evolve #084 to Level 31"
+      "evolution" : "Level up #084 to 31"
     },
     {
       "number" : "086",
@@ -1109,7 +1109,7 @@
       "regions/kanto" : "087",
       "regions/johto" : "179",
       "regions/unova" : "266",
-      "evolution" : "Evolve #086 to Level 34"
+      "evolution" : "Level up #086 to 34"
     },
     {
       "number" : "088",
@@ -1137,7 +1137,7 @@
       "regions/johto" : "118",
       "regions/hoenn" : "112",
       "regions/unova" : "065",
-      "evolution" : "Evolve #088 to Level 38, in Alola"
+      "evolution" : "Level up #088 to 38, in Alola"
     },
     {
       "number" : "090",
@@ -1191,7 +1191,7 @@
       "regions/johto" : "059",
       "regions/sinnoh" : "070",
       "regions/kalos" : "031",
-      "evolution" : "Evolve #092 to Level 25"
+      "evolution" : "Level up #092 to 25"
     },
     {
       "number" : "094",
@@ -1239,7 +1239,7 @@
       "regions/alola" : "055",
       "regions/kanto" : "097",
       "regions/johto" : "088",
-      "evolution" : "Evolve #096 to Level 26"
+      "evolution" : "Level up #096 to 26"
     },
     {
       "number" : "098",
@@ -1258,7 +1258,7 @@
       "names/kr" : "킹크랩",
       "regions/kanto" : "099",
       "regions/johto" : "167",
-      "evolution" : "Evolve #098 to Level 28"
+      "evolution" : "Level up #098 to 28"
     },
     {
       "number" : "100",
@@ -1284,7 +1284,7 @@
       "regions/johto" : "122",
       "regions/hoenn" : "088",
       "regions/kalos" : "073",
-      "evolution" : "Evolve #100 to Level 30"
+      "evolution" : "Level up #100 to 30"
     },
     {
       "number" : "102",
@@ -1336,7 +1336,7 @@
       "regions/kanto" : "105",
       "regions/johto" : "209",
       "regions/kalos" : "061",
-      "evolution" : "Evolve #104 to Level 28, at Nighttime, in Alola"
+      "evolution" : "Level up #104 to 28, at Nighttime, in Alola"
     },
     {
       "number" : "106",
@@ -1347,7 +1347,7 @@
       "names/kr" : "시라소몬",
       "regions/kanto" : "106",
       "regions/johto" : "146",
-      "evolution" : "Evolve #236 to Level 20, Attack > Defense"
+      "evolution" : "Level up #236 to 20, Attack > Defense"
     },
     {
       "number" : "107",
@@ -1358,7 +1358,7 @@
       "names/kr" : "홍수몬",
       "regions/kanto" : "107",
       "regions/johto" : "147",
-      "evolution" : "Evolve #106 to Level 20, Attack < Defense"
+      "evolution" : "Level up #106 to 20, Attack < Defense"
     },
     {
       "number" : "108",
@@ -1398,7 +1398,7 @@
       "regions/johto" : "116",
       "regions/hoenn" : "114",
       "regions/unova" : "047",
-      "evolution" : "Evolve #109 to Level 35"
+      "evolution" : "Level up #109 to 35"
     },
     {
       "number" : "111",
@@ -1426,7 +1426,7 @@
       "regions/hoenn" : "177",
       "regions/sinnoh" : "187",
       "regions/kalos" : "051",
-      "evolution" : "Evolve #111 to Level 42"
+      "evolution" : "Level up #111 to 42"
     },
     {
       "number" : "113",
@@ -1439,7 +1439,7 @@
       "regions/kanto" : "113",
       "regions/johto" : "222",
       "regions/sinnoh" : "097",
-      "evolution" : "Evolve #440 hold Oval Stone, at Daytime"
+      "evolution" : "Level up #440 hold Oval Stone, at Daytime"
     },
     {
       "number" : "114",
@@ -1490,7 +1490,7 @@
       "regions/johto" : "191",
       "regions/hoenn" : "194",
       "regions/kalos" : "040",
-      "evolution" : "Evolve #116 to Level 32"
+      "evolution" : "Level up #116 to 32"
     },
     {
       "number" : "118",
@@ -1520,7 +1520,7 @@
       "regions/hoenn" : "052",
       "regions/sinnoh" : "079",
       "regions/kalos" : "054",
-      "evolution" : "Evolve #118 to Level 33"
+      "evolution" : "Level up #118 to 33"
     },
     {
       "number" : "120",
@@ -1562,7 +1562,7 @@
       "regions/johto" : "158",
       "regions/sinnoh" : "095",
       "regions/kalos" : "114",
-      "evolution" : "Evolve #439 after Mimic learned"
+      "evolution" : "Level up #439 after Mimic learned"
     },
     {
       "number" : "123",
@@ -1588,7 +1588,7 @@
       "regions/kanto" : "124",
       "regions/johto" : "155",
       "regions/kalos" : "084",
-      "evolution" : "Evolve #238 to Level 30"
+      "evolution" : "Level up #238 to 30"
     },
     {
       "number" : "125",
@@ -1602,7 +1602,7 @@
       "regions/johto" : "157",
       "regions/sinnoh" : "198",
       "regions/unova" : "057",
-      "evolution" : "Evolve #239 to Level 30"
+      "evolution" : "Level up #239 to 30"
     },
     {
       "number" : "126",
@@ -1614,7 +1614,7 @@
       "regions/johto" : "153",
       "regions/sinnoh" : "201",
       "regions/unova" : "054",
-      "evolution" : "Evolve #240 to Level 30"
+      "evolution" : "Level up #240 to 30"
     },
     {
       "number" : "127",
@@ -1669,7 +1669,7 @@
       "regions/hoenn" : "054",
       "regions/sinnoh" : "024",
       "regions/kalos" : "050",
-      "evolution" : "Evolve #129 to Level 20"
+      "evolution" : "Level up #129 to 20"
     },
     {
       "number" : "131",
@@ -1788,7 +1788,7 @@
       "names/kr" : "암스타",
       "regions/kanto" : "139",
       "regions/johto" : "226",
-      "evolution" : "Evolve #138 to Level 40"
+      "evolution" : "Level up #138 to 40"
     },
     {
       "number" : "140",
@@ -1806,7 +1806,7 @@
       "names/kr" : "투구푸스",
       "regions/kanto" : "141",
       "regions/johto" : "228",
-      "evolution" : "Evolve #140 to Level 40"
+      "evolution" : "Level up #140 to 40"
     },
     {
       "number" : "142",
@@ -1832,7 +1832,7 @@
       "regions/johto" : "230",
       "regions/sinnoh" : "113",
       "regions/kalos" : "139",
-      "evolution" : "Evolve #446 with Happiness"
+      "evolution" : "Level up #446 with Happiness"
     },
     {
       "number" : "144",
@@ -1892,7 +1892,7 @@
       "regions/kanto" : "148",
       "regions/johto" : "247",
       "regions/kalos" : "146",
-      "evolution" : "Evolve #147 to Level 30"
+      "evolution" : "Level up #147 to 30"
     },
     {
       "number" : "149",
@@ -1905,7 +1905,7 @@
       "regions/kanto" : "149",
       "regions/johto" : "248",
       "regions/kalos" : "147",
-      "evolution" : "Evolve #148 to Level 55"
+      "evolution" : "Level up #148 to 55"
     },
     {
       "number" : "150",
@@ -1947,7 +1947,7 @@
       "names/kr" : "베이리프",
       "regions/kanto" : "153",
       "regions/johto" : "002",
-      "evolution" : "Evolve #152 to Level 16"
+      "evolution" : "Level up #152 to 16"
     },
     {
       "number" : "154",
@@ -1958,7 +1958,7 @@
       "names/kr" : "메가니움",
       "regions/kanto" : "154",
       "regions/johto" : "003",
-      "evolution" : "Evolve #153 to Level 32"
+      "evolution" : "Level up #153 to 32"
     },
     {
       "number" : "155",
@@ -1980,7 +1980,7 @@
       "names/kr" : "마그케인",
       "regions/kanto" : "156",
       "regions/johto" : "005",
-      "evolution" : "Evolve #155 to Level 14"
+      "evolution" : "Level up #155 to 14"
     },
     {
       "number" : "157",
@@ -1990,7 +1990,7 @@
       "names/kr" : "블레이범",
       "regions/kanto" : "157",
       "regions/johto" : "006",
-      "evolution" : "Evolve #156 to Level 36"
+      "evolution" : "Level up #156 to 36"
     },
     {
       "number" : "158",
@@ -2012,7 +2012,7 @@
       "names/kr" : "엘리게이",
       "regions/kanto" : "159",
       "regions/johto" : "008",
-      "evolution" : "Evolve #158 to Level 18"
+      "evolution" : "Level up #158 to 18"
     },
     {
       "number" : "160",
@@ -2023,7 +2023,7 @@
       "names/kr" : "장크로다일",
       "regions/kanto" : "160",
       "regions/johto" : "009",
-      "evolution" : "Evolve #159 to Level 30"
+      "evolution" : "Level up #159 to 30"
     },
     {
       "number" : "161",
@@ -2047,7 +2047,7 @@
       "regions/kanto" : "162",
       "regions/johto" : "020",
       "regions/kalos" : "110",
-      "evolution" : "Evolve #161 to Level 15"
+      "evolution" : "Level up #161 to 15"
     },
     {
       "number" : "163",
@@ -2071,7 +2071,7 @@
       "regions/johto" : "016",
       "regions/sinnoh" : "107",
       "regions/kalos" : "118",
-      "evolution" : "Evolve #163 to Level 20"
+      "evolution" : "Level up #163 to 20"
     },
     {
       "number" : "165",
@@ -2095,7 +2095,7 @@
       "regions/kanto" : "166",
       "regions/johto" : "031",
       "regions/kalos" : "075",
-      "evolution" : "Evolve #165 to Level 18"
+      "evolution" : "Level up #165 to 18"
     },
     {
       "number" : "167",
@@ -2120,7 +2120,7 @@
       "regions/kanto" : "168",
       "regions/johto" : "033",
       "regions/kalos" : "108",
-      "evolution" : "Evolve #167 to Level 22"
+      "evolution" : "Level up #167 to 22"
     },
     {
       "number" : "169",
@@ -2136,7 +2136,7 @@
       "regions/sinnoh" : "030",
       "regions/unova" : "063",
       "regions/kalos" : "147",
-      "evolution" : "Evolve #042 with Happiness"
+      "evolution" : "Level up #042 with Happiness"
     },
     {
       "number" : "170",
@@ -2162,7 +2162,7 @@
       "regions/johto" : "177",
       "regions/hoenn" : "191",
       "regions/kalos" : "148",
-      "evolution" : "Evolve #170 to Level 27"
+      "evolution" : "Level up #170 to 27"
     },
     {
       "number" : "172",
@@ -2224,7 +2224,7 @@
       "regions/kanto" : "176",
       "regions/johto" : "047",
       "regions/sinnoh" : "174",
-      "evolution" : "Evolve #175 with Happiness"
+      "evolution" : "Level up #175 with Happiness"
     },
     {
       "number" : "177",
@@ -2244,7 +2244,7 @@
       "regions/kanto" : "178",
       "regions/johto" : "162",
       "regions/hoenn" : "170",
-      "evolution" : "Evolve #177 to Level 25"
+      "evolution" : "Level up #177 to 25"
     },
     {
       "number" : "179",
@@ -2270,7 +2270,7 @@
       "regions/johto" : "054",
       "regions/unova" : "026",
       "regions/kalos" : "128",
-      "evolution" : "Evolve #179 to Level 15"
+      "evolution" : "Level up #179 to 15"
     },
     {
       "number" : "181",
@@ -2282,7 +2282,7 @@
       "regions/johto" : "055",
       "regions/unova" : "027",
       "regions/kalos" : "129",
-      "evolution" : "Evolve #180 to Level 30"
+      "evolution" : "Level up #180 to 30"
     },
     {
       "number" : "182",
@@ -2308,7 +2308,7 @@
       "regions/sinnoh" : "125",
       "regions/unova" : "031",
       "regions/kalos" : "042",
-      "evolution" : "Evolve #298 with Happiness"
+      "evolution" : "Level up #298 with Happiness"
     },
     {
       "number" : "184",
@@ -2321,7 +2321,7 @@
       "regions/sinnoh" : "126",
       "regions/unova" : "032",
       "regions/kalos" : "043",
-      "evolution" : "Evolve #183 to Level 18"
+      "evolution" : "Level up #183 to 18"
     },
     {
       "number" : "185",
@@ -2335,7 +2335,7 @@
       "regions/johto" : "107",
       "regions/sinnoh" : "093",
       "regions/kalos" : "130",
-      "evolution" : "Evolve #438 after Mimic learned"
+      "evolution" : "Level up #438 after Mimic learned"
     },
     {
       "number" : "186",
@@ -2372,7 +2372,7 @@
       "regions/kanto" : "188",
       "regions/johto" : "068",
       "regions/kalos" : "136",
-      "evolution" : "Evolve #187 to Level 18"
+      "evolution" : "Level up #187 to 18"
     },
     {
       "number" : "189",
@@ -2384,7 +2384,7 @@
       "regions/kanto" : "189",
       "regions/johto" : "069",
       "regions/kalos" : "137",
-      "evolution" : "Evolve #188 to Level 27"
+      "evolution" : "Level up #188 to 27"
     },
     {
       "number" : "190",
@@ -2458,7 +2458,7 @@
       "regions/johto" : "057",
       "regions/sinnoh" : "118",
       "regions/kalos" : "019",
-      "evolution" : "Evolve #194 to Level 20"
+      "evolution" : "Level up #194 to 20"
     },
     {
       "number" : "196",
@@ -2473,7 +2473,7 @@
       "regions/sinnoh" : "167",
       "regions/unova" : "095",
       "regions/kalos" : "081",
-      "evolution" : "Evolve #133 with Happiness, at Daytime"
+      "evolution" : "Level up #133 with Happiness, at Daytime"
     },
     {
       "number" : "197",
@@ -2488,7 +2488,7 @@
       "regions/sinnoh" : "168",
       "regions/unova" : "096",
       "regions/kalos" : "082",
-      "evolution" : "Evolve #133 with Happiness, at Nighttime"
+      "evolution" : "Level up #133 with Happiness, at Nighttime"
     },
     {
       "number" : "198",
@@ -2554,7 +2554,7 @@
       "regions/johto" : "108",
       "regions/hoenn" : "168",
       "regions/kalos" : "119",
-      "evolution" : "Evolve #360 to Level 15"
+      "evolution" : "Level up #360 to 15"
     },
     {
       "number" : "203",
@@ -2587,7 +2587,7 @@
       "names/kr" : "쏘콘",
       "regions/kanto" : "205",
       "regions/johto" : "094",
-      "evolution" : "Evolve #204 to Level 31"
+      "evolution" : "Level up #204 to 31"
     },
     {
       "number" : "206",
@@ -2649,7 +2649,7 @@
       "regions/kanto" : "210",
       "regions/johto" : "126",
       "regions/kalos" : "072",
-      "evolution" : "Evolve #209 to Level 23"
+      "evolution" : "Level up #209 to 23"
     },
     {
       "number" : "211",
@@ -2737,7 +2737,7 @@
       "regions/kanto" : "217",
       "regions/johto" : "199",
       "regions/kalos" : "133",
-      "evolution" : "Evolve #216 to Level 30"
+      "evolution" : "Level up #216 to 30"
     },
     {
       "number" : "218",
@@ -2762,7 +2762,7 @@
       "regions/johto" : "217",
       "regions/hoenn" : "109",
       "regions/kalos" : "013",
-      "evolution" : "Evolve #218 to Level 38"
+      "evolution" : "Level up #218 to 38"
     },
     {
       "number" : "220",
@@ -2790,7 +2790,7 @@
       "regions/sinnoh" : "204",
       "regions/unova" : "259",
       "regions/kalos" : "077",
-      "evolution" : "Evolve #220 to Level 33"
+      "evolution" : "Level up #220 to 33"
     },
     {
       "number" : "222",
@@ -2830,7 +2830,7 @@
       "regions/sinnoh" : "133",
       "regions/unova" : "236",
       "regions/kalos" : "145",
-      "evolution" : "Evolve #223 to Level 25"
+      "evolution" : "Level up #223 to 25"
     },
     {
       "number" : "225",
@@ -2858,7 +2858,7 @@
       "regions/sinnoh" : "141",
       "regions/unova" : "234",
       "regions/kalos" : "140",
-      "evolution" : "Evolve #458 with #223 in party"
+      "evolution" : "Level up #458 with #223 in party"
     },
     {
       "number" : "227",
@@ -2899,7 +2899,7 @@
       "regions/johto" : "215",
       "regions/sinnoh" : "177",
       "regions/kalos" : "076",
-      "evolution" : "Evolve #228 to Level 24"
+      "evolution" : "Level up #228 to 24"
     },
     {
       "number" : "230",
@@ -2932,7 +2932,7 @@
       "regions/kanto" : "232",
       "regions/johto" : "201",
       "regions/hoenn" : "173",
-      "evolution" : "Evolve #231 to Level 25"
+      "evolution" : "Level up #231 to 25"
     },
     {
       "number" : "233",
@@ -2989,7 +2989,7 @@
       "names/kr" : "카포에라",
       "regions/kanto" : "237",
       "regions/johto" : "148",
-      "evolution" : "Evolve #107 to Level 20, Attack = Defense"
+      "evolution" : "Level up #107 to 20, Attack = Defense"
     },
     {
       "number" : "238",
@@ -3051,7 +3051,7 @@
       "regions/kanto" : "242",
       "regions/johto" : "223",
       "regions/sinnoh" : "098",
-      "evolution" : "Evolve #113 with Happiness"
+      "evolution" : "Level up #113 with Happiness"
     },
     {
       "number" : "243",
@@ -3111,7 +3111,7 @@
       "regions/johto" : "250",
       "regions/unova" : "293",
       "regions/kalos" : "103",
-      "evolution" : "Evolve #246 to Level 30"
+      "evolution" : "Level up #246 to 30"
     },
     {
       "number" : "248",
@@ -3124,7 +3124,7 @@
       "regions/johto" : "251",
       "regions/unova" : "294",
       "regions/kalos" : "104",
-      "evolution" : "Evolve #247 to Level 55"
+      "evolution" : "Level up #247 to 55"
     },
     {
       "number" : "249",
@@ -3173,7 +3173,7 @@
       "names/kr" : "나무돌이",
       "regions/kanto" : "253",
       "regions/hoenn" : "002",
-      "evolution" : "Evolve #252 to Level 16"
+      "evolution" : "Level up #252 to 16"
     },
     {
       "number" : "254",
@@ -3184,7 +3184,7 @@
       "names/kr" : "나무킹",
       "regions/kanto" : "254",
       "regions/hoenn" : "003",
-      "evolution" : "Evolve #253 to Level 36"
+      "evolution" : "Level up #253 to 36"
     },
     {
       "number" : "255",
@@ -3206,7 +3206,7 @@
       "names/kr" : "영치코",
       "regions/kanto" : "256",
       "regions/hoenn" : "005",
-      "evolution" : "Evolve #255 to Level 16"
+      "evolution" : "Level up #255 to 16"
     },
     {
       "number" : "257",
@@ -3217,7 +3217,7 @@
       "names/kr" : "번치코",
       "regions/kanto" : "257",
       "regions/hoenn" : "006",
-      "evolution" : "Evolve #256 to Level 36"
+      "evolution" : "Level up #256 to 36"
     },
     {
       "number" : "258",
@@ -3239,7 +3239,7 @@
       "names/kr" : "늪짱이",
       "regions/kanto" : "259",
       "regions/hoenn" : "008",
-      "evolution" : "Evolve #258 to Level 16"
+      "evolution" : "Level up #258 to 16"
     },
     {
       "number" : "260",
@@ -3250,7 +3250,7 @@
       "names/kr" : "대짱이",
       "regions/kanto" : "260",
       "regions/hoenn" : "009",
-      "evolution" : "Evolve #259 to Level 36"
+      "evolution" : "Level up #259 to 36"
     },
     {
       "number" : "261",
@@ -3274,7 +3274,7 @@
       "regions/kanto" : "262",
       "regions/hoenn" : "011",
       "regions/kalos" : "045",
-      "evolution" : "Evolve #261 to Level 18"
+      "evolution" : "Level up #261 to 18"
     },
     {
       "number" : "263",
@@ -3298,7 +3298,7 @@
       "regions/kanto" : "264",
       "regions/hoenn" : "013",
       "regions/kalos" : "013",
-      "evolution" : "Evolve #263 to Level 20"
+      "evolution" : "Level up #263 to 20"
     },
     {
       "number" : "265",
@@ -3322,7 +3322,7 @@
       "regions/kanto" : "266",
       "regions/hoenn" : "015",
       "regions/sinnoh" : "049",
-      "evolution" : "Evolve #265 to Level 7, random based on personality"
+      "evolution" : "Level up #265 to 7, random based on personality"
     },
     {
       "number" : "267",
@@ -3334,7 +3334,7 @@
       "regions/kanto" : "267",
       "regions/hoenn" : "016",
       "regions/sinnoh" : "050",
-      "evolution" : "Evolve #266 to Level 10"
+      "evolution" : "Level up #266 to 10"
     },
     {
       "number" : "268",
@@ -3346,7 +3346,7 @@
       "regions/kanto" : "268",
       "regions/hoenn" : "017",
       "regions/sinnoh" : "051",
-      "evolution" : "Evolve #267 to Level 7, random based on personality"
+      "evolution" : "Level up #267 to 7, random based on personality"
     },
     {
       "number" : "269",
@@ -3358,7 +3358,7 @@
       "regions/kanto" : "269",
       "regions/hoenn" : "018",
       "regions/sinnoh" : "052",
-      "evolution" : "Evolve #268 to Level 10"
+      "evolution" : "Level up #268 to 10"
     },
     {
       "number" : "270",
@@ -3381,7 +3381,7 @@
       "regions/kanto" : "271",
       "regions/hoenn" : "020",
       "regions/kalos" : "056",
-      "evolution" : "Evolve #270 to Level 14"
+      "evolution" : "Level up #270 to 14"
     },
     {
       "number" : "272",
@@ -3414,7 +3414,7 @@
       "names/kr" : "잎새코",
       "regions/kanto" : "274",
       "regions/hoenn" : "023",
-      "evolution" : "Evolve #273 to Level 14"
+      "evolution" : "Level up #273 to 14"
     },
     {
       "number" : "275",
@@ -3449,7 +3449,7 @@
       "regions/kanto" : "277",
       "regions/hoenn" : "026",
       "regions/kalos" : "020",
-      "evolution" : "Evolve #276 to Level 22"
+      "evolution" : "Level up #276 to 22"
     },
     {
       "number" : "278",
@@ -3477,7 +3477,7 @@
       "regions/sinnoh" : "120",
       "regions/unova" : "213",
       "regions/kalos" : "018",
-      "evolution" : "Evolve #278 to Level 25"
+      "evolution" : "Level up #278 to 25"
     },
     {
       "number" : "280",
@@ -3501,7 +3501,7 @@
       "regions/hoenn" : "030",
       "regions/sinnoh" : "158",
       "regions/kalos" : "065",
-      "evolution" : "Evolve #280 to Level 20"
+      "evolution" : "Level up #280 to 20"
     },
     {
       "number" : "282",
@@ -3513,7 +3513,7 @@
       "regions/hoenn" : "031",
       "regions/sinnoh" : "159",
       "regions/kalos" : "066",
-      "evolution" : "Evolve #281 to Level 30"
+      "evolution" : "Level up #281 to 30"
     },
     {
       "number" : "283",
@@ -3539,7 +3539,7 @@
       "regions/kanto" : "284",
       "regions/hoenn" : "034",
       "regions/kalos" : "048",
-      "evolution" : "Evolve #283 to Level 22"
+      "evolution" : "Level up #283 to 22"
     },
     {
       "number" : "285",
@@ -3561,7 +3561,7 @@
       "names/kr" : "버섯모",
       "regions/kanto" : "286",
       "regions/hoenn" : "036",
-      "evolution" : "Evolve #285 to Level 23"
+      "evolution" : "Level up #285 to 23"
     },
     {
       "number" : "287",
@@ -3584,7 +3584,7 @@
       "regions/kanto" : "288",
       "regions/hoenn" : "038",
       "regions/unova" : "277",
-      "evolution" : "Evolve #287 to Level 18"
+      "evolution" : "Level up #287 to 18"
     },
     {
       "number" : "289",
@@ -3596,7 +3596,7 @@
       "regions/kanto" : "289",
       "regions/hoenn" : "039",
       "regions/unova" : "278",
-      "evolution" : "Evolve #288 to Level 36"
+      "evolution" : "Level up #288 to 36"
     },
     {
       "number" : "290",
@@ -3617,7 +3617,7 @@
       "regions/kanto" : "291",
       "regions/hoenn" : "044",
       "regions/kalos" : "112",
-      "evolution" : "Evolve #290 to Level 20"
+      "evolution" : "Level up #290 to 20"
     },
     {
       "number" : "292",
@@ -3629,7 +3629,7 @@
       "regions/kanto" : "292",
       "regions/hoenn" : "045",
       "regions/kalos" : "113",
-      "evolution" : "Evolve #290 to Level 20, with an empty slot in your party and a Pokéball in bag"
+      "evolution" : "Level up #290 to 20, with an empty slot in your party and a Pokéball in bag"
     },
     {
       "number" : "293",
@@ -3653,7 +3653,7 @@
       "regions/kanto" : "294",
       "regions/hoenn" : "047",
       "regions/kalos" : "141",
-      "evolution" : "Evolve #293 to Level 20"
+      "evolution" : "Level up #293 to 20"
     },
     {
       "number" : "295",
@@ -3665,7 +3665,7 @@
       "regions/kanto" : "295",
       "regions/hoenn" : "048",
       "regions/kalos" : "142",
-      "evolution" : "Evolve #294 to Level 40"
+      "evolution" : "Level up #294 to 40"
     },
     {
       "number" : "296",
@@ -3687,7 +3687,7 @@
       "regions/kanto" : "297",
       "regions/hoenn" : "050",
       "regions/kalos" : "096",
-      "evolution" : "Evolve #296 to Level 24"
+      "evolution" : "Level up #296 to 24"
     },
     {
       "number" : "298",
@@ -3789,7 +3789,7 @@
       "regions/hoenn" : "073",
       "regions/unova" : "167",
       "regions/kalos" : "100",
-      "evolution" : "Evolve #304 to Level 32"
+      "evolution" : "Level up #304 to 32"
     },
     {
       "number" : "306",
@@ -3802,7 +3802,7 @@
       "regions/hoenn" : "074",
       "regions/unova" : "168",
       "regions/kalos" : "101",
-      "evolution" : "Evolve #305 to Level 42"
+      "evolution" : "Level up #305 to 42"
     },
     {
       "number" : "307",
@@ -3828,7 +3828,7 @@
       "regions/hoenn" : "079",
       "regions/sinnoh" : "087",
       "regions/kalos" : "144",
-      "evolution" : "Evolve #307 to Level 37"
+      "evolution" : "Level up #307 to 37"
     },
     {
       "number" : "309",
@@ -3852,7 +3852,7 @@
       "regions/kanto" : "310",
       "regions/hoenn" : "081",
       "regions/kalos" : "074",
-      "evolution" : "Evolve #309 to Level 26"
+      "evolution" : "Level up #309 to 26"
     },
     {
       "number" : "311",
@@ -3909,7 +3909,7 @@
       "regions/sinnoh" : "026",
       "regions/unova" : "134",
       "regions/kalos" : "072",
-      "evolution" : "Evolve #406 with Happiness, at Daytime"
+      "evolution" : "Level up #406 with Happiness, at Daytime"
     },
     {
       "number" : "316",
@@ -3933,7 +3933,7 @@
       "regions/kanto" : "317",
       "regions/hoenn" : "101",
       "regions/kalos" : "099",
-      "evolution" : "Evolve #316 to Level 26"
+      "evolution" : "Level up #316 to 26"
     },
     {
       "number" : "318",
@@ -3957,7 +3957,7 @@
       "regions/kanto" : "319",
       "regions/hoenn" : "103",
       "regions/kalos" : "056",
-      "evolution" : "Evolve #318 to Level 30"
+      "evolution" : "Level up #318 to 30"
     },
     {
       "number" : "320",
@@ -3981,7 +3981,7 @@
       "regions/hoenn" : "105",
       "regions/unova" : "241",
       "regions/kalos" : "028",
-      "evolution" : "Evolve #320 to Level 40"
+      "evolution" : "Level up #320 to 40"
     },
     {
       "number" : "322",
@@ -4004,7 +4004,7 @@
       "regions/kanto" : "323",
       "regions/hoenn" : "107",
       "regions/unova" : "205",
-      "evolution" : "Evolve #322 to Level 33"
+      "evolution" : "Level up #322 to 33"
     },
     {
       "number" : "324",
@@ -4041,7 +4041,7 @@
       "regions/hoenn" : "116",
       "regions/unova" : "207",
       "regions/kalos" : "008",
-      "evolution" : "Evolve #325 to Level 32"
+      "evolution" : "Level up #325 to 32"
     },
     {
       "number" : "327",
@@ -4080,7 +4080,7 @@
       "regions/hoenn" : "122",
       "regions/unova" : "122",
       "regions/kalos" : "004",
-      "evolution" : "Evolve #328 to Level 35"
+      "evolution" : "Level up #328 to 35"
     },
     {
       "number" : "330",
@@ -4094,7 +4094,7 @@
       "regions/hoenn" : "123",
       "regions/unova" : "123",
       "regions/kalos" : "005",
-      "evolution" : "Evolve #329 to Level 45"
+      "evolution" : "Level up #329 to 45"
     },
     {
       "number" : "331",
@@ -4114,7 +4114,7 @@
       "names/kr" : "밤선인",
       "regions/kanto" : "332",
       "regions/hoenn" : "125",
-      "evolution" : "Evolve #331 to Level 32"
+      "evolution" : "Level up #331 to 32"
     },
     {
       "number" : "333",
@@ -4140,7 +4140,7 @@
       "regions/sinnoh" : "172",
       "regions/unova" : "247",
       "regions/kalos" : "140",
-      "evolution" : "Evolve #333 to Level 35"
+      "evolution" : "Level up #333 to 35"
     },
     {
       "number" : "335",
@@ -4220,7 +4220,7 @@
       "regions/hoenn" : "133",
       "regions/sinnoh" : "081",
       "regions/kalos" : "041",
-      "evolution" : "Evolve #339 to Level 30"
+      "evolution" : "Level up #339 to 30"
     },
     {
       "number" : "341",
@@ -4246,7 +4246,7 @@
       "regions/hoenn" : "135",
       "regions/unova" : "280",
       "regions/kalos" : "052",
-      "evolution" : "Evolve #341 to Level 30"
+      "evolution" : "Level up #341 to 30"
     },
     {
       "number" : "343",
@@ -4270,7 +4270,7 @@
       "regions/kanto" : "344",
       "regions/hoenn" : "137",
       "regions/unova" : "170",
-      "evolution" : "Evolve #343 to Level 36"
+      "evolution" : "Level up #343 to 36"
     },
     {
       "number" : "345",
@@ -4292,7 +4292,7 @@
       "names/kr" : "릴리요",
       "regions/kanto" : "346",
       "regions/hoenn" : "139",
-      "evolution" : "Evolve #345 to Level 40"
+      "evolution" : "Level up #345 to 40"
     },
     {
       "number" : "347",
@@ -4310,7 +4310,7 @@
       "names/kr" : "아말도",
       "regions/kanto" : "348",
       "regions/hoenn" : "141",
-      "evolution" : "Evolve #347 to Level 40"
+      "evolution" : "Level up #347 to 40"
     },
     {
       "number" : "349",
@@ -4382,7 +4382,7 @@
       "regions/hoenn" : "152",
       "regions/unova" : "211",
       "regions/kalos" : "123",
-      "evolution" : "Evolve #353 to Level 37"
+      "evolution" : "Level up #353 to 37"
     },
     {
       "number" : "355",
@@ -4406,7 +4406,7 @@
       "regions/kanto" : "356",
       "regions/hoenn" : "154",
       "regions/sinnoh" : "190",
-      "evolution" : "Evolve #355 to Level 37"
+      "evolution" : "Level up #355 to 37"
     },
     {
       "number" : "357",
@@ -4430,7 +4430,7 @@
       "regions/hoenn" : "158",
       "regions/sinnoh" : "083",
       "regions/kalos" : "112",
-      "evolution" : "Evolve #433 with Happiness, at Nighttime"
+      "evolution" : "Level up #433 with Happiness, at Nighttime"
     },
     {
       "number" : "359",
@@ -4481,7 +4481,7 @@
       "regions/kanto" : "362",
       "regions/hoenn" : "180",
       "regions/sinnoh" : "207",
-      "evolution" : "Evolve #361 to Level 42"
+      "evolution" : "Level up #361 to 42"
     },
     {
       "number" : "363",
@@ -4505,7 +4505,7 @@
       "regions/kanto" : "364",
       "regions/hoenn" : "183",
       "regions/unova" : "244",
-      "evolution" : "Evolve #363 to Level 32"
+      "evolution" : "Level up #363 to 32"
     },
     {
       "number" : "365",
@@ -4517,7 +4517,7 @@
       "regions/kanto" : "365",
       "regions/hoenn" : "184",
       "regions/unova" : "245",
-      "evolution" : "Evolve #364 to Level 44"
+      "evolution" : "Level up #364 to 44"
     },
     {
       "number" : "366",
@@ -4603,7 +4603,7 @@
       "regions/kanto" : "372",
       "regions/hoenn" : "197",
       "regions/kalos" : "015",
-      "evolution" : "Evolve #371 to Level 30"
+      "evolution" : "Level up #371 to 30"
     },
     {
       "number" : "373",
@@ -4616,7 +4616,7 @@
       "regions/kanto" : "373",
       "regions/hoenn" : "198",
       "regions/kalos" : "016",
-      "evolution" : "Evolve #372 to Level 50"
+      "evolution" : "Level up #372 to 50"
     },
     {
       "number" : "374",
@@ -4641,7 +4641,7 @@
       "regions/kanto" : "375",
       "regions/hoenn" : "200",
       "regions/unova" : "263",
-      "evolution" : "Evolve #374 to Level 20"
+      "evolution" : "Level up #374 to 20"
     },
     {
       "number" : "376",
@@ -4653,7 +4653,7 @@
       "regions/kanto" : "376",
       "regions/hoenn" : "201",
       "regions/unova" : "264",
-      "evolution" : "Evolve #375 to Level 45"
+      "evolution" : "Level up #375 to 45"
     },
     {
       "number" : "377",
@@ -4765,7 +4765,7 @@
       "names/kr" : "수풀부기",
       "regions/kanto" : "388",
       "regions/sinnoh" : "002",
-      "evolution" : "Evolve #387 to Level 18"
+      "evolution" : "Level up #387 to 18"
     },
     {
       "number" : "389",
@@ -4775,7 +4775,7 @@
       "names/kr" : "토대부기",
       "regions/kanto" : "389",
       "regions/sinnoh" : "003",
-      "evolution" : "Evolve #388 to Level 32"
+      "evolution" : "Level up #388 to 32"
     },
     {
       "number" : "390",
@@ -4797,7 +4797,7 @@
       "names/kr" : "파이숭이",
       "regions/kanto" : "391",
       "regions/sinnoh" : "005",
-      "evolution" : "Evolve #390 to Level 14"
+      "evolution" : "Level up #390 to 14"
     },
     {
       "number" : "392",
@@ -4808,7 +4808,7 @@
       "names/kr" : "초염몽",
       "regions/kanto" : "392",
       "regions/sinnoh" : "006",
-      "evolution" : "Evolve #391 to Level 36"
+      "evolution" : "Level up #391 to 36"
     },
     {
       "number" : "393",
@@ -4830,7 +4830,7 @@
       "names/kr" : "팽태자",
       "regions/kanto" : "394",
       "regions/sinnoh" : "008",
-      "evolution" : "Evolve #393 to Level 16"
+      "evolution" : "Level up #393 to 16"
     },
     {
       "number" : "395",
@@ -4841,7 +4841,7 @@
       "names/kr" : "엠페르트",
       "regions/kanto" : "395",
       "regions/sinnoh" : "009",
-      "evolution" : "Evolve #394 to Level 36"
+      "evolution" : "Level up #394 to 36"
     },
     {
       "number" : "396",
@@ -4864,7 +4864,7 @@
       "regions/kanto" : "397",
       "regions/sinnoh" : "011",
       "regions/kalos" : "100",
-      "evolution" : "Evolve #396 to Level 14"
+      "evolution" : "Level up #396 to 14"
     },
     {
       "number" : "398",
@@ -4875,7 +4875,7 @@
       "regions/kanto" : "398",
       "regions/sinnoh" : "012",
       "regions/kalos" : "101",
-      "evolution" : "Evolve #397 to Level 34"
+      "evolution" : "Level up #397 to 34"
     },
     {
       "number" : "399",
@@ -4899,7 +4899,7 @@
       "regions/kanto" : "400",
       "regions/sinnoh" : "014",
       "regions/kalos" : "039",
-      "evolution" : "Evolve #399 to Level 15"
+      "evolution" : "Level up #399 to 15"
     },
     {
       "number" : "401",
@@ -4922,7 +4922,7 @@
       "names/kr" : "귀뚤톡크",
       "regions/kanto" : "402",
       "regions/sinnoh" : "016",
-      "evolution" : "Evolve #401 to Level 10"
+      "evolution" : "Level up #401 to 10"
     },
     {
       "number" : "403",
@@ -4942,7 +4942,7 @@
       "names/kr" : "럭시오",
       "regions/kanto" : "404",
       "regions/sinnoh" : "018",
-      "evolution" : "Evolve #403 to Level 15"
+      "evolution" : "Level up #403 to 15"
     },
     {
       "number" : "405",
@@ -4952,7 +4952,7 @@
       "names/kr" : "렌트라",
       "regions/kanto" : "405",
       "regions/sinnoh" : "019",
-      "evolution" : "Evolve #404 to Level 30"
+      "evolution" : "Level up #404 to 30"
     },
     {
       "number" : "406",
@@ -5002,7 +5002,7 @@
       "regions/alola" : "189",
       "regions/kanto" : "409",
       "regions/sinnoh" : "037",
-      "evolution" : "Evolve #408 to Level 30"
+      "evolution" : "Level up #408 to 30"
     },
     {
       "number" : "410",
@@ -5025,7 +5025,7 @@
       "regions/alola" : "191",
       "regions/kanto" : "411",
       "regions/sinnoh" : "039",
-      "evolution" : "Evolve #410 to Level 30"
+      "evolution" : "Level up #410 to 30"
     },
     {
       "number" : "412",
@@ -5048,7 +5048,7 @@
       "regions/kanto" : "413",
       "regions/sinnoh" : "046",
       "regions/kalos" : "045",
-      "evolution" : "Evolve #412 to Level 20, Female, in buildings"
+      "evolution" : "Level up #412 to 20, Female, in buildings"
     },
     {
       "number" : "414",
@@ -5060,7 +5060,7 @@
       "regions/kanto" : "414",
       "regions/sinnoh" : "047",
       "regions/kalos" : "046",
-      "evolution" : "Evolve #412 to Level 20, Male"
+      "evolution" : "Level up #412 to 20, Male"
     },
     {
       "number" : "415",
@@ -5086,7 +5086,7 @@
       "regions/sinnoh" : "054",
       "regions/unova" : "143",
       "regions/kalos" : "077",
-      "evolution" : "Evolve #415 to Level 21, Female"
+      "evolution" : "Level up #415 to 21, Female"
     },
     {
       "number" : "417",
@@ -5122,7 +5122,7 @@
       "regions/sinnoh" : "057",
       "regions/unova" : "150",
       "regions/kalos" : "059",
-      "evolution" : "Evolve #418 to Level 26"
+      "evolution" : "Level up #418 to 26"
     },
     {
       "number" : "420",
@@ -5144,7 +5144,7 @@
       "names/kr" : "체리꼬",
       "regions/kanto" : "421",
       "regions/sinnoh" : "059",
-      "evolution" : "Evolve #420 to Level 25"
+      "evolution" : "Level up #420 to 25"
     },
     {
       "number" : "422",
@@ -5167,7 +5167,7 @@
       "regions/alola" : "261",
       "regions/kanto" : "423",
       "regions/sinnoh" : "061",
-      "evolution" : "Evolve #422 to Level 30"
+      "evolution" : "Level up #422 to 30"
     },
     {
       "number" : "424",
@@ -5179,7 +5179,7 @@
       "regions/kanto" : "424",
       "regions/johto" : "124",
       "regions/sinnoh" : "064",
-      "evolution" : "Evolve #190 after Double Hit learned"
+      "evolution" : "Level up #190 after Double Hit learned"
     },
     {
       "number" : "425",
@@ -5207,7 +5207,7 @@
       "regions/sinnoh" : "066",
       "regions/unova" : "209",
       "regions/kalos" : "002",
-      "evolution" : "Evolve #425 to Level 28"
+      "evolution" : "Level up #425 to 28"
     },
     {
       "number" : "427",
@@ -5231,7 +5231,7 @@
       "regions/kanto" : "428",
       "regions/sinnoh" : "068",
       "regions/unova" : "081",
-      "evolution" : "Evolve #427 with Happiness"
+      "evolution" : "Level up #427 with Happiness"
     },
     {
       "number" : "429",
@@ -5278,7 +5278,7 @@
       "names/kr" : "몬냥이",
       "regions/kanto" : "432",
       "regions/sinnoh" : "077",
-      "evolution" : "Evolve #431 to Level 38"
+      "evolution" : "Level up #431 to 38"
     },
     {
       "number" : "433",
@@ -5315,7 +5315,7 @@
       "regions/kanto" : "435",
       "regions/sinnoh" : "085",
       "regions/kalos" : "103",
-      "evolution" : "Evolve #434 to Level 34"
+      "evolution" : "Level up #434 to 34"
     },
     {
       "number" : "436",
@@ -5341,7 +5341,7 @@
       "regions/kanto" : "437",
       "regions/sinnoh" : "089",
       "regions/unova" : "251",
-      "evolution" : "Evolve #436 to Level 33"
+      "evolution" : "Level up #436 to 33"
     },
     {
       "number" : "438",
@@ -5430,7 +5430,7 @@
       "regions/kanto" : "444",
       "regions/sinnoh" : "110",
       "regions/kalos" : "007",
-      "evolution" : "Evolve #443 to Level 24"
+      "evolution" : "Level up #443 to 24"
     },
     {
       "number" : "445",
@@ -5444,7 +5444,7 @@
       "regions/kanto" : "445",
       "regions/sinnoh" : "111",
       "regions/kalos" : "008",
-      "evolution" : "Evolve #444 to Level 48"
+      "evolution" : "Level up #444 to 48"
     },
     {
       "number" : "446",
@@ -5481,7 +5481,7 @@
       "regions/sinnoh" : "116",
       "regions/unova" : "034",
       "regions/kalos" : "063",
-      "evolution" : "Evolve #447 with Happiness, at Daytime"
+      "evolution" : "Level up #447 with Happiness, at Daytime"
     },
     {
       "number" : "449",
@@ -5507,7 +5507,7 @@
       "regions/kanto" : "450",
       "regions/sinnoh" : "123",
       "regions/kalos" : "049",
-      "evolution" : "Evolve #449 to Level 34"
+      "evolution" : "Level up #449 to 34"
     },
     {
       "number" : "451",
@@ -5533,7 +5533,7 @@
       "regions/sinnoh" : "128",
       "regions/unova" : "202",
       "regions/kalos" : "016",
-      "evolution" : "Evolve #451 to Level 40"
+      "evolution" : "Level up #451 to 40"
     },
     {
       "number" : "453",
@@ -5561,7 +5561,7 @@
       "regions/sinnoh" : "130",
       "regions/unova" : "291",
       "regions/kalos" : "126",
-      "evolution" : "Evolve #453 to Level 37"
+      "evolution" : "Level up #453 to 37"
     },
     {
       "number" : "455",
@@ -5600,7 +5600,7 @@
       "regions/alola" : "109",
       "regions/kanto" : "457",
       "regions/sinnoh" : "135",
-      "evolution" : "Evolve #456 to Level 31"
+      "evolution" : "Level up #456 to 31"
     },
     {
       "number" : "458",
@@ -5639,7 +5639,7 @@
       "regions/kanto" : "460",
       "regions/sinnoh" : "143",
       "regions/kalos" : "089",
-      "evolution" : "Evolve #459 to Level 40"
+      "evolution" : "Level up #459 to 40"
     },
     {
       "number" : "461",
@@ -5653,7 +5653,7 @@
       "regions/sinnoh" : "145",
       "regions/unova" : "253",
       "regions/kalos" : "092",
-      "evolution" : "Evolve #215 hold Razor Claw, at Nighttime"
+      "evolution" : "Level up #215 hold Razor Claw, at Nighttime"
     },
     {
       "number" : "462",
@@ -5667,7 +5667,7 @@
       "regions/sinnoh" : "180",
       "regions/unova" : "050",
       "regions/kalos" : "071",
-      "evolution" : "Evolve #082 in a Magnetic Field area"
+      "evolution" : "Level up #082 in a Magnetic Field area"
     },
     {
       "number" : "463",
@@ -5681,7 +5681,7 @@
       "regions/sinnoh" : "162",
       "regions/unova" : "285",
       "regions/kalos" : "135",
-      "evolution" : "Evolve #108 after Rollout learned"
+      "evolution" : "Level up #108 after Rollout learned"
     },
     {
       "number" : "464",
@@ -5707,7 +5707,7 @@
       "regions/johto" : "183",
       "regions/sinnoh" : "182",
       "regions/unova" : "218",
-      "evolution" : "Evolve #114 after Ancient Power learned"
+      "evolution" : "Level up #114 after Ancient Power learned"
     },
     {
       "number" : "466",
@@ -5755,7 +5755,7 @@
       "regions/sinnoh" : "184",
       "regions/unova" : "287",
       "regions/kalos" : "088",
-      "evolution" : "Evolve #193 after Ancient Power learned"
+      "evolution" : "Level up #193 after Ancient Power learned"
     },
     {
       "number" : "470",
@@ -5769,7 +5769,7 @@
       "regions/sinnoh" : "169",
       "regions/unova" : "097",
       "regions/kalos" : "083",
-      "evolution" : "Evolve #133 near a Mossy Rock"
+      "evolution" : "Level up #133 near a Mossy Rock"
     },
     {
       "number" : "471",
@@ -5783,7 +5783,7 @@
       "regions/sinnoh" : "170",
       "regions/unova" : "098",
       "regions/kalos" : "084",
-      "evolution" : "Evolve #133 near an Icy Rock"
+      "evolution" : "Level up #133 near an Icy Rock"
     },
     {
       "number" : "472",
@@ -5796,7 +5796,7 @@
       "regions/sinnoh" : "154",
       "regions/unova" : "222",
       "regions/kalos" : "116",
-      "evolution" : "Evolve #207 hold Razor Fang, at Nighttime"
+      "evolution" : "Level up #207 hold Razor Fang, at Nighttime"
     },
     {
       "number" : "473",
@@ -5810,7 +5810,7 @@
       "regions/sinnoh" : "205",
       "regions/unova" : "260",
       "regions/kalos" : "078",
-      "evolution" : "Evolve #221 after Ancient Power learned"
+      "evolution" : "Level up #221 after Ancient Power learned"
     },
     {
       "number" : "474",
@@ -5848,7 +5848,7 @@
       "regions/sinnoh" : "156",
       "regions/unova" : "165",
       "regions/kalos" : "094",
-      "evolution" : "Evolve #299 in a Magnetic Field area"
+      "evolution" : "Level up #299 in a Magnetic Field area"
     },
     {
       "number" : "477",
@@ -6042,7 +6042,7 @@
       "names/kr" : "샤비",
       "regions/kanto" : "496",
       "regions/unova" : "002",
-      "evolution" : "Evolve #495 to Level 17"
+      "evolution" : "Level up #495 to 17"
     },
     {
       "number" : "497",
@@ -6053,7 +6053,7 @@
       "names/kr" : "샤로다",
       "regions/kanto" : "497",
       "regions/unova" : "003",
-      "evolution" : "Evolve #496 to Level 36"
+      "evolution" : "Level up #496 to 36"
     },
     {
       "number" : "498",
@@ -6075,7 +6075,7 @@
       "names/kr" : "차오꿀",
       "regions/kanto" : "499",
       "regions/unova" : "005",
-      "evolution" : "Evolve #498 to Level 17"
+      "evolution" : "Level up #498 to 17"
     },
     {
       "number" : "500",
@@ -6086,7 +6086,7 @@
       "names/kr" : "염무왕",
       "regions/kanto" : "500",
       "regions/unova" : "006",
-      "evolution" : "Evolve #499 to Level 36"
+      "evolution" : "Level up #499 to 36"
     },
     {
       "number" : "501",
@@ -6108,7 +6108,7 @@
       "names/kr" : "쌍검자비",
       "regions/kanto" : "502",
       "regions/unova" : "008",
-      "evolution" : "Evolve #501 to Level 17"
+      "evolution" : "Level up #501 to 17"
     },
     {
       "number" : "503",
@@ -6119,7 +6119,7 @@
       "names/kr" : "대검귀",
       "regions/kanto" : "503",
       "regions/unova" : "009",
-      "evolution" : "Evolve #502 to Level 36"
+      "evolution" : "Level up #502 to 36"
     },
     {
       "number" : "504",
@@ -6143,7 +6143,7 @@
       "regions/kanto" : "505",
       "regions/unova" : "011",
       "regions/kalos" : "047",
-      "evolution" : "Evolve #504 to Level 20"
+      "evolution" : "Level up #504 to 20"
     },
     {
       "number" : "506",
@@ -6167,7 +6167,7 @@
       "regions/alola" : "121",
       "regions/kanto" : "507",
       "regions/unova" : "013",
-      "evolution" : "Evolve #506 to Level 16"
+      "evolution" : "Level up #506 to 16"
     },
     {
       "number" : "508",
@@ -6179,7 +6179,7 @@
       "regions/alola" : "122",
       "regions/kanto" : "508",
       "regions/unova" : "014",
-      "evolution" : "Evolve #507 to Level 32"
+      "evolution" : "Level up #507 to 32"
     },
     {
       "number" : "509",
@@ -6203,7 +6203,7 @@
       "regions/kanto" : "510",
       "regions/unova" : "016",
       "regions/kalos" : "043",
-      "evolution" : "Evolve #509 to Level 20"
+      "evolution" : "Level up #509 to 20"
     },
     {
       "number" : "511",
@@ -6318,7 +6318,7 @@
       "names/kr" : "유토브",
       "regions/kanto" : "520",
       "regions/unova" : "026",
-      "evolution" : "Evolve #519 to Level 21"
+      "evolution" : "Level up #519 to 21"
     },
     {
       "number" : "521",
@@ -6329,7 +6329,7 @@
       "names/kr" : "켄호로우",
       "regions/kanto" : "521",
       "regions/unova" : "027",
-      "evolution" : "Evolve #520 to Level 32"
+      "evolution" : "Level up #520 to 32"
     },
     {
       "number" : "522",
@@ -6351,7 +6351,7 @@
       "names/kr" : "제브라이카",
       "regions/kanto" : "523",
       "regions/unova" : "029",
-      "evolution" : "Evolve #522 to Level 27"
+      "evolution" : "Level up #522 to 27"
     },
     {
       "number" : "524",
@@ -6377,7 +6377,7 @@
       "regions/kanto" : "525",
       "regions/unova" : "031",
       "regions/kalos" : "121",
-      "evolution" : "Evolve #524 to Level 25"
+      "evolution" : "Level up #524 to 25"
     },
     {
       "number" : "526",
@@ -6414,7 +6414,7 @@
       "regions/kanto" : "528",
       "regions/unova" : "034",
       "regions/kalos" : "056",
-      "evolution" : "Evolve #527 with Happiness"
+      "evolution" : "Level up #527 with Happiness"
     },
     {
       "number" : "529",
@@ -6436,7 +6436,7 @@
       "names/kr" : "몰드류",
       "regions/kanto" : "530",
       "regions/unova" : "036",
-      "evolution" : "Evolve #529 to Level 31"
+      "evolution" : "Level up #529 to 31"
     },
     {
       "number" : "531",
@@ -6472,7 +6472,7 @@
       "regions/kanto" : "533",
       "regions/unova" : "039",
       "regions/kalos" : "094",
-      "evolution" : "Evolve #532 to Level 25"
+      "evolution" : "Level up #532 to 25"
     },
     {
       "number" : "534",
@@ -6506,7 +6506,7 @@
       "names/kr" : "두까비",
       "regions/kanto" : "536",
       "regions/unova" : "042",
-      "evolution" : "Evolve #535 to Level 25"
+      "evolution" : "Level up #535 to 25"
     },
     {
       "number" : "537",
@@ -6517,7 +6517,7 @@
       "names/kr" : "두빅굴",
       "regions/kanto" : "537",
       "regions/unova" : "043",
-      "evolution" : "Evolve #536 to Level 36"
+      "evolution" : "Level up #536 to 36"
     },
     {
       "number" : "538",
@@ -6563,7 +6563,7 @@
       "names/kr" : "두르쿤",
       "regions/kanto" : "541",
       "regions/unova" : "047",
-      "evolution" : "Evolve #540 to Level 20"
+      "evolution" : "Level up #540 to 20"
     },
     {
       "number" : "542",
@@ -6574,7 +6574,7 @@
       "names/kr" : "모아머",
       "regions/kanto" : "542",
       "regions/unova" : "048",
-      "evolution" : "Evolve #541 with Happiness"
+      "evolution" : "Level up #541 with Happiness"
     },
     {
       "number" : "543",
@@ -6598,7 +6598,7 @@
       "regions/kanto" : "544",
       "regions/unova" : "050",
       "regions/kalos" : "121",
-      "evolution" : "Evolve #543 to Level 22"
+      "evolution" : "Level up #543 to 22"
     },
     {
       "number" : "545",
@@ -6610,7 +6610,7 @@
       "regions/kanto" : "545",
       "regions/unova" : "051",
       "regions/kalos" : "122",
-      "evolution" : "Evolve #544 to Level 30"
+      "evolution" : "Level up #544 to 30"
     },
     {
       "number" : "546",
@@ -6696,7 +6696,7 @@
       "regions/kanto" : "552",
       "regions/unova" : "058",
       "regions/kalos" : "044",
-      "evolution" : "Evolve #551 to Level 29"
+      "evolution" : "Level up #551 to 29"
     },
     {
       "number" : "553",
@@ -6709,7 +6709,7 @@
       "regions/kanto" : "553",
       "regions/unova" : "059",
       "regions/kalos" : "045",
-      "evolution" : "Evolve #552 to Level 40"
+      "evolution" : "Level up #552 to 40"
     },
     {
       "number" : "554",
@@ -6731,7 +6731,7 @@
       "names/kr" : "불비달마",
       "regions/kanto" : "555",
       "regions/unova" : "061",
-      "evolution" : "Evolve #554 to Level 35"
+      "evolution" : "Level up #554 to 35"
     },
     {
       "number" : "556",
@@ -6766,7 +6766,7 @@
       "regions/kanto" : "558",
       "regions/unova" : "064",
       "regions/kalos" : "024",
-      "evolution" : "Evolve #557 to Level 34"
+      "evolution" : "Level up #557 to 34"
     },
     {
       "number" : "559",
@@ -6790,7 +6790,7 @@
       "regions/kanto" : "560",
       "regions/unova" : "066",
       "regions/kalos" : "101",
-      "evolution" : "Evolve #559 to Level 39"
+      "evolution" : "Level up #559 to 39"
     },
     {
       "number" : "561",
@@ -6824,7 +6824,7 @@
       "names/kr" : "데스니칸",
       "regions/kanto" : "563",
       "regions/unova" : "069",
-      "evolution" : "Evolve #562 to Level 34"
+      "evolution" : "Level up #562 to 34"
     },
     {
       "number" : "564",
@@ -6848,7 +6848,7 @@
       "regions/alola" : "195",
       "regions/kanto" : "565",
       "regions/unova" : "071",
-      "evolution" : "Evolve #564 to Level 37"
+      "evolution" : "Level up #564 to 37"
     },
     {
       "number" : "566",
@@ -6872,7 +6872,7 @@
       "regions/alola" : "193",
       "regions/kanto" : "567",
       "regions/unova" : "073",
-      "evolution" : "Evolve #566 to Level 37"
+      "evolution" : "Level up #566 to 37"
     },
     {
       "number" : "568",
@@ -6898,7 +6898,7 @@
       "regions/kanto" : "569",
       "regions/unova" : "075",
       "regions/kalos" : "075",
-      "evolution" : "Evolve #568 to Level 36"
+      "evolution" : "Level up #568 to 36"
     },
     {
       "number" : "570",
@@ -6918,7 +6918,7 @@
       "regions/kanto" : "571",
       "regions/unova" : "077",
       "regions/kalos" : "125",
-      "evolution" : "Evolve #570 to Level 30"
+      "evolution" : "Level up #570 to 30"
     },
     {
       "number" : "572",
@@ -6964,7 +6964,7 @@
       "regions/kanto" : "575",
       "regions/unova" : "081",
       "regions/kalos" : "127",
-      "evolution" : "Evolve #574 to Level 32"
+      "evolution" : "Level up #574 to 32"
     },
     {
       "number" : "576",
@@ -6976,7 +6976,7 @@
       "regions/kanto" : "576",
       "regions/unova" : "082",
       "regions/kalos" : "128",
-      "evolution" : "Evolve #575 to Level 41"
+      "evolution" : "Level up #575 to 41"
     },
     {
       "number" : "577",
@@ -7000,7 +7000,7 @@
       "regions/kanto" : "578",
       "regions/unova" : "084",
       "regions/kalos" : "116",
-      "evolution" : "Evolve #577 to Level 32"
+      "evolution" : "Level up #577 to 32"
     },
     {
       "number" : "579",
@@ -7012,7 +7012,7 @@
       "regions/kanto" : "579",
       "regions/unova" : "085",
       "regions/kalos" : "117",
-      "evolution" : "Evolve #578 to Level 41"
+      "evolution" : "Level up #578 to 41"
     },
     {
       "number" : "580",
@@ -7036,7 +7036,7 @@
       "regions/kanto" : "581",
       "regions/unova" : "087",
       "regions/kalos" : "128",
-      "evolution" : "Evolve #580 to Level 35"
+      "evolution" : "Level up #580 to 35"
     },
     {
       "number" : "582",
@@ -7062,7 +7062,7 @@
       "regions/kanto" : "583",
       "regions/unova" : "089",
       "regions/kalos" : "086",
-      "evolution" : "Evolve #582 to Level 35"
+      "evolution" : "Level up #582 to 35"
     },
     {
       "number" : "584",
@@ -7075,7 +7075,7 @@
       "regions/kanto" : "584",
       "regions/unova" : "090",
       "regions/kalos" : "087",
-      "evolution" : "Evolve #583 to Level 47"
+      "evolution" : "Level up #583 to 47"
     },
     {
       "number" : "585",
@@ -7097,7 +7097,7 @@
       "names/kr" : "바라철록",
       "regions/kanto" : "586",
       "regions/unova" : "092",
-      "evolution" : "Evolve #585 to Level 34"
+      "evolution" : "Level up #585 to 34"
     },
     {
       "number" : "587",
@@ -7156,7 +7156,7 @@
       "regions/kanto" : "591",
       "regions/unova" : "097",
       "regions/kalos" : "054",
-      "evolution" : "Evolve #590 to Level 39"
+      "evolution" : "Level up #590 to 39"
     },
     {
       "number" : "592",
@@ -7178,7 +7178,7 @@
       "names/kr" : "탱탱겔",
       "regions/kanto" : "593",
       "regions/unova" : "099",
-      "evolution" : "Evolve #592 to Level 40"
+      "evolution" : "Level up #592 to 40"
     },
     {
       "number" : "594",
@@ -7213,7 +7213,7 @@
       "names/kr" : "전툴라",
       "regions/kanto" : "596",
       "regions/unova" : "102",
-      "evolution" : "Evolve #595 to Level 36"
+      "evolution" : "Level up #595 to 36"
     },
     {
       "number" : "597",
@@ -7237,7 +7237,7 @@
       "regions/kanto" : "598",
       "regions/unova" : "104",
       "regions/kalos" : "070",
-      "evolution" : "Evolve #597 to Level 40"
+      "evolution" : "Level up #597 to 40"
     },
     {
       "number" : "599",
@@ -7259,7 +7259,7 @@
       "names/kr" : "기기어르",
       "regions/kanto" : "600",
       "regions/unova" : "106",
-      "evolution" : "Evolve #599 to Level 38"
+      "evolution" : "Level up #599 to 38"
     },
     {
       "number" : "601",
@@ -7270,7 +7270,7 @@
       "names/kr" : "기기기어르",
       "regions/kanto" : "601",
       "regions/unova" : "107",
-      "evolution" : "Evolve #600 to Level 49"
+      "evolution" : "Level up #600 to 49"
     },
     {
       "number" : "602",
@@ -7292,7 +7292,7 @@
       "names/kr" : "저리릴",
       "regions/kanto" : "603",
       "regions/unova" : "109",
-      "evolution" : "Evolve #602 to Level 39"
+      "evolution" : "Level up #602 to 39"
     },
     {
       "number" : "604",
@@ -7325,7 +7325,7 @@
       "names/kr" : "벰크",
       "regions/kanto" : "606",
       "regions/unova" : "112",
-      "evolution" : "Evolve #605 to Level 42"
+      "evolution" : "Level up #605 to 42"
     },
     {
       "number" : "607",
@@ -7349,7 +7349,7 @@
       "regions/kanto" : "608",
       "regions/unova" : "114",
       "regions/kalos" : "066",
-      "evolution" : "Evolve #607 to Level 41"
+      "evolution" : "Level up #607 to 41"
     },
     {
       "number" : "609",
@@ -7385,7 +7385,7 @@
       "regions/kanto" : "611",
       "regions/unova" : "117",
       "regions/kalos" : "149",
-      "evolution" : "Evolve #610 to Level 38"
+      "evolution" : "Level up #610 to 38"
     },
     {
       "number" : "612",
@@ -7397,7 +7397,7 @@
       "regions/kanto" : "612",
       "regions/unova" : "118",
       "regions/kalos" : "150",
-      "evolution" : "Evolve #611 to Level 48"
+      "evolution" : "Level up #611 to 48"
     },
     {
       "number" : "613",
@@ -7421,7 +7421,7 @@
       "regions/kanto" : "614",
       "regions/unova" : "120",
       "regions/kalos" : "082",
-      "evolution" : "Evolve #613 to Level 37"
+      "evolution" : "Level up #613 to 37"
     },
     {
       "number" : "615",
@@ -7493,7 +7493,7 @@
       "regions/kanto" : "620",
       "regions/unova" : "126",
       "regions/kalos" : "004",
-      "evolution" : "Evolve #619 to Level 50"
+      "evolution" : "Level up #619 to 50"
     },
     {
       "number" : "621",
@@ -7529,7 +7529,7 @@
       "regions/kanto" : "623",
       "regions/unova" : "129",
       "regions/kalos" : "092",
-      "evolution" : "Evolve #622 to Level 43"
+      "evolution" : "Level up #622 to 43"
     },
     {
       "number" : "624",
@@ -7553,7 +7553,7 @@
       "regions/kanto" : "625",
       "regions/unova" : "131",
       "regions/kalos" : "049",
-      "evolution" : "Evolve #624 to Level 52"
+      "evolution" : "Level up #624 to 52"
     },
     {
       "number" : "626",
@@ -7588,7 +7588,7 @@
       "regions/alola" : "076",
       "regions/kanto" : "628",
       "regions/unova" : "134",
-      "evolution" : "Evolve #627 to Level 54"
+      "evolution" : "Level up #627 to 54"
     },
     {
       "number" : "629",
@@ -7612,7 +7612,7 @@
       "regions/alola" : "078",
       "regions/kanto" : "630",
       "regions/unova" : "136",
-      "evolution" : "Evolve #629 to Level 54"
+      "evolution" : "Level up #629 to 54"
     },
     {
       "number" : "631",
@@ -7660,7 +7660,7 @@
       "regions/kanto" : "634",
       "regions/unova" : "140",
       "regions/kalos" : "143",
-      "evolution" : "Evolve #633 to Level 50"
+      "evolution" : "Level up #633 to 50"
     },
     {
       "number" : "635",
@@ -7672,7 +7672,7 @@
       "regions/kanto" : "635",
       "regions/unova" : "141",
       "regions/kalos" : "144",
-      "evolution" : "Evolve #634 to Level 64"
+      "evolution" : "Level up #634 to 64"
     },
     {
       "number" : "636",
@@ -7694,7 +7694,7 @@
       "names/kr" : "불카모스",
       "regions/kanto" : "637",
       "regions/unova" : "143",
-      "evolution" : "Evolve #636 to Level 59"
+      "evolution" : "Level up #636 to 59"
     },
     {
       "number" : "638",
@@ -7836,7 +7836,7 @@
       "names/kr" : "도치보구",
       "regions/kanto" : "651",
       "regions/kalos" : "002",
-      "evolution" : "Evolve #650 to Level 16"
+      "evolution" : "Level up #650 to 16"
     },
     {
       "number" : "652",
@@ -7847,7 +7847,7 @@
       "names/kr" : "브리가론",
       "regions/kanto" : "652",
       "regions/kalos" : "003",
-      "evolution" : "Evolve #651 to Level 36"
+      "evolution" : "Level up #651 to 36"
     },
     {
       "number" : "653",
@@ -7869,7 +7869,7 @@
       "names/kr" : "테르나",
       "regions/kanto" : "654",
       "regions/kalos" : "005",
-      "evolution" : "Evolve #653 to Level 16"
+      "evolution" : "Level up #653 to 16"
     },
     {
       "number" : "655",
@@ -7880,7 +7880,7 @@
       "names/kr" : "마폭시",
       "regions/kanto" : "655",
       "regions/kalos" : "006",
-      "evolution" : "Evolve #654 to Level 36"
+      "evolution" : "Level up #654 to 36"
     },
     {
       "number" : "656",
@@ -7902,7 +7902,7 @@
       "names/kr" : "개굴반장",
       "regions/kanto" : "657",
       "regions/kalos" : "008",
-      "evolution" : "Evolve #656 to Level 16"
+      "evolution" : "Level up #656 to 16"
     },
     {
       "number" : "658",
@@ -7913,7 +7913,7 @@
       "names/kr" : "개굴닌자",
       "regions/kanto" : "658",
       "regions/kalos" : "009",
-      "evolution" : "Evolve #657 to Level 36"
+      "evolution" : "Level up #657 to 36"
     },
     {
       "number" : "659",
@@ -7935,7 +7935,7 @@
       "names/kr" : "파르토",
       "regions/kanto" : "660",
       "regions/kalos" : "011",
-      "evolution" : "Evolve #659 to Level 20"
+      "evolution" : "Level up #659 to 20"
     },
     {
       "number" : "661",
@@ -7959,7 +7959,7 @@
       "regions/alola" : "159",
       "regions/kanto" : "662",
       "regions/kalos" : "015",
-      "evolution" : "Evolve #661 to Level 17"
+      "evolution" : "Level up #661 to 17"
     },
     {
       "number" : "663",
@@ -7971,7 +7971,7 @@
       "regions/alola" : "160",
       "regions/kanto" : "663",
       "regions/kalos" : "016",
-      "evolution" : "Evolve #662 to Level 35"
+      "evolution" : "Level up #662 to 35"
     },
     {
       "number" : "664",
@@ -7993,7 +7993,7 @@
       "names/kr" : "분떠도리",
       "regions/kanto" : "665",
       "regions/kalos" : "021",
-      "evolution" : "Evolve #664 to Level 9"
+      "evolution" : "Level up #664 to 9"
     },
     {
       "number" : "666",
@@ -8004,7 +8004,7 @@
       "regions/kanto" : "666",
       "regions/kalos" : "022",
       "form_name" : "Pokeball",
-      "evolution" : "Evolve #665 to Level 12"
+      "evolution" : "Level up #665 to 12"
     },
     {
       "number" : "667",
@@ -8026,7 +8026,7 @@
       "names/kr" : "화염레오",
       "regions/kanto" : "668",
       "regions/kalos" : "058",
-      "evolution" : "Evolve #667 to Level 35"
+      "evolution" : "Level up #667 to 35"
     },
     {
       "number" : "669",
@@ -8046,7 +8046,7 @@
       "regions/kanto" : "670",
       "regions/kalos" : "069",
       "form_name" : "Red",
-      "evolution" : "Evolve #669 to Level 19"
+      "evolution" : "Level up #669 to 19"
     },
     {
       "number" : "671",
@@ -8078,7 +8078,7 @@
       "names/kr" : "고고트",
       "regions/kanto" : "673",
       "regions/kalos" : "090",
-      "evolution" : "Evolve #672 to Level 32"
+      "evolution" : "Level up #672 to 32"
     },
     {
       "number" : "674",
@@ -8102,7 +8102,7 @@
       "regions/alola" : "221",
       "regions/kanto" : "675",
       "regions/kalos" : "092",
-      "evolution" : "Evolve #674 to Level 32, with a Dark type Pokémon in party"
+      "evolution" : "Level up #674 to 32, with a Dark type Pokémon in party"
     },
     {
       "number" : "676",
@@ -8135,7 +8135,7 @@
       "names/kr" : "냐오닉스",
       "regions/kanto" : "678",
       "regions/kalos" : "115",
-      "evolution" : "Evolve #677 to Level 25"
+      "evolution" : "Level up #677 to 25"
     },
     {
       "number" : "679",
@@ -8157,7 +8157,7 @@
       "names/kr" : "쌍검킬",
       "regions/kanto" : "680",
       "regions/kalos" : "118",
-      "evolution" : "Evolve #679 to Level 35"
+      "evolution" : "Level up #679 to 35"
     },
     {
       "number" : "681",
@@ -8234,7 +8234,7 @@
       "names/kr" : "칼라마네로",
       "regions/kanto" : "687",
       "regions/kalos" : "011",
-      "evolution" : "Evolve #686 to Level 30, holding 3DS upside down"
+      "evolution" : "Level up #686 to 30, holding 3DS upside down"
     },
     {
       "number" : "688",
@@ -8256,7 +8256,7 @@
       "names/kr" : "거북손데스",
       "regions/kanto" : "689",
       "regions/kalos" : "022",
-      "evolution" : "Evolve #688 to Level 39"
+      "evolution" : "Level up #688 to 39"
     },
     {
       "number" : "690",
@@ -8278,7 +8278,7 @@
       "names/kr" : "드래캄",
       "regions/kanto" : "691",
       "regions/kalos" : "031",
-      "evolution" : "Evolve #690 to Level 48"
+      "evolution" : "Level up #690 to 48"
     },
     {
       "number" : "692",
@@ -8300,7 +8300,7 @@
       "names/kr" : "블로스터",
       "regions/kanto" : "693",
       "regions/kalos" : "033",
-      "evolution" : "Evolve #692 to Level 37"
+      "evolution" : "Level up #692 to 37"
     },
     {
       "number" : "694",
@@ -8344,7 +8344,7 @@
       "names/kr" : "견고라스",
       "regions/kanto" : "697",
       "regions/kalos" : "065",
-      "evolution" : "Evolve #696 to Level 39, at Daytime"
+      "evolution" : "Level up #696 to 39, at Daytime"
     },
     {
       "number" : "698",
@@ -8366,7 +8366,7 @@
       "names/kr" : "아마루르가",
       "regions/kanto" : "699",
       "regions/kalos" : "067",
-      "evolution" : "Evolve #698 to Level 39, at Nighttime"
+      "evolution" : "Level up #698 to 39, at Nighttime"
     },
     {
       "number" : "700",
@@ -8378,7 +8378,7 @@
       "regions/alola" : "131",
       "regions/kanto" : "700",
       "regions/kalos" : "085",
-      "evolution" : "Evolve #133 with 2 hearts Affection in Pokémon Amie, knowing Fairy move"
+      "evolution" : "Level up #133 with 2 hearts Affection in Pokémon Amie, knowing Fairy move"
     },
     {
       "number" : "701",
@@ -8434,7 +8434,7 @@
       "regions/alola" : "179",
       "regions/kanto" : "705",
       "regions/kalos" : "020",
-      "evolution" : "Evolve #704 to Level 40"
+      "evolution" : "Level up #704 to 40"
     },
     {
       "number" : "706",
@@ -8446,7 +8446,7 @@
       "regions/alola" : "180",
       "regions/kanto" : "706",
       "regions/kalos" : "021",
-      "evolution" : "Evolve #705 to Level 50, during rain"
+      "evolution" : "Level up #705 to 50, during rain"
     },
     {
       "number" : "707",
@@ -8526,7 +8526,7 @@
       "names/kr" : "크레베이스",
       "regions/kanto" : "713",
       "regions/kalos" : "080",
-      "evolution" : "Evolve #712 to Level 37"
+      "evolution" : "Level up #712 to 37"
     },
     {
       "number" : "714",
@@ -8548,7 +8548,7 @@
       "names/kr" : "음번",
       "regions/kanto" : "715",
       "regions/kalos" : "114",
-      "evolution" : "Evolve #714 to Level 48"
+      "evolution" : "Level up #714 to 48"
     },
     {
       "number" : "716",
@@ -8625,7 +8625,7 @@
       "names/kr" : "빼미스로우",
       "regions/alola" : "002",
       "regions/kanto" : "723",
-      "evolution" : "Evolve #722 to Level 17"
+      "evolution" : "Level up #722 to 17"
     },
     {
       "number" : "724",
@@ -8636,7 +8636,7 @@
       "names/kr" : "모크나이퍼",
       "regions/alola" : "003",
       "regions/kanto" : "724",
-      "evolution" : "Evolve #723 to Level 34"
+      "evolution" : "Level up #723 to 34"
     },
     {
       "number" : "725",
@@ -8658,7 +8658,7 @@
       "names/kr" : "냐오히트",
       "regions/alola" : "005",
       "regions/kanto" : "726",
-      "evolution" : "Evolve #725 to Level 17"
+      "evolution" : "Level up #725 to 17"
     },
     {
       "number" : "727",
@@ -8669,7 +8669,7 @@
       "names/kr" : "어흥염",
       "regions/alola" : "006",
       "regions/kanto" : "727",
-      "evolution" : "Evolve #726 to Level 34"
+      "evolution" : "Level up #726 to 34"
     },
     {
       "number" : "728",
@@ -8691,7 +8691,7 @@
       "names/kr" : "키요공",
       "regions/alola" : "008",
       "regions/kanto" : "729",
-      "evolution" : "Evolve #728 to Level 17"
+      "evolution" : "Level up #728 to 17"
     },
     {
       "number" : "730",
@@ -8702,7 +8702,7 @@
       "names/kr" : "누리레느",
       "regions/alola" : "009",
       "regions/kanto" : "730",
-      "evolution" : "Evolve #729 to Level 34"
+      "evolution" : "Level up #729 to 34"
     },
     {
       "number" : "731",
@@ -8724,7 +8724,7 @@
       "names/kr" : "크라파",
       "regions/alola" : "011",
       "regions/kanto" : "732",
-      "evolution" : "Evolve #731 to Level 14"
+      "evolution" : "Level up #731 to 14"
     },
     {
       "number" : "733",
@@ -8735,7 +8735,7 @@
       "names/kr" : "왕큰부리",
       "regions/alola" : "012",
       "regions/kanto" : "733",
-      "evolution" : "Evolve #732 to Level 28"
+      "evolution" : "Level up #732 to 28"
     },
     {
       "number" : "734",
@@ -8757,7 +8757,7 @@
       "names/kr" : "형사구스",
       "regions/alola" : "014",
       "regions/kanto" : "735",
-      "evolution" : "Evolve #734 to Level 20, at Daytime"
+      "evolution" : "Level up #734 to 20, at Daytime"
     },
     {
       "number" : "736",
@@ -8779,7 +8779,7 @@
       "names/kr" : "전지충이",
       "regions/alola" : "028",
       "regions/kanto" : "737",
-      "evolution" : "Evolve #736 to Level 20"
+      "evolution" : "Level up #736 to 20"
     },
     {
       "number" : "738",
@@ -8790,7 +8790,7 @@
       "names/kr" : "투구뿌논",
       "regions/alola" : "029",
       "regions/kanto" : "738",
-      "evolution" : "Evolve #737 at Vast Poni Canyon"
+      "evolution" : "Level up #737 at Vast Poni Canyon"
     },
     {
       "number" : "739",
@@ -8811,7 +8811,7 @@
       "names/kr" : "모단단게",
       "regions/alola" : "060",
       "regions/kanto" : "740",
-      "evolution" : "Evolve #739 at Mount Lanakila"
+      "evolution" : "Level up #739 at Mount Lanakila"
     },
     {
       "number" : "741",
@@ -8844,7 +8844,7 @@
       "names/kr" : "에리본",
       "regions/alola" : "084",
       "regions/kanto" : "743",
-      "evolution" : "Evolve #742 to Level 25"
+      "evolution" : "Level up #742 to 25"
     },
     {
       "number" : "744",
@@ -8866,7 +8866,7 @@
       "names/kr" : "루가루암",
       "regions/alola" : "104",
       "regions/kanto" : "745",
-      "evolution" : "Evolve #745 to Level 25, at Nighttime, in Pokémon Moon"
+      "evolution" : "Level up #745 to 25, at Nighttime, in Pokémon Moon"
     },
     {
       "number" : "746",
@@ -8899,7 +8899,7 @@
       "names/kr" : "더시마사리",
       "regions/alola" : "114",
       "regions/kanto" : "748",
-      "evolution" : "Evolve #747 to Level 38"
+      "evolution" : "Level up #747 to 38"
     },
     {
       "number" : "749",
@@ -8921,7 +8921,7 @@
       "names/kr" : "만마드",
       "regions/alola" : "133",
       "regions/kanto" : "750",
-      "evolution" : "Evolve #749 to Level 30"
+      "evolution" : "Level up #749 to 30"
     },
     {
       "number" : "751",
@@ -8943,7 +8943,7 @@
       "names/kr" : "깨비물거미",
       "regions/alola" : "142",
       "regions/kanto" : "752",
-      "evolution" : "Evolve #751 to Level 22"
+      "evolution" : "Level up #751 to 22"
     },
     {
       "number" : "753",
@@ -8965,7 +8965,7 @@
       "names/kr" : "라란티스",
       "regions/alola" : "144",
       "regions/kanto" : "754",
-      "evolution" : "Evolve #753 to Level 34, at Daytime"
+      "evolution" : "Level up #753 to 34, at Daytime"
     },
     {
       "number" : "755",
@@ -8987,7 +8987,7 @@
       "names/kr" : "마셰이드",
       "regions/alola" : "146",
       "regions/kanto" : "756",
-      "evolution" : "Evolve #755 to Level 24"
+      "evolution" : "Level up #755 to 24"
     },
     {
       "number" : "757",
@@ -9009,7 +9009,7 @@
       "names/kr" : "염뉴트",
       "regions/alola" : "162",
       "regions/kanto" : "758",
-      "evolution" : "Evolve #757 to Level 33, Female"
+      "evolution" : "Level up #757 to 33, Female"
     },
     {
       "number" : "759",
@@ -9031,7 +9031,7 @@
       "names/kr" : "이븐곰",
       "regions/alola" : "170",
       "regions/kanto" : "760",
-      "evolution" : "Evolve #759 to Level 27"
+      "evolution" : "Level up #759 to 27"
     },
     {
       "number" : "761",
@@ -9053,7 +9053,7 @@
       "names/kr" : "달무리나",
       "regions/alola" : "172",
       "regions/kanto" : "762",
-      "evolution" : "Evolve #761 to Level 18"
+      "evolution" : "Level up #761 to 18"
     },
     {
       "number" : "763",
@@ -9064,7 +9064,7 @@
       "names/kr" : "달코퀸",
       "regions/alola" : "173",
       "regions/kanto" : "763",
-      "evolution" : "Evolve #762 after Stomp learned"
+      "evolution" : "Level up #762 after Stomp learned"
     },
     {
       "number" : "764",
@@ -9119,7 +9119,7 @@
       "names/kr" : "갑주무사",
       "regions/alola" : "183",
       "regions/kanto" : "768",
-      "evolution" : "Evolve #767 to Level 30"
+      "evolution" : "Level up #767 to 30"
     },
     {
       "number" : "769",
@@ -9141,7 +9141,7 @@
       "names/kr" : "모래성이당",
       "regions/alola" : "187",
       "regions/kanto" : "770",
-      "evolution" : "Evolve #769 to Level 42"
+      "evolution" : "Level up #769 to 42"
     },
     {
       "number" : "771",
@@ -9175,7 +9175,7 @@
       "names/kr" : "실버디",
       "regions/alola" : "204",
       "regions/kanto" : "773",
-      "evolution" : "Evolve #772 with Happiness"
+      "evolution" : "Level up #772 with Happiness"
     },
     {
       "number" : "774",
@@ -9283,7 +9283,7 @@
       "names/kr" : "짜랑고우",
       "regions/alola" : "272",
       "regions/kanto" : "783",
-      "evolution" : "Evolve #782 to Level 35"
+      "evolution" : "Level up #782 to 35"
     },
     {
       "number" : "784",
@@ -9294,7 +9294,7 @@
       "names/kr" : "짜랑고우거",
       "regions/alola" : "273",
       "regions/kanto" : "784",
-      "evolution" : "Evolve #783 to Level 45"
+      "evolution" : "Level up #783 to 45"
     },
     {
       "number" : "785",
@@ -9362,7 +9362,7 @@
       "names/kr" : "코스모움",
       "regions/alola" : "290",
       "regions/kanto" : "790",
-      "evolution" : "Evolve #789 to Level 43"
+      "evolution" : "Level up #789 to 43"
     },
     {
       "number" : "791",
@@ -9371,7 +9371,7 @@
       "names/kr" : "솔가레오",
       "regions/alola" : "291",
       "regions/kanto" : "791",
-      "evolution" : "Evolve #790 to Level 53, in Pokémon Sun"
+      "evolution" : "Level up #790 to 53, in Pokémon Sun"
     },
     {
       "number" : "792",
@@ -9380,7 +9380,7 @@
       "names/kr" : "루나아라",
       "regions/alola" : "292",
       "regions/kanto" : "792",
-      "evolution" : "Evolve #791 to Level 53, in Pokémon Moon"
+      "evolution" : "Level up #791 to 53, in Pokémon Moon"
     },
     {
       "number" : "793",
