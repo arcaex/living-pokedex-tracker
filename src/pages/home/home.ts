@@ -55,7 +55,7 @@ export class HomePage {
         });
 
         this.totalPokemons = this.data.getRegionalPokemons().length;
-        this.ownedPokemons = this.data.getRegionalPokemons().filter(single_pokemon => (this.pokedex.pokemons[single_pokemon]['own']));
+        this.ownedPokemons = this.data.getRegionalPokemons().filter(single_pokemon => (this.pokedex.pokemons[single_pokemon['number']]['own'])).length;
     }
 
     search(ev) {

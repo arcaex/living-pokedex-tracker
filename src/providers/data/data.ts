@@ -27,7 +27,7 @@ export class DataProvider {
     getRegionalPokemons() {
         return this.data['pokemons'].filter(single_pokemon => {
             if (this.config.region['selected'] != 'national') {
-                if (single_pokemon['regions'][this.config.region['selected']] == null) {
+                if (single_pokemon['regions/' + this.config.region['selected']] == null) {
                     return false;
                 }
             }

@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { AlertController, NavController, NavParams } from 'ionic-angular';
+import { AlertController, NavController, NavParams, ViewController } from 'ionic-angular';
 
 import { ConfigProvider } from '../../providers/config/config';
+import { DataProvider } from '../../providers/data/data';
 import { PokedexProvider } from '../../providers/pokedex/pokedex';
 
 @Component({
@@ -12,7 +13,7 @@ export class ActionsPage {
 
     private pokemons:Array<Object> = [];
 
-    constructor(public navCtrl:NavController, public navParams:NavParams, public alertCtrl:AlertController, public pokedex:PokedexProvider, public config:ConfigProvider) {
+    constructor(public viewCtrl:ViewController, public navCtrl:NavController, public navParams:NavParams, public alertCtrl:AlertController, public pokedex:PokedexProvider, public config:ConfigProvider, public data:DataProvider) {
         this.pokemons = this.navParams.get("pokemons");
     }
 
@@ -38,10 +39,13 @@ export class ActionsPage {
 
                         /* Version 1.x data */
                         this.pokedex.reset();
+                        this.pokedex.init(this.data.getData(), this.config.getFilters());
                         this.pokedex.save();
 
                         this.config.reset();
                         this.config.save();
+
+                        this.viewCtrl.dismiss();
                     }
                 }
             ]
@@ -65,6 +69,8 @@ export class ActionsPage {
                             this.pokedex.pokemons[single_pokemon['number']]['own'] = state;
                         });
                         this.pokedex.save();
+
+                        this.viewCtrl.dismiss();
                     }
                 }
             ]
