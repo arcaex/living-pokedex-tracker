@@ -15,7 +15,7 @@ import { PokedexProvider } from '../../providers/pokedex/pokedex';
 export class FormsPage {
     private search_filter:string = "";
 
-    private pokemons:Array<Object> = [];
+    private master:Array<Object> = [{'aa':'aa'}];
 
     private totalPokemons:number = 0;
     private ownedPokemons:number = 0;
@@ -33,18 +33,9 @@ export class FormsPage {
         this.getPokemons();
     }
 
-    selectPokemon(single_pokemon) {
-        let modal = this.modalCtrl.create(DetailPage, {'pokemon':single_pokemon, 'parent': this});
-        modal.present();
-    }
-
-    pokedexChanged() {
-        this.pokedex.save();
-    }
-
-    getPokemons() {
+     getPokemons() {
         console.log("get...");
-        this.pokemons = this.data.getPokemons().filter(single_pokemon => {
+        this.master = this.data.getPokemons().filter(single_pokemon => {
             if (this.search_filter != "") {
                 if (single_pokemon['current_name'].toLowerCase().indexOf(this.search_filter.toLowerCase()) == -1) {
                     return false;
@@ -53,6 +44,8 @@ export class FormsPage {
 
             return true;
         });
+        
+        console.log(this.master.length);
 
         /* Build stats */
         let pokemons:Array<Object> = this.data.getRegionalPokemons();
@@ -72,12 +65,8 @@ export class FormsPage {
         this.getPokemons();
     }
 
-    virtualScrollTracker(index, pokemon) {
-        return pokemon['current_number'];
-    }
-
     showActions(event) {
-        let popover = this.popoverCtrl.create(ActionsPage, {pokemons:this.pokemons});
+        let popover = this.popoverCtrl.create(ActionsPage, {pokemons:this.master});
         popover.present({ev: event});
     }
 }

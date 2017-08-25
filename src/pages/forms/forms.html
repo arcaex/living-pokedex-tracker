@@ -10,8 +10,10 @@
 </ion-header>
 
 <ion-content>
-
-    <ion-list [virtualScroll]="pokemons" [virtualTrackBy]="virtualScrollTracker" approxItemHeight="80px">
+	{{ master.length }}
+	<pokemons [list]="master"></pokemons>
+	
+    <ion-list [virtualScroll]="master" [virtualTrackBy]="virtualScrollTracker" approxItemHeight="80px">
         <ion-item *virtualItem="let single_pokemon" (click)="selectPokemon(single_pokemon)">
             <ion-label>
                 <div class="pokemon-image {{ single_pokemon.sprite }}"></div>
@@ -26,5 +28,5 @@
             <ion-toggle [(ngModel)]="pokedex.pokemons[single_pokemon.number]['own']" (ionChange)="pokedexChanged()"></ion-toggle>
         </ion-item>
     </ion-list>
-
+	
 </ion-content>
