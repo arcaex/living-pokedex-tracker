@@ -10,23 +10,9 @@
 </ion-header>
 
 <ion-content>
-	{{ master.length }}
-	<pokemons [list]="master"></pokemons>
-	
     <ion-list [virtualScroll]="master" [virtualTrackBy]="virtualScrollTracker" approxItemHeight="80px">
         <ion-item *virtualItem="let single_pokemon" (click)="selectPokemon(single_pokemon)">
-            <ion-label>
-                <div class="pokemon-image {{ single_pokemon.sprite }}"></div>
-                <div class="pokemon-info">
-                    <h2>#{{ single_pokemon.current_number }} - {{ single_pokemon.current_name }}</h2>
-
-                    <p class="pokemon-settings">
-                    <ion-icon *ngFor="let single_filter of config.getFilters()" [name]="single_filter.icon" [ngClass]="{'active':pokedex.pokemons[single_pokemon.number][single_filter.id]}"></ion-icon>
-                    </p>
-                </div>
-            </ion-label>
-            <ion-toggle [(ngModel)]="pokedex.pokemons[single_pokemon.number]['own']" (ionChange)="pokedexChanged()"></ion-toggle>
+            <pokemon [data]="single_pokemon"></pokemon>
         </ion-item>
     </ion-list>
-	
 </ion-content>

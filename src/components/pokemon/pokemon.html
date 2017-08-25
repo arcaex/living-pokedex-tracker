@@ -1,0 +1,11 @@
+<ion-label>
+    <div class="pokemon-image {{ pokemon.sprite }}"></div>
+    <div class="pokemon-info">
+        <h2>#{{ pokemon.current_number }} - {{ pokemon.current_name }}</h2>
+
+        <p class="pokemon-settings">
+        <ion-icon *ngFor="let single_filter of config.getFilters()" [name]="single_filter.icon" [ngClass]="{'active':pokedex.pokemons[pokemon.number][single_filter.id]}"></ion-icon>
+        </p>
+    </div>
+</ion-label>
+<ion-toggle [(ngModel)]="pokedex.pokemons[pokemon.number]['own']" (ionChange)="pokedexChanged()"></ion-toggle>

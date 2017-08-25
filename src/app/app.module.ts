@@ -17,7 +17,7 @@ import { DetailPage } from '../pages/detail/detail';
 
 import { Tabs } from '../pages/tabs/tabs';
 
-import { Pokemons } from '../components/pokemons/pokemons';
+import { Pokemon } from '../components/pokemon/pokemon';
 
 import { ConfigProvider } from '../providers/config/config';
 import { DataProvider } from '../providers/data/data';
@@ -31,7 +31,7 @@ import { PokedexProvider } from '../providers/pokedex/pokedex';
     ActionsPage,
     Tabs,
     FormsPage,
-    Pokemons
+    Pokemon
   ],
   imports: [
     BrowserModule,
@@ -47,7 +47,7 @@ import { PokedexProvider } from '../providers/pokedex/pokedex';
     ActionsPage,
     Tabs,
     FormsPage,
-    Pokemons
+    Pokemon
   ],
   providers: [
     StatusBar,
