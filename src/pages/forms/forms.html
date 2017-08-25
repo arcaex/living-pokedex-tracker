@@ -1,7 +1,7 @@
 <ion-header>
     <ion-navbar color="primary">
         <button ion-button menuToggle icon-only><ion-icon name="menu"></ion-icon></button>
-        <ion-title>Pokemons ({{ ownedPokemons }}/{{ totalPokemons }})</ion-title>
+        <ion-title>Alternate forms ({{ getStats('owned') }}/{{ getStats('total') }})</ion-title>
         <ion-buttons end>
             <button ion-button outline (click)="showActions($event)">Actions</button>
         </ion-buttons>
