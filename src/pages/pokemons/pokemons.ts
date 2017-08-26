@@ -49,6 +49,11 @@ export class PokemonsPage {
     }
 
     getStats(type) {
-        return this.data.getStats("forms")[type];
+        return this.data.getStats(this.pokemonType)[type];
+    }
+
+    selectPokemon(single_pokemon) {
+        let modal = this.modalCtrl.create(DetailPage, {'pokemon':single_pokemon, 'parent': this});
+        modal.present();
     }
 }

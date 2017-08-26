@@ -116,7 +116,7 @@ export class DataProvider {
      *
      */
     getPokemon(pokemonNumber:number):Object {
-        return this.getAllPokemons().filter(single_pokemon => (single_pokemon['number'] == pokemonNumber));
+        return this.getAllPokemons().filter(single_pokemon => (single_pokemon['number'] == pokemonNumber))[0];
     }
 
     /*
@@ -171,8 +171,9 @@ export class DataProvider {
 
         let stats:Object = {
             'total': totalPokemons.length,
-            'owned': totalPokemons.filter(single_pokemon => (this.pokedex.pokemons[single_pokemon['number']['own']])).length
+            'owned': totalPokemons.filter(single_pokemon => (this.pokedex.pokemons[single_pokemon['number']]['own'])).length
         };
+
 
         return stats;
     }

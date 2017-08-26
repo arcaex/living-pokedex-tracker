@@ -14,13 +14,6 @@
                 <ion-toggle [(ngModel)]="config.filters[filter.id]" (ionChange)="configChanged($event, filter.id)" color="primary"></ion-toggle>
             </ion-item>
         </ion-list>
-        <ion-list>
-            <ion-item-divider color="secondary">Show alternate forms</ion-item-divider>
-            <ion-item>
-                <ion-label>Show</ion-label>
-                <ion-toggle [(ngModel)]="config.alternate_forms['all']" (ionChange)="configChanged($event, 'all')" color="primary"></ion-toggle>
-            </ion-item>
-        </ion-list>
         <ion-list radio-group [(ngModel)]="config.region['selected']">
             <ion-item-divider color="secondary">Pokedex</ion-item-divider>
             <ion-item *ngFor="let region of config.getRegions()">
