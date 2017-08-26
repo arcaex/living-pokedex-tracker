@@ -2,16 +2,14 @@ import { Component } from '@angular/core';
 
 import { NavParams } from 'ionic-angular';
 
-import { PokedexPage } from '../../pages/pokedex/pokedex';
-import { FormsPage } from '../../pages/forms/forms';
+import { PokemonsPage } from '../../pages/pokemons/pokemons';
 
 @Component({
     templateUrl: 'tabs.html'
 })
 
 export class Tabs {
-    tabPokedexRoot: any = PokedexPage;
-    tabFormsRoot: any = FormsPage;
+    tabPokemonsRoot: any = PokemonsPage;
 
     mySelectedIndex: number;
 
