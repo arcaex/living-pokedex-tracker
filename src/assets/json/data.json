@@ -10,7 +10,7 @@
       "regions/kanto" : "001",
       "regions/johto" : "231",
       "regions/kalos" : "080",
-      "breading" : "#001, #002, #003",
+      "breeding" : "#001, #002, #003",
       "origin_number" : "000"
     },
     {
@@ -49,7 +49,7 @@
       "regions/kanto" : "004",
       "regions/johto" : "234",
       "regions/kalos" : "083",
-      "breading" : "#004, #005, #006",
+      "breeding" : "#004, #005, #006",
       "origin_number" : "000"
     },
     {
@@ -88,7 +88,7 @@
       "regions/kanto" : "007",
       "regions/johto" : "237",
       "regions/kalos" : "086",
-      "breading" : "#007, #008, #009",
+      "breeding" : "#007, #008, #009",
       "origin_number" : "000"
     },
     {
@@ -128,7 +128,7 @@
       "regions/kanto" : "010",
       "regions/johto" : "024",
       "regions/kalos" : "023",
-      "breading" : "#010, #011, #012",
+      "breeding" : "#010, #011, #012",
       "origin_number" : "000"
     },
     {
@@ -169,7 +169,7 @@
       "regions/kanto" : "013",
       "regions/johto" : "027",
       "regions/kalos" : "026",
-      "breading" : "#013, #014, #015",
+      "breeding" : "#013, #014, #015",
       "origin_number" : "000"
     },
     {
@@ -208,7 +208,7 @@
       "regions/kanto" : "016",
       "regions/johto" : "010",
       "regions/kalos" : "017",
-      "breading" : "#016, #017, #018",
+      "breeding" : "#016, #017, #018",
       "origin_number" : "000"
     },
     {
@@ -247,13 +247,13 @@
       "regions/kanto" : "019",
       "regions/johto" : "017",
       "regions/unova" : "059",
-      "breading" : "#019, #020",
+      "breeding" : "#019, #020",
       "origin_number" : "000"
     },
     {
       "number" : "019-alola",
       "regions/alola" : "015",
-      "breading" : "#019-alola, #020-alola",
+      "breeding" : "#019-alola, #020-alola",
       "form_name" : "Alola",
       "origin_number" : "019"
     },
@@ -289,7 +289,7 @@
       "regions/kanto" : "021",
       "regions/johto" : "013",
       "regions/kalos" : "109",
-      "breading" : "#021, #022",
+      "breeding" : "#021, #022",
       "origin_number" : "000"
     },
     {
@@ -316,7 +316,7 @@
       "regions/kanto" : "023",
       "regions/johto" : "050",
       "regions/kalos" : "037",
-      "breading" : "#023, #024",
+      "breeding" : "#023, #024",
       "origin_number" : "000"
     },
     {
@@ -361,7 +361,7 @@
     {
       "number" : "026-alola",
       "regions/alola" : "026",
-      "evolving" : "Use Thunder Stone on #025-alola",
+      "evolving" : "Use Thunder Stone on #025 in Alola",
       "form_name" : "Alola",
       "origin_number" : "026"
     },
@@ -378,13 +378,13 @@
       "regions/hoenn" : "117",
       "regions/unova" : "113",
       "regions/kalos" : "097",
-      "breading" : "#027, #028",
+      "breeding" : "#027, #028",
       "origin_number" : "000"
     },
     {
       "number" : "027-alola",
       "regions/alola" : "251",
-      "breading" : "#027-alola, #028-alola",
+      "breeding" : "#027-alola, #028-alola",
       "form_name" : "Alola",
       "origin_number" : "027"
     },
@@ -419,7 +419,7 @@
       "regions/kanto" : "029",
       "regions/johto" : "095",
       "regions/kalos" : "104",
-      "breading" : "#029, #030, #031",
+      "breeding" : "#029, #030, #031",
       "origin_number" : "000"
     },
     {
@@ -452,7 +452,7 @@
       "regions/kanto" : "032",
       "regions/johto" : "098",
       "regions/kalos" : "107",
-      "breading" : "#032, #033, #034",
+      "breeding" : "#032, #033, #034",
       "origin_number" : "000"
     },
     {
@@ -520,13 +520,13 @@
       "regions/johto" : "127",
       "regions/hoenn" : "160",
       "regions/unova" : "248",
-      "breading" : "#037, #038",
+      "breeding" : "#037, #038",
       "origin_number" : "000"
     },
     {
       "number" : "037-alola",
       "regions/alola" : "253",
-      "breading" : "#037-alola, #038-alola",
+      "breeding" : "#037-alola, #038-alola",
       "form_name" : "Alola",
       "origin_number" : "037"
     },
@@ -597,7 +597,7 @@
       "regions/sinnoh" : "028",
       "regions/unova" : "061",
       "regions/kalos" : "145",
-      "breading" : "#041, #042, #169",
+      "breeding" : "#041, #042, #169",
       "origin_number" : "000"
     },
     {
@@ -627,7 +627,7 @@
       "regions/johto" : "083",
       "regions/hoenn" : "091",
       "regions/kalos" : "105",
-      "breading" : "#043, #044, #045, #182",
+      "breeding" : "#043, #044, #045, #182",
       "origin_number" : "000"
     },
     {
@@ -666,7 +666,7 @@
       "regions/alola" : "147",
       "regions/kanto" : "046",
       "regions/johto" : "070",
-      "breading" : "#046, #047",
+      "breeding" : "#046, #047",
       "origin_number" : "000"
     },
     {
@@ -690,7 +690,7 @@
       "names/kr" : "콘팡",
       "regions/kanto" : "048",
       "regions/johto" : "109",
-      "breading" : "#048, #049",
+      "breeding" : "#048, #049",
       "origin_number" : "000"
     },
     {
@@ -716,13 +716,13 @@
       "regions/kanto" : "050",
       "regions/johto" : "134",
       "regions/kalos" : "001",
-      "breading" : "#050, #051",
+      "breeding" : "#050, #051",
       "origin_number" : "000"
     },
     {
       "number" : "050-alola",
       "regions/alola" : "071",
-      "breading" : "#050-alola, #051-alola",
+      "breeding" : "#050-alola, #051-alola",
       "form_name" : "Alola",
       "origin_number" : "050"
     },
@@ -757,7 +757,7 @@
       "regions/alola" : "045",
       "regions/kanto" : "052",
       "regions/johto" : "138",
-      "breading" : "#052, #053",
+      "breeding" : "#052, #053",
       "origin_number" : "000"
     },
     {
@@ -799,7 +799,7 @@
       "regions/sinnoh" : "043",
       "regions/unova" : "028",
       "regions/kalos" : "059",
-      "breading" : "#054, #055",
+      "breeding" : "#054, #055",
       "origin_number" : "000"
     },
     {
@@ -829,7 +829,7 @@
       "regions/alola" : "079",
       "regions/kanto" : "056",
       "regions/johto" : "136",
-      "breading" : "#056, #057",
+      "breeding" : "#056, #057",
       "origin_number" : "000"
     },
     {
@@ -856,7 +856,7 @@
       "regions/kanto" : "058",
       "regions/johto" : "129",
       "regions/unova" : "051",
-      "breading" : "#058, #059",
+      "breeding" : "#058, #059",
       "origin_number" : "000"
     },
     {
@@ -884,7 +884,7 @@
       "regions/kanto" : "060",
       "regions/johto" : "072",
       "regions/kalos" : "033",
-      "breading" : "#060, #061, #062, #186",
+      "breeding" : "#060, #061, #062, #186",
       "origin_number" : "000"
     },
     {
@@ -926,7 +926,7 @@
       "regions/hoenn" : "040",
       "regions/sinnoh" : "020",
       "regions/kalos" : "102",
-      "breading" : "#063, #064, #065",
+      "breeding" : "#063, #064, #065",
       "origin_number" : "000"
     },
     {
@@ -971,7 +971,7 @@
       "regions/hoenn" : "075",
       "regions/sinnoh" : "040",
       "regions/kalos" : "057",
-      "breading" : "#066, #067, #068",
+      "breeding" : "#066, #067, #068",
       "origin_number" : "000"
     },
     {
@@ -1016,7 +1016,7 @@
       "regions/kanto" : "069",
       "regions/johto" : "064",
       "regions/kalos" : "026",
-      "breading" : "#069, #070, #071",
+      "breeding" : "#069, #070, #071",
       "origin_number" : "000"
     },
     {
@@ -1057,7 +1057,7 @@
       "regions/hoenn" : "068",
       "regions/sinnoh" : "136",
       "regions/kalos" : "025",
-      "breading" : "#072, #073",
+      "breeding" : "#072, #073",
       "origin_number" : "000"
     },
     {
@@ -1088,7 +1088,7 @@
       "regions/hoenn" : "058",
       "regions/sinnoh" : "031",
       "regions/kalos" : "009",
-      "breading" : "#074, #075, #076",
+      "breeding" : "#074, #075, #076",
       "origin_number" : "000"
     },
     {
@@ -1152,7 +1152,7 @@
       "regions/kanto" : "077",
       "regions/johto" : "206",
       "regions/sinnoh" : "090",
-      "breading" : "#077, #078",
+      "breeding" : "#077, #078",
       "origin_number" : "000"
     },
     {
@@ -1179,7 +1179,7 @@
       "regions/kanto" : "079",
       "regions/johto" : "080",
       "regions/kalos" : "133",
-      "breading" : "#079, #080, #199",
+      "breeding" : "#079, #080, #199",
       "origin_number" : "000"
     },
     {
@@ -1210,7 +1210,7 @@
       "regions/sinnoh" : "178",
       "regions/unova" : "048",
       "regions/kalos" : "069",
-      "breading" : "#081, #082, #462",
+      "breeding" : "#081, #082, #462",
       "origin_number" : "000"
     },
     {
@@ -1251,7 +1251,7 @@
       "regions/johto" : "204",
       "regions/hoenn" : "095",
       "regions/kalos" : "094",
-      "breading" : "#084, #085",
+      "breeding" : "#084, #085",
       "origin_number" : "000"
     },
     {
@@ -1277,7 +1277,7 @@
       "regions/kanto" : "086",
       "regions/johto" : "178",
       "regions/unova" : "265",
-      "breading" : "#086, #087",
+      "breeding" : "#086, #087",
       "origin_number" : "000"
     },
     {
@@ -1305,13 +1305,13 @@
       "regions/johto" : "117",
       "regions/hoenn" : "111",
       "regions/unova" : "064",
-      "breading" : "#088, #089",
+      "breeding" : "#088, #089",
       "origin_number" : "000"
     },
     {
       "number" : "088-alola",
       "regions/alola" : "050",
-      "breading" : "#088-alola, #089-alola",
+      "breeding" : "#088-alola, #089-alola",
       "form_name" : "Alola",
       "origin_number" : "088"
     },
@@ -1348,7 +1348,7 @@
       "regions/kanto" : "090",
       "regions/johto" : "171",
       "regions/kalos" : "036",
-      "breading" : "#090, #091",
+      "breeding" : "#090, #091",
       "origin_number" : "000"
     },
     {
@@ -1377,7 +1377,7 @@
       "regions/johto" : "058",
       "regions/sinnoh" : "069",
       "regions/kalos" : "030",
-      "breading" : "#092, #093, #094",
+      "breeding" : "#092, #093, #094",
       "origin_number" : "000"
     },
     {
@@ -1419,7 +1419,7 @@
       "regions/sinnoh" : "034",
       "regions/unova" : "071",
       "regions/kalos" : "053",
-      "breading" : "#095, #208",
+      "breeding" : "#095, #208",
       "origin_number" : "000"
     },
     {
@@ -1432,7 +1432,7 @@
       "regions/alola" : "054",
       "regions/kanto" : "096",
       "regions/johto" : "087",
-      "breading" : "#096, #097",
+      "breeding" : "#096, #097",
       "origin_number" : "000"
     },
     {
@@ -1454,7 +1454,7 @@
       "names/kr" : "크랩",
       "regions/kanto" : "098",
       "regions/johto" : "166",
-      "breading" : "#098, #099",
+      "breeding" : "#098, #099",
       "origin_number" : "000"
     },
     {
@@ -1479,7 +1479,7 @@
       "regions/johto" : "121",
       "regions/hoenn" : "087",
       "regions/kalos" : "072",
-      "breading" : "#100, #101",
+      "breeding" : "#100, #101",
       "origin_number" : "000"
     },
     {
@@ -1507,7 +1507,7 @@
       "regions/kanto" : "102",
       "regions/johto" : "105",
       "regions/kalos" : "136",
-      "breading" : "#102, #103",
+      "breeding" : "#102, #103",
       "origin_number" : "000"
     },
     {
@@ -1542,7 +1542,7 @@
       "regions/kanto" : "104",
       "regions/johto" : "208",
       "regions/kalos" : "060",
-      "breading" : "#104, #105",
+      "breeding" : "#104, #105",
       "origin_number" : "000"
     },
     {
@@ -1562,7 +1562,7 @@
     {
       "number" : "105-alola",
       "regions/alola" : "164",
-      "evolving" : "#104-alola to 28, at Nighttime",
+      "evolving" : "Level up #104 to 28, at Nighttime in Alola",
       "form_name" : "Alola",
       "origin_number" : "105"
     },
@@ -1602,7 +1602,7 @@
       "regions/sinnoh" : "161",
       "regions/unova" : "284",
       "regions/kalos" : "134",
-      "breading" : "#108, #463",
+      "breeding" : "#108, #463",
       "origin_number" : "000"
     },
     {
@@ -1616,7 +1616,7 @@
       "regions/johto" : "115",
       "regions/hoenn" : "113",
       "regions/unova" : "046",
-      "breading" : "#109, #110",
+      "breeding" : "#109, #110",
       "origin_number" : "000"
     },
     {
@@ -1645,7 +1645,7 @@
       "regions/hoenn" : "176",
       "regions/sinnoh" : "186",
       "regions/kalos" : "050",
-      "breading" : "#111, #112, #464",
+      "breeding" : "#111, #112, #464",
       "origin_number" : "000"
     },
     {
@@ -1687,7 +1687,7 @@
       "regions/johto" : "182",
       "regions/sinnoh" : "181",
       "regions/unova" : "217",
-      "breading" : "#114, #465",
+      "breeding" : "#114, #465",
       "origin_number" : "000"
     },
     {
@@ -1714,7 +1714,7 @@
       "regions/johto" : "190",
       "regions/hoenn" : "193",
       "regions/kalos" : "039",
-      "breading" : "#116, #117, #230",
+      "breeding" : "#116, #117, #230",
       "origin_number" : "000"
     },
     {
@@ -1744,7 +1744,7 @@
       "regions/hoenn" : "051",
       "regions/sinnoh" : "078",
       "regions/kalos" : "053",
-      "breading" : "#118, #119",
+      "breeding" : "#118, #119",
       "origin_number" : "000"
     },
     {
@@ -1776,7 +1776,7 @@
       "regions/hoenn" : "148",
       "regions/unova" : "238",
       "regions/kalos" : "034",
-      "breading" : "#120, #121",
+      "breeding" : "#120, #121",
       "origin_number" : "000"
     },
     {
@@ -1820,7 +1820,7 @@
       "regions/johto" : "111",
       "regions/sinnoh" : "195",
       "regions/kalos" : "136",
-      "breading" : "#123, #212",
+      "breeding" : "#123, #212",
       "origin_number" : "000"
     },
     {
@@ -1902,7 +1902,7 @@
       "regions/hoenn" : "053",
       "regions/sinnoh" : "023",
       "regions/kalos" : "049",
-      "breading" : "#129, #130",
+      "breeding" : "#129, #130",
       "origin_number" : "000"
     },
     {
@@ -1960,7 +1960,7 @@
       "regions/sinnoh" : "163",
       "regions/unova" : "091",
       "regions/kalos" : "077",
-      "breading" : "#134, #135, #136, #700, #133, #196, #197, #470, #471",
+      "breeding" : "#134, #135, #136, #700, #133, #196, #197, #470, #471",
       "origin_number" : "000"
     },
     {
@@ -2020,7 +2020,7 @@
       "regions/kanto" : "137",
       "regions/johto" : "220",
       "regions/sinnoh" : "192",
-      "breading" : "#137, #233, #474",
+      "breeding" : "#137, #233, #474",
       "origin_number" : "000"
     },
     {
@@ -2032,7 +2032,7 @@
       "names/kr" : "암나이트",
       "regions/kanto" : "138",
       "regions/johto" : "225",
-      "breading" : "#138, #139",
+      "breeding" : "#138, #139",
       "origin_number" : "000"
     },
     {
@@ -2054,7 +2054,7 @@
       "names/kr" : "투구",
       "regions/kanto" : "140",
       "regions/johto" : "227",
-      "breading" : "#140, #141",
+      "breeding" : "#140, #141",
       "origin_number" : "000"
     },
     {
@@ -2139,7 +2139,7 @@
       "regions/kanto" : "147",
       "regions/johto" : "246",
       "regions/kalos" : "145",
-      "breading" : "#147, #148, #149",
+      "breeding" : "#147, #148, #149",
       "origin_number" : "000"
     },
     {
@@ -2199,7 +2199,7 @@
       "names/kr" : "치코리타",
       "regions/kanto" : "152",
       "regions/johto" : "001",
-      "breading" : "#152, #153, #154",
+      "breeding" : "#152, #153, #154",
       "origin_number" : "000"
     },
     {
@@ -2235,7 +2235,7 @@
       "names/kr" : "브케인",
       "regions/kanto" : "155",
       "regions/johto" : "004",
-      "breading" : "#155, #156, #157",
+      "breeding" : "#155, #156, #157",
       "origin_number" : "000"
     },
     {
@@ -2270,7 +2270,7 @@
       "names/kr" : "리아코",
       "regions/kanto" : "158",
       "regions/johto" : "007",
-      "breading" : "#158, #159, #160",
+      "breeding" : "#158, #159, #160",
       "origin_number" : "000"
     },
     {
@@ -2307,7 +2307,7 @@
       "regions/kanto" : "161",
       "regions/johto" : "019",
       "regions/kalos" : "109",
-      "breading" : "#161, #162",
+      "breeding" : "#161, #162",
       "origin_number" : "000"
     },
     {
@@ -2332,7 +2332,7 @@
       "regions/johto" : "015",
       "regions/sinnoh" : "106",
       "regions/kalos" : "117",
-      "breading" : "#163, #164",
+      "breeding" : "#163, #164",
       "origin_number" : "000"
     },
     {
@@ -2359,7 +2359,7 @@
       "regions/kanto" : "165",
       "regions/johto" : "030",
       "regions/kalos" : "074",
-      "breading" : "#165, #166",
+      "breeding" : "#165, #166",
       "origin_number" : "000"
     },
     {
@@ -2386,7 +2386,7 @@
       "regions/kanto" : "167",
       "regions/johto" : "032",
       "regions/kalos" : "107",
-      "breading" : "#167, #168",
+      "breeding" : "#167, #168",
       "origin_number" : "000"
     },
     {
@@ -2431,7 +2431,7 @@
       "regions/johto" : "176",
       "regions/hoenn" : "190",
       "regions/kalos" : "147",
-      "breading" : "#170, #171",
+      "breeding" : "#170, #171",
       "origin_number" : "000"
     },
     {
@@ -2458,7 +2458,7 @@
       "regions/hoenn" : "162",
       "regions/sinnoh" : "103",
       "regions/kalos" : "035",
-      "breading" : "#025, #026",
+      "breeding" : "#025, #026",
       "origin_number" : "000"
     },
     {
@@ -2473,7 +2473,7 @@
       "regions/johto" : "040",
       "regions/sinnoh" : "099",
       "regions/unova" : "088",
-      "breading" : "#173, #035, #036",
+      "breeding" : "#173, #035, #036",
       "origin_number" : "000"
     },
     {
@@ -2489,7 +2489,7 @@
       "regions/hoenn" : "142",
       "regions/unova" : "281",
       "regions/kalos" : "119",
-      "breading" : "#174, #039, #040",
+      "breeding" : "#174, #039, #040",
       "origin_number" : "000"
     },
     {
@@ -2500,7 +2500,7 @@
       "regions/kanto" : "175",
       "regions/johto" : "046",
       "regions/sinnoh" : "173",
-      "breading" : "#175, #176, #468",
+      "breeding" : "#175, #176, #468",
       "origin_number" : "000"
     },
     {
@@ -2522,7 +2522,7 @@
       "regions/kanto" : "177",
       "regions/johto" : "161",
       "regions/hoenn" : "169",
-      "breading" : "#177, #178",
+      "breeding" : "#177, #178",
       "origin_number" : "000"
     },
     {
@@ -2547,7 +2547,7 @@
       "regions/johto" : "053",
       "regions/unova" : "025",
       "regions/kalos" : "127",
-      "breading" : "#179, #180, #181",
+      "breeding" : "#179, #180, #181",
       "origin_number" : "000"
     },
     {
@@ -2658,7 +2658,7 @@
       "regions/kanto" : "187",
       "regions/johto" : "067",
       "regions/kalos" : "135",
-      "breading" : "#187, #188, #189",
+      "breeding" : "#187, #188, #189",
       "origin_number" : "000"
     },
     {
@@ -2697,7 +2697,7 @@
       "regions/kanto" : "190",
       "regions/johto" : "123",
       "regions/sinnoh" : "063",
-      "breading" : "#190, #424",
+      "breeding" : "#190, #424",
       "origin_number" : "000"
     },
     {
@@ -2710,7 +2710,7 @@
       "regions/kanto" : "191",
       "regions/johto" : "103",
       "regions/unova" : "020",
-      "breading" : "#191, #192",
+      "breeding" : "#191, #192",
       "origin_number" : "000"
     },
     {
@@ -2736,7 +2736,7 @@
       "regions/sinnoh" : "183",
       "regions/unova" : "286",
       "regions/kalos" : "087",
-      "breading" : "#193, #469",
+      "breeding" : "#193, #469",
       "origin_number" : "000"
     },
     {
@@ -2750,7 +2750,7 @@
       "regions/johto" : "056",
       "regions/sinnoh" : "117",
       "regions/kalos" : "017",
-      "breading" : "#194, #195",
+      "breeding" : "#194, #195",
       "origin_number" : "000"
     },
     {
@@ -2811,7 +2811,7 @@
       "regions/johto" : "213",
       "regions/sinnoh" : "074",
       "regions/kalos" : "051",
-      "breading" : "#198, #430",
+      "breeding" : "#198, #430",
       "origin_number" : "000"
     },
     {
@@ -2839,7 +2839,7 @@
       "regions/kanto" : "200",
       "regions/johto" : "219",
       "regions/sinnoh" : "072",
-      "breading" : "#200, #429",
+      "breeding" : "#200, #429",
       "origin_number" : "000"
     },
     {
@@ -3112,7 +3112,7 @@
       "names/kr" : "피콘",
       "regions/kanto" : "204",
       "regions/johto" : "093",
-      "breading" : "#204, #205",
+      "breeding" : "#204, #205",
       "origin_number" : "000"
     },
     {
@@ -3152,7 +3152,7 @@
       "regions/sinnoh" : "153",
       "regions/unova" : "221",
       "regions/kalos" : "115",
-      "breading" : "#207, #472",
+      "breeding" : "#207, #472",
       "origin_number" : "000"
     },
     {
@@ -3178,7 +3178,7 @@
       "regions/kanto" : "209",
       "regions/johto" : "125",
       "regions/kalos" : "071",
-      "breading" : "#209, #210",
+      "breeding" : "#209, #210",
       "origin_number" : "000"
     },
     {
@@ -3260,7 +3260,7 @@
       "regions/sinnoh" : "144",
       "regions/unova" : "252",
       "regions/kalos" : "091",
-      "breading" : "#215, #461",
+      "breeding" : "#215, #461",
       "origin_number" : "000"
     },
     {
@@ -3271,7 +3271,7 @@
       "regions/kanto" : "216",
       "regions/johto" : "198",
       "regions/kalos" : "132",
-      "breading" : "#216, #217",
+      "breeding" : "#216, #217",
       "origin_number" : "000"
     },
     {
@@ -3296,7 +3296,7 @@
       "regions/johto" : "216",
       "regions/hoenn" : "108",
       "regions/kalos" : "012",
-      "breading" : "#218, #219",
+      "breeding" : "#218, #219",
       "origin_number" : "000"
     },
     {
@@ -3324,7 +3324,7 @@
       "regions/sinnoh" : "203",
       "regions/unova" : "258",
       "regions/kalos" : "076",
-      "breading" : "#220, #221, #473",
+      "breeding" : "#220, #221, #473",
       "origin_number" : "000"
     },
     {
@@ -3368,7 +3368,7 @@
       "regions/sinnoh" : "132",
       "regions/unova" : "235",
       "regions/kalos" : "144",
-      "breading" : "#223, #224",
+      "breeding" : "#223, #224",
       "origin_number" : "000"
     },
     {
@@ -3439,7 +3439,7 @@
       "regions/johto" : "214",
       "regions/sinnoh" : "176",
       "regions/kalos" : "075",
-      "breading" : "#228, #229",
+      "breeding" : "#228, #229",
       "origin_number" : "000"
     },
     {
@@ -3478,7 +3478,7 @@
       "regions/kanto" : "231",
       "regions/johto" : "200",
       "regions/hoenn" : "172",
-      "breading" : "#231, #232",
+      "breeding" : "#231, #232",
       "origin_number" : "000"
     },
     {
@@ -3537,7 +3537,7 @@
       "names/kr" : "배루키",
       "regions/kanto" : "236",
       "regions/johto" : "145",
-      "breading" : "#236, #106, #107, #237",
+      "breeding" : "#236, #106, #107, #237",
       "origin_number" : "000"
     },
     {
@@ -3562,7 +3562,7 @@
       "regions/kanto" : "238",
       "regions/johto" : "154",
       "regions/kalos" : "083",
-      "breading" : "#238, #124",
+      "breeding" : "#238, #124",
       "origin_number" : "000"
     },
     {
@@ -3576,7 +3576,7 @@
       "regions/johto" : "156",
       "regions/sinnoh" : "197",
       "regions/unova" : "056",
-      "breading" : "#239, #125, #466",
+      "breeding" : "#239, #125, #466",
       "origin_number" : "000"
     },
     {
@@ -3589,7 +3589,7 @@
       "regions/johto" : "152",
       "regions/sinnoh" : "200",
       "regions/unova" : "053",
-      "breading" : "#240, #126, #467",
+      "breeding" : "#240, #126, #467",
       "origin_number" : "000"
     },
     {
@@ -3664,7 +3664,7 @@
       "regions/johto" : "249",
       "regions/unova" : "292",
       "regions/kalos" : "102",
-      "breading" : "#246, #247, #248",
+      "breeding" : "#246, #247, #248",
       "origin_number" : "000"
     },
     {
@@ -3730,7 +3730,7 @@
       "names/kr" : "나무지기",
       "regions/kanto" : "252",
       "regions/hoenn" : "001",
-      "breading" : "#252, #253, #254",
+      "breeding" : "#252, #253, #254",
       "origin_number" : "000"
     },
     {
@@ -3766,7 +3766,7 @@
       "names/kr" : "아차모",
       "regions/kanto" : "255",
       "regions/hoenn" : "004",
-      "breading" : "#255, #256, #257",
+      "breeding" : "#255, #256, #257",
       "origin_number" : "000"
     },
     {
@@ -3802,7 +3802,7 @@
       "names/kr" : "물짱이",
       "regions/kanto" : "258",
       "regions/hoenn" : "007",
-      "breading" : "#258, #259, #260",
+      "breeding" : "#258, #259, #260",
       "origin_number" : "000"
     },
     {
@@ -3839,7 +3839,7 @@
       "regions/kanto" : "261",
       "regions/hoenn" : "010",
       "regions/kalos" : "044",
-      "breading" : "#261, #262",
+      "breeding" : "#261, #262",
       "origin_number" : "000"
     },
     {
@@ -3865,7 +3865,7 @@
       "regions/kanto" : "263",
       "regions/hoenn" : "012",
       "regions/kalos" : "012",
-      "breading" : "#263, #264",
+      "breeding" : "#263, #264",
       "origin_number" : "000"
     },
     {
@@ -3891,7 +3891,7 @@
       "regions/kanto" : "265",
       "regions/hoenn" : "014",
       "regions/sinnoh" : "048",
-      "breading" : "#265, #266, #267, #268, #269",
+      "breeding" : "#265, #266, #267, #268, #269",
       "origin_number" : "000"
     },
     {
@@ -3956,7 +3956,7 @@
       "regions/kanto" : "270",
       "regions/hoenn" : "019",
       "regions/kalos" : "055",
-      "breading" : "#270, #271, #272",
+      "breeding" : "#270, #271, #272",
       "origin_number" : "000"
     },
     {
@@ -3992,7 +3992,7 @@
       "names/kr" : "도토링",
       "regions/kanto" : "273",
       "regions/hoenn" : "022",
-      "breading" : "#273, #274, #275",
+      "breeding" : "#273, #274, #275",
       "origin_number" : "000"
     },
     {
@@ -4029,7 +4029,7 @@
       "regions/kanto" : "276",
       "regions/hoenn" : "025",
       "regions/kalos" : "019",
-      "breading" : "#276, #277",
+      "breeding" : "#276, #277",
       "origin_number" : "000"
     },
     {
@@ -4057,7 +4057,7 @@
       "regions/sinnoh" : "119",
       "regions/unova" : "212",
       "regions/kalos" : "017",
-      "breading" : "#278, #279",
+      "breeding" : "#278, #279",
       "origin_number" : "000"
     },
     {
@@ -4086,7 +4086,7 @@
       "regions/hoenn" : "029",
       "regions/sinnoh" : "157",
       "regions/kalos" : "064",
-      "breading" : "#280, #281, #282, #475",
+      "breeding" : "#280, #281, #282, #475",
       "origin_number" : "000"
     },
     {
@@ -4125,7 +4125,7 @@
       "regions/kanto" : "283",
       "regions/hoenn" : "033",
       "regions/kalos" : "047",
-      "breading" : "#283, #284",
+      "breeding" : "#283, #284",
       "origin_number" : "000"
     },
     {
@@ -4151,7 +4151,7 @@
       "names/kr" : "버섯꼬",
       "regions/kanto" : "285",
       "regions/hoenn" : "035",
-      "breading" : "#285, #286",
+      "breeding" : "#285, #286",
       "origin_number" : "000"
     },
     {
@@ -4176,7 +4176,7 @@
       "regions/kanto" : "287",
       "regions/hoenn" : "037",
       "regions/unova" : "276",
-      "breading" : "#287, #288, #289",
+      "breeding" : "#287, #288, #289",
       "origin_number" : "000"
     },
     {
@@ -4213,7 +4213,7 @@
       "regions/kanto" : "290",
       "regions/hoenn" : "043",
       "regions/kalos" : "111",
-      "breading" : "#290, #291, #292",
+      "breeding" : "#290, #291, #292",
       "origin_number" : "000"
     },
     {
@@ -4250,7 +4250,7 @@
       "regions/kanto" : "293",
       "regions/hoenn" : "046",
       "regions/kalos" : "140",
-      "breading" : "#293, #294, #295",
+      "breeding" : "#293, #294, #295",
       "origin_number" : "000"
     },
     {
@@ -4288,7 +4288,7 @@
       "regions/kanto" : "296",
       "regions/hoenn" : "049",
       "regions/kalos" : "095",
-      "breading" : "#296, #297",
+      "breeding" : "#296, #297",
       "origin_number" : "000"
     },
     {
@@ -4313,7 +4313,7 @@
       "regions/sinnoh" : "124",
       "regions/unova" : "030",
       "regions/kalos" : "041",
-      "breading" : "#298, #183, #184",
+      "breeding" : "#298, #183, #184",
       "origin_number" : "000"
     },
     {
@@ -4329,7 +4329,7 @@
       "regions/sinnoh" : "155",
       "regions/unova" : "164",
       "regions/kalos" : "093",
-      "breading" : "#299, #476",
+      "breeding" : "#299, #476",
       "origin_number" : "000"
     },
     {
@@ -4342,7 +4342,7 @@
       "regions/hoenn" : "063",
       "regions/unova" : "078",
       "regions/kalos" : "078",
-      "breading" : "#300, #301",
+      "breeding" : "#300, #301",
       "origin_number" : "000"
     },
     {
@@ -4394,7 +4394,7 @@
       "regions/hoenn" : "072",
       "regions/unova" : "166",
       "regions/kalos" : "099",
-      "breading" : "#304, #305, #306",
+      "breeding" : "#304, #305, #306",
       "origin_number" : "000"
     },
     {
@@ -4436,7 +4436,7 @@
       "regions/hoenn" : "078",
       "regions/sinnoh" : "086",
       "regions/kalos" : "143",
-      "breading" : "#307, #308",
+      "breeding" : "#307, #308",
       "origin_number" : "000"
     },
     {
@@ -4463,7 +4463,7 @@
       "regions/kanto" : "309",
       "regions/hoenn" : "080",
       "regions/kalos" : "073",
-      "breading" : "#309, #310",
+      "breeding" : "#309, #310",
       "origin_number" : "000"
     },
     {
@@ -4547,7 +4547,7 @@
       "regions/kanto" : "316",
       "regions/hoenn" : "100",
       "regions/kalos" : "098",
-      "breading" : "#316, #317",
+      "breeding" : "#316, #317",
       "origin_number" : "000"
     },
     {
@@ -4573,7 +4573,7 @@
       "regions/kanto" : "318",
       "regions/hoenn" : "102",
       "regions/kalos" : "055",
-      "breading" : "#318, #319",
+      "breeding" : "#318, #319",
       "origin_number" : "000"
     },
     {
@@ -4599,7 +4599,7 @@
       "regions/hoenn" : "104",
       "regions/unova" : "240",
       "regions/kalos" : "027",
-      "breading" : "#320, #321",
+      "breeding" : "#320, #321",
       "origin_number" : "000"
     },
     {
@@ -4625,7 +4625,7 @@
       "regions/kanto" : "322",
       "regions/hoenn" : "106",
       "regions/unova" : "204",
-      "breading" : "#322, #323",
+      "breeding" : "#322, #323",
       "origin_number" : "000"
     },
     {
@@ -4662,7 +4662,7 @@
       "regions/hoenn" : "115",
       "regions/unova" : "206",
       "regions/kalos" : "007",
-      "breading" : "#325, #326",
+      "breeding" : "#325, #326",
       "origin_number" : "000"
     },
     {
@@ -4703,7 +4703,7 @@
       "regions/hoenn" : "121",
       "regions/unova" : "121",
       "regions/kalos" : "003",
-      "breading" : "#328, #329, #330",
+      "breeding" : "#328, #329, #330",
       "origin_number" : "000"
     },
     {
@@ -4743,7 +4743,7 @@
       "names/kr" : "선인왕",
       "regions/kanto" : "331",
       "regions/hoenn" : "124",
-      "breading" : "#331, #332",
+      "breeding" : "#331, #332",
       "origin_number" : "000"
     },
     {
@@ -4769,7 +4769,7 @@
       "regions/sinnoh" : "171",
       "regions/unova" : "246",
       "regions/kalos" : "139",
-      "breading" : "#333, #334",
+      "breeding" : "#333, #334",
       "origin_number" : "000"
     },
     {
@@ -4849,7 +4849,7 @@
       "regions/hoenn" : "132",
       "regions/sinnoh" : "080",
       "regions/kalos" : "040",
-      "breading" : "#339, #340",
+      "breeding" : "#339, #340",
       "origin_number" : "000"
     },
     {
@@ -4878,7 +4878,7 @@
       "regions/hoenn" : "134",
       "regions/unova" : "279",
       "regions/kalos" : "051",
-      "breading" : "#341, #342",
+      "breeding" : "#341, #342",
       "origin_number" : "000"
     },
     {
@@ -4905,7 +4905,7 @@
       "regions/kanto" : "343",
       "regions/hoenn" : "136",
       "regions/unova" : "169",
-      "breading" : "#343, #344",
+      "breeding" : "#343, #344",
       "origin_number" : "000"
     },
     {
@@ -4930,7 +4930,7 @@
       "names/kr" : "릴링",
       "regions/kanto" : "345",
       "regions/hoenn" : "138",
-      "breading" : "#345, #346",
+      "breeding" : "#345, #346",
       "origin_number" : "000"
     },
     {
@@ -4952,7 +4952,7 @@
       "names/kr" : "아노딥스",
       "regions/kanto" : "347",
       "regions/hoenn" : "140",
-      "breading" : "#347, #348",
+      "breeding" : "#347, #348",
       "origin_number" : "000"
     },
     {
@@ -4976,7 +4976,7 @@
       "regions/kanto" : "349",
       "regions/hoenn" : "145",
       "regions/sinnoh" : "138",
-      "breading" : "#349, #350",
+      "breeding" : "#349, #350",
       "origin_number" : "000"
     },
     {
@@ -5025,7 +5025,7 @@
       "regions/hoenn" : "151",
       "regions/unova" : "210",
       "regions/kalos" : "122",
-      "breading" : "#353, #354",
+      "breeding" : "#353, #354",
       "origin_number" : "000"
     },
     {
@@ -5051,7 +5051,7 @@
       "regions/kanto" : "355",
       "regions/hoenn" : "153",
       "regions/sinnoh" : "189",
-      "breading" : "#355, #356, #477",
+      "breeding" : "#355, #356, #477",
       "origin_number" : "000"
     },
     {
@@ -5115,7 +5115,7 @@
       "regions/kanto" : "360",
       "regions/hoenn" : "167",
       "regions/kalos" : "118",
-      "breading" : "#360, #202",
+      "breeding" : "#360, #202",
       "origin_number" : "000"
     },
     {
@@ -5129,7 +5129,7 @@
       "regions/kanto" : "361",
       "regions/hoenn" : "179",
       "regions/sinnoh" : "206",
-      "breading" : "#361, #362, #478",
+      "breeding" : "#361, #362, #478",
       "origin_number" : "000"
     },
     {
@@ -5156,7 +5156,7 @@
       "regions/kanto" : "363",
       "regions/hoenn" : "182",
       "regions/unova" : "243",
-      "breading" : "#363, #364, #365",
+      "breeding" : "#363, #364, #365",
       "origin_number" : "000"
     },
     {
@@ -5195,7 +5195,7 @@
       "regions/kanto" : "366",
       "regions/hoenn" : "185",
       "regions/kalos" : "141",
-      "breading" : "#366, #367, #368",
+      "breeding" : "#366, #367, #368",
       "origin_number" : "000"
     },
     {
@@ -5259,7 +5259,7 @@
       "regions/kanto" : "371",
       "regions/hoenn" : "196",
       "regions/kalos" : "014",
-      "breading" : "#371, #372, #373",
+      "breeding" : "#371, #372, #373",
       "origin_number" : "000"
     },
     {
@@ -5301,7 +5301,7 @@
       "regions/kanto" : "374",
       "regions/hoenn" : "199",
       "regions/unova" : "262",
-      "breading" : "#374, #375, #376",
+      "breeding" : "#374, #375, #376",
       "origin_number" : "000"
     },
     {
@@ -5429,7 +5429,7 @@
       "names/kr" : "모부기",
       "regions/kanto" : "387",
       "regions/sinnoh" : "001",
-      "breading" : "#387, #388, #389",
+      "breeding" : "#387, #388, #389",
       "origin_number" : "000"
     },
     {
@@ -5464,7 +5464,7 @@
       "names/kr" : "불꽃숭이",
       "regions/kanto" : "390",
       "regions/sinnoh" : "004",
-      "breading" : "#390, #391, #392",
+      "breeding" : "#390, #391, #392",
       "origin_number" : "000"
     },
     {
@@ -5500,7 +5500,7 @@
       "names/kr" : "팽도리",
       "regions/kanto" : "393",
       "regions/sinnoh" : "007",
-      "breading" : "#393, #394, #395",
+      "breeding" : "#393, #394, #395",
       "origin_number" : "000"
     },
     {
@@ -5537,7 +5537,7 @@
       "regions/kanto" : "396",
       "regions/sinnoh" : "010",
       "regions/kalos" : "099",
-      "breading" : "#396, #397, #398",
+      "breeding" : "#396, #397, #398",
       "origin_number" : "000"
     },
     {
@@ -5574,7 +5574,7 @@
       "regions/kanto" : "399",
       "regions/sinnoh" : "013",
       "regions/kalos" : "038",
-      "breading" : "#399, #400",
+      "breeding" : "#399, #400",
       "origin_number" : "000"
     },
     {
@@ -5600,7 +5600,7 @@
       "names/kr" : "귀뚤뚜기",
       "regions/kanto" : "401",
       "regions/sinnoh" : "015",
-      "breading" : "#401, #402",
+      "breeding" : "#401, #402",
       "origin_number" : "000"
     },
     {
@@ -5624,7 +5624,7 @@
       "names/kr" : "꼬링크",
       "regions/kanto" : "403",
       "regions/sinnoh" : "017",
-      "breading" : "#403, #404, #405",
+      "breeding" : "#403, #404, #405",
       "origin_number" : "000"
     },
     {
@@ -5660,7 +5660,7 @@
       "regions/sinnoh" : "025",
       "regions/unova" : "133",
       "regions/kalos" : "071",
-      "breading" : "#406, #315, #407",
+      "breeding" : "#406, #315, #407",
       "origin_number" : "000"
     },
     {
@@ -5686,7 +5686,7 @@
       "regions/alola" : "188",
       "regions/kanto" : "408",
       "regions/sinnoh" : "036",
-      "breading" : "#408, #409",
+      "breeding" : "#408, #409",
       "origin_number" : "000"
     },
     {
@@ -5712,7 +5712,7 @@
       "regions/alola" : "190",
       "regions/kanto" : "410",
       "regions/sinnoh" : "038",
-      "breading" : "#410, #411",
+      "breeding" : "#410, #411",
       "origin_number" : "000"
     },
     {
@@ -5736,7 +5736,7 @@
       "regions/kanto" : "412",
       "regions/sinnoh" : "045",
       "regions/kalos" : "044",
-      "breading" : "#412, #414, #412, #413, #412, #413, #412, #413",
+      "breeding" : "#412, #414, #412, #413, #412, #413, #412, #413",
       "origin_number" : "000"
     },
     {
@@ -5776,7 +5776,7 @@
       "regions/sinnoh" : "053",
       "regions/unova" : "142",
       "regions/kalos" : "076",
-      "breading" : "#415, #416",
+      "breeding" : "#415, #416",
       "origin_number" : "000"
     },
     {
@@ -5814,7 +5814,7 @@
       "regions/sinnoh" : "056",
       "regions/unova" : "149",
       "regions/kalos" : "058",
-      "breading" : "#418, #419",
+      "breeding" : "#418, #419",
       "origin_number" : "000"
     },
     {
@@ -5840,7 +5840,7 @@
       "names/kr" : "체리버",
       "regions/kanto" : "420",
       "regions/sinnoh" : "058",
-      "breading" : "#420, #421",
+      "breeding" : "#420, #421",
       "origin_number" : "000"
     },
     {
@@ -5865,7 +5865,7 @@
       "regions/alola" : "260",
       "regions/kanto" : "422",
       "regions/sinnoh" : "060",
-      "breading" : "#422, #423",
+      "breeding" : "#422, #423",
       "origin_number" : "000"
     },
     {
@@ -5905,7 +5905,7 @@
       "regions/sinnoh" : "065",
       "regions/unova" : "208",
       "regions/kalos" : "001",
-      "breading" : "#425, #426",
+      "breeding" : "#425, #426",
       "origin_number" : "000"
     },
     {
@@ -5933,7 +5933,7 @@
       "regions/kanto" : "427",
       "regions/sinnoh" : "067",
       "regions/unova" : "080",
-      "breading" : "#427, #428",
+      "breeding" : "#427, #428",
       "origin_number" : "000"
     },
     {
@@ -5985,7 +5985,7 @@
       "names/kr" : "나옹마",
       "regions/kanto" : "431",
       "regions/sinnoh" : "076",
-      "breading" : "#431, #432",
+      "breeding" : "#431, #432",
       "origin_number" : "000"
     },
     {
@@ -6012,7 +6012,7 @@
       "regions/hoenn" : "157",
       "regions/sinnoh" : "082",
       "regions/kalos" : "111",
-      "breading" : "#433, #358",
+      "breeding" : "#433, #358",
       "origin_number" : "000"
     },
     {
@@ -6025,7 +6025,7 @@
       "regions/kanto" : "434",
       "regions/sinnoh" : "084",
       "regions/kalos" : "102",
-      "breading" : "#434, #435",
+      "breeding" : "#434, #435",
       "origin_number" : "000"
     },
     {
@@ -6051,7 +6051,7 @@
       "regions/kanto" : "436",
       "regions/sinnoh" : "088",
       "regions/unova" : "250",
-      "breading" : "#436, #437",
+      "breeding" : "#436, #437",
       "origin_number" : "000"
     },
     {
@@ -6079,7 +6079,7 @@
       "regions/kanto" : "438",
       "regions/sinnoh" : "092",
       "regions/kalos" : "129",
-      "breading" : "#185",
+      "breeding" : "#185",
       "origin_number" : "000"
     },
     {
@@ -6092,7 +6092,7 @@
       "regions/kanto" : "439",
       "regions/sinnoh" : "094",
       "regions/kalos" : "113",
-      "breading" : "#439, #122",
+      "breeding" : "#439, #122",
       "origin_number" : "000"
     },
     {
@@ -6105,7 +6105,7 @@
       "regions/alola" : "032",
       "regions/kanto" : "440",
       "regions/sinnoh" : "096",
-      "breading" : "#440, #113, #242",
+      "breeding" : "#440, #113, #242",
       "origin_number" : "000"
     },
     {
@@ -6144,7 +6144,7 @@
       "regions/kanto" : "443",
       "regions/sinnoh" : "109",
       "regions/kalos" : "006",
-      "breading" : "#443, #444, #445",
+      "breeding" : "#443, #444, #445",
       "origin_number" : "000"
     },
     {
@@ -6188,7 +6188,7 @@
       "regions/kanto" : "446",
       "regions/sinnoh" : "112",
       "regions/kalos" : "138",
-      "breading" : "#446, #143",
+      "breeding" : "#446, #143",
       "origin_number" : "000"
     },
     {
@@ -6201,7 +6201,7 @@
       "regions/sinnoh" : "115",
       "regions/unova" : "033",
       "regions/kalos" : "062",
-      "breading" : "#447, #448",
+      "breeding" : "#447, #448",
       "origin_number" : "000"
     },
     {
@@ -6228,7 +6228,7 @@
       "regions/kanto" : "449",
       "regions/sinnoh" : "122",
       "regions/kalos" : "048",
-      "breading" : "#449, #450",
+      "breeding" : "#449, #450",
       "origin_number" : "000"
     },
     {
@@ -6256,7 +6256,7 @@
       "regions/sinnoh" : "127",
       "regions/unova" : "201",
       "regions/kalos" : "015",
-      "breading" : "#451, #452",
+      "breeding" : "#451, #452",
       "origin_number" : "000"
     },
     {
@@ -6285,7 +6285,7 @@
       "regions/sinnoh" : "129",
       "regions/unova" : "290",
       "regions/kalos" : "125",
-      "breading" : "#453, #454",
+      "breeding" : "#453, #454",
       "origin_number" : "000"
     },
     {
@@ -6327,7 +6327,7 @@
       "regions/alola" : "108",
       "regions/kanto" : "456",
       "regions/sinnoh" : "134",
-      "breading" : "#456, #457",
+      "breeding" : "#456, #457",
       "origin_number" : "000"
     },
     {
@@ -6355,7 +6355,7 @@
       "regions/sinnoh" : "140",
       "regions/unova" : "233",
       "regions/kalos" : "139",
-      "breading" : "#458, #226",
+      "breeding" : "#458, #226",
       "origin_number" : "000"
     },
     {
@@ -6369,7 +6369,7 @@
       "regions/kanto" : "459",
       "regions/sinnoh" : "142",
       "regions/kalos" : "088",
-      "breading" : "#459, #460",
+      "breeding" : "#459, #460",
       "origin_number" : "000"
     },
     {
@@ -6794,7 +6794,7 @@
       "names/kr" : "주리비얀",
       "regions/kanto" : "495",
       "regions/unova" : "001",
-      "breading" : "#495, #496, #497",
+      "breeding" : "#495, #496, #497",
       "origin_number" : "000"
     },
     {
@@ -6830,7 +6830,7 @@
       "names/kr" : "뚜꾸리",
       "regions/kanto" : "498",
       "regions/unova" : "004",
-      "breading" : "#498, #499, #500",
+      "breeding" : "#498, #499, #500",
       "origin_number" : "000"
     },
     {
@@ -6866,7 +6866,7 @@
       "names/kr" : "수댕이",
       "regions/kanto" : "501",
       "regions/unova" : "007",
-      "breading" : "#501, #502, #503",
+      "breeding" : "#501, #502, #503",
       "origin_number" : "000"
     },
     {
@@ -6903,7 +6903,7 @@
       "regions/kanto" : "504",
       "regions/unova" : "010",
       "regions/kalos" : "046",
-      "breading" : "#504, #505",
+      "breeding" : "#504, #505",
       "origin_number" : "000"
     },
     {
@@ -6929,7 +6929,7 @@
       "regions/alola" : "120",
       "regions/kanto" : "506",
       "regions/unova" : "012",
-      "breading" : "#506, #507, #508",
+      "breeding" : "#506, #507, #508",
       "origin_number" : "000"
     },
     {
@@ -6968,7 +6968,7 @@
       "regions/kanto" : "509",
       "regions/unova" : "015",
       "regions/kalos" : "042",
-      "breading" : "#509, #510",
+      "breeding" : "#509, #510",
       "origin_number" : "000"
     },
     {
@@ -6994,7 +6994,7 @@
       "regions/kanto" : "511",
       "regions/unova" : "017",
       "regions/kalos" : "029",
-      "breading" : "#511, #512",
+      "breeding" : "#511, #512",
       "origin_number" : "000"
     },
     {
@@ -7020,7 +7020,7 @@
       "regions/kanto" : "513",
       "regions/unova" : "019",
       "regions/kalos" : "031",
-      "breading" : "#513, #514",
+      "breeding" : "#513, #514",
       "origin_number" : "000"
     },
     {
@@ -7046,7 +7046,7 @@
       "regions/kanto" : "515",
       "regions/unova" : "021",
       "regions/kalos" : "033",
-      "breading" : "#515, #516",
+      "breeding" : "#515, #516",
       "origin_number" : "000"
     },
     {
@@ -7070,7 +7070,7 @@
       "names/kr" : "몽나",
       "regions/kanto" : "517",
       "regions/unova" : "023",
-      "breading" : "#517, #518",
+      "breeding" : "#517, #518",
       "origin_number" : "000"
     },
     {
@@ -7094,7 +7094,7 @@
       "names/kr" : "콩둘기",
       "regions/kanto" : "519",
       "regions/unova" : "025",
-      "breading" : "#519, #520, #521",
+      "breeding" : "#519, #520, #521",
       "origin_number" : "000"
     },
     {
@@ -7130,7 +7130,7 @@
       "names/kr" : "줄뮤마",
       "regions/kanto" : "522",
       "regions/unova" : "028",
-      "breading" : "#522, #523",
+      "breeding" : "#522, #523",
       "origin_number" : "000"
     },
     {
@@ -7156,7 +7156,7 @@
       "regions/kanto" : "524",
       "regions/unova" : "030",
       "regions/kalos" : "120",
-      "breading" : "#524, #525, #526",
+      "breeding" : "#524, #525, #526",
       "origin_number" : "000"
     },
     {
@@ -7197,7 +7197,7 @@
       "regions/kanto" : "527",
       "regions/unova" : "033",
       "regions/kalos" : "055",
-      "breading" : "#527, #528",
+      "breeding" : "#527, #528",
       "origin_number" : "000"
     },
     {
@@ -7258,7 +7258,7 @@
       "regions/kanto" : "532",
       "regions/unova" : "038",
       "regions/kalos" : "093",
-      "breading" : "#532, #533, #534",
+      "breeding" : "#532, #533, #534",
       "origin_number" : "000"
     },
     {
@@ -7296,7 +7296,7 @@
       "names/kr" : "동챙이",
       "regions/kanto" : "535",
       "regions/unova" : "041",
-      "breading" : "#535, #536, #537",
+      "breeding" : "#535, #536, #537",
       "origin_number" : "000"
     },
     {
@@ -7356,7 +7356,7 @@
       "names/kr" : "두르보",
       "regions/kanto" : "540",
       "regions/unova" : "046",
-      "breading" : "#540, #541, #542",
+      "breeding" : "#540, #541, #542",
       "origin_number" : "000"
     },
     {
@@ -7393,7 +7393,7 @@
       "regions/kanto" : "543",
       "regions/unova" : "049",
       "regions/kalos" : "120",
-      "breading" : "#543, #544, #545",
+      "breeding" : "#543, #544, #545",
       "origin_number" : "000"
     },
     {
@@ -7432,7 +7432,7 @@
       "regions/alola" : "087",
       "regions/kanto" : "546",
       "regions/unova" : "052",
-      "breading" : "#546, #547",
+      "breeding" : "#546, #547",
       "origin_number" : "000"
     },
     {
@@ -7458,7 +7458,7 @@
       "regions/alola" : "085",
       "regions/kanto" : "548",
       "regions/unova" : "054",
-      "breading" : "#548, #549",
+      "breeding" : "#548, #549",
       "origin_number" : "000"
     },
     {
@@ -7497,7 +7497,7 @@
       "regions/kanto" : "551",
       "regions/unova" : "057",
       "regions/kalos" : "043",
-      "breading" : "#551, #552, #553",
+      "breeding" : "#551, #552, #553",
       "origin_number" : "000"
     },
     {
@@ -7537,7 +7537,7 @@
       "names/kr" : "달막화",
       "regions/kanto" : "554",
       "regions/unova" : "060",
-      "breading" : "#554, #555",
+      "breeding" : "#554, #555",
       "origin_number" : "000"
     },
     {
@@ -7573,7 +7573,7 @@
       "regions/kanto" : "557",
       "regions/unova" : "063",
       "regions/kalos" : "023",
-      "breading" : "#557, #558",
+      "breeding" : "#557, #558",
       "origin_number" : "000"
     },
     {
@@ -7599,7 +7599,7 @@
       "regions/kanto" : "559",
       "regions/unova" : "065",
       "regions/kalos" : "100",
-      "breading" : "#559, #560",
+      "breeding" : "#559, #560",
       "origin_number" : "000"
     },
     {
@@ -7636,7 +7636,7 @@
       "names/kr" : "데스마스",
       "regions/kanto" : "562",
       "regions/unova" : "068",
-      "breading" : "#562, #563",
+      "breeding" : "#562, #563",
       "origin_number" : "000"
     },
     {
@@ -7661,7 +7661,7 @@
       "regions/alola" : "194",
       "regions/kanto" : "564",
       "regions/unova" : "070",
-      "breading" : "#564, #565",
+      "breeding" : "#564, #565",
       "origin_number" : "000"
     },
     {
@@ -7687,7 +7687,7 @@
       "regions/alola" : "192",
       "regions/kanto" : "566",
       "regions/unova" : "072",
-      "breading" : "#566, #567",
+      "breeding" : "#566, #567",
       "origin_number" : "000"
     },
     {
@@ -7714,7 +7714,7 @@
       "regions/kanto" : "568",
       "regions/unova" : "074",
       "regions/kalos" : "074",
-      "breading" : "#568, #569",
+      "breeding" : "#568, #569",
       "origin_number" : "000"
     },
     {
@@ -7739,7 +7739,7 @@
       "regions/kanto" : "570",
       "regions/unova" : "076",
       "regions/kalos" : "124",
-      "breading" : "#570, #571",
+      "breeding" : "#570, #571",
       "origin_number" : "000"
     },
     {
@@ -7762,7 +7762,7 @@
       "names/kr" : "치라미",
       "regions/kanto" : "572",
       "regions/unova" : "078",
-      "breading" : "#572, #573",
+      "breeding" : "#572, #573",
       "origin_number" : "000"
     },
     {
@@ -7787,7 +7787,7 @@
       "regions/kanto" : "574",
       "regions/unova" : "080",
       "regions/kalos" : "126",
-      "breading" : "#574, #575, #576",
+      "breeding" : "#574, #575, #576",
       "origin_number" : "000"
     },
     {
@@ -7826,7 +7826,7 @@
       "regions/kanto" : "577",
       "regions/unova" : "083",
       "regions/kalos" : "115",
-      "breading" : "#577, #578, #579",
+      "breeding" : "#577, #578, #579",
       "origin_number" : "000"
     },
     {
@@ -7865,7 +7865,7 @@
       "regions/kanto" : "580",
       "regions/unova" : "086",
       "regions/kalos" : "127",
-      "breading" : "#580, #581",
+      "breeding" : "#580, #581",
       "origin_number" : "000"
     },
     {
@@ -7892,7 +7892,7 @@
       "regions/kanto" : "582",
       "regions/unova" : "088",
       "regions/kalos" : "085",
-      "breading" : "#582, #583, #584",
+      "breeding" : "#582, #583, #584",
       "origin_number" : "000"
     },
     {
@@ -7932,7 +7932,7 @@
       "names/kr" : "사철록",
       "regions/kanto" : "585",
       "regions/unova" : "091",
-      "breading" : "#585, #586",
+      "breeding" : "#585, #586",
       "origin_number" : "000"
     },
     {
@@ -7968,7 +7968,7 @@
       "regions/kanto" : "588",
       "regions/unova" : "094",
       "regions/kalos" : "022",
-      "breading" : "#588, #589",
+      "breeding" : "#588, #589",
       "origin_number" : "000"
     },
     {
@@ -7994,7 +7994,7 @@
       "regions/kanto" : "590",
       "regions/unova" : "096",
       "regions/kalos" : "053",
-      "breading" : "#590, #591",
+      "breeding" : "#590, #591",
       "origin_number" : "000"
     },
     {
@@ -8019,7 +8019,7 @@
       "names/kr" : "탱그릴",
       "regions/kanto" : "592",
       "regions/unova" : "098",
-      "breading" : "#592, #593",
+      "breeding" : "#592, #593",
       "origin_number" : "000"
     },
     {
@@ -8056,7 +8056,7 @@
       "names/kr" : "파쪼옥",
       "regions/kanto" : "595",
       "regions/unova" : "101",
-      "breading" : "#595, #596",
+      "breeding" : "#595, #596",
       "origin_number" : "000"
     },
     {
@@ -8081,7 +8081,7 @@
       "regions/kanto" : "597",
       "regions/unova" : "103",
       "regions/kalos" : "069",
-      "breading" : "#597, #598",
+      "breeding" : "#597, #598",
       "origin_number" : "000"
     },
     {
@@ -8106,7 +8106,7 @@
       "names/kr" : "기어르",
       "regions/kanto" : "599",
       "regions/unova" : "105",
-      "breading" : "#599, #600, #601",
+      "breeding" : "#599, #600, #601",
       "origin_number" : "000"
     },
     {
@@ -8142,7 +8142,7 @@
       "names/kr" : "저리어",
       "regions/kanto" : "602",
       "regions/unova" : "108",
-      "breading" : "#602, #603, #604",
+      "breeding" : "#602, #603, #604",
       "origin_number" : "000"
     },
     {
@@ -8178,7 +8178,7 @@
       "names/kr" : "리그레",
       "regions/kanto" : "605",
       "regions/unova" : "111",
-      "breading" : "#605, #606",
+      "breeding" : "#605, #606",
       "origin_number" : "000"
     },
     {
@@ -8203,7 +8203,7 @@
       "regions/kanto" : "607",
       "regions/unova" : "113",
       "regions/kalos" : "065",
-      "breading" : "#607, #608, #609",
+      "breeding" : "#607, #608, #609",
       "origin_number" : "000"
     },
     {
@@ -8242,7 +8242,7 @@
       "regions/kanto" : "610",
       "regions/unova" : "116",
       "regions/kalos" : "148",
-      "breading" : "#610, #611, #612",
+      "breeding" : "#610, #611, #612",
       "origin_number" : "000"
     },
     {
@@ -8281,7 +8281,7 @@
       "regions/kanto" : "613",
       "regions/unova" : "119",
       "regions/kalos" : "081",
-      "breading" : "#613, #614",
+      "breeding" : "#613, #614",
       "origin_number" : "000"
     },
     {
@@ -8319,7 +8319,7 @@
       "regions/kanto" : "616",
       "regions/unova" : "122",
       "regions/kalos" : "024",
-      "breading" : "#616, #617",
+      "breeding" : "#616, #617",
       "origin_number" : "000"
     },
     {
@@ -8357,7 +8357,7 @@
       "regions/kanto" : "619",
       "regions/unova" : "125",
       "regions/kalos" : "003",
-      "breading" : "#619, #620",
+      "breeding" : "#619, #620",
       "origin_number" : "000"
     },
     {
@@ -8395,7 +8395,7 @@
       "regions/kanto" : "622",
       "regions/unova" : "128",
       "regions/kalos" : "091",
-      "breading" : "#622, #623",
+      "breeding" : "#622, #623",
       "origin_number" : "000"
     },
     {
@@ -8421,7 +8421,7 @@
       "regions/kanto" : "624",
       "regions/unova" : "130",
       "regions/kalos" : "048",
-      "breading" : "#624, #625",
+      "breeding" : "#624, #625",
       "origin_number" : "000"
     },
     {
@@ -8458,7 +8458,7 @@
       "regions/alola" : "075",
       "regions/kanto" : "627",
       "regions/unova" : "133",
-      "breading" : "#627, #628",
+      "breeding" : "#627, #628",
       "origin_number" : "000"
     },
     {
@@ -8484,7 +8484,7 @@
       "regions/alola" : "077",
       "regions/kanto" : "629",
       "regions/unova" : "135",
-      "breading" : "#629, #630",
+      "breeding" : "#629, #630",
       "origin_number" : "000"
     },
     {
@@ -8534,7 +8534,7 @@
       "regions/kanto" : "633",
       "regions/unova" : "139",
       "regions/kalos" : "142",
-      "breading" : "#633, #634, #635",
+      "breeding" : "#633, #634, #635",
       "origin_number" : "000"
     },
     {
@@ -8572,7 +8572,7 @@
       "names/kr" : "활화르바",
       "regions/kanto" : "636",
       "regions/unova" : "142",
-      "breading" : "#636, #637",
+      "breeding" : "#636, #637",
       "origin_number" : "000"
     },
     {
@@ -8716,7 +8716,7 @@
       "names/kr" : "도치마론",
       "regions/kanto" : "650",
       "regions/kalos" : "001",
-      "breading" : "#650, #651, #652",
+      "breeding" : "#650, #651, #652",
       "origin_number" : "000"
     },
     {
@@ -8752,7 +8752,7 @@
       "names/kr" : "푸호꼬",
       "regions/kanto" : "653",
       "regions/kalos" : "004",
-      "breading" : "#653, #654, #655",
+      "breeding" : "#653, #654, #655",
       "origin_number" : "000"
     },
     {
@@ -8788,7 +8788,7 @@
       "names/kr" : "개구마르",
       "regions/kanto" : "656",
       "regions/kalos" : "007",
-      "breading" : "#656, #657, #658",
+      "breeding" : "#656, #657, #658",
       "origin_number" : "000"
     },
     {
@@ -8824,7 +8824,7 @@
       "names/kr" : "파르빗",
       "regions/kanto" : "659",
       "regions/kalos" : "010",
-      "breading" : "#659, #660",
+      "breeding" : "#659, #660",
       "origin_number" : "000"
     },
     {
@@ -8849,7 +8849,7 @@
       "regions/alola" : "158",
       "regions/kanto" : "661",
       "regions/kalos" : "014",
-      "breading" : "#661, #662, #663",
+      "breeding" : "#661, #662, #663",
       "origin_number" : "000"
     },
     {
@@ -8887,7 +8887,7 @@
       "names/kr" : "분이벌레",
       "regions/kanto" : "664",
       "regions/kalos" : "020",
-      "breading" : "#664, #665, #666",
+      "breeding" : "#664, #665, #666",
       "origin_number" : "000"
     },
     {
@@ -9017,7 +9017,7 @@
       "names/kr" : "레오꼬",
       "regions/kanto" : "667",
       "regions/kalos" : "057",
-      "breading" : "#667, #668",
+      "breeding" : "#667, #668",
       "origin_number" : "000"
     },
     {
@@ -9039,14 +9039,14 @@
       "names/kr" : "플라베베",
       "regions/kanto" : "669",
       "regions/kalos" : "068",
-      "breading" : "#669, #670, #671",
+      "breeding" : "#669, #670, #671",
       "origin_number" : "000"
     },
     {
       "number" : "669-Red",
       "regions/kanto" : "669",
       "regions/kalos" : "068",
-      "breading" : "#669-Red, #670-Red, #671-Red",
+      "breeding" : "#669-Red, #670-Red, #671-Red",
       "form_name" : "Red",
       "origin_number" : "669"
     },
@@ -9054,7 +9054,7 @@
       "number" : "669-Yellow",
       "regions/kanto" : "669",
       "regions/kalos" : "068",
-      "breading" : "#669-Yellow, #670-Yellow, #671-Yellow",
+      "breeding" : "#669-Yellow, #670-Yellow, #671-Yellow",
       "form_name" : "Yellow",
       "origin_number" : "669"
     },
@@ -9062,7 +9062,7 @@
       "number" : "669-Orange",
       "regions/kanto" : "669",
       "regions/kalos" : "068",
-      "breading" : "#669-Orange, #670-Orange, #671-Orange",
+      "breeding" : "#669-Orange, #670-Orange, #671-Orange",
       "form_name" : "Orange",
       "origin_number" : "669"
     },
@@ -9070,7 +9070,7 @@
       "number" : "669-Blue",
       "regions/kanto" : "669",
       "regions/kalos" : "068",
-      "breading" : "#669-Blue, #670-Blue, #671-Blue",
+      "breeding" : "#669-Blue, #670-Blue, #671-Blue",
       "form_name" : "Blue",
       "origin_number" : "669"
     },
@@ -9078,7 +9078,7 @@
       "number" : "669-White",
       "regions/kanto" : "669",
       "regions/kalos" : "068",
-      "breading" : "#669-White, #670-White, #671-White",
+      "breeding" : "#669-White, #670-White, #671-White",
       "form_name" : "White",
       "origin_number" : "669"
     },
@@ -9089,7 +9089,7 @@
       "names/kr" : "플라엣테",
       "regions/kanto" : "670",
       "regions/kalos" : "069",
-      "breading" : "Level up #669 to 19",
+      "breeding" : "Level up #669 to 19",
       "evolving" : "Level up #669 to 19",
       "origin_number" : "000"
     },
@@ -9097,7 +9097,7 @@
       "number" : "670-Red",
       "regions/kanto" : "670",
       "regions/kalos" : "069",
-      "breading" : "Level up #669-Red to 19",
+      "breeding" : "Level up #669-Red to 19",
       "form_name" : "Red",
       "origin_number" : "670"
     },
@@ -9105,7 +9105,7 @@
       "number" : "670-Yellow",
       "regions/kanto" : "670",
       "regions/kalos" : "069",
-      "breading" : "Level up #669-Yellow to 19",
+      "breeding" : "Level up #669-Yellow to 19",
       "form_name" : "Yellow",
       "origin_number" : "670"
     },
@@ -9113,7 +9113,7 @@
       "number" : "670-Orange",
       "regions/kanto" : "670",
       "regions/kalos" : "069",
-      "breading" : "Level up #669-Orange to 19",
+      "breeding" : "Level up #669-Orange to 19",
       "form_name" : "Orange",
       "origin_number" : "670"
     },
@@ -9121,7 +9121,7 @@
       "number" : "670-Blue",
       "regions/kanto" : "670",
       "regions/kalos" : "069",
-      "breading" : "Level up #669-Blue to 19",
+      "breeding" : "Level up #669-Blue to 19",
       "form_name" : "Blue",
       "origin_number" : "670"
     },
@@ -9129,7 +9129,7 @@
       "number" : "670-White",
       "regions/kanto" : "670",
       "regions/kalos" : "069",
-      "breading" : "Level up #669-White to 19",
+      "breeding" : "Level up #669-White to 19",
       "form_name" : "White",
       "origin_number" : "670"
     },
@@ -9192,7 +9192,7 @@
       "names/kr" : "메이클",
       "regions/kanto" : "672",
       "regions/kalos" : "089",
-      "breading" : "#672, #673",
+      "breeding" : "#672, #673",
       "origin_number" : "000"
     },
     {
@@ -9217,7 +9217,7 @@
       "regions/alola" : "220",
       "regions/kanto" : "674",
       "regions/kalos" : "091",
-      "breading" : "#674, #675",
+      "breeding" : "#674, #675",
       "origin_number" : "000"
     },
     {
@@ -9253,7 +9253,7 @@
       "names/kr" : "냐스퍼",
       "regions/kanto" : "677",
       "regions/kalos" : "114",
-      "breading" : "#677, #678",
+      "breeding" : "#677, #678",
       "origin_number" : "000"
     },
     {
@@ -9277,7 +9277,7 @@
       "names/kr" : "단칼빙",
       "regions/kanto" : "679",
       "regions/kalos" : "117",
-      "breading" : "#679, #680, #681",
+      "breeding" : "#679, #680, #681",
       "origin_number" : "000"
     },
     {
@@ -9313,7 +9313,7 @@
       "names/kr" : "슈쁘",
       "regions/kanto" : "682",
       "regions/kalos" : "129",
-      "breading" : "#682, #683",
+      "breeding" : "#682, #683",
       "origin_number" : "000"
     },
     {
@@ -9337,7 +9337,7 @@
       "names/kr" : "나룸퍼프",
       "regions/kanto" : "684",
       "regions/kalos" : "131",
-      "breading" : "#684, #685",
+      "breeding" : "#684, #685",
       "origin_number" : "000"
     },
     {
@@ -9361,7 +9361,7 @@
       "names/kr" : "오케이징",
       "regions/kanto" : "686",
       "regions/kalos" : "010",
-      "breading" : "#686, #687",
+      "breeding" : "#686, #687",
       "origin_number" : "000"
     },
     {
@@ -9385,7 +9385,7 @@
       "names/kr" : "거북손손",
       "regions/kanto" : "688",
       "regions/kalos" : "021",
-      "breading" : "#688, #689",
+      "breeding" : "#688, #689",
       "origin_number" : "000"
     },
     {
@@ -9409,7 +9409,7 @@
       "names/kr" : "수레기",
       "regions/kanto" : "690",
       "regions/kalos" : "030",
-      "breading" : "#690, #691",
+      "breeding" : "#690, #691",
       "origin_number" : "000"
     },
     {
@@ -9433,7 +9433,7 @@
       "names/kr" : "완철포",
       "regions/kanto" : "692",
       "regions/kalos" : "032",
-      "breading" : "#692, #693",
+      "breeding" : "#692, #693",
       "origin_number" : "000"
     },
     {
@@ -9457,7 +9457,7 @@
       "names/kr" : "목도리키텔",
       "regions/kanto" : "694",
       "regions/kalos" : "046",
-      "breading" : "#694, #695",
+      "breeding" : "#694, #695",
       "origin_number" : "000"
     },
     {
@@ -9481,7 +9481,7 @@
       "names/kr" : "티고라스",
       "regions/kanto" : "696",
       "regions/kalos" : "064",
-      "breading" : "#696, #697",
+      "breeding" : "#696, #697",
       "origin_number" : "000"
     },
     {
@@ -9505,7 +9505,7 @@
       "names/kr" : "아마루스",
       "regions/kanto" : "698",
       "regions/kalos" : "066",
-      "breading" : "#698, #699",
+      "breeding" : "#698, #699",
       "origin_number" : "000"
     },
     {
@@ -9575,7 +9575,7 @@
       "regions/alola" : "178",
       "regions/kanto" : "704",
       "regions/kalos" : "019",
-      "breading" : "#704, #705, #706",
+      "breeding" : "#704, #705, #706",
       "origin_number" : "000"
     },
     {
@@ -9626,7 +9626,7 @@
       "regions/alola" : "196",
       "regions/kanto" : "708",
       "regions/kalos" : "061",
-      "breading" : "#708, #709",
+      "breeding" : "#708, #709",
       "origin_number" : "000"
     },
     {
@@ -9651,7 +9651,7 @@
       "names/kr" : "호바귀",
       "regions/kanto" : "710",
       "regions/kalos" : "063",
-      "breading" : "#710, #711",
+      "breeding" : "#710, #711",
       "origin_number" : "000"
     },
     {
@@ -9675,7 +9675,7 @@
       "names/kr" : "꽁어름",
       "regions/kanto" : "712",
       "regions/kalos" : "079",
-      "breading" : "#712, #713",
+      "breeding" : "#712, #713",
       "origin_number" : "000"
     },
     {
@@ -9699,7 +9699,7 @@
       "names/kr" : "음뱃",
       "regions/kanto" : "714",
       "regions/kalos" : "113",
-      "breading" : "#714, #715",
+      "breeding" : "#714, #715",
       "origin_number" : "000"
     },
     {
@@ -9778,7 +9778,7 @@
       "names/kr" : "나몰빼미",
       "regions/alola" : "001",
       "regions/kanto" : "722",
-      "breading" : "#722, #723, #724",
+      "breeding" : "#722, #723, #724",
       "origin_number" : "000"
     },
     {
@@ -9814,7 +9814,7 @@
       "names/kr" : "냐오불",
       "regions/alola" : "004",
       "regions/kanto" : "725",
-      "breading" : "#725, #726, #727",
+      "breeding" : "#725, #726, #727",
       "origin_number" : "000"
     },
     {
@@ -9850,7 +9850,7 @@
       "names/kr" : "누리공",
       "regions/alola" : "007",
       "regions/kanto" : "728",
-      "breading" : "#728, #729, #730",
+      "breeding" : "#728, #729, #730",
       "origin_number" : "000"
     },
     {
@@ -9886,7 +9886,7 @@
       "names/kr" : "콕코구리",
       "regions/alola" : "010",
       "regions/kanto" : "731",
-      "breading" : "#731, #732, #733",
+      "breeding" : "#731, #732, #733",
       "origin_number" : "000"
     },
     {
@@ -9922,7 +9922,7 @@
       "names/kr" : "영구스",
       "regions/alola" : "013",
       "regions/kanto" : "734",
-      "breading" : "#734, #735",
+      "breeding" : "#734, #735",
       "origin_number" : "000"
     },
     {
@@ -9946,7 +9946,7 @@
       "names/kr" : "턱지충이",
       "regions/alola" : "027",
       "regions/kanto" : "736",
-      "breading" : "#736, #737, #738",
+      "breeding" : "#736, #737, #738",
       "origin_number" : "000"
     },
     {
@@ -9982,7 +9982,7 @@
       "names/kr" : "오기지게",
       "regions/alola" : "059",
       "regions/kanto" : "739",
-      "breading" : "#739, #740",
+      "breeding" : "#739, #740",
       "origin_number" : "000"
     },
     {
@@ -10017,7 +10017,7 @@
       "names/kr" : "에블리",
       "regions/alola" : "083",
       "regions/kanto" : "742",
-      "breading" : "#742, #743",
+      "breeding" : "#742, #743",
       "origin_number" : "000"
     },
     {
@@ -10041,7 +10041,7 @@
       "names/kr" : "암멍이",
       "regions/alola" : "103",
       "regions/kanto" : "744",
-      "breading" : "#744, #745, #745",
+      "breeding" : "#744, #745, #745",
       "origin_number" : "000"
     },
     {
@@ -10076,7 +10076,7 @@
       "names/kr" : "시마사리",
       "regions/alola" : "113",
       "regions/kanto" : "747",
-      "breading" : "#747, #748",
+      "breeding" : "#747, #748",
       "origin_number" : "000"
     },
     {
@@ -10100,7 +10100,7 @@
       "names/kr" : "머드나기",
       "regions/alola" : "132",
       "regions/kanto" : "749",
-      "breading" : "#749, #750",
+      "breeding" : "#749, #750",
       "origin_number" : "000"
     },
     {
@@ -10124,7 +10124,7 @@
       "names/kr" : "물거미",
       "regions/alola" : "141",
       "regions/kanto" : "751",
-      "breading" : "#751, #752",
+      "breeding" : "#751, #752",
       "origin_number" : "000"
     },
     {
@@ -10148,7 +10148,7 @@
       "names/kr" : "짜랑랑",
       "regions/alola" : "143",
       "regions/kanto" : "753",
-      "breading" : "#753, #754",
+      "breeding" : "#753, #754",
       "origin_number" : "000"
     },
     {
@@ -10172,7 +10172,7 @@
       "names/kr" : "자마슈",
       "regions/alola" : "145",
       "regions/kanto" : "755",
-      "breading" : "#755, #756",
+      "breeding" : "#755, #756",
       "origin_number" : "000"
     },
     {
@@ -10196,7 +10196,7 @@
       "names/kr" : "야도뇽",
       "regions/alola" : "161",
       "regions/kanto" : "757",
-      "breading" : "#757, #758",
+      "breeding" : "#757, #758",
       "origin_number" : "000"
     },
     {
@@ -10220,7 +10220,7 @@
       "names/kr" : "포곰곰",
       "regions/alola" : "169",
       "regions/kanto" : "759",
-      "breading" : "#759, #760",
+      "breeding" : "#759, #760",
       "origin_number" : "000"
     },
     {
@@ -10244,7 +10244,7 @@
       "names/kr" : "달콤아",
       "regions/alola" : "171",
       "regions/kanto" : "761",
-      "breading" : "#761, #762, #763",
+      "breeding" : "#761, #762, #763",
       "origin_number" : "000"
     },
     {
@@ -10313,7 +10313,7 @@
       "names/kr" : "꼬시레",
       "regions/alola" : "182",
       "regions/kanto" : "767",
-      "breading" : "#767, #768",
+      "breeding" : "#767, #768",
       "origin_number" : "000"
     },
     {
@@ -10337,7 +10337,7 @@
       "names/kr" : "모래꿍",
       "regions/alola" : "186",
       "regions/kanto" : "769",
-      "breading" : "#769, #770",
+      "breeding" : "#769, #770",
       "origin_number" : "000"
     },
     {
@@ -10373,7 +10373,7 @@
       "names/kr" : "타입:널",
       "regions/alola" : "203",
       "regions/kanto" : "772",
-      "breading" : "#772, #773",
+      "breeding" : "#772, #773",
       "origin_number" : "000"
     },
     {
@@ -10483,7 +10483,7 @@
       "names/kr" : "짜랑꼬",
       "regions/alola" : "271",
       "regions/kanto" : "782",
-      "breading" : "#782, #783, #784",
+      "breeding" : "#782, #783, #784",
       "origin_number" : "000"
     },
     {

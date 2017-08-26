@@ -60,31 +60,10 @@ export class DataProvider {
             if (single_pokemon['origin_number'] != '000' && single_pokemon['form_name'] != null) {
                 single_pokemon['current_name'] = this.getPokemonName(this.getPokemon(single_pokemon['origin_number'])) + ' - ' + single_pokemon['form_name'];
             }
-        });
 
-        console.log("TODO: Must update the evolution AND the breeding columns");
-        /* Should use getPokemon(number...) */
-        /*
-        this.master.forEach(single_pokemon => {
-            single_pokemon['current_evolution'] = single_pokemon['evolution'];
-            var evolution = single_pokemon['current_evolution'];
-            if (evolution != '' && evolution != undefined) {
-                var matches = evolution.match(/#([0-9]+)/g);
-                if (matches != null) {
-                    for (var m=0; m<matches.length; m++) {
-                        var number = matches[m];
-                        this.master.forEach(named_pokemon => {
-                            if (named_pokemon['number'] == number.substr(1)) {
-                                evolution = evolution.replace(number, named_pokemon['current_name']);
-                            }
-                        });
-                    }
-
-                    single_pokemon['current_evolution'] = evolution;
-                }
-            }
+            single_pokemon['current_breeding'] = this.replacePokemonsName(single_pokemon['breeding']);
+            single_pokemon['current_evolving'] = this.replacePokemonsName(single_pokemon['evolving']);
         });
-        */
 
         /* Order the list */
         this.master.sort(function(a, b) {
@@ -115,7 +94,7 @@ export class DataProvider {
      * Return the Pokemon from its national pokedex number
      *
      */
-    getPokemon(pokemonNumber:number):Object {
+    getPokemon(pokemonNumber:string):Object {
         return this.getAllPokemons().filter(single_pokemon => (single_pokemon['number'] == pokemonNumber))[0];
     }
 
@@ -176,5 +155,23 @@ export class DataProvider {
 
 
         return stats;
+    }
+
+    /*
+     * Replace a string containing Pokemon national number (#102) with the correct name (of the selected language)
+     *
+     * */
+    replacePokemonsName(names:string):string {
+        if (names != null) {
+            var matches = names.match(/#([0-9a-z-]+)/g);
+            if (matches != null) {
+                for (var m=0; m<matches.length; m++) {
+                    let fullNumber = matches[m];
+                    let onlyNumber = fullNumber.substr(1);
+                    names = names.replace(fullNumber, this.getPokemonName(this.getPokemon(onlyNumber)));
+                }
+            }
+        }
+        return names;
     }
 }

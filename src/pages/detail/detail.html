@@ -12,9 +12,10 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
 
-    <p>How to get : {{ pokemon['current_evolution'] }}</p>
+    <p>Breeding : {{ pokemon['current_breeding'] }}</p>
+    <p>Evolution : {{ pokemon['current_evolving'] }}</p>
 
         <ion-list *ngFor="let filter of config.getFilters()">
             <ion-item-divider color="secondary">{{ filter.description }}</ion-item-divider>
