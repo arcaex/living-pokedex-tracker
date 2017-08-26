@@ -9,10 +9,10 @@ import { DataProvider } from '../../providers/data/data';
 import { PokedexProvider } from '../../providers/pokedex/pokedex';
 
 @Component({
-    selector: 'page-forms',
-    templateUrl: 'forms.html'
+    selector: 'page-pokemons',
+    templateUrl: 'pokemons.html'
 })
-export class FormsPage {
+export class PokemonsPage {
     private search_filter:string = "";
 
     private master:Array<Object> = [];
