@@ -11,8 +11,8 @@
 
 <ion-content>
     <ion-list [virtualScroll]="master" [virtualTrackBy]="virtualScrollTracker" approxItemHeight="80px">
-        <ion-item *virtualItem="let single_pokemon" (click)="selectPokemon(single_pokemon)">
+        <div class="pokemons" *virtualItem="let single_pokemon" (click)="selectPokemon(single_pokemon)">
             <pokemon [data]="single_pokemon"></pokemon>
-        </ion-item>
+        </div>
     </ion-list>
 </ion-content>
