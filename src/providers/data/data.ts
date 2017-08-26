@@ -39,20 +39,6 @@ export class DataProvider {
             return true;
         });
 
-        /* Add alternate forms (if they are in the master list) */
-        if (this.config.alternate_forms['all']) {
-            this.data['alternate_forms'].forEach(single_form => {
-                let existingPokemon = this.master.filter(single_pokemon => (single_pokemon['number'] == single_form['origin_number']));
-                existingPokemon.forEach(single_pokemon => {
-                    let newPokemon = Object.create(single_pokemon);
-                    newPokemon.number = single_form['number'];
-                    newPokemon.form_name = single_form['names/en'];
-                    newPokemon.origin_number = single_form['origin_number'];
-                    this.master.push(newPokemon);
-                });
-            });
-        }
-
         /* Update the field */
         this.master.forEach(single_pokemon => {
             single_pokemon['current_number'] = single_pokemon['number'];
@@ -156,7 +142,7 @@ export class DataProvider {
             }
 
             /* Search in the name */
-            if (search != "" && single_pokemon['current_name'].toLowerCase().indexOf(this.search_filter.toLowerCase()) == -1) {
+            if (search != "" && single_pokemon['current_name'].toLowerCase().indexOf(search.toLowerCase()) == -1) {
                 return false;
             }
             return true;
@@ -184,8 +170,8 @@ export class DataProvider {
         });
 
         let stats:Object = {
-            'total'=>this.totalPokemons.length,
-            'owned'=>totalPokemons.filter(single_pokemon => (this.pokedex.pokemons[single_pokemon['number']['own'])).length
+            'total': totalPokemons.length,
+            'owned': totalPokemons.filter(single_pokemon => (this.pokedex.pokemons[single_pokemon['number']['own']])).length
         };
 
         return stats;

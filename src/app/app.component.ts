@@ -25,7 +25,7 @@ export class MyApp {
             this.config.load().then(result => {
                 this.data.load().then(result => {
                     this.pokedex.load().then(result => {
-                        this.pokedex.init(this.data.getData(), this.config.getFilters());
+                        this.pokedex.init(this.data.getAllPokemons(), this.config.getFilters());
                         this.rootPage = Tabs;
                     });
                 });

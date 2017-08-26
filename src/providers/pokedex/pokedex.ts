@@ -36,16 +36,14 @@ export class PokedexProvider {
     }
 
     init(pokemonData, filters) {
-        ['pokemons', 'alternate_forms'].forEach(single_data => {
-            pokemonData[single_data].forEach(single_pokemon => {
-                if (this.pokemons[single_pokemon['number']] == null) {
-                    this.pokemons[single_pokemon['number']] = {};
+        pokemonData.forEach(single_pokemon => {
+            if (this.pokemons[single_pokemon['number']] == null) {
+                this.pokemons[single_pokemon['number']] = {};
+            }
+            filters.forEach(single_filter => {
+                if (this.pokemons[single_pokemon['number']][single_filter.id] == null) {
+                    this.pokemons[single_pokemon['number']][single_filter.id] = false;
                 }
-                filters.forEach(single_filter => {
-                    if (this.pokemons[single_pokemon['number']][single_filter.id] == null) {
-                        this.pokemons[single_pokemon['number']][single_filter.id] = false;
-                    }
-                });
             });
         });
     }

@@ -8,19 +8,17 @@ import { DataProvider } from '../../providers/data/data';
 import { PokedexProvider } from '../../providers/pokedex/pokedex';
 
 @Component({
-    selector: 'pokemons',
-    templateUrl: 'pokemons.html'
+    selector: 'pokemon',
+    templateUrl: 'pokemon.html'
 })
 
-export class Pokemons {
+export class Pokemon {
 
-	private master:Array<Object> = [{'aa':'bb'}];
+	private pokemon:Object = {};
 	
-	@Input('list')
-    set list(list:Array<Object>) {
-		console.log(this.master);
-        //this.master = list;
-        console.log(this.master);
+	@Input('data')
+    set setData(data:Object) {
+        this.pokemon = data;
     }
 
 	constructor(public config:ConfigProvider, public data:DataProvider, public pokedex:PokedexProvider, public modalCtrl:ModalController) { }
@@ -29,14 +27,6 @@ export class Pokemons {
 		console.log("ENTER");
 	}
 	
-	getMaster() {
-		return this.master;
-	}
-	
-    virtualScrollTracker(index, pokemon) {
-        return pokemon['number'];
-    }
-    
     selectPokemon(single_pokemon) {
         let modal = this.modalCtrl.create(DetailPage, {'pokemon':single_pokemon, 'parent': this});
         modal.present();

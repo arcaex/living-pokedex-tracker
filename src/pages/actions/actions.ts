@@ -39,7 +39,7 @@ export class ActionsPage {
 
                         /* Version 1.x data */
                         this.pokedex.reset();
-                        this.pokedex.init(this.data.getData(), this.config.getFilters());
+                        this.pokedex.init(this.data.getAllPokemons(), this.config.getFilters());
                         this.pokedex.save();
 
                         this.config.reset();

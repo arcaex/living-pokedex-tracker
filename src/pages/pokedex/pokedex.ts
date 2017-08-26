@@ -55,6 +55,7 @@ export class PokedexPage {
         });
 
         /* Build stats */
+        /*
         let pokemons:Array<Object> = this.data.getRegionalPokemons();
         console.log(this.config.alternate_forms);
         if (this.config.alternate_forms['all']) {
@@ -64,6 +65,7 @@ export class PokedexPage {
         }
         this.totalPokemons = pokemons.length;
         this.ownedPokemons = pokemons.filter(single_pokemon => (this.pokedex.pokemons[single_pokemon['number']]['own'])).length;
+        */
     }
 
     search(ev) {
