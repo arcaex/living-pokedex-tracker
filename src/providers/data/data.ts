@@ -163,7 +163,7 @@ export class DataProvider {
      * */
     replacePokemonsName(names:string):string {
         if (names != null) {
-            var matches = names.match(/#([0-9a-z-]+)/g);
+            var matches = names.match(/#([0-9a-zA-Z-]+)/g);
             if (matches != null) {
                 for (var m=0; m<matches.length; m++) {
                     let fullNumber = matches[m];

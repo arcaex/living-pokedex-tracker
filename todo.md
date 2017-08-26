@@ -1,6 +1,8 @@
 Pages
 -----
 
+* Find new sprites for all alternate forms!!!
+
 * Find 3D model if possible (and allow to toggle them)
 * Find shiny sprite if possible (and allow to toggle them)
 
