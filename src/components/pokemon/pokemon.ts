@@ -23,15 +23,6 @@ export class Pokemon {
 
 	constructor(public config:ConfigProvider, public data:DataProvider, public pokedex:PokedexProvider, public modalCtrl:ModalController) { }
 	
-	ionViewDidEnter() {
-		console.log("ENTER");
-	}
-	
-    selectPokemon(single_pokemon) {
-        let modal = this.modalCtrl.create(DetailPage, {'pokemon':single_pokemon, 'parent': this});
-        modal.present();
-    }
-
     pokedexChanged() {
         this.pokedex.save();
     }

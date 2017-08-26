@@ -15,7 +15,7 @@ import { PokedexProvider } from '../../providers/pokedex/pokedex';
 export class FormsPage {
     private search_filter:string = "";
 
-    private master:Array<Object> = [{'aa':'aa'}];
+    private master:Array<Object> = [];
 
     constructor(public navCtrl:NavController, public config:ConfigProvider, public data:DataProvider, public pokedex:PokedexProvider, public modalCtrl:ModalController, public events:Events, public popoverCtrl:PopoverController) {
         this.events.subscribe('configSaved', data => {
@@ -31,13 +31,11 @@ export class FormsPage {
     }
 
      getPokemons() {
-        console.log("get...");
         this.master = this.data.getPokemons('forms', this.search_filter);
     }
 
-    search(ev) {
+    search() {
         console.log("SEARCH: ");
-        console.log(ev);
         this.getPokemons();
     }
 

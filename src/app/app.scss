@@ -7,4 +7,8 @@ div.pokemons {
     width: 100%;
 }
 
+ion-searchbar {
+    background-color: map-get($colors, secondary) !important;
+}
+
 @import "../assets/images/pokemons.css";
