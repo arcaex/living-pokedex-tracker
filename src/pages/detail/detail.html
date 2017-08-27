@@ -14,15 +14,19 @@
 
 <ion-content>
 
-    <p>Breeding : {{ pokemon['current_breeding'] }}</p>
-    <p>Evolution : {{ pokemon['current_evolving'] }}</p>
-
-        <ion-list *ngFor="let filter of config.getFilters()">
-            <ion-item-divider color="secondary">{{ filter.description }}</ion-item-divider>
-            <ion-item>
-                <ion-label><ion-icon name="{{ filter.icon }}"></ion-icon> {{ filter.name }}</ion-label>
-                <ion-toggle [(ngModel)]="pokedex.pokemons[pokemon.number][filter.id]" (ionChange)="configChanged()" color="primary"></ion-toggle>
-            </ion-item>
-        </ion-list>
+    <ion-list>
+        <ion-item-divider color="primary" *ngIf="pokemon['current_breeding']"><strong>Breeding: </strong> {{ pokemon['current_breeding'] }}</ion-item-divider>
+        <ion-item-divider color="primary" *ngIf="pokemon['current_evolving']"><strong>Evolution: </strong> {{ pokemon['current_evolving'] }}</ion-item-divider>
+        <ion-item *ngFor="let filter of config.getFilters()">
+            <ion-label>
+                <ion-icon name="{{ filter.icon }}"></ion-icon>
+                <div class="filter-info">
+                    <div class="filter-name">{{ filter.name }}</div>
+                    <div class="filter-description">{{ filter.description }}</div>
+                </div>
+            </ion-label>
+            <ion-toggle [(ngModel)]="pokedex.pokemons[pokemon.number][filter.id]" (ionChange)="configChanged()" color="primary"></ion-toggle>
+        </ion-item>
+    </ion-list>
 
 </ion-content>

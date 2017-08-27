@@ -1,4 +1,40 @@
 page-detail {
+    ion-item-divider {
+        padding-left: 0 !important;
+        ion-label {
+            justify-content: center;
+
+            strong {
+                padding-right: 4px;
+            }
+        }
+    }
+
+    ion-label {
+        display: flex;
+        align-items: center;
+
+        ion-icon {
+            padding-right: 16px;
+            font-size: 2em;
+        }
+
+        div.filter-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            div.filter-name {
+                font-weight: bold;
+                padding-bottom: 6px;
+            }
+
+            div.filter-description {
+                white-space: pre-wrap;
+            }
+        }
+    }
+
     ion-title {
         div.toolbar-title {
             display: flex;
