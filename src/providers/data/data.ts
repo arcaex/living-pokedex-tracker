@@ -27,6 +27,7 @@ export class DataProvider {
         this.master = this.getRegionalPokemons();
 
         /* Filter the list using ... tadam ... our filters */
+        /*
         this.master = this.master.filter(single_pokemon => {
             for (let filter_id in this.config.filters) {
                 if (this.config.filters[filter_id]) {
@@ -37,6 +38,7 @@ export class DataProvider {
             };
             return true;
         });
+        */
 
         /* Update the field */
         this.master.forEach(single_pokemon => {
@@ -115,11 +117,6 @@ export class DataProvider {
     getPokemons(pokemonType:string = "", search:string = ""):Array<Object> {
         return this.master.filter(single_pokemon => {
             if ( (pokemonType == "forms" && single_pokemon['origin_number'] == "000") || (pokemonType == "pokemons" && single_pokemon['origin_number'] != "000") ) {
-                return false;
-            }
-
-            /* Search in the name */
-            if (search != "" && single_pokemon['current_name'].toLowerCase().indexOf(search.toLowerCase()) == -1) {
                 return false;
             }
             return true;

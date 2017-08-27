@@ -21,6 +21,10 @@ export class DetailPage {
         console.log('ionViewDidLoad DetailPage');
     }
 
+    ionViewWillUnload() {
+        this.pokedex.save();
+    }
+
     closeModal() {
         this.navCtrl.pop();
     }
@@ -28,7 +32,7 @@ export class DetailPage {
     configChanged() {
         //this.data.refresh();
         //this.config.save();
-        this.pokedex.save();
+        //this.pokedex.save();
         console.log("SHOULD SAVE THE POKEDEX?");
     }
 }

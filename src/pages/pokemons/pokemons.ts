@@ -24,12 +24,12 @@ export class PokemonsPage {
 
         this.events.subscribe('configSaved', data => {
             console.log("Event: config");
-            this.data.refresh();
+            //this.data.refresh();
             this.getPokemons();
         });
         this.events.subscribe('pokedexSaved', data => {
             console.log("Event: pokedex");
-            this.data.refresh();
+            //this.data.refresh();
             this.getPokemons();
         });
     }
@@ -40,7 +40,20 @@ export class PokemonsPage {
 
      getPokemons() {
          console.log("Regenerating master list...");
-        this.master = this.data.getPokemons(this.pokemonType, this.search_filter);
+         console.log(this.config.filters);
+        this.master = this.data.getPokemons(this.pokemonType, this.search_filter).filter(single_pokemon => {
+            for (let filter_id in this.config.filters) {
+                if (this.config.filters[filter_id]) {
+                    if (this.pokedex.pokemons[single_pokemon['number']][filter_id]) {
+                        return false;
+                    }
+                }
+            };
+            if (this.search_filter != "" && single_pokemon['current_name'].toLowerCase().indexOf(this.search_filter.toLowerCase()) == -1) {
+                return false;
+            }
+            return true;
+        });
     }
 
     search() {

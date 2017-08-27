@@ -87,7 +87,7 @@ export class ConfigProvider {
                     }
                     ["own", "shiny", "pokeball", "language", "iv", "original_trainer"].forEach(single_filter => {
                         if (previousConfig[single_filter] != null) {
-                            this.configs['filters'][single_filter] = previousConfig[single_filter];
+                            this.configs['filters'][single_filter] = previousConfig['hide'][single_filter];
                         }
                     });
 

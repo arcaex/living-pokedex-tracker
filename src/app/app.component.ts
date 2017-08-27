@@ -26,7 +26,7 @@ export class MyApp {
                 this.data.load().then(result => {
                     this.pokedex.load().then(result => {
                         this.pokedex.init(this.data.getAllPokemons(), this.config.getFilters());
-                        this.data.refresh();
+                        this.refreshPokemons();
                         this.rootPage = Tabs;
                     });
                 });
@@ -36,8 +36,11 @@ export class MyApp {
 
     configChanged(ev, type) {
         console.log("CONFIG CHANGED: " + ev);
-        this.data.refresh();
         this.config.save();
     }
-}
 
+    refreshPokemons() {
+        console.log("REFRESH POKEMONS");
+        this.data.refresh();
+    }
+}
