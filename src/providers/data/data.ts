@@ -19,7 +19,6 @@ export class DataProvider {
     load() {
         return this.http.get('assets/json/data.json').toPromise().then(res => {
             this.pokemons = res.json()['pokemons'];
-            this.refresh();
             return Promise.resolve(true);
         });
     }
