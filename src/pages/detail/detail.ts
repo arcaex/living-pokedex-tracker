@@ -26,7 +26,9 @@ export class DetailPage {
     }
 
     configChanged() {
-        this.data.refresh();
-        this.config.save();
+        //this.data.refresh();
+        //this.config.save();
+        this.pokedex.save();
+        console.log("SHOULD SAVE THE POKEDEX?");
     }
 }

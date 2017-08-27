@@ -23,9 +23,13 @@ export class PokemonsPage {
         this.pokemonType = this.navParams.data;
 
         this.events.subscribe('configSaved', data => {
+            console.log("Event: config");
+            this.data.refresh();
             this.getPokemons();
         });
         this.events.subscribe('pokedexSaved', data => {
+            console.log("Event: pokedex");
+            this.data.refresh();
             this.getPokemons();
         });
     }
@@ -35,6 +39,7 @@ export class PokemonsPage {
     }
 
      getPokemons() {
+         console.log("Regenerating master list...");
         this.master = this.data.getPokemons(this.pokemonType, this.search_filter);
     }
 
@@ -55,5 +60,9 @@ export class PokemonsPage {
     selectPokemon(single_pokemon) {
         let modal = this.modalCtrl.create(DetailPage, {'pokemon':single_pokemon, 'parent': this});
         modal.present();
+    }
+
+    virtualScrollTracker(index, pokemon) {
+        return pokemon['number'];
     }
 }
