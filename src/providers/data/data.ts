@@ -56,11 +56,6 @@ export class DataProvider {
 
             single_pokemon['current_name'] = this.getPokemonName(single_pokemon);
 
-            /* Get the name of the origin Pokemon AND the alternate name */
-            if (single_pokemon['origin_number'] != '000' && single_pokemon['form_name'] != null) {
-                single_pokemon['current_name'] = this.getPokemonName(this.getPokemon(single_pokemon['origin_number'])) + ' - ' + single_pokemon['form_name'];
-            }
-
             single_pokemon['current_breeding'] = this.replacePokemonsName(single_pokemon['breeding']);
             single_pokemon['current_evolving'] = this.replacePokemonsName(single_pokemon['evolving']);
         });
@@ -106,6 +101,10 @@ export class DataProvider {
         let pokemonName:string = pokemon['names/en'];
         if (pokemon['names/' + this.config.language['selected']]) {
             pokemonName = pokemon['names/' + this.config.language['selected']];
+        }
+
+        if (pokemon['origin_number'] != '000' && pokemon['form_name'] != null) {
+            pokemonName = this.getPokemonName(this.getPokemon(pokemon['origin_number'])) + ' - ' + pokemon['form_name'];
         }
         return pokemonName;
     }
