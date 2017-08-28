@@ -32,7 +32,7 @@ export class PokemonsPage {
         this.events.subscribe('pokedexSaved', data => {
             console.log("Event: pokedex");
             //this.data.refresh();
-            this.getPokemons();
+            //this.getPokemons();
         });
     }
 
