@@ -22,6 +22,9 @@ import { ConfigProvider } from '../providers/config/config';
 import { DataProvider } from '../providers/data/data';
 import { PokedexProvider } from '../providers/pokedex/pokedex';
 
+import { SearchFilter } from '../pipes/search/search';
+import { FilterPipe } from '../pipes/filter/filter';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -29,13 +32,15 @@ import { PokedexProvider } from '../providers/pokedex/pokedex';
     DetailPage,
     ActionsPage,
     Tabs,
-    Pokemon
+    Pokemon,
+    SearchFilter,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
     HttpModule,
     IonicModule.forRoot(MyApp),
-    IonicStorageModule.forRoot()
+    IonicStorageModule.forRoot(),
   ],
   bootstrap: [IonicApp],
   entryComponents: [

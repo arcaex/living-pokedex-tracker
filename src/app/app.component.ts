@@ -9,6 +9,7 @@ import { ConfigProvider } from '../providers/config/config';
 import { DataProvider } from '../providers/data/data';
 import { PokedexProvider } from '../providers/pokedex/pokedex';
 
+
 @Component({
     templateUrl: 'app.html'
 })

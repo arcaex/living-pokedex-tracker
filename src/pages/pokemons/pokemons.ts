@@ -8,6 +8,8 @@ import { ConfigProvider } from '../../providers/config/config';
 import { DataProvider } from '../../providers/data/data';
 import { PokedexProvider } from '../../providers/pokedex/pokedex';
 
+import { SearchFilter } from '../../pipes/search/search';
+
 @Component({
     selector: 'page-pokemons',
     templateUrl: 'pokemons.html'
@@ -42,6 +44,7 @@ export class PokemonsPage {
          console.log("Regenerating master list...");
          console.log(this.config.filters);
         this.master = this.data.getPokemons(this.pokemonType, this.search_filter).filter(single_pokemon => {
+            /*
             for (let filter_id in this.config.filters) {
                 if (this.config.filters[filter_id]) {
                     if (this.pokedex.pokemons[single_pokemon['number']][filter_id]) {
@@ -49,16 +52,19 @@ export class PokemonsPage {
                     }
                 }
             };
+            */
+            /*
             if (this.search_filter != "" && single_pokemon['current_name'].toLowerCase().indexOf(this.search_filter.toLowerCase()) == -1) {
                 return false;
             }
+            */
             return true;
         });
     }
 
     search() {
         console.log("SEARCH: ");
-        this.getPokemons();
+        //this.getPokemons();
     }
 
     showActions(event) {

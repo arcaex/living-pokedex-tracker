@@ -1,7 +1,7 @@
 <ion-header>
     <ion-navbar color="primary">
         <button ion-button menuToggle icon-only><ion-icon name="menu"></ion-icon></button>
-        <ion-title>{{ pokemonType == 'forms' ? 'Alternate forms' : 'Pokemons' }} ({{ getStats('owned') }}/{{ getStats('total') }})</ion-title>
+        <ion-title>Pokemons ({{ getStats('owned') }}/{{ getStats('total') }})</ion-title>
         <ion-buttons end>
             <button ion-button outline (click)="showActions($event)">Actions</button>
         </ion-buttons>
@@ -10,9 +10,9 @@
 </ion-header>
 
 <ion-content>
-    <ion-list [virtualScroll]="master" [virtualTrackBy]="virtualScrollTracker" approxItemHeight="80px">
+    <ion-list [virtualScroll]="master | apply:config.filters:pokedex.pokemons | search:search_filter" [virtualTrackBy]="virtualScrollTracker" approxItemHeight="80px">
         <div class="pokemons" *virtualItem="let single_pokemon" (click)="selectPokemon(single_pokemon)">
-            <pokemon [data]="single_pokemon"></pokemon>
+            <pokemon *ngIf="single_pokemon['current_number'] != '000'" [data]="single_pokemon"></pokemon>
         </div>
     </ion-list>
 </ion-content>
