@@ -1,4 +1,4 @@
-<ion-item>
+<ion-item detail-push>
     <ion-label>
         <div class="pokemon-image {{ pokemon.sprite }}"></div>
         <div class="pokemon-info">
@@ -9,5 +9,4 @@
             </p>
         </div>
     </ion-label>
-    <ion-toggle [(ngModel)]="pokedex.pokemons[pokemon.number]['own']" (ionChange)="pokedexChanged()"></ion-toggle>
 </ion-item>

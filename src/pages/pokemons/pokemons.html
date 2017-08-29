@@ -11,7 +11,7 @@
 
 <ion-content>
     <ion-list [virtualScroll]="master | apply:config.filters:pokedex.pokemons | search:search_filter" [virtualTrackBy]="virtualScrollTracker" approxItemHeight="80px">
-        <div class="pokemons" *virtualItem="let single_pokemon" (click)="selectPokemon(single_pokemon)">
+        <div class="pokemons" *virtualItem="let single_pokemon" (tap)="selectPokemon(single_pokemon)">
             <pokemon *ngIf="single_pokemon['current_number'] != '000'" [data]="single_pokemon"></pokemon>
         </div>
     </ion-list>

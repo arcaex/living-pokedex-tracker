@@ -22,8 +22,4 @@ export class Pokemon {
     }
 
 	constructor(public config:ConfigProvider, public data:DataProvider, public pokedex:PokedexProvider, public modalCtrl:ModalController) { }
-	
-    pokedexChanged() {
-        this.pokedex.save();
-    }
 }
