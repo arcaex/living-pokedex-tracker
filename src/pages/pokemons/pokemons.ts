@@ -59,7 +59,15 @@ export class PokemonsPage {
         return this.data.getStats(this.pokemonType)[type];
     }
 
-    selectPokemon(single_pokemon) {
+    selectPokemon(single_pokemon, event:Event) {
+        switch (event.target['nodeName']) {
+            case 'SPAN':
+            case 'button':
+                return ;
+            default:
+                console.log(event.target['nodeName']);
+        }
+
         let modal = this.modalCtrl.create(DetailPage, {'pokemon':single_pokemon, 'parent': this});
         modal.present();
     }

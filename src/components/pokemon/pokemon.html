@@ -9,4 +9,5 @@
             </p>
         </div>
     </ion-label>
+    <ion-toggle [(ngModel)]="pokedex.pokemons[pokemon.number]['own']" (ionChange)="pokedexChanged()"></ion-toggle>
 </ion-item>
