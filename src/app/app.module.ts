@@ -6,6 +6,7 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
+import { SocialSharing } from '@ionic-native/social-sharing';
 import { IonicStorageModule } from '@ionic/storage';
 
 import { MyApp } from './app.component';
@@ -57,7 +58,8 @@ import { FilterPipe } from '../pipes/filter/filter';
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     ConfigProvider,
     DataProvider,
-    PokedexProvider
+    PokedexProvider,
+    SocialSharing
   ]
 })
 export class AppModule {}

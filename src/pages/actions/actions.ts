@@ -5,6 +5,8 @@ import { ConfigProvider } from '../../providers/config/config';
 import { DataProvider } from '../../providers/data/data';
 import { PokedexProvider } from '../../providers/pokedex/pokedex';
 
+import { SocialSharing } from '@ionic-native/social-sharing';
+
 @Component({
     selector: 'page-actions',
     templateUrl: 'actions.html',
@@ -13,7 +15,7 @@ export class ActionsPage {
 
     private pokemons:Array<Object> = [];
 
-    constructor(public viewCtrl:ViewController, public navCtrl:NavController, public navParams:NavParams, public alertCtrl:AlertController, public pokedex:PokedexProvider, public config:ConfigProvider, public data:DataProvider) {
+    constructor(public viewCtrl:ViewController, public navCtrl:NavController, public navParams:NavParams, public alertCtrl:AlertController, public pokedex:PokedexProvider, public config:ConfigProvider, public data:DataProvider, public socialSharing:SocialSharing) {
         this.pokemons = this.navParams.get("pokemons");
     }
 
@@ -51,6 +53,10 @@ export class ActionsPage {
             ]
         });
         alert.present();
+    }
+    
+    export() {
+        this.socialSharing.share(JSON.stringify(this.pokedex.pokemons), 'Export');
     }
 
     mark(state) {
