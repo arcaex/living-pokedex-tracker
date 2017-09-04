@@ -1,11 +1,6 @@
 Pages
 -----
 
-* Options changed -> refresh ?
-
-* Icon
-* Splashscreen
-
 * White screen
 
 * Find 3D model if possible (and allow to toggle them)
