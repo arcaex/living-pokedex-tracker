@@ -4,9 +4,11 @@ import { HttpModule } from '@angular/http';
 
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
+import { File } from '@ionic-native/file';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
-import { SocialSharing } from '@ionic-native/social-sharing';
+import { AndroidPermissions } from '@ionic-native/android-permissions';
+
 import { IonicStorageModule } from '@ionic/storage';
 
 import { MyApp } from './app.component';
@@ -59,7 +61,8 @@ import { FilterPipe } from '../pipes/filter/filter';
     ConfigProvider,
     DataProvider,
     PokedexProvider,
-    SocialSharing
+    AndroidPermissions,
+    File
   ]
 })
 export class AppModule {}

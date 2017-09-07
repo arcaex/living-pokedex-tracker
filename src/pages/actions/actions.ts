@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
-import { AlertController, NavController, NavParams, ViewController } from 'ionic-angular';
+import { AlertController, NavController, NavParams, ToastController, ViewController } from 'ionic-angular';
+
+import { File } from '@ionic-native/file';
+import { AndroidPermissions } from '@ionic-native/android-permissions';
 
 import { ConfigProvider } from '../../providers/config/config';
 import { DataProvider } from '../../providers/data/data';
 import { PokedexProvider } from '../../providers/pokedex/pokedex';
 
-import { SocialSharing } from '@ionic-native/social-sharing';
+declare var cordova:any;
 
 @Component({
     selector: 'page-actions',
@@ -15,7 +18,7 @@ export class ActionsPage {
 
     private pokemons:Array<Object> = [];
 
-    constructor(public viewCtrl:ViewController, public navCtrl:NavController, public navParams:NavParams, public alertCtrl:AlertController, public pokedex:PokedexProvider, public config:ConfigProvider, public data:DataProvider, public socialSharing:SocialSharing) {
+    constructor(public viewCtrl:ViewController, public navCtrl:NavController, public navParams:NavParams, public alertCtrl:AlertController, public pokedex:PokedexProvider, public config:ConfigProvider, public data:DataProvider, public androidPermissions:AndroidPermissions, public toastController:ToastController, public file:File) {
         this.pokemons = this.navParams.get("pokemons");
     }
 
@@ -56,7 +59,31 @@ export class ActionsPage {
     }
     
     export() {
-        this.socialSharing.share(JSON.stringify(this.pokedex.pokemons), 'Export');
+        let filename:string = new Date().toISOString().replace('T', '-').replace(/:/g, '-').substr(0, 19) + ".pokedex";
+
+        let hasPermission = false;
+        this.androidPermissions.checkPermission(this.androidPermissions.PERMISSION.WRITE_EXTERNAL_STORAGE).then(success => {
+            if (success.hasPermission) {
+                hasPermission = true;
+            }
+        }, error => {
+        });
+
+        if (!hasPermission) {
+            this.androidPermissions.requestPermission(this.androidPermissions.PERMISSION.WRITE_EXTERNAL_STORAGE);
+            hasPermission = true;
+        }
+        if (hasPermission) {
+            this.file.writeFile(cordova.file.externalRootDirectory + "/Download/", filename, JSON.stringify(this.pokedex.pokemons), true).then((entry) => {
+                let toast = this.toastController.create({
+                    message: "Your pokedex was successfully saved",
+                    duration: 3000
+                });
+                toast.present();
+            }, (error) => {
+                alert("Cannot export your pokedex: Probably a permissions related problem. Try again!");
+            });
+        }
     }
 
     mark(state) {

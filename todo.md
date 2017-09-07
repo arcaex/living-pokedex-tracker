@@ -17,5 +17,4 @@ Pages
 * Detail page
     * Add in WHICH game it's possible to find this pokemon
 
-* Add an export Pokedex
-    * Add an importer
+* Add an importer
