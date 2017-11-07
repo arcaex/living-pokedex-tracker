@@ -5421,6 +5421,26 @@
       "origin_number" : "000"
     },
     {
+      "number" : "386-attack",
+      "form_name" : "Attack",
+      "origin_number" : "386"
+    },
+    {
+      "number" : "386-defense",
+      "form_name" : "Defense",
+      "origin_number" : "386"
+    },
+    {
+      "number" : "386-normal",
+      "form_name" : "Normal",
+      "origin_number" : "386"
+    },
+    {
+      "number" : "386-speed",
+      "form_name" : "Speed",
+      "origin_number" : "386"
+    },
+    {
       "number" : "387",
       "names/en" : "Turtwig",
       "names/fr" : "Tortipouss",
@@ -5740,6 +5760,21 @@
       "origin_number" : "000"
     },
     {
+      "number" : "412-plant",
+      "form_name" : "Plant",
+      "origin_number" : "412"
+    },
+    {
+      "number" : "412-sandy",
+      "form_name" : "Sandy",
+      "origin_number" : "412"
+    },
+    {
+      "number" : "412-trash",
+      "form_name" : "Trash",
+      "origin_number" : "412"
+    },
+    {
       "number" : "413",
       "names/en" : "Wormadam",
       "names/fr" : "Cheniselle",
@@ -5751,6 +5786,21 @@
       "regions/kalos" : "045",
       "evolving" : "Level up #412 to 20, Female, in buildings",
       "origin_number" : "000"
+    },
+    {
+      "number" : "413-plant",
+      "form_name" : "Plant",
+      "origin_number" : "413"
+    },
+    {
+      "number" : "413-sandy",
+      "form_name" : "Sandy",
+      "origin_number" : "413"
+    },
+    {
+      "number" : "413-trash",
+      "form_name" : "Trash",
+      "origin_number" : "413"
     },
     {
       "number" : "414",
@@ -5869,6 +5919,16 @@
       "origin_number" : "000"
     },
     {
+      "number" : "422-east",
+      "form_name" : "East",
+      "origin_number" : "422"
+    },
+    {
+      "number" : "422-west",
+      "form_name" : "West",
+      "origin_number" : "422"
+    },
+    {
       "number" : "423",
       "names/en" : "Gastrodon",
       "names/fr" : "Tritosor",
@@ -5879,6 +5939,16 @@
       "regions/sinnoh" : "061",
       "evolving" : "Level up #422 to 30",
       "origin_number" : "000"
+    },
+    {
+      "number" : "423-east",
+      "form_name" : "East",
+      "origin_number" : "423"
+    },
+    {
+      "number" : "423-west",
+      "form_name" : "West",
+      "origin_number" : "423"
     },
     {
       "number" : "424",
@@ -6650,6 +6720,36 @@
       "origin_number" : "000"
     },
     {
+      "number" : "479-fan",
+      "form_name" : "Fan",
+      "origin_number" : "479"
+    },
+    {
+      "number" : "479-frost",
+      "form_name" : "Frost",
+      "origin_number" : "479"
+    },
+    {
+      "number" : "479-heat",
+      "form_name" : "Heat",
+      "origin_number" : "479"
+    },
+    {
+      "number" : "479-mow",
+      "form_name" : "Mow",
+      "origin_number" : "479"
+    },
+    {
+      "number" : "479-normal",
+      "form_name" : "Normal",
+      "origin_number" : "479"
+    },
+    {
+      "number" : "479-wash",
+      "form_name" : "Wash",
+      "origin_number" : "479"
+    },
+    {
       "number" : "480",
       "names/en" : "Uxie",
       "names/fr" : "Créhelf",
@@ -6724,6 +6824,16 @@
       "regions/kanto" : "487",
       "regions/sinnoh" : "210",
       "origin_number" : "000"
+    },
+    {
+      "number" : "487-altered",
+      "form_name" : "Altered",
+      "origin_number" : "487"
+    },
+    {
+      "number" : "487-origin",
+      "form_name" : "Origin",
+      "origin_number" : "487"
     },
     {
       "number" : "488",
@@ -7487,6 +7597,16 @@
       "origin_number" : "000"
     },
     {
+      "number" : "550-blue-striped",
+      "form_name" : "Blue Striped",
+      "origin_number" : "550"
+    },
+    {
+      "number" : "550-red-striped",
+      "form_name" : "Red Striped",
+      "origin_number" : "550"
+    },
+    {
       "number" : "551",
       "names/en" : "Sandile",
       "names/fr" : "Mascaïman",
@@ -7936,6 +8056,26 @@
       "origin_number" : "000"
     },
     {
+      "number" : "585-automn",
+      "form_name" : "Automn",
+      "origin_number" : "585"
+    },
+    {
+      "number" : "585-spring",
+      "form_name" : "Spring",
+      "origin_number" : "585"
+    },
+    {
+      "number" : "585-summer",
+      "form_name" : "Summer",
+      "origin_number" : "585"
+    },
+    {
+      "number" : "585-winter",
+      "form_name" : "Winter",
+      "origin_number" : "585"
+    },
+    {
       "number" : "586",
       "names/en" : "Sawsbuck",
       "names/fr" : "Haydaim",
@@ -7946,6 +8086,26 @@
       "regions/unova" : "092",
       "evolving" : "Level up #585 to 34",
       "origin_number" : "000"
+    },
+    {
+      "number" : "586-automn",
+      "form_name" : "Automn",
+      "origin_number" : "586"
+    },
+    {
+      "number" : "586-spring",
+      "form_name" : "Spring",
+      "origin_number" : "586"
+    },
+    {
+      "number" : "586-summer",
+      "form_name" : "Summer",
+      "origin_number" : "586"
+    },
+    {
+      "number" : "586-winter",
+      "form_name" : "Winter",
+      "origin_number" : "586"
     },
     {
       "number" : "587",
@@ -8632,6 +8792,16 @@
       "origin_number" : "000"
     },
     {
+      "number" : "641-incarnate",
+      "form_name" : "Incarnate",
+      "origin_number" : "641"
+    },
+    {
+      "number" : "641-therian",
+      "form_name" : "Therian",
+      "origin_number" : "641"
+    },
+    {
       "number" : "642",
       "names/en" : "Thundurus",
       "names/fr" : "Fulguris",
@@ -8641,6 +8811,16 @@
       "regions/kanto" : "642",
       "regions/unova" : "148",
       "origin_number" : "000"
+    },
+    {
+      "number" : "642-incarnate",
+      "form_name" : "Incarnate",
+      "origin_number" : "642"
+    },
+    {
+      "number" : "642-therian",
+      "form_name" : "Therian",
+      "origin_number" : "642"
     },
     {
       "number" : "643",
@@ -8672,6 +8852,16 @@
       "origin_number" : "000"
     },
     {
+      "number" : "645-incarnate",
+      "form_name" : "Incarnate",
+      "origin_number" : "645"
+    },
+    {
+      "number" : "645-therian",
+      "form_name" : "Therian",
+      "origin_number" : "645"
+    },
+    {
       "number" : "646",
       "names/en" : "Kyurem",
       "names/jp" : "キュレム",
@@ -8681,6 +8871,21 @@
       "origin_number" : "000"
     },
     {
+      "number" : "646-black",
+      "form_name" : "Black",
+      "origin_number" : "646"
+    },
+    {
+      "number" : "646-normal",
+      "form_name" : "Normal",
+      "origin_number" : "646"
+    },
+    {
+      "number" : "646-white",
+      "form_name" : "White",
+      "origin_number" : "646"
+    },
+    {
       "number" : "647",
       "names/en" : "Keldeo",
       "names/jp" : "ケルディオ",
@@ -8688,6 +8893,16 @@
       "regions/kanto" : "647",
       "regions/unova" : "153",
       "origin_number" : "000"
+    },
+    {
+      "number" : "647-ordinary",
+      "form_name" : "Ordinary",
+      "origin_number" : "647"
+    },
+    {
+      "number" : "647-resolute",
+      "form_name" : "Resolute",
+      "origin_number" : "647"
     },
     {
       "number" : "648",
@@ -8814,6 +9029,16 @@
       "regions/kalos" : "009",
       "evolving" : "Level up #657 to 36",
       "origin_number" : "000"
+    },
+    {
+      "number" : "658-ash",
+      "form_name" : "Ash's",
+      "origin_number" : "658"
+    },
+    {
+      "number" : "658-normal",
+      "form_name" : "Normal",
+      "origin_number" : "658"
     },
     {
       "number" : "659",
@@ -9743,6 +9968,21 @@
       "origin_number" : "000"
     },
     {
+      "number" : "718-10",
+      "form_name" : "10%",
+      "origin_number" : "718"
+    },
+    {
+      "number" : "718-50",
+      "form_name" : "50%",
+      "origin_number" : "718"
+    },
+    {
+      "number" : "718-complete",
+      "form_name" : "Complete",
+      "origin_number" : "718"
+    },
+    {
       "number" : "719",
       "names/en" : "Diancie",
       "names/jp" : "ディアンシー",
@@ -9759,6 +9999,16 @@
       "regions/kanto" : "720",
       "regions/kalos" : "152",
       "origin_number" : "000"
+    },
+    {
+      "number" : "720-confined",
+      "form_name" : "Confined",
+      "origin_number" : "720"
+    },
+    {
+      "number" : "720-unbound",
+      "form_name" : "Unbound",
+      "origin_number" : "720"
     },
     {
       "number" : "721",
@@ -10009,6 +10259,26 @@
       "origin_number" : "000"
     },
     {
+      "number" : "741-baile",
+      "form_name" : "Baile",
+      "origin_number" : "741"
+    },
+    {
+      "number" : "741-pau",
+      "form_name" : "Pa'u",
+      "origin_number" : "741"
+    },
+    {
+      "number" : "741-pompom",
+      "form_name" : "Pom-Pom",
+      "origin_number" : "741"
+    },
+    {
+      "number" : "741-sensu",
+      "form_name" : "Sensu",
+      "origin_number" : "741"
+    },
+    {
       "number" : "742",
       "names/en" : "Cutiefly",
       "names/fr" : "Bombydou",
@@ -10055,6 +10325,21 @@
       "regions/kanto" : "745",
       "evolving" : "Level up #745 to 25, at Nighttime, in Pokémon Moon",
       "origin_number" : "000"
+    },
+    {
+      "number" : "745-dusk",
+      "form_name" : "Dusk",
+      "origin_number" : "745"
+    },
+    {
+      "number" : "745-midday",
+      "form_name" : "Midday",
+      "origin_number" : "745"
+    },
+    {
+      "number" : "745-midnight",
+      "form_name" : "Midnight",
+      "origin_number" : "745"
     },
     {
       "number" : "746",
@@ -10398,6 +10683,41 @@
       "regions/alola" : "213",
       "regions/kanto" : "774",
       "origin_number" : "000"
+    },
+    {
+      "number" : "774-blue",
+      "form_name" : "Blue",
+      "origin_number" : "774"
+    },
+    {
+      "number" : "774-green",
+      "form_name" : "Green",
+      "origin_number" : "774"
+    },
+    {
+      "number" : "774-indigo",
+      "form_name" : "Indigo",
+      "origin_number" : "774"
+    },
+    {
+      "number" : "774-orange",
+      "form_name" : "Orange",
+      "origin_number" : "774"
+    },
+    {
+      "number" : "774-red",
+      "form_name" : "Red",
+      "origin_number" : "774"
+    },
+    {
+      "number" : "774-violet",
+      "form_name" : "Violet",
+      "origin_number" : "774"
+    },
+    {
+      "number" : "774-yellow",
+      "form_name" : "Yellow",
+      "origin_number" : "774"
     },
     {
       "number" : "775",
