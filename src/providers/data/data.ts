@@ -18,13 +18,36 @@ export class DataProvider {
 
     load() {
         return this.http.get('assets/json/data.json').toPromise().then(res => {
-            this.pokemons = res.json()['pokemons'];
+            this.generatePokemons(res.json());
             return Promise.resolve(true);
+        });
+    }
+
+    generatePokemons(data:Object) {
+        /* Add all normal Pokemon */
+        data['pokemons'].forEach(single_pokemon => {
+            single_pokemon['type'] = "pokemon";
+            single_pokemon['number'] = single_pokemon['national'];
+            this.pokemons.push(single_pokemon);
+        });
+
+        /* Add all forms based on a normal Pokemon */
+        data['forms'].forEach(single_form => {
+            let single_pokemon = Object.assign({}, this.getPokemon(single_form['national']));
+            single_pokemon['number'] = single_form['number'];
+            ['fr', 'en', 'kr', 'es', 'jp'].forEach(single_lang => {
+                if (single_pokemon['names/' + single_lang] != undefined) {
+                    single_pokemon['names/' + single_lang] += " - " + single_form['names/en'];
+                }
+            })
+            single_pokemon['type'] = "form";
+            this.pokemons.push(single_pokemon);
         });
     }
 
     refresh() {
         this.master = this.getRegionalPokemons();
+        console.log(this.master.length);
 
         /* Filter the list using ... tadam ... our filters */
         /*
@@ -46,8 +69,8 @@ export class DataProvider {
             single_pokemon['sprite'] = 'pokemon-' + single_pokemon['number'];
 
             /* Get the origin number for all alternate forms */
-            if (single_pokemon['origin_number'] != "000") {
-                single_pokemon['current_number'] = single_pokemon['origin_number'];
+            if (single_pokemon['type'] == "form") {
+                single_pokemon['current_number'] = single_pokemon['national'];
             }
 
             /* Change the current number for the selected pokedex */
@@ -69,6 +92,8 @@ export class DataProvider {
                 return 1;
             return (a['current_name'] < b['current_name'] ? -1 : 1);
         });
+
+        console.log(this.master.length);
     }
 
     /*
@@ -87,7 +112,7 @@ export class DataProvider {
     }
 
     /*
-     * Return the Pokemon from its national pokedex number
+     * Return a Pokemon from its national pokedex number
      *
      */
     getPokemon(pokemonNumber:string):Object {
@@ -100,12 +125,12 @@ export class DataProvider {
      * */
     getPokemonName(pokemon:Object):string {
         let pokemonName:string = pokemon['names/en'];
-        if (pokemon['names/' + this.config.language['selected']]) {
+        if (pokemon['names/' + this.config.language['selected']] != undefined) {
             pokemonName = pokemon['names/' + this.config.language['selected']];
         }
 
-        if (pokemon['origin_number'] != '000' && pokemon['form_name'] != null) {
-            pokemonName = this.getPokemonName(this.getPokemon(pokemon['origin_number'])) + ' - ' + pokemon['form_name'];
+        if (pokemon['type'] != 'form' && pokemon['form_name'] != null) {
+        //    pokemonName = this.getPokemonName(this.getPokemon(pokemon['origin_number'])) + ' - ' + pokemon['form_name'];
         }
         return pokemonName;
     }
@@ -116,7 +141,7 @@ export class DataProvider {
      * */
     getPokemons(pokemonType:string = "", search:string = ""):Array<Object> {
         return this.master.filter(single_pokemon => {
-            if ( (pokemonType == "forms" && single_pokemon['origin_number'] == "000") || (pokemonType == "pokemons" && single_pokemon['origin_number'] != "000") ) {
+            if ( (pokemonType == "forms" && single_pokemon['type'] != "form") || (pokemonType == "pokemons" && single_pokemon['type'] != "pokemon") ) {
                 return false;
             }
             return true;

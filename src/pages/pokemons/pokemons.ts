@@ -43,6 +43,7 @@ export class PokemonsPage {
      getPokemons() {
          console.log("Regenerating master list...");
          this.master = this.data.getPokemons(this.pokemonType, this.search_filter);
+         console.log(this.master.length);
     }
 
     search() {

@@ -13,6 +13,8 @@ export class DetailPage {
 
     private pokemon:Object = {};
 
+    private segment:String = "list";
+
     constructor(public navCtrl: NavController, public navParams: NavParams, public config:ConfigProvider, public data:DataProvider, public pokedex:PokedexProvider) {
         this.pokemon = this.navParams.get("pokemon");
     }

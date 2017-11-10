@@ -6,3 +6,6 @@ Necrozma
   - Normal
   - Dusk Mane
   - Dawn Wings
+
+ Add the in game location
+	- location/region

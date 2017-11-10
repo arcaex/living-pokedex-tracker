@@ -9,13 +9,21 @@
     </ion-buttons>
   </ion-navbar>
 
+  <ion-segment color="primary" [(ngModel)]="segment">
+    <ion-segment-button value="list">
+      List
+    </ion-segment-button>
+    <ion-segment-button value="info">
+      Info
+    </ion-segment-button>
+  </ion-segment>
+
 </ion-header>
 
 <ion-content>
 
-    <ion-list>
-        <ion-item-divider color="primary" *ngIf="pokemon['current_breeding']"><strong>Breeding: </strong> {{ pokemon['current_breeding'] }}</ion-item-divider>
-        <ion-item-divider color="primary" *ngIf="pokemon['current_evolving']"><strong>Evolution: </strong> {{ pokemon['current_evolving'] }}</ion-item-divider>
+  <div [ngSwitch]="segment">
+    <ion-list *ngSwitchCase="'list'">
         <ion-item *ngFor="let filter of config.getFilters()">
             <ion-label>
                 <ion-icon name="{{ filter.icon }}"></ion-icon>
@@ -27,5 +35,12 @@
             <ion-toggle [(ngModel)]="pokedex.pokemons[pokemon.number][filter.id]" (ionChange)="configChanged()" color="primary"></ion-toggle>
         </ion-item>
     </ion-list>
+
+    <ion-list *ngSwitchCase="'info'">
+        <ion-item-divider color="primary" *ngIf="pokemon['current_breeding']"><strong>Breeding: </strong> {{ pokemon['current_breeding'] }}</ion-item-divider>
+        <ion-item-divider color="primary" *ngIf="pokemon['current_evolving']"><strong>Evolution: </strong> {{ pokemon['current_evolving'] }}</ion-item-divider>
+    </ion-list>
+
+    </div>
 
 </ion-content>
