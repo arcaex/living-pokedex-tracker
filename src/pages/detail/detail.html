@@ -37,6 +37,7 @@
     </ion-list>
 
     <ion-list *ngSwitchCase="'info'">
+
         <ion-item-divider color="primary" *ngIf="breedingPokemons.length > 0"><strong>Available through breeding</strong></ion-item-divider>
         <ion-row class="breeding-pokemons">
           <ion-col *ngFor="let single_pokemon of breedingPokemons">
@@ -44,7 +45,38 @@
             <div class="pokemon-name">{{ single_pokemon.current_name }}</div>
           </ion-col>
         </ion-row>
-        <ion-item-divider color="primary" *ngIf="pokemon['current_evolving']"><strong>Evolution: </strong> {{ pokemon['current_evolving'] }}</ion-item-divider>
+
+        <ion-item-divider color="primary" *ngIf="evolution['pokemon']"><strong>Evolution</strong></ion-item-divider>
+
+        <ion-row class="evolving-pokemon" *ngIf="evolution.pokemon">
+          <ion-col *ngFor="let single_template of evolution.template" [ngSwitch]="single_template" class="col evolution-{{single_template}}">
+            <div *ngSwitchCase="'action'">{{ evolution.action }}</div>
+            <div *ngSwitchCase="'pokemon'">
+              <div class="pokemon-image {{ evolution.pokemon.sprite }}"></div>
+              <div class="pokemon-name">{{ evolution.pokemon.current_name }}</div>
+            </div>
+            <div *ngSwitchCase="'helper'">{{ evolution.helper }}</div>
+            <div *ngSwitchCase="'value'">
+              <div class="evolution-subvalue" *ngIf="evolution.subvalue">
+                {{ evolution.subvalue }}
+              </div>
+              {{ evolution.value }}
+              <div class="evolution-supvalue" *ngIf="evolution.supvalue">
+                {{ evolution.supvalue }}
+              </div>
+            </div>
+            <div *ngSwitchCase="'item'">
+              <div class="item-image item-{{ evolution.item.sprite }}"></div>
+              <div class="pokemon-name">{{ evolution.item.name }}</div>
+            </div>
+          </ion-col>
+        </ion-row>
+
+        <div class="evolution-conditions" *ngIf="evolution.condition && evolution.conditions.length > 0">
+          <ul>
+            <li *ngFor="let single_condition of evolution.conditions">{{ single_condition }}</li>
+          </ul>
+        </div>
     </ion-list>
 
     </div>

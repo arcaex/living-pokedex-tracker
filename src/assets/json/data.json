@@ -255,7 +255,6 @@
       "generation/2" : "060",
       "evolve/pokemon" : "#019",
       "evolve/level" : "20",
-      "evolve/time" : "Nighttime",
       "national" : "020"
     },
     {
@@ -364,7 +363,7 @@
       "generation/2" : "114",
       "generation/1" : "098",
       "evolve/pokemon" : "#027",
-      "evolve/item" : "Ice Stone",
+      "evolve/level" : "22",
       "national" : "028"
     },
     {

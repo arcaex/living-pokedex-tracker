@@ -58,5 +58,37 @@ page-detail {
                 margin: 0 auto;
             }
         }
+
+        &.evolving-pokemon {
+            ion-col {
+                align-self: center;
+
+                &.evolution-value {
+                    font-size: 30px;
+
+                    .evolution-subvalue {
+                        font-size: 18px;
+                    }
+                    .evolution-supvalue {
+                        font-size: 18px;
+                    }
+                }
+
+                &.evolution-action {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .evolution-conditions {
+        background-color: #f4f4f4;
+        padding: 20px 10px;
+        margin-top: 10px;
+
+        ul {
+            max-width: 200px;
+            margin: 0 auto;
+        }
     }
 }

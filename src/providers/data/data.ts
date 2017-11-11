@@ -45,6 +45,19 @@ export class DataProvider {
                 }
             })
             single_pokemon['type'] = "form";
+
+            /* @TODO: If generation in form, use that instead of the generation of the origin */
+            if (single_form['breeding'] != undefined) {
+                single_pokemon['breeding'] = single_form['breeding'];
+            }
+
+            /* Update the value from the form */
+            for (let key in single_form) {
+                if (key.substr(0, 6) == 'evolve') {
+                    single_pokemon[key] = single_form[key];
+                }
+            }
+
             this.pokemons.push(single_pokemon);
         });
     }
