@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Platform } from 'ionic-angular';
+import { Platform, Events } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -16,7 +16,7 @@ import { PokedexProvider } from '../providers/pokedex/pokedex';
 export class MyApp {
     rootPage:any;
 
-    constructor(platform:Platform, statusBar:StatusBar, splashScreen:SplashScreen, public config:ConfigProvider, public data:DataProvider, public pokedex:PokedexProvider) {
+    constructor(platform:Platform, statusBar:StatusBar, splashScreen:SplashScreen, public config:ConfigProvider, public data:DataProvider, public pokedex:PokedexProvider, public events:Events) {
 
         platform.ready().then(() => {
             statusBar.styleDefault();
@@ -27,7 +27,6 @@ export class MyApp {
                 this.data.load().then(result => {
                     this.pokedex.load().then(result => {
                         this.pokedex.init(this.data.getAllPokemons(), this.config.getFilters());
-                        this.refreshPokemons();
                         this.rootPage = Tabs;
                     });
                 });
@@ -40,8 +39,8 @@ export class MyApp {
         this.config.save();
     }
 
-    refreshPokemons() {
-        console.log("REFRESH POKEMONS");
-        this.data.refresh();
+    menuClosed() {
+        console.log("MENU CLOSED");
+        this.events.publish("menu:closed", "");
     }
 }

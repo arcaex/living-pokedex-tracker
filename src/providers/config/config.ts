@@ -13,6 +13,24 @@ export class ConfigProvider {
     private _languages:Array<Object> = [{'suffix':'en', 'name':'English'},{'suffix':'fr', 'name':'French'},{'suffix':'de', 'name':'German'},{'suffix':'es', 'name': 'Spanish'},{'suffix':'jp', 'name':'Japanese'}];
 
     private _regions:Array<Object> = [{'id':'national', 'name':'National'},{'id':'alola', 'name':'Alola'},{'id':'kanto', 'name':'Kanto'},{'id':'johto', 'name':'Johto'},{'id':'hoenn', 'name':'Hoenn'},{'id':'sinnoh', 'name':'Sinnoh'},{'id':'unova', 'name':'Unova'},{'id':'kalos', 'name':'kalos'}];
+    
+    private _generations:Array<Object> = [{
+        'id':'national', 'name':'National'
+    },{
+        'id':'7', 'name':'7 - Alola'
+    },{
+        'id':'6', 'name':'6 - Kanto'
+    },{
+        'id':'5', 'name':'5 - Johto'
+    },{
+        'id':'4', 'name':'4 - Hoenn'
+    },{
+        'id':'3', 'name':'3 - Sinnoh'
+    },{
+        'id':'2', 'name':'2 - Unova'
+    },{
+        'id':'1', 'name':'1 - Kalos'
+    }];
 
     private _filters:Array<Object> = [{
             'id':'own',
@@ -66,7 +84,7 @@ export class ConfigProvider {
                 let loadedConfig:Object = JSON.parse(data);
 
 
-                ["filters", "alternate_forms", "region", "language"].forEach(single_filter => {
+                ["filters", "alternate_forms", "region", "language", "generation"].forEach(single_filter => {
                     if (loadedConfig[single_filter] != null) {
                         this.configs[single_filter] = Object.assign(this.configs[single_filter], loadedConfig[single_filter]);
                     }
@@ -108,6 +126,8 @@ export class ConfigProvider {
         this.configs['alternate_forms'] = {'all': false};
 
         this.configs['region'] = {'selected':'alola'};
+        
+        this.configs['generation'] = {'selected':'7'};
 
         this.configs['language'] = {'selected':'en'};
     }
@@ -130,6 +150,10 @@ export class ConfigProvider {
         return this._regions;
     }
 
+    getGenerations():Array<Object> {
+        return this._generations;
+    }
+
     get alternate_forms():Object {
         return this.configs['alternate_forms'];
     }
@@ -144,6 +168,10 @@ export class ConfigProvider {
 
     get region():Object {
         return this.configs['region'];
+    }
+
+    get generation():Object {
+        return this.configs['generation'];
     }
 
 

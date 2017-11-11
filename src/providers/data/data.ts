@@ -23,6 +23,10 @@ export class DataProvider {
         });
     }
 
+    /*
+     * Generate a basic list from the JSON (Normal Pokemon and form)
+     *
+     * */
     generatePokemons(data:Object) {
         /* Add all normal Pokemon */
         data['pokemons'].forEach(single_pokemon => {
@@ -49,23 +53,9 @@ export class DataProvider {
         this.master = this.getRegionalPokemons();
         console.log(this.master.length);
 
-        /* Filter the list using ... tadam ... our filters */
-        /*
-        this.master = this.master.filter(single_pokemon => {
-            for (let filter_id in this.config.filters) {
-                if (this.config.filters[filter_id]) {
-                    if (this.pokedex.pokemons[single_pokemon['number']][filter_id]) {
-                        return false;
-                    }
-                }
-            };
-            return true;
-        });
-        */
-
         /* Update the field */
         this.master.forEach(single_pokemon => {
-            single_pokemon['current_number'] = single_pokemon['number'];
+            single_pokemon['current_number'] = single_pokemon['national'];
             single_pokemon['sprite'] = 'pokemon-' + single_pokemon['number'];
 
             /* Get the origin number for all alternate forms */
@@ -74,8 +64,8 @@ export class DataProvider {
             }
 
             /* Change the current number for the selected pokedex */
-            if (this.config.region['selected'] != 'national') {
-                single_pokemon['current_number'] = single_pokemon['regions/' + this.config.region['selected']];
+            if (this.config.generation['selected'] != 'national') {
+                single_pokemon['current_number'] = single_pokemon['generation/' + this.config.generation['selected']];
             }
 
             single_pokemon['current_name'] = this.getPokemonName(single_pokemon);
@@ -102,8 +92,8 @@ export class DataProvider {
      * */
     getRegionalPokemons():Array<Object> {
         return this.pokemons.filter(single_pokemon => {
-            if (this.config.region['selected'] != 'national') {
-                if (single_pokemon['regions/' + this.config.region['selected']] == null) {
+            if (this.config.generation['selected'] != 'national') {
+                if (single_pokemon['generation/' + this.config.generation['selected']] == null) {
                     return false;
                 }
             }
@@ -157,12 +147,12 @@ export class DataProvider {
     }
 
     /*
-     * Return stats of the current Pokemons progression 
+     * Return stats of the current Pokemons progression
      *
      * */
     getStats(pokemonType:string = ""):Object {
         let totalPokemons = this.getRegionalPokemons().filter(single_pokemon => {
-            if ( (pokemonType == "forms" && single_pokemon['origin_number'] == "000") || (pokemonType == "pokemons" && single_pokemon['origin_number'] != "000") ) {
+            if ( (pokemonType == "forms" && single_pokemon['type'] != "form") || (pokemonType == "pokemons" && single_pokemon['type'] != "pokemon") ) {
                 return false;
             }
             return true;
@@ -172,7 +162,6 @@ export class DataProvider {
             'total': totalPokemons.length,
             'owned': totalPokemons.filter(single_pokemon => (this.pokedex.pokemons[single_pokemon['number']]['own'])).length
         };
-
 
         return stats;
     }

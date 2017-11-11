@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Events, NavController, NavParams, ModalController, PopoverController } from 'ionic-angular';
+import { Events, NavController, NavParams, ModalController, PopoverController, LoadingController } from 'ionic-angular';
 
 import { ActionsPage } from '../actions/actions';
 import { DetailPage } from '../detail/detail';
@@ -21,29 +21,48 @@ export class PokemonsPage {
 
     private pokemonType:string = "";
 
-    constructor(public navCtrl:NavController, public config:ConfigProvider, public data:DataProvider, public pokedex:PokedexProvider, public modalCtrl:ModalController, public events:Events, public popoverCtrl:PopoverController, public navParams:NavParams) {
+    private loading:any;
+
+    constructor(public navCtrl:NavController, public config:ConfigProvider, public data:DataProvider, public pokedex:PokedexProvider, public modalCtrl:ModalController, public events:Events, public popoverCtrl:PopoverController, public navParams:NavParams, public loadingCtrl: LoadingController) {
         this.pokemonType = this.navParams.data;
 
         this.events.subscribe('configSaved', data => {
             console.log("Event: config");
             //this.data.refresh();
-            this.getPokemons();
+           // this.getPokemons();
         });
         this.events.subscribe('pokedexSaved', data => {
             console.log("Event: pokedex");
             //this.data.refresh();
             //this.getPokemons();
         });
+
+        this.events.subscribe('menu:closed', data => {
+            console.log("Event: menu:closed");
+            //this.data.refresh();
+            this.getPokemons();
+        });
+    }
+
+    showLoading() {
+       this.loading = this.loadingCtrl.create({
+          content: "Please wait...",
+        });
+        this.loading.present();
     }
 
     ionViewDidEnter() {
         this.getPokemons();
     }
 
-     getPokemons() {
-         console.log("Regenerating master list...");
-         this.master = this.data.getPokemons(this.pokemonType, this.search_filter);
-         console.log(this.master.length);
+    getPokemons() {
+        this.data.refresh();
+        
+        this.showLoading();
+        console.log("Regenerating master list...");
+        this.master = this.data.getPokemons(this.pokemonType, this.search_filter);
+        console.log(this.master.length);
+        this.loading.dismiss();
     }
 
     search() {

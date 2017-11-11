@@ -1,4 +1,4 @@
-<ion-menu [content]="content" (ionClose)="refreshPokemons()">
+<ion-menu [content]="content" (ionClose)="menuClosed()">
 
     <ion-header>
         <ion-toolbar color="primary">
@@ -14,11 +14,11 @@
                 <ion-toggle [(ngModel)]="config.filters[filter.id]" (ionChange)="configChanged($event, filter.id)" color="primary"></ion-toggle>
             </ion-item>
         </ion-list>
-        <ion-list radio-group [(ngModel)]="config.region['selected']">
-            <ion-item-divider color="secondary">Pokedex</ion-item-divider>
-            <ion-item *ngFor="let region of config.getRegions()">
+        <ion-list radio-group [(ngModel)]="config.generation['selected']">
+            <ion-item-divider color="secondary">Generations</ion-item-divider>
+            <ion-item *ngFor="let region of config.getGenerations()">
                 <ion-label>{{ region.name }}</ion-label>
-                <ion-radio [value]="region.id" color="primary" (ionSelect)="configChanged($event, 'region');"></ion-radio>
+                <ion-radio [value]="region.id" color="primary" (ionSelect)="configChanged($event, 'generation');"></ion-radio>
             </ion-item>
         </ion-list>
         <ion-list radio-group [(ngModel)]="config.language['selected']">
