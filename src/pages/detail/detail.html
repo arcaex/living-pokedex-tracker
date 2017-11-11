@@ -55,6 +55,10 @@
               <div class="pokemon-image {{ evolution.pokemon.sprite }}"></div>
               <div class="pokemon-name">{{ evolution.pokemon.current_name }}</div>
             </div>
+            <div *ngSwitchCase="'pokemon2'">
+              <div class="pokemon-image {{ evolution.pokemon2.sprite }}"></div>
+              <div class="pokemon-name">{{ evolution.pokemon2.current_name }}</div>
+            </div>
             <div *ngSwitchCase="'helper'">{{ evolution.helper }}</div>
             <div *ngSwitchCase="'value'">
               <div class="evolution-subvalue" *ngIf="evolution.subvalue">
@@ -72,7 +76,7 @@
           </ion-col>
         </ion-row>
 
-        <div class="evolution-conditions" *ngIf="evolution.condition && evolution.conditions.length > 0">
+        <div class="evolution-conditions" *ngIf="evolution.conditions && evolution.conditions.length > 0">
           <ul>
             <li *ngFor="let single_condition of evolution.conditions">{{ single_condition }}</li>
           </ul>

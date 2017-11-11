@@ -35,6 +35,7 @@ export class DetailPage {
             let matches = this.pokemon['evolve/pokemon'].match(/#([0-9a-zA-Z-]+)/g);
             if (matches.length > 0) {
                 this.evolution['template'] = ['action', 'pokemon', 'helper', 'value'];
+                let condition = this.pokemon['evolve/condition'];
 
                 this.evolution['action'] = this.pokemon['evolve/action'];
                 if (this.evolution['action'] == undefined) {
@@ -55,19 +56,62 @@ export class DetailPage {
                 }
 
                 if (this.pokemon['evolve/item'] != undefined) {
-                    this.evolution['action'] = 'Use a';
-                    this.evolution['helper'] = 'on';
+                    this.evolution['item'] = {'name':this.pokemon['evolve/item'], 'sprite':this.pokemon['evolve/item'].replace(' ', '').replace("'", '')};
 
-                    this.evolution['item'] = {'name':this.pokemon['evolve/item'], 'sprite':this.pokemon['evolve/item'].replace(' ', '')};
+                    if (this.evolution['action'] == "Holding") {
+                        this.evolution['action'] = 'Level Up';
+                        this.evolution['helper'] = 'Holding';
 
-                    this.evolution['template'] = ['action', 'item', 'helper', 'pokemon'];
+                        this.evolution['template'] = ['action', 'pokemon', 'helper', 'item'];
+                    } else if (this.evolution['action'] == 'Trade, Holding') {
+                        this.evolution['action'] = 'Trade';
+                        this.evolution['helper'] = 'Holding';
+
+                        this.evolution['template'] = ['action', 'pokemon', 'helper', 'item'];
+                    } else {
+                        this.evolution['action'] = 'Use a';
+                        this.evolution['helper'] = 'on';
+
+                        this.evolution['template'] = ['action', 'item', 'helper', 'pokemon'];
+                    }
+                }
+
+                if (this.pokemon['evolve/party'] != undefined) {
+                    this.evolution['pokemon2'] = this.data.getPokemon(this.pokemon['evolve/party'].substr(1));
+                    this.evolution['helper'] = 'While Having in the Party';
+
+                    this.evolution['template'] = ['action', 'pokemon', 'helper', 'pokemon2'];
+                }
+
+                if (this.pokemon['evolve/move'] != undefined) {
+                    this.evolution['helper'] = 'Knowing';
+                    this.evolution['subvalue'] = 'the Move';
+                    this.evolution['value'] = this.pokemon['evolve/move'];
+                }
+
+                if (this.evolution['action'] == 'Forced-Trade') {
+                    this.evolution['action'] = 'Trade';
+                    this.evolution['pokemon2'] = this.data.getPokemon(condition.substr(1));
+                    this.evolution['helper'] = 'with';
+
+                    this.evolution['template'] = ['action', 'pokemon', 'helper', 'pokemon2'];
+
+                    condition = undefined;
                 }
 
                 this.evolution['conditions'] = [];
                 if (this.pokemon['evolve/time'] != undefined) {
                     this.evolution['conditions'].push('At ' + this.pokemon['evolve/time']);
                 }
-
+                if (condition != undefined) {
+                    this.evolution['conditions'].push(condition);
+                }
+                if (this.pokemon['evolve/area'] != undefined) {
+                    this.evolution['conditions'].push(this.pokemon['evolve/area']);
+                }
+                if (this.pokemon['evolve/game'] != undefined) {
+                    this.evolution['conditions'].push('In the game Pokemon ' + this.pokemon['evolve/game']);
+                }
             }
         }
         console.log(this.pokemon);

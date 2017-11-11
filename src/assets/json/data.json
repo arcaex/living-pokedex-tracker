@@ -1397,7 +1397,6 @@
       "generation/1" : "061",
       "evolve/pokemon" : "#104",
       "evolve/level" : "28",
-      "evolve/time" : "Nighttime",
       "national" : "105"
     },
     {
@@ -1421,7 +1420,7 @@
       "names/kr" : "홍수몬",
       "generation/6" : "107",
       "generation/5" : "147",
-      "evolve/pokemon" : "#106",
+      "evolve/pokemon" : "#236",
       "evolve/level" : "20",
       "evolve/condition" : "Attack < Defense",
       "national" : "107"
@@ -3103,7 +3102,7 @@
       "names/kr" : "카포에라",
       "generation/6" : "237",
       "generation/5" : "148",
-      "evolve/pokemon" : "#107",
+      "evolve/pokemon" : "#236",
       "evolve/level" : "20",
       "evolve/condition" : "Attack = Defense",
       "national" : "237"
@@ -7386,8 +7385,8 @@
       "generation/2" : "095",
       "generation/1" : "023",
       "evolve/pokemon" : "#588",
-      "evolve/action" : "Trade",
-      "evolve/condition" : "With #616",
+      "evolve/action" : "Forced-Trade",
+      "evolve/condition" : "#616",
       "national" : "589"
     },
     {
@@ -7725,8 +7724,8 @@
       "generation/2" : "123",
       "generation/1" : "025",
       "evolve/pokemon" : "#616",
-      "evolve/action" : "Trade",
-      "evolve/condition" : "With #588",
+      "evolve/action" : "Forced-Trade",
+      "evolve/condition" : "#588",
       "national" : "617"
     },
     {
@@ -8318,7 +8317,6 @@
       "names/kr" : "플라엣테",
       "generation/6" : "670",
       "generation/1" : "069",
-      "breeding" : "Level up #669 to 19",
       "evolve/pokemon" : "#669",
       "evolve/level" : "19",
       "national" : "670"
@@ -9683,7 +9681,7 @@
       "generation/6" : "791",
       "evolve/pokemon" : "#790",
       "evolve/level" : "53",
-      "evolve/game" : "Pokemon Sun",
+      "evolve/game" : "Sun",
       "national" : "791"
     },
     {
@@ -9694,7 +9692,7 @@
       "generation/6" : "792",
       "evolve/pokemon" : "#790",
       "evolve/level" : "53",
-      "evolve/game" : "Pokemon Moon",
+      "evolve/game" : "Moon",
       "national" : "792"
     },
     {
