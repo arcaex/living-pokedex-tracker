@@ -49,4 +49,14 @@ page-detail {
     ion-list {
         margin-bottom: 0 !important;
     }
+
+    ion-row {
+        ion-col {
+            text-align: center;
+
+            div.pokemon-image {
+                margin: 0 auto;
+            }
+        }
+    }
 }

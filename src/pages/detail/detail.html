@@ -37,7 +37,13 @@
     </ion-list>
 
     <ion-list *ngSwitchCase="'info'">
-        <ion-item-divider color="primary" *ngIf="pokemon['current_breeding']"><strong>Breeding: </strong> {{ pokemon['current_breeding'] }}</ion-item-divider>
+        <ion-item-divider color="primary" *ngIf="breedingPokemons.length > 0"><strong>Available through breeding</strong></ion-item-divider>
+        <ion-row class="breeding-pokemons">
+          <ion-col *ngFor="let single_pokemon of breedingPokemons">
+            <div class="pokemon-image {{ single_pokemon.sprite }}"></div>
+            <div class="pokemon-name">{{ single_pokemon.current_name }}</div>
+          </ion-col>
+        </ion-row>
         <ion-item-divider color="primary" *ngIf="pokemon['current_evolving']"><strong>Evolution: </strong> {{ pokemon['current_evolving'] }}</ion-item-divider>
     </ion-list>
 
