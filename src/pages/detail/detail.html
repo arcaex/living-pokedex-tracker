@@ -38,6 +38,8 @@
 
     <ion-list *ngSwitchCase="'info'">
 
+        <ion-item class="pokemon-tradeable">Tradable: <ion-badge color="{{pokemon.gts != undefined ? 'primary' : 'secondary'}}">GTS</ion-badge> <ion-badge color="secondary">Link Trade</ion-badge></ion-item>
+
         <ion-item-divider color="primary" *ngIf="breedingPokemons.length > 0"><strong>Available through breeding</strong></ion-item-divider>
         <ion-row class="breeding-pokemons">
           <ion-col *ngFor="let single_pokemon of breedingPokemons">

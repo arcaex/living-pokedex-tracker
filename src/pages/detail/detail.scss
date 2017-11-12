@@ -91,4 +91,17 @@ page-detail {
             margin: 0 auto;
         }
     }
+
+    ion-badge {
+        margin-left: 18px;
+
+        &.badge-md-primary {
+            text-decoration:  line-through;
+        }
+    }
+
+    .pokemon-tradeable {
+        margin: 0 auto;
+        max-width: 250px;
+    }
 }

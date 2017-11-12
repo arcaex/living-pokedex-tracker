@@ -1921,6 +1921,7 @@
       "generation/6" : "144",
       "generation/5" : "240",
       "generation/1" : "151",
+      "type" : "L",
       "national" : "144"
     },
     {
@@ -1931,6 +1932,7 @@
       "generation/6" : "145",
       "generation/5" : "241",
       "generation/1" : "152",
+      "type" : "L",
       "national" : "145"
     },
     {
@@ -1942,6 +1944,7 @@
       "generation/6" : "146",
       "generation/5" : "242",
       "generation/1" : "153",
+      "type" : "L",
       "national" : "146"
     },
     {
@@ -1992,6 +1995,7 @@
       "generation/6" : "150",
       "generation/5" : "254",
       "generation/1" : "151",
+      "type" : "L",
       "national" : "150"
     },
     {
@@ -2001,6 +2005,7 @@
       "generation/6" : "151",
       "generation/5" : "255",
       "gts" : "X",
+      "type" : "M",
       "national" : "151"
     },
     {
@@ -3178,6 +3183,7 @@
       "names/kr" : "라이코",
       "generation/6" : "243",
       "generation/5" : "243",
+      "type" : "L",
       "national" : "243"
     },
     {
@@ -3189,6 +3195,7 @@
       "names/kr" : "앤테이",
       "generation/6" : "244",
       "generation/5" : "244",
+      "type" : "L",
       "national" : "244"
     },
     {
@@ -3200,6 +3207,7 @@
       "names/kr" : "스이쿤",
       "generation/6" : "245",
       "generation/5" : "245",
+      "type" : "L",
       "national" : "245"
     },
     {
@@ -3247,6 +3255,7 @@
       "names/kr" : "루기아",
       "generation/6" : "249",
       "generation/5" : "252",
+      "type" : "L",
       "national" : "249"
     },
     {
@@ -3255,6 +3264,7 @@
       "names/kr" : "칠색조",
       "generation/6" : "250",
       "generation/5" : "253",
+      "type" : "L",
       "national" : "250"
     },
     {
@@ -3264,6 +3274,7 @@
       "generation/6" : "251",
       "generation/5" : "256",
       "gts" : "X",
+      "type" : "M",
       "national" : "251"
     },
     {
@@ -4826,6 +4837,7 @@
       "names/kr" : "레지락",
       "generation/6" : "377",
       "generation/4" : "202",
+      "type" : "L",
       "national" : "377"
     },
     {
@@ -4834,6 +4846,7 @@
       "names/kr" : "레지아이스",
       "generation/6" : "378",
       "generation/4" : "203",
+      "type" : "L",
       "national" : "378"
     },
     {
@@ -4842,6 +4855,7 @@
       "names/kr" : "레지스틸",
       "generation/6" : "379",
       "generation/4" : "204",
+      "type" : "L",
       "national" : "379"
     },
     {
@@ -4850,6 +4864,7 @@
       "names/kr" : "라티아스",
       "generation/6" : "380",
       "generation/4" : "205",
+      "type" : "L",
       "national" : "380"
     },
     {
@@ -4858,6 +4873,7 @@
       "names/kr" : "라티오스",
       "generation/6" : "381",
       "generation/4" : "206",
+      "type" : "L",
       "national" : "381"
     },
     {
@@ -4866,6 +4882,7 @@
       "names/kr" : "가이오가",
       "generation/6" : "382",
       "generation/4" : "207",
+      "type" : "L",
       "national" : "382"
     },
     {
@@ -4874,6 +4891,7 @@
       "names/kr" : "그란돈",
       "generation/6" : "383",
       "generation/4" : "208",
+      "type" : "L",
       "national" : "383"
     },
     {
@@ -4882,6 +4900,7 @@
       "names/kr" : "레쿠쟈",
       "generation/6" : "384",
       "generation/4" : "209",
+      "type" : "L",
       "national" : "384"
     },
     {
@@ -4891,6 +4910,7 @@
       "generation/6" : "385",
       "generation/4" : "210",
       "gts" : "X",
+      "type" : "M",
       "national" : "385"
     },
     {
@@ -4900,6 +4920,7 @@
       "generation/6" : "386",
       "generation/4" : "211",
       "gts" : "X",
+      "type" : "M",
       "national" : "386"
     },
     {
@@ -6115,6 +6136,7 @@
       "names/kr" : "유크시",
       "generation/6" : "480",
       "generation/3" : "146",
+      "type" : "L",
       "national" : "480"
     },
     {
@@ -6125,6 +6147,7 @@
       "names/kr" : "엠라이트",
       "generation/6" : "481",
       "generation/3" : "147",
+      "type" : "L",
       "national" : "481"
     },
     {
@@ -6135,6 +6158,7 @@
       "names/kr" : "아그놈",
       "generation/6" : "482",
       "generation/3" : "148",
+      "type" : "L",
       "national" : "482"
     },
     {
@@ -6143,6 +6167,7 @@
       "names/kr" : "디아루가",
       "generation/6" : "483",
       "generation/3" : "149",
+      "type" : "L",
       "national" : "483"
     },
     {
@@ -6151,6 +6176,7 @@
       "names/kr" : "펄기아",
       "generation/6" : "484",
       "generation/3" : "150",
+      "type" : "L",
       "national" : "484"
     },
     {
@@ -6158,6 +6184,7 @@
       "names/jp" : "ヒードラン",
       "names/kr" : "히드런",
       "generation/6" : "485",
+      "type" : "L",
       "national" : "485"
     },
     {
@@ -6165,6 +6192,7 @@
       "names/jp" : "レジギガス",
       "names/kr" : "레지기가스",
       "generation/6" : "486",
+      "type" : "L",
       "national" : "486"
     },
     {
@@ -6173,6 +6201,7 @@
       "names/kr" : "기라티나",
       "generation/6" : "487",
       "generation/3" : "210",
+      "type" : "L",
       "national" : "487"
     },
     {
@@ -6180,6 +6209,7 @@
       "names/jp" : "クレセリア",
       "names/kr" : "크레세리아",
       "generation/6" : "488",
+      "type" : "L",
       "national" : "488"
     },
     {
@@ -6190,6 +6220,8 @@
       "names/de" : "Phione",
       "names/kr" : "피오네",
       "generation/6" : "489",
+      "breeding" : "#489, #490",
+      "type" : "M",
       "national" : "489"
     },
     {
@@ -6199,6 +6231,7 @@
       "generation/6" : "490",
       "generation/3" : "151",
       "gts" : "X",
+      "type" : "M",
       "national" : "490"
     },
     {
@@ -6207,6 +6240,7 @@
       "names/kr" : "다크라이",
       "generation/6" : "491",
       "gts" : "X",
+      "type" : "M",
       "national" : "491"
     },
     {
@@ -6215,6 +6249,7 @@
       "names/kr" : "쉐이미",
       "generation/6" : "492",
       "gts" : "X",
+      "type" : "M",
       "national" : "492"
     },
     {
@@ -6223,6 +6258,7 @@
       "names/kr" : "아르세우스",
       "generation/6" : "493",
       "gts" : "X",
+      "type" : "M",
       "national" : "493"
     },
     {
@@ -6231,6 +6267,7 @@
       "names/kr" : "비크티니",
       "generation/6" : "494",
       "gts" : "X",
+      "type" : "M",
       "national" : "494"
     },
     {
@@ -7976,6 +8013,7 @@
       "names/kr" : "코바르온",
       "generation/6" : "638",
       "generation/2" : "144",
+      "type" : "L",
       "national" : "638"
     },
     {
@@ -7986,6 +8024,7 @@
       "names/kr" : "테라키온",
       "generation/6" : "639",
       "generation/2" : "145",
+      "type" : "L",
       "national" : "639"
     },
     {
@@ -7996,6 +8035,7 @@
       "names/kr" : "비리디온",
       "generation/6" : "640",
       "generation/2" : "146",
+      "type" : "L",
       "national" : "640"
     },
     {
@@ -8006,6 +8046,7 @@
       "names/kr" : "토네로스",
       "generation/6" : "641",
       "generation/2" : "147",
+      "type" : "L",
       "national" : "641"
     },
     {
@@ -8016,6 +8057,7 @@
       "names/kr" : "볼트로스",
       "generation/6" : "642",
       "generation/2" : "148",
+      "type" : "L",
       "national" : "642"
     },
     {
@@ -8024,6 +8066,7 @@
       "names/kr" : "레시라무",
       "generation/6" : "643",
       "generation/2" : "149",
+      "type" : "L",
       "national" : "643"
     },
     {
@@ -8032,6 +8075,7 @@
       "names/kr" : "제크로무",
       "generation/6" : "644",
       "generation/2" : "150",
+      "type" : "L",
       "national" : "644"
     },
     {
@@ -8042,6 +8086,7 @@
       "names/kr" : "랜드로스",
       "generation/6" : "645",
       "generation/2" : "151",
+      "type" : "L",
       "national" : "645"
     },
     {
@@ -8050,6 +8095,7 @@
       "names/kr" : "큐레무",
       "generation/6" : "646",
       "generation/2" : "152",
+      "type" : "L",
       "national" : "646"
     },
     {
@@ -8059,6 +8105,7 @@
       "generation/6" : "647",
       "generation/2" : "153",
       "gts" : "X",
+      "type" : "M",
       "national" : "647"
     },
     {
@@ -8068,6 +8115,7 @@
       "generation/6" : "648",
       "generation/2" : "154",
       "gts" : "X",
+      "type" : "M",
       "national" : "648"
     },
     {
@@ -8077,6 +8125,7 @@
       "generation/6" : "649",
       "generation/2" : "155",
       "gts" : "X",
+      "type" : "M",
       "national" : "649"
     },
     {
@@ -8852,6 +8901,7 @@
       "names/kr" : "제르네아스",
       "generation/6" : "716",
       "generation/1" : "148",
+      "type" : "L",
       "national" : "716"
     },
     {
@@ -8860,6 +8910,7 @@
       "names/kr" : "이벨타르",
       "generation/6" : "717",
       "generation/1" : "149",
+      "type" : "L",
       "national" : "717"
     },
     {
@@ -8869,6 +8920,7 @@
       "generation/7" : "205",
       "generation/6" : "718",
       "generation/1" : "150",
+      "type" : "L",
       "national" : "718"
     },
     {
@@ -8878,6 +8930,7 @@
       "generation/6" : "719",
       "generation/1" : "151",
       "gts" : "X",
+      "type" : "M",
       "national" : "719"
     },
     {
@@ -8887,6 +8940,7 @@
       "generation/6" : "720",
       "generation/1" : "152",
       "gts" : "X",
+      "type" : "M",
       "national" : "720"
     },
     {
@@ -8895,6 +8949,7 @@
       "names/kr" : "볼케니온",
       "generation/6" : "721",
       "generation/1" : "153",
+      "type" : "M",
       "national" : "721"
     },
     {
@@ -9494,6 +9549,7 @@
       "generation/6" : "773",
       "evolve/pokemon" : "#772",
       "evolve/trait" : "Happiness",
+      "type" : "L",
       "national" : "773"
     },
     {
@@ -9618,6 +9674,7 @@
       "names/kr" : "카푸꼬꼬꼭",
       "generation/7" : "285",
       "generation/6" : "785",
+      "type" : "L",
       "national" : "785"
     },
     {
@@ -9629,6 +9686,7 @@
       "names/kr" : "카푸나비나",
       "generation/7" : "286",
       "generation/6" : "786",
+      "type" : "L",
       "national" : "786"
     },
     {
@@ -9640,6 +9698,7 @@
       "names/kr" : "카푸브루루",
       "generation/7" : "287",
       "generation/6" : "787",
+      "type" : "L",
       "national" : "787"
     },
     {
@@ -9651,6 +9710,7 @@
       "names/kr" : "카푸느지느",
       "generation/7" : "288",
       "generation/6" : "788",
+      "type" : "L",
       "national" : "788"
     },
     {
@@ -9659,6 +9719,7 @@
       "names/kr" : "코스모그",
       "generation/7" : "289",
       "generation/6" : "789",
+      "type" : "L",
       "national" : "789"
     },
     {
@@ -9671,6 +9732,7 @@
       "generation/6" : "790",
       "evolve/pokemon" : "#789",
       "evolve/level" : "43",
+      "type" : "L",
       "national" : "790"
     },
     {
@@ -9682,6 +9744,7 @@
       "evolve/pokemon" : "#790",
       "evolve/level" : "53",
       "evolve/game" : "Sun",
+      "type" : "L",
       "national" : "791"
     },
     {
@@ -9693,6 +9756,7 @@
       "evolve/pokemon" : "#790",
       "evolve/level" : "53",
       "evolve/game" : "Moon",
+      "type" : "L",
       "national" : "792"
     },
     {
@@ -9771,6 +9835,7 @@
       "names/kr" : "네크로즈마",
       "generation/7" : "300",
       "generation/6" : "800",
+      "type" : "L",
       "national" : "800"
     },
     {
@@ -9780,6 +9845,7 @@
       "generation/7" : "301",
       "generation/6" : "801",
       "gts" : "X",
+      "type" : "M",
       "national" : "801"
     },
     {
@@ -9789,6 +9855,7 @@
       "generation/7" : "302",
       "generation/6" : "802",
       "gts" : "X",
+      "type" : "M",
       "national" : "802"
     }
   ],
