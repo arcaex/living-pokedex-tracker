@@ -9877,6 +9877,12 @@
       "national" : "020"
     },
     {
+      "number" : "025-original-cap",
+      "names/en" : "Original Cap",
+      "unevolvable" : "X",
+      "national" : "025"
+    },
+    {
       "number" : "026-alola",
       "names/en" : "Alola",
       "generation/7" : "026",

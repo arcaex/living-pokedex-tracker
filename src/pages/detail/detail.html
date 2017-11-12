@@ -48,9 +48,9 @@
           </ion-col>
         </ion-row>
 
-        <ion-item-divider color="primary" *ngIf="evolution['pokemon']"><strong>Evolution</strong></ion-item-divider>
+        <ion-item-divider color="primary" *ngIf="evolution['pokemon'] && pokemon.unevolvable == undefined"><strong>Evolution</strong></ion-item-divider>
 
-        <ion-row class="evolving-pokemon" *ngIf="evolution.pokemon">
+        <ion-row class="evolving-pokemon" *ngIf="evolution.pokemon && pokemon.unevolvable == undefined">
           <ion-col *ngFor="let single_template of evolution.template" [ngSwitch]="single_template" class="col evolution-{{single_template}}">
             <div *ngSwitchCase="'action'">{{ evolution.action }}</div>
             <div *ngSwitchCase="'pokemon'">

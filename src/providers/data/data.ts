@@ -51,6 +51,10 @@ export class DataProvider {
                 single_pokemon['breeding'] = single_form['breeding'];
             }
 
+            if (single_form['unevolvable'] != undefined) {
+                single_pokemon['unevolvable'] = single_form['unevolvable'];
+            }
+
             /* Update the value from the form */
             for (let key in single_form) {
                 if (key.substr(0, 6) == 'evolve') {

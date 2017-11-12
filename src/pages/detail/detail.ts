@@ -13,7 +13,7 @@ export class DetailPage {
 
     private pokemon:Object = {};
 
-    private segment:String = "info";
+    private segment:String = "list";
 
     private breedingPokemons:Array<Object> = [];
 
