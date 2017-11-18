@@ -27,18 +27,15 @@ export class PokemonsPage {
         this.pokemonType = this.navParams.data;
 
         this.events.subscribe('configSaved', data => {
-            console.log("Event: config");
             //this.data.refresh();
            // this.getPokemons();
         });
         this.events.subscribe('pokedexSaved', data => {
-            console.log("Event: pokedex");
             //this.data.refresh();
             //this.getPokemons();
         });
 
         this.events.subscribe('menu:closed', data => {
-            console.log("Event: menu:closed");
             //this.data.refresh();
             this.getPokemons();
         });

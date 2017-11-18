@@ -100,8 +100,8 @@ export class DataProvider {
             }
 
             /* Change the current number for the selected pokedex */
-            if (this.config.generation['selected'] != 'national') {
-                //single_pokemon['current_number'] = single_pokemon['generation/' + this.config.generation['selected']];
+            if (this.config.generation['selected'] != 'national' && parseInt(this.config.generation['selected']) != this.config.generation['selected']) {
+                single_pokemon['current_number'] = this.games[this.config.generation['selected']]['pokemons'][single_pokemon['number']];
             }
 
             single_pokemon['current_name'] = this.getPokemonName(single_pokemon);
@@ -129,8 +129,13 @@ export class DataProvider {
     getRegionalPokemons():Array<Object> {
         return this.pokemons.filter(single_pokemon => {
             if (this.config.generation['selected'] != 'national') {
-                if (single_pokemon['generation'] != this.config.generation['selected']) {
-                    return false;
+                if (parseInt(this.config.generation['selected']) == this.config.generation['selected']) {
+                    if (single_pokemon['generation'] != this.config.generation['selected']) {
+                        return false;
+                    }
+                } else {
+                    /* Get the Pokemons from the selected game */
+                    return (this.games[this.config.generation['selected']]['pokemons'][single_pokemon['number']] != undefined);
                 }
             }
             return true;

@@ -15,4 +15,7 @@
             <pokemon *ngIf="single_pokemon['current_number'] != '000'" [data]="single_pokemon"></pokemon>
         </div>
     </ion-list>
+    <div *ngIf="(master | apply:config.filters:pokedex.pokemons | search:search_filter).length == 0">
+        No pokemon match your filters
+    </div>
 </ion-content>
