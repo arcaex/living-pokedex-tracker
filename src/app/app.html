@@ -22,7 +22,7 @@
                     <ion-radio [value]="region.id" color="primary" (ionSelect)="configChanged($event, 'generation');"></ion-radio>
                 </ion-item>
 
-                <ion-item *ngFor="let single_game of data.getGames(region.id)">
+                <ion-item class="game" *ngFor="let single_game of data.getGames(region.id)">
                     <ion-label>{{ single_game.name }}</ion-label>
                     <ion-radio [value]="single_game.name" color="primary" (ionSelect)="configChanged($event, 'game');"></ion-radio>
                 </ion-item>
