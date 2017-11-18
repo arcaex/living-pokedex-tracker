@@ -10,12 +10,12 @@
 </ion-header>
 
 <ion-content>
-    <ion-list [virtualScroll]="master | apply:config.filters:pokedex.pokemons | search:search_filter" [virtualTrackBy]="virtualScrollTracker" approxItemHeight="80px">
+    <ion-list [hidden]="(master | apply:config.filters:pokedex.pokemons | search:search_filter).length == 0" [virtualScroll]="master | apply:config.filters:pokedex.pokemons | search:search_filter" [virtualTrackBy]="virtualScrollTracker" approxItemHeight="80px">
         <div class="pokemons" *virtualItem="let single_pokemon" (tap)="selectPokemon(single_pokemon, $event)">
             <pokemon *ngIf="single_pokemon['current_number'] != '000'" [data]="single_pokemon"></pokemon>
         </div>
     </ion-list>
-    <div *ngIf="(master | apply:config.filters:pokedex.pokemons | search:search_filter).length == 0">
-        No pokemon match your filters
+    <div class="empty" *ngIf="(master | apply:config.filters:pokedex.pokemons | search:search_filter).length == 0">
+        <p>No Pokemon are matching your filter(s)</p>
     </div>
 </ion-content>

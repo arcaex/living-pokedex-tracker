@@ -9,3 +9,5 @@ Necrozma
 
  Add the in game location
 	- location/region
+
+Add the Legendary/Mythical colors for each Pokemons
