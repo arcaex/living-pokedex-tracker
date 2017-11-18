@@ -182,6 +182,18 @@ export class DataProvider {
         return this.pokemons;
     }
 
+    getGames(generation:string):Array<Object> {
+        let games = [];
+
+        for (let key in this.games) {
+            if (this.games[key]['generation'] == generation) {
+                games.push(this.games[key]);
+            }
+        }
+
+        return games;
+    }
+
     /*
      * Return stats of the current Pokemons progression
      *
