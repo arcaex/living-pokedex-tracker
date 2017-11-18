@@ -14,6 +14,8 @@ export class DataProvider {
 
     private master:Array<Object> = [];
 
+    private games:Object = {};
+
     constructor(public http:Http, public config:ConfigProvider, public pokedex:PokedexProvider) { }
 
     load() {
@@ -28,6 +30,23 @@ export class DataProvider {
      *
      * */
     generatePokemons(data:Object) {
+        /* Generate games */
+        data['games'].forEach(single_game => {
+            if (single_game['type'] == "generation") {
+                for (let key in single_game) {
+                    if (key != 'type') {
+                        this.games[key] = {'name':key, 'generation':single_game[key], 'pokemons':{}};
+                    }
+                }
+            } else {
+                for (let key in single_game) {
+                    if (key != 'type') {
+                        this.games[key]['pokemons'][single_game[key]] = single_game['type'];
+                    }
+                }
+            }
+        });
+
         /* Add all normal Pokemon */
         data['pokemons'].forEach(single_pokemon => {
             single_pokemon['type'] = "pokemon";
@@ -82,7 +101,7 @@ export class DataProvider {
 
             /* Change the current number for the selected pokedex */
             if (this.config.generation['selected'] != 'national') {
-                single_pokemon['current_number'] = single_pokemon['generation/' + this.config.generation['selected']];
+                //single_pokemon['current_number'] = single_pokemon['generation/' + this.config.generation['selected']];
             }
 
             single_pokemon['current_name'] = this.getPokemonName(single_pokemon);
@@ -110,7 +129,7 @@ export class DataProvider {
     getRegionalPokemons():Array<Object> {
         return this.pokemons.filter(single_pokemon => {
             if (this.config.generation['selected'] != 'national') {
-                if (single_pokemon['generation/' + this.config.generation['selected']] == null) {
+                if (single_pokemon['generation'] != this.config.generation['selected']) {
                     return false;
                 }
             }

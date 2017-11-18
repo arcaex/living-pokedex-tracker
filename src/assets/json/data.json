@@ -8990,1922 +8990,1922 @@
   ],
   "games" : [
     {
-      "Type" : "Generation",
+      "type" : "generation",
       "Sun/Moon" : "7",
       "Ultra Sun/Ultra Moon" : "7"
     },
     {
-      "Type" : "1",
+      "type" : "001",
       "Sun/Moon" : "722",
       "Ultra Sun/Ultra Moon" : "722"
     },
     {
-      "Type" : "2",
+      "type" : "002",
       "Sun/Moon" : "723",
       "Ultra Sun/Ultra Moon" : "723"
     },
     {
-      "Type" : "3",
+      "type" : "003",
       "Sun/Moon" : "724",
       "Ultra Sun/Ultra Moon" : "724"
     },
     {
-      "Type" : "4",
+      "type" : "004",
       "Sun/Moon" : "725",
       "Ultra Sun/Ultra Moon" : "725"
     },
     {
-      "Type" : "5",
+      "type" : "005",
       "Sun/Moon" : "726",
       "Ultra Sun/Ultra Moon" : "726"
     },
     {
-      "Type" : "6",
+      "type" : "006",
       "Sun/Moon" : "727",
       "Ultra Sun/Ultra Moon" : "727"
     },
     {
-      "Type" : "7",
+      "type" : "007",
       "Sun/Moon" : "728",
       "Ultra Sun/Ultra Moon" : "728"
     },
     {
-      "Type" : "8",
+      "type" : "008",
       "Sun/Moon" : "729",
       "Ultra Sun/Ultra Moon" : "729"
     },
     {
-      "Type" : "9",
+      "type" : "009",
       "Sun/Moon" : "730",
       "Ultra Sun/Ultra Moon" : "730"
     },
     {
-      "Type" : "10",
+      "type" : "010",
       "Sun/Moon" : "731",
       "Ultra Sun/Ultra Moon" : "731"
     },
     {
-      "Type" : "11",
+      "type" : "011",
       "Sun/Moon" : "732",
       "Ultra Sun/Ultra Moon" : "732"
     },
     {
-      "Type" : "12",
+      "type" : "012",
       "Sun/Moon" : "733",
       "Ultra Sun/Ultra Moon" : "733"
     },
     {
-      "Type" : "13",
+      "type" : "013",
       "Sun/Moon" : "734",
       "Ultra Sun/Ultra Moon" : "734"
     },
     {
-      "Type" : "14",
+      "type" : "014",
       "Sun/Moon" : "735",
       "Ultra Sun/Ultra Moon" : "735"
     },
     {
-      "Type" : "15",
-      "Sun/Moon" : "19",
-      "Ultra Sun/Ultra Moon" : "19"
+      "type" : "015",
+      "Sun/Moon" : "019",
+      "Ultra Sun/Ultra Moon" : "019"
     },
     {
-      "Type" : "16",
-      "Sun/Moon" : "20",
-      "Ultra Sun/Ultra Moon" : "20"
+      "type" : "016",
+      "Sun/Moon" : "020",
+      "Ultra Sun/Ultra Moon" : "020"
     },
     {
-      "Type" : "17",
-      "Sun/Moon" : "10",
-      "Ultra Sun/Ultra Moon" : "10"
+      "type" : "017",
+      "Sun/Moon" : "010",
+      "Ultra Sun/Ultra Moon" : "010"
     },
     {
-      "Type" : "18",
-      "Sun/Moon" : "11",
-      "Ultra Sun/Ultra Moon" : "11"
+      "type" : "018",
+      "Sun/Moon" : "011",
+      "Ultra Sun/Ultra Moon" : "011"
     },
     {
-      "Type" : "19",
-      "Sun/Moon" : "12",
-      "Ultra Sun/Ultra Moon" : "12"
+      "type" : "019",
+      "Sun/Moon" : "012",
+      "Ultra Sun/Ultra Moon" : "012"
     },
     {
-      "Type" : "20",
+      "type" : "020",
       "Sun/Moon" : "165",
       "Ultra Sun/Ultra Moon" : "165"
     },
     {
-      "Type" : "21",
+      "type" : "021",
       "Sun/Moon" : "166",
       "Ultra Sun/Ultra Moon" : "166"
     },
     {
-      "Type" : "22",
+      "type" : "022",
       "Sun/Moon" : "167",
       "Ultra Sun/Ultra Moon" : "167"
     },
     {
-      "Type" : "23",
+      "type" : "023",
       "Sun/Moon" : "168",
       "Ultra Sun/Ultra Moon" : "168"
     },
     {
-      "Type" : "24",
+      "type" : "024",
       "Sun/Moon" : "172",
       "Ultra Sun/Ultra Moon" : "427"
     },
     {
-      "Type" : "25",
-      "Sun/Moon" : "25",
+      "type" : "025",
+      "Sun/Moon" : "025",
       "Ultra Sun/Ultra Moon" : "428"
     },
     {
-      "Type" : "26",
-      "Sun/Moon" : "26",
+      "type" : "026",
+      "Sun/Moon" : "026",
       "Ultra Sun/Ultra Moon" : "686"
     },
     {
-      "Type" : "27",
+      "type" : "027",
       "Sun/Moon" : "736",
       "Ultra Sun/Ultra Moon" : "687"
     },
     {
-      "Type" : "28",
+      "type" : "028",
       "Sun/Moon" : "737",
       "Ultra Sun/Ultra Moon" : "570"
     },
     {
-      "Type" : "29",
+      "type" : "029",
       "Sun/Moon" : "738",
       "Ultra Sun/Ultra Moon" : "571"
     },
     {
-      "Type" : "30",
+      "type" : "030",
       "Sun/Moon" : "438",
       "Ultra Sun/Ultra Moon" : "676"
     },
     {
-      "Type" : "31",
+      "type" : "031",
       "Sun/Moon" : "185",
       "Ultra Sun/Ultra Moon" : "172"
     },
     {
-      "Type" : "32",
+      "type" : "032",
       "Sun/Moon" : "440",
-      "Ultra Sun/Ultra Moon" : "25"
+      "Ultra Sun/Ultra Moon" : "025"
     },
     {
-      "Type" : "33",
+      "type" : "033",
       "Sun/Moon" : "113",
-      "Ultra Sun/Ultra Moon" : "26"
+      "Ultra Sun/Ultra Moon" : "026"
     },
     {
-      "Type" : "34",
+      "type" : "034",
       "Sun/Moon" : "242",
       "Ultra Sun/Ultra Moon" : "736"
     },
     {
-      "Type" : "35",
+      "type" : "035",
       "Sun/Moon" : "446",
       "Ultra Sun/Ultra Moon" : "737"
     },
     {
-      "Type" : "36",
+      "type" : "036",
       "Sun/Moon" : "143",
       "Ultra Sun/Ultra Moon" : "738"
     },
     {
-      "Type" : "37",
-      "Sun/Moon" : "79",
+      "type" : "037",
+      "Sun/Moon" : "079",
       "Ultra Sun/Ultra Moon" : "438"
     },
     {
-      "Type" : "38",
-      "Sun/Moon" : "80",
+      "type" : "038",
+      "Sun/Moon" : "080",
       "Ultra Sun/Ultra Moon" : "185"
     },
     {
-      "Type" : "39",
+      "type" : "039",
       "Sun/Moon" : "199",
       "Ultra Sun/Ultra Moon" : "440"
     },
     {
-      "Type" : "40",
+      "type" : "040",
       "Sun/Moon" : "278",
       "Ultra Sun/Ultra Moon" : "113"
     },
     {
-      "Type" : "41",
+      "type" : "041",
       "Sun/Moon" : "279",
       "Ultra Sun/Ultra Moon" : "242"
     },
     {
-      "Type" : "42",
-      "Sun/Moon" : "63",
+      "type" : "042",
+      "Sun/Moon" : "063",
       "Ultra Sun/Ultra Moon" : "446"
     },
     {
-      "Type" : "43",
-      "Sun/Moon" : "64",
+      "type" : "043",
+      "Sun/Moon" : "064",
       "Ultra Sun/Ultra Moon" : "143"
     },
     {
-      "Type" : "44",
-      "Sun/Moon" : "65",
-      "Ultra Sun/Ultra Moon" : "79"
+      "type" : "044",
+      "Sun/Moon" : "065",
+      "Ultra Sun/Ultra Moon" : "079"
     },
     {
-      "Type" : "45",
-      "Sun/Moon" : "52",
-      "Ultra Sun/Ultra Moon" : "80"
+      "type" : "045",
+      "Sun/Moon" : "052",
+      "Ultra Sun/Ultra Moon" : "080"
     },
     {
-      "Type" : "46",
-      "Sun/Moon" : "53",
+      "type" : "046",
+      "Sun/Moon" : "053",
       "Ultra Sun/Ultra Moon" : "199"
     },
     {
-      "Type" : "47",
-      "Sun/Moon" : "81",
+      "type" : "047",
+      "Sun/Moon" : "081",
       "Ultra Sun/Ultra Moon" : "278"
     },
     {
-      "Type" : "48",
-      "Sun/Moon" : "82",
+      "type" : "048",
+      "Sun/Moon" : "082",
       "Ultra Sun/Ultra Moon" : "279"
     },
     {
-      "Type" : "49",
+      "type" : "049",
       "Sun/Moon" : "462",
-      "Ultra Sun/Ultra Moon" : "63"
+      "Ultra Sun/Ultra Moon" : "063"
     },
     {
-      "Type" : "50",
-      "Sun/Moon" : "88",
-      "Ultra Sun/Ultra Moon" : "64"
+      "type" : "050",
+      "Sun/Moon" : "088",
+      "Ultra Sun/Ultra Moon" : "064"
     },
     {
-      "Type" : "51",
-      "Sun/Moon" : "89",
-      "Ultra Sun/Ultra Moon" : "65"
+      "type" : "051",
+      "Sun/Moon" : "089",
+      "Ultra Sun/Ultra Moon" : "065"
     },
     {
-      "Type" : "52",
-      "Sun/Moon" : "58",
-      "Ultra Sun/Ultra Moon" : "52"
+      "type" : "052",
+      "Sun/Moon" : "058",
+      "Ultra Sun/Ultra Moon" : "052"
     },
     {
-      "Type" : "53",
-      "Sun/Moon" : "59",
-      "Ultra Sun/Ultra Moon" : "53"
+      "type" : "053",
+      "Sun/Moon" : "059",
+      "Ultra Sun/Ultra Moon" : "053"
     },
     {
-      "Type" : "54",
-      "Sun/Moon" : "96",
-      "Ultra Sun/Ultra Moon" : "81"
+      "type" : "054",
+      "Sun/Moon" : "096",
+      "Ultra Sun/Ultra Moon" : "081"
     },
     {
-      "Type" : "55",
-      "Sun/Moon" : "97",
-      "Ultra Sun/Ultra Moon" : "82"
+      "type" : "055",
+      "Sun/Moon" : "097",
+      "Ultra Sun/Ultra Moon" : "082"
     },
     {
-      "Type" : "56",
+      "type" : "056",
       "Sun/Moon" : "296",
       "Ultra Sun/Ultra Moon" : "462"
     },
     {
-      "Type" : "57",
+      "type" : "057",
       "Sun/Moon" : "297",
-      "Ultra Sun/Ultra Moon" : "88"
+      "Ultra Sun/Ultra Moon" : "088"
     },
     {
-      "Type" : "58",
+      "type" : "058",
       "Sun/Moon" : "235",
-      "Ultra Sun/Ultra Moon" : "89"
+      "Ultra Sun/Ultra Moon" : "089"
     },
     {
-      "Type" : "59",
+      "type" : "059",
       "Sun/Moon" : "739",
       "Ultra Sun/Ultra Moon" : "439"
     },
     {
-      "Type" : "60",
+      "type" : "060",
       "Sun/Moon" : "740",
       "Ultra Sun/Ultra Moon" : "122"
     },
     {
-      "Type" : "61",
-      "Sun/Moon" : "92",
-      "Ultra Sun/Ultra Moon" : "23"
+      "type" : "061",
+      "Sun/Moon" : "092",
+      "Ultra Sun/Ultra Moon" : "023"
     },
     {
-      "Type" : "62",
-      "Sun/Moon" : "93",
-      "Ultra Sun/Ultra Moon" : "24"
+      "type" : "062",
+      "Sun/Moon" : "093",
+      "Ultra Sun/Ultra Moon" : "024"
     },
     {
-      "Type" : "63",
-      "Sun/Moon" : "94",
+      "type" : "063",
+      "Sun/Moon" : "094",
       "Ultra Sun/Ultra Moon" : "206"
     },
     {
-      "Type" : "64",
+      "type" : "064",
       "Sun/Moon" : "425",
-      "Ultra Sun/Ultra Moon" : "58"
+      "Ultra Sun/Ultra Moon" : "058"
     },
     {
-      "Type" : "65",
+      "type" : "065",
       "Sun/Moon" : "426",
-      "Ultra Sun/Ultra Moon" : "59"
+      "Ultra Sun/Ultra Moon" : "059"
     },
     {
-      "Type" : "66",
+      "type" : "066",
       "Sun/Moon" : "200",
-      "Ultra Sun/Ultra Moon" : "96"
+      "Ultra Sun/Ultra Moon" : "096"
     },
     {
-      "Type" : "67",
+      "type" : "067",
       "Sun/Moon" : "429",
-      "Ultra Sun/Ultra Moon" : "97"
+      "Ultra Sun/Ultra Moon" : "097"
     },
     {
-      "Type" : "68",
-      "Sun/Moon" : "41",
+      "type" : "068",
+      "Sun/Moon" : "041",
       "Ultra Sun/Ultra Moon" : "296"
     },
     {
-      "Type" : "69",
-      "Sun/Moon" : "42",
+      "type" : "069",
+      "Sun/Moon" : "042",
       "Ultra Sun/Ultra Moon" : "297"
     },
     {
-      "Type" : "70",
+      "type" : "070",
       "Sun/Moon" : "169",
       "Ultra Sun/Ultra Moon" : "235"
     },
     {
-      "Type" : "71",
-      "Sun/Moon" : "50",
+      "type" : "071",
+      "Sun/Moon" : "050",
       "Ultra Sun/Ultra Moon" : "739"
     },
     {
-      "Type" : "72",
-      "Sun/Moon" : "51",
+      "type" : "072",
+      "Sun/Moon" : "051",
       "Ultra Sun/Ultra Moon" : "740"
     },
     {
-      "Type" : "73",
-      "Sun/Moon" : "21",
-      "Ultra Sun/Ultra Moon" : "92"
+      "type" : "073",
+      "Sun/Moon" : "021",
+      "Ultra Sun/Ultra Moon" : "092"
     },
     {
-      "Type" : "74",
-      "Sun/Moon" : "22",
-      "Ultra Sun/Ultra Moon" : "93"
+      "type" : "074",
+      "Sun/Moon" : "022",
+      "Ultra Sun/Ultra Moon" : "093"
     },
     {
-      "Type" : "75",
+      "type" : "075",
       "Sun/Moon" : "627",
-      "Ultra Sun/Ultra Moon" : "94"
+      "Ultra Sun/Ultra Moon" : "094"
     },
     {
-      "Type" : "76",
+      "type" : "076",
       "Sun/Moon" : "628",
       "Ultra Sun/Ultra Moon" : "425"
     },
     {
-      "Type" : "77",
+      "type" : "077",
       "Sun/Moon" : "629",
       "Ultra Sun/Ultra Moon" : "426"
     },
     {
-      "Type" : "78",
+      "type" : "078",
       "Sun/Moon" : "630",
       "Ultra Sun/Ultra Moon" : "198"
     },
     {
-      "Type" : "79",
-      "Sun/Moon" : "56",
+      "type" : "079",
+      "Sun/Moon" : "056",
       "Ultra Sun/Ultra Moon" : "430"
     },
     {
-      "Type" : "80",
-      "Sun/Moon" : "57",
-      "Ultra Sun/Ultra Moon" : "41"
+      "type" : "080",
+      "Sun/Moon" : "057",
+      "Ultra Sun/Ultra Moon" : "041"
     },
     {
-      "Type" : "81",
+      "type" : "081",
       "Sun/Moon" : "225",
-      "Ultra Sun/Ultra Moon" : "42"
+      "Ultra Sun/Ultra Moon" : "042"
     },
     {
-      "Type" : "82",
+      "type" : "082",
       "Sun/Moon" : "741",
       "Ultra Sun/Ultra Moon" : "169"
     },
     {
-      "Type" : "83",
+      "type" : "083",
       "Sun/Moon" : "742",
       "Ultra Sun/Ultra Moon" : "714"
     },
     {
-      "Type" : "84",
+      "type" : "084",
       "Sun/Moon" : "743",
       "Ultra Sun/Ultra Moon" : "715"
     },
     {
-      "Type" : "85",
+      "type" : "085",
       "Sun/Moon" : "548",
-      "Ultra Sun/Ultra Moon" : "50"
+      "Ultra Sun/Ultra Moon" : "050"
     },
     {
-      "Type" : "86",
+      "type" : "086",
       "Sun/Moon" : "549",
-      "Ultra Sun/Ultra Moon" : "51"
+      "Ultra Sun/Ultra Moon" : "051"
     },
     {
-      "Type" : "87",
+      "type" : "087",
       "Sun/Moon" : "546",
-      "Ultra Sun/Ultra Moon" : "21"
+      "Ultra Sun/Ultra Moon" : "021"
     },
     {
-      "Type" : "88",
+      "type" : "088",
       "Sun/Moon" : "547",
-      "Ultra Sun/Ultra Moon" : "22"
+      "Ultra Sun/Ultra Moon" : "022"
     },
     {
-      "Type" : "89",
-      "Sun/Moon" : "54",
+      "type" : "089",
+      "Sun/Moon" : "054",
       "Ultra Sun/Ultra Moon" : "627"
     },
     {
-      "Type" : "90",
-      "Sun/Moon" : "55",
+      "type" : "090",
+      "Sun/Moon" : "055",
       "Ultra Sun/Ultra Moon" : "628"
     },
     {
-      "Type" : "91",
+      "type" : "091",
       "Sun/Moon" : "129",
       "Ultra Sun/Ultra Moon" : "629"
     },
     {
-      "Type" : "92",
+      "type" : "092",
       "Sun/Moon" : "130",
       "Ultra Sun/Ultra Moon" : "630"
     },
     {
-      "Type" : "93",
+      "type" : "093",
       "Sun/Moon" : "339",
-      "Ultra Sun/Ultra Moon" : "56"
+      "Ultra Sun/Ultra Moon" : "056"
     },
     {
-      "Type" : "94",
+      "type" : "094",
       "Sun/Moon" : "340",
-      "Ultra Sun/Ultra Moon" : "57"
+      "Ultra Sun/Ultra Moon" : "057"
     },
     {
-      "Type" : "95",
-      "Sun/Moon" : "66",
+      "type" : "095",
+      "Sun/Moon" : "066",
       "Ultra Sun/Ultra Moon" : "225"
     },
     {
-      "Type" : "96",
-      "Sun/Moon" : "67",
+      "type" : "096",
+      "Sun/Moon" : "067",
       "Ultra Sun/Ultra Moon" : "701"
     },
     {
-      "Type" : "97",
-      "Sun/Moon" : "68",
+      "type" : "097",
+      "Sun/Moon" : "068",
       "Ultra Sun/Ultra Moon" : "741"
     },
     {
-      "Type" : "98",
+      "type" : "098",
       "Sun/Moon" : "524",
       "Ultra Sun/Ultra Moon" : "742"
     },
     {
-      "Type" : "99",
+      "type" : "099",
       "Sun/Moon" : "525",
       "Ultra Sun/Ultra Moon" : "743"
     },
     {
-      "Type" : "100",
+      "type" : "100",
       "Sun/Moon" : "526",
       "Ultra Sun/Ultra Moon" : "669"
     },
     {
-      "Type" : "101",
+      "type" : "101",
       "Sun/Moon" : "703",
       "Ultra Sun/Ultra Moon" : "670"
     },
     {
-      "Type" : "102",
+      "type" : "102",
       "Sun/Moon" : "302",
       "Ultra Sun/Ultra Moon" : "671"
     },
     {
-      "Type" : "103",
+      "type" : "103",
       "Sun/Moon" : "744",
       "Ultra Sun/Ultra Moon" : "548"
     },
     {
-      "Type" : "104",
+      "type" : "104",
       "Sun/Moon" : "745",
       "Ultra Sun/Ultra Moon" : "549"
     },
     {
-      "Type" : "105",
+      "type" : "105",
       "Sun/Moon" : "327",
       "Ultra Sun/Ultra Moon" : "546"
     },
     {
-      "Type" : "106",
-      "Sun/Moon" : "72",
+      "type" : "106",
+      "Sun/Moon" : "072",
       "Ultra Sun/Ultra Moon" : "547"
     },
     {
-      "Type" : "107",
-      "Sun/Moon" : "73",
-      "Ultra Sun/Ultra Moon" : "54"
+      "type" : "107",
+      "Sun/Moon" : "073",
+      "Ultra Sun/Ultra Moon" : "054"
     },
     {
-      "Type" : "108",
+      "type" : "108",
       "Sun/Moon" : "456",
-      "Ultra Sun/Ultra Moon" : "55"
+      "Ultra Sun/Ultra Moon" : "055"
     },
     {
-      "Type" : "109",
+      "type" : "109",
       "Sun/Moon" : "457",
       "Ultra Sun/Ultra Moon" : "238"
     },
     {
-      "Type" : "110",
+      "type" : "110",
       "Sun/Moon" : "746",
       "Ultra Sun/Ultra Moon" : "124"
     },
     {
-      "Type" : "111",
+      "type" : "111",
       "Sun/Moon" : "370",
       "Ultra Sun/Ultra Moon" : "129"
     },
     {
-      "Type" : "112",
+      "type" : "112",
       "Sun/Moon" : "222",
       "Ultra Sun/Ultra Moon" : "130"
     },
     {
-      "Type" : "113",
+      "type" : "113",
       "Sun/Moon" : "747",
       "Ultra Sun/Ultra Moon" : "339"
     },
     {
-      "Type" : "114",
+      "type" : "114",
       "Sun/Moon" : "748",
       "Ultra Sun/Ultra Moon" : "340"
     },
     {
-      "Type" : "115",
-      "Sun/Moon" : "90",
-      "Ultra Sun/Ultra Moon" : "86"
+      "type" : "115",
+      "Sun/Moon" : "090",
+      "Ultra Sun/Ultra Moon" : "086"
     },
     {
-      "Type" : "116",
-      "Sun/Moon" : "91",
-      "Ultra Sun/Ultra Moon" : "87"
+      "type" : "116",
+      "Sun/Moon" : "091",
+      "Ultra Sun/Ultra Moon" : "087"
     },
     {
-      "Type" : "117",
+      "type" : "117",
       "Sun/Moon" : "371",
-      "Ultra Sun/Ultra Moon" : "66"
+      "Ultra Sun/Ultra Moon" : "066"
     },
     {
-      "Type" : "118",
+      "type" : "118",
       "Sun/Moon" : "372",
-      "Ultra Sun/Ultra Moon" : "67"
+      "Ultra Sun/Ultra Moon" : "067"
     },
     {
-      "Type" : "119",
+      "type" : "119",
       "Sun/Moon" : "373",
-      "Ultra Sun/Ultra Moon" : "68"
+      "Ultra Sun/Ultra Moon" : "068"
     },
     {
-      "Type" : "120",
+      "type" : "120",
       "Sun/Moon" : "506",
       "Ultra Sun/Ultra Moon" : "524"
     },
     {
-      "Type" : "121",
+      "type" : "121",
       "Sun/Moon" : "507",
       "Ultra Sun/Ultra Moon" : "525"
     },
     {
-      "Type" : "122",
+      "type" : "122",
       "Sun/Moon" : "508",
       "Ultra Sun/Ultra Moon" : "526"
     },
     {
-      "Type" : "123",
+      "type" : "123",
       "Sun/Moon" : "133",
       "Ultra Sun/Ultra Moon" : "703"
     },
     {
-      "Type" : "124",
+      "type" : "124",
       "Sun/Moon" : "134",
       "Ultra Sun/Ultra Moon" : "302"
     },
     {
-      "Type" : "125",
+      "type" : "125",
       "Sun/Moon" : "135",
       "Ultra Sun/Ultra Moon" : "303"
     },
     {
-      "Type" : "126",
+      "type" : "126",
       "Sun/Moon" : "136",
       "Ultra Sun/Ultra Moon" : "744"
     },
     {
-      "Type" : "127",
+      "type" : "127",
       "Sun/Moon" : "196",
       "Ultra Sun/Ultra Moon" : "745"
     },
     {
-      "Type" : "128",
+      "type" : "128",
       "Sun/Moon" : "197",
       "Ultra Sun/Ultra Moon" : "327"
     },
     {
-      "Type" : "129",
+      "type" : "129",
       "Sun/Moon" : "470",
-      "Ultra Sun/Ultra Moon" : "72"
+      "Ultra Sun/Ultra Moon" : "072"
     },
     {
-      "Type" : "130",
+      "type" : "130",
       "Sun/Moon" : "471",
-      "Ultra Sun/Ultra Moon" : "73"
+      "Ultra Sun/Ultra Moon" : "073"
     },
     {
-      "Type" : "131",
+      "type" : "131",
       "Sun/Moon" : "700",
       "Ultra Sun/Ultra Moon" : "456"
     },
     {
-      "Type" : "132",
+      "type" : "132",
       "Sun/Moon" : "749",
       "Ultra Sun/Ultra Moon" : "457"
     },
     {
-      "Type" : "133",
+      "type" : "133",
       "Sun/Moon" : "750",
       "Ultra Sun/Ultra Moon" : "746"
     },
     {
-      "Type" : "134",
+      "type" : "134",
       "Sun/Moon" : "174",
       "Ultra Sun/Ultra Moon" : "370"
     },
     {
-      "Type" : "135",
-      "Sun/Moon" : "39",
+      "type" : "135",
+      "Sun/Moon" : "039",
       "Ultra Sun/Ultra Moon" : "222"
     },
     {
-      "Type" : "136",
-      "Sun/Moon" : "40",
+      "type" : "136",
+      "Sun/Moon" : "040",
       "Ultra Sun/Ultra Moon" : "747"
     },
     {
-      "Type" : "137",
+      "type" : "137",
       "Sun/Moon" : "128",
       "Ultra Sun/Ultra Moon" : "748"
     },
     {
-      "Type" : "138",
+      "type" : "138",
       "Sun/Moon" : "241",
-      "Ultra Sun/Ultra Moon" : "90"
+      "Ultra Sun/Ultra Moon" : "090"
     },
     {
-      "Type" : "139",
+      "type" : "139",
       "Sun/Moon" : "283",
-      "Ultra Sun/Ultra Moon" : "91"
+      "Ultra Sun/Ultra Moon" : "091"
     },
     {
-      "Type" : "140",
+      "type" : "140",
       "Sun/Moon" : "284",
       "Ultra Sun/Ultra Moon" : "366"
     },
     {
-      "Type" : "141",
+      "type" : "141",
       "Sun/Moon" : "751",
       "Ultra Sun/Ultra Moon" : "367"
     },
     {
-      "Type" : "142",
+      "type" : "142",
       "Sun/Moon" : "752",
       "Ultra Sun/Ultra Moon" : "368"
     },
     {
-      "Type" : "143",
+      "type" : "143",
       "Sun/Moon" : "753",
       "Ultra Sun/Ultra Moon" : "223"
     },
     {
-      "Type" : "144",
+      "type" : "144",
       "Sun/Moon" : "754",
       "Ultra Sun/Ultra Moon" : "224"
     },
     {
-      "Type" : "145",
+      "type" : "145",
       "Sun/Moon" : "755",
       "Ultra Sun/Ultra Moon" : "458"
     },
     {
-      "Type" : "146",
+      "type" : "146",
       "Sun/Moon" : "756",
       "Ultra Sun/Ultra Moon" : "226"
     },
     {
-      "Type" : "147",
-      "Sun/Moon" : "46",
+      "type" : "147",
+      "Sun/Moon" : "046",
       "Ultra Sun/Ultra Moon" : "371"
     },
     {
-      "Type" : "148",
-      "Sun/Moon" : "47",
+      "type" : "148",
+      "Sun/Moon" : "047",
       "Ultra Sun/Ultra Moon" : "372"
     },
     {
-      "Type" : "149",
-      "Sun/Moon" : "60",
+      "type" : "149",
+      "Sun/Moon" : "060",
       "Ultra Sun/Ultra Moon" : "373"
     },
     {
-      "Type" : "150",
-      "Sun/Moon" : "61",
+      "type" : "150",
+      "Sun/Moon" : "061",
       "Ultra Sun/Ultra Moon" : "506"
     },
     {
-      "Type" : "151",
-      "Sun/Moon" : "62",
+      "type" : "151",
+      "Sun/Moon" : "062",
       "Ultra Sun/Ultra Moon" : "507"
     },
     {
-      "Type" : "152",
+      "type" : "152",
       "Sun/Moon" : "186",
       "Ultra Sun/Ultra Moon" : "508"
     },
     {
-      "Type" : "153",
+      "type" : "153",
       "Sun/Moon" : "118",
       "Ultra Sun/Ultra Moon" : "133"
     },
     {
-      "Type" : "154",
+      "type" : "154",
       "Sun/Moon" : "119",
       "Ultra Sun/Ultra Moon" : "134"
     },
     {
-      "Type" : "155",
+      "type" : "155",
       "Sun/Moon" : "349",
       "Ultra Sun/Ultra Moon" : "135"
     },
     {
-      "Type" : "156",
+      "type" : "156",
       "Sun/Moon" : "350",
       "Ultra Sun/Ultra Moon" : "136"
     },
     {
-      "Type" : "157",
+      "type" : "157",
       "Sun/Moon" : "594",
       "Ultra Sun/Ultra Moon" : "196"
     },
     {
-      "Type" : "158",
+      "type" : "158",
       "Sun/Moon" : "661",
       "Ultra Sun/Ultra Moon" : "197"
     },
     {
-      "Type" : "159",
+      "type" : "159",
       "Sun/Moon" : "662",
       "Ultra Sun/Ultra Moon" : "470"
     },
     {
-      "Type" : "160",
+      "type" : "160",
       "Sun/Moon" : "663",
       "Ultra Sun/Ultra Moon" : "471"
     },
     {
-      "Type" : "161",
+      "type" : "161",
       "Sun/Moon" : "757",
       "Ultra Sun/Ultra Moon" : "700"
     },
     {
-      "Type" : "162",
+      "type" : "162",
       "Sun/Moon" : "758",
       "Ultra Sun/Ultra Moon" : "179"
     },
     {
-      "Type" : "163",
+      "type" : "163",
       "Sun/Moon" : "104",
       "Ultra Sun/Ultra Moon" : "180"
     },
     {
-      "Type" : "164",
+      "type" : "164",
       "Sun/Moon" : "105",
       "Ultra Sun/Ultra Moon" : "181"
     },
     {
-      "Type" : "165",
+      "type" : "165",
       "Sun/Moon" : "115",
       "Ultra Sun/Ultra Moon" : "749"
     },
     {
-      "Type" : "166",
+      "type" : "166",
       "Sun/Moon" : "240",
       "Ultra Sun/Ultra Moon" : "750"
     },
     {
-      "Type" : "167",
+      "type" : "167",
       "Sun/Moon" : "126",
       "Ultra Sun/Ultra Moon" : "174"
     },
     {
-      "Type" : "168",
+      "type" : "168",
       "Sun/Moon" : "467",
-      "Ultra Sun/Ultra Moon" : "39"
+      "Ultra Sun/Ultra Moon" : "039"
     },
     {
-      "Type" : "169",
+      "type" : "169",
       "Sun/Moon" : "759",
-      "Ultra Sun/Ultra Moon" : "40"
+      "Ultra Sun/Ultra Moon" : "040"
     },
     {
-      "Type" : "170",
+      "type" : "170",
       "Sun/Moon" : "760",
       "Ultra Sun/Ultra Moon" : "128"
     },
     {
-      "Type" : "171",
+      "type" : "171",
       "Sun/Moon" : "761",
       "Ultra Sun/Ultra Moon" : "241"
     },
     {
-      "Type" : "172",
+      "type" : "172",
       "Sun/Moon" : "762",
       "Ultra Sun/Ultra Moon" : "283"
     },
     {
-      "Type" : "173",
+      "type" : "173",
       "Sun/Moon" : "763",
       "Ultra Sun/Ultra Moon" : "284"
     },
     {
-      "Type" : "174",
+      "type" : "174",
       "Sun/Moon" : "764",
       "Ultra Sun/Ultra Moon" : "751"
     },
     {
-      "Type" : "175",
+      "type" : "175",
       "Sun/Moon" : "127",
       "Ultra Sun/Ultra Moon" : "752"
     },
     {
-      "Type" : "176",
+      "type" : "176",
       "Sun/Moon" : "765",
       "Ultra Sun/Ultra Moon" : "753"
     },
     {
-      "Type" : "177",
+      "type" : "177",
       "Sun/Moon" : "766",
       "Ultra Sun/Ultra Moon" : "754"
     },
     {
-      "Type" : "178",
+      "type" : "178",
       "Sun/Moon" : "704",
       "Ultra Sun/Ultra Moon" : "755"
     },
     {
-      "Type" : "179",
+      "type" : "179",
       "Sun/Moon" : "705",
       "Ultra Sun/Ultra Moon" : "756"
     },
     {
-      "Type" : "180",
+      "type" : "180",
       "Sun/Moon" : "706",
-      "Ultra Sun/Ultra Moon" : "46"
+      "Ultra Sun/Ultra Moon" : "046"
     },
     {
-      "Type" : "181",
+      "type" : "181",
       "Sun/Moon" : "351",
-      "Ultra Sun/Ultra Moon" : "47"
+      "Ultra Sun/Ultra Moon" : "047"
     },
     {
-      "Type" : "182",
+      "type" : "182",
       "Sun/Moon" : "767",
-      "Ultra Sun/Ultra Moon" : "60"
+      "Ultra Sun/Ultra Moon" : "060"
     },
     {
-      "Type" : "183",
+      "type" : "183",
       "Sun/Moon" : "768",
-      "Ultra Sun/Ultra Moon" : "61"
+      "Ultra Sun/Ultra Moon" : "061"
     },
     {
-      "Type" : "184",
+      "type" : "184",
       "Sun/Moon" : "120",
-      "Ultra Sun/Ultra Moon" : "62"
+      "Ultra Sun/Ultra Moon" : "062"
     },
     {
-      "Type" : "185",
+      "type" : "185",
       "Sun/Moon" : "121",
       "Ultra Sun/Ultra Moon" : "186"
     },
     {
-      "Type" : "186",
+      "type" : "186",
       "Sun/Moon" : "769",
       "Ultra Sun/Ultra Moon" : "118"
     },
     {
-      "Type" : "187",
+      "type" : "187",
       "Sun/Moon" : "770",
       "Ultra Sun/Ultra Moon" : "119"
     },
     {
-      "Type" : "188",
+      "type" : "188",
       "Sun/Moon" : "408",
       "Ultra Sun/Ultra Moon" : "550"
     },
     {
-      "Type" : "189",
+      "type" : "189",
       "Sun/Moon" : "409",
       "Ultra Sun/Ultra Moon" : "349"
     },
     {
-      "Type" : "190",
+      "type" : "190",
       "Sun/Moon" : "410",
       "Ultra Sun/Ultra Moon" : "350"
     },
     {
-      "Type" : "191",
+      "type" : "191",
       "Sun/Moon" : "411",
       "Ultra Sun/Ultra Moon" : "594"
     },
     {
-      "Type" : "192",
+      "type" : "192",
       "Sun/Moon" : "566",
       "Ultra Sun/Ultra Moon" : "661"
     },
     {
-      "Type" : "193",
+      "type" : "193",
       "Sun/Moon" : "567",
       "Ultra Sun/Ultra Moon" : "662"
     },
     {
-      "Type" : "194",
+      "type" : "194",
       "Sun/Moon" : "564",
       "Ultra Sun/Ultra Moon" : "663"
     },
     {
-      "Type" : "195",
+      "type" : "195",
       "Sun/Moon" : "565",
       "Ultra Sun/Ultra Moon" : "757"
     },
     {
-      "Type" : "196",
+      "type" : "196",
       "Sun/Moon" : "708",
       "Ultra Sun/Ultra Moon" : "758"
     },
     {
-      "Type" : "197",
+      "type" : "197",
       "Sun/Moon" : "709",
       "Ultra Sun/Ultra Moon" : "104"
     },
     {
-      "Type" : "198",
+      "type" : "198",
       "Sun/Moon" : "299",
       "Ultra Sun/Ultra Moon" : "105"
     },
     {
-      "Type" : "199",
+      "type" : "199",
       "Sun/Moon" : "476",
       "Ultra Sun/Ultra Moon" : "115"
     },
     {
-      "Type" : "200",
+      "type" : "200",
       "Sun/Moon" : "771",
       "Ultra Sun/Ultra Moon" : "240"
     },
     {
-      "Type" : "201",
+      "type" : "201",
       "Sun/Moon" : "170",
       "Ultra Sun/Ultra Moon" : "126"
     },
     {
-      "Type" : "202",
+      "type" : "202",
       "Sun/Moon" : "171",
       "Ultra Sun/Ultra Moon" : "467"
     },
     {
-      "Type" : "203",
+      "type" : "203",
       "Sun/Moon" : "772",
       "Ultra Sun/Ultra Moon" : "636"
     },
     {
-      "Type" : "204",
+      "type" : "204",
       "Sun/Moon" : "773",
       "Ultra Sun/Ultra Moon" : "637"
     },
     {
-      "Type" : "205",
+      "type" : "205",
       "Sun/Moon" : "718",
       "Ultra Sun/Ultra Moon" : "759"
     },
     {
-      "Type" : "206",
+      "type" : "206",
       "Sun/Moon" : "568",
       "Ultra Sun/Ultra Moon" : "760"
     },
     {
-      "Type" : "207",
+      "type" : "207",
       "Sun/Moon" : "569",
       "Ultra Sun/Ultra Moon" : "761"
     },
     {
-      "Type" : "208",
+      "type" : "208",
       "Sun/Moon" : "227",
       "Ultra Sun/Ultra Moon" : "762"
     },
     {
-      "Type" : "209",
+      "type" : "209",
       "Sun/Moon" : "132",
       "Ultra Sun/Ultra Moon" : "763"
     },
     {
-      "Type" : "210",
+      "type" : "210",
       "Sun/Moon" : "173",
       "Ultra Sun/Ultra Moon" : "764"
     },
     {
-      "Type" : "211",
-      "Sun/Moon" : "35",
+      "type" : "211",
+      "Sun/Moon" : "035",
       "Ultra Sun/Ultra Moon" : "127"
     },
     {
-      "Type" : "212",
-      "Sun/Moon" : "36",
+      "type" : "212",
+      "Sun/Moon" : "036",
       "Ultra Sun/Ultra Moon" : "163"
     },
     {
-      "Type" : "213",
+      "type" : "213",
       "Sun/Moon" : "774",
       "Ultra Sun/Ultra Moon" : "164"
     },
     {
-      "Type" : "214",
+      "type" : "214",
       "Sun/Moon" : "374",
       "Ultra Sun/Ultra Moon" : "352"
     },
     {
-      "Type" : "215",
+      "type" : "215",
       "Sun/Moon" : "375",
       "Ultra Sun/Ultra Moon" : "765"
     },
     {
-      "Type" : "216",
+      "type" : "216",
       "Sun/Moon" : "376",
       "Ultra Sun/Ultra Moon" : "766"
     },
     {
-      "Type" : "217",
+      "type" : "217",
       "Sun/Moon" : "137",
       "Ultra Sun/Ultra Moon" : "704"
     },
     {
-      "Type" : "218",
+      "type" : "218",
       "Sun/Moon" : "233",
       "Ultra Sun/Ultra Moon" : "705"
     },
     {
-      "Type" : "219",
+      "type" : "219",
       "Sun/Moon" : "474",
       "Ultra Sun/Ultra Moon" : "706"
     },
     {
-      "Type" : "220",
+      "type" : "220",
       "Sun/Moon" : "674",
       "Ultra Sun/Ultra Moon" : "351"
     },
     {
-      "Type" : "221",
+      "type" : "221",
       "Sun/Moon" : "675",
       "Ultra Sun/Ultra Moon" : "767"
     },
     {
-      "Type" : "222",
+      "type" : "222",
       "Sun/Moon" : "775",
       "Ultra Sun/Ultra Moon" : "768"
     },
     {
-      "Type" : "223",
+      "type" : "223",
       "Sun/Moon" : "324",
       "Ultra Sun/Ultra Moon" : "120"
     },
     {
-      "Type" : "224",
+      "type" : "224",
       "Sun/Moon" : "776",
       "Ultra Sun/Ultra Moon" : "121"
     },
     {
-      "Type" : "225",
+      "type" : "225",
       "Sun/Moon" : "777",
       "Ultra Sun/Ultra Moon" : "769"
     },
     {
-      "Type" : "226",
+      "type" : "226",
       "Sun/Moon" : "239",
       "Ultra Sun/Ultra Moon" : "770"
     },
     {
-      "Type" : "227",
+      "type" : "227",
       "Sun/Moon" : "125",
       "Ultra Sun/Ultra Moon" : "138"
     },
     {
-      "Type" : "228",
+      "type" : "228",
       "Sun/Moon" : "466",
       "Ultra Sun/Ultra Moon" : "139"
     },
     {
-      "Type" : "229",
-      "Sun/Moon" : "74",
+      "type" : "229",
+      "Sun/Moon" : "074",
       "Ultra Sun/Ultra Moon" : "140"
     },
     {
-      "Type" : "230",
-      "Sun/Moon" : "75",
+      "type" : "230",
+      "Sun/Moon" : "075",
       "Ultra Sun/Ultra Moon" : "141"
     },
     {
-      "Type" : "231",
-      "Sun/Moon" : "76",
+      "type" : "231",
+      "Sun/Moon" : "076",
       "Ultra Sun/Ultra Moon" : "345"
     },
     {
-      "Type" : "232",
+      "type" : "232",
       "Sun/Moon" : "551",
       "Ultra Sun/Ultra Moon" : "346"
     },
     {
-      "Type" : "233",
+      "type" : "233",
       "Sun/Moon" : "552",
       "Ultra Sun/Ultra Moon" : "347"
     },
     {
-      "Type" : "234",
+      "type" : "234",
       "Sun/Moon" : "553",
       "Ultra Sun/Ultra Moon" : "348"
     },
     {
-      "Type" : "235",
+      "type" : "235",
       "Sun/Moon" : "328",
       "Ultra Sun/Ultra Moon" : "408"
     },
     {
-      "Type" : "236",
+      "type" : "236",
       "Sun/Moon" : "329",
       "Ultra Sun/Ultra Moon" : "409"
     },
     {
-      "Type" : "237",
+      "type" : "237",
       "Sun/Moon" : "330",
       "Ultra Sun/Ultra Moon" : "410"
     },
     {
-      "Type" : "238",
+      "type" : "238",
       "Sun/Moon" : "443",
       "Ultra Sun/Ultra Moon" : "411"
     },
     {
-      "Type" : "239",
+      "type" : "239",
       "Sun/Moon" : "444",
       "Ultra Sun/Ultra Moon" : "564"
     },
     {
-      "Type" : "240",
+      "type" : "240",
       "Sun/Moon" : "445",
       "Ultra Sun/Ultra Moon" : "565"
     },
     {
-      "Type" : "241",
+      "type" : "241",
       "Sun/Moon" : "707",
       "Ultra Sun/Ultra Moon" : "566"
     },
     {
-      "Type" : "242",
+      "type" : "242",
       "Sun/Moon" : "778",
       "Ultra Sun/Ultra Moon" : "567"
     },
     {
-      "Type" : "243",
+      "type" : "243",
       "Sun/Moon" : "779",
       "Ultra Sun/Ultra Moon" : "696"
     },
     {
-      "Type" : "244",
+      "type" : "244",
       "Sun/Moon" : "780",
       "Ultra Sun/Ultra Moon" : "697"
     },
     {
-      "Type" : "245",
+      "type" : "245",
       "Sun/Moon" : "359",
       "Ultra Sun/Ultra Moon" : "698"
     },
     {
-      "Type" : "246",
+      "type" : "246",
       "Sun/Moon" : "361",
       "Ultra Sun/Ultra Moon" : "699"
     },
     {
-      "Type" : "247",
+      "type" : "247",
       "Sun/Moon" : "362",
       "Ultra Sun/Ultra Moon" : "246"
     },
     {
-      "Type" : "248",
+      "type" : "248",
       "Sun/Moon" : "478",
       "Ultra Sun/Ultra Moon" : "247"
     },
     {
-      "Type" : "249",
+      "type" : "249",
       "Sun/Moon" : "215",
       "Ultra Sun/Ultra Moon" : "248"
     },
     {
-      "Type" : "250",
+      "type" : "250",
       "Sun/Moon" : "461",
       "Ultra Sun/Ultra Moon" : "708"
     },
     {
-      "Type" : "251",
-      "Sun/Moon" : "27",
+      "type" : "251",
+      "Sun/Moon" : "027",
       "Ultra Sun/Ultra Moon" : "709"
     },
     {
-      "Type" : "252",
-      "Sun/Moon" : "28",
+      "type" : "252",
+      "Sun/Moon" : "028",
       "Ultra Sun/Ultra Moon" : "177"
     },
     {
-      "Type" : "253",
-      "Sun/Moon" : "37",
+      "type" : "253",
+      "Sun/Moon" : "037",
       "Ultra Sun/Ultra Moon" : "178"
     },
     {
-      "Type" : "254",
-      "Sun/Moon" : "38",
+      "type" : "254",
+      "Sun/Moon" : "038",
       "Ultra Sun/Ultra Moon" : "299"
     },
     {
-      "Type" : "255",
+      "type" : "255",
       "Sun/Moon" : "582",
       "Ultra Sun/Ultra Moon" : "476"
     },
     {
-      "Type" : "256",
+      "type" : "256",
       "Sun/Moon" : "583",
       "Ultra Sun/Ultra Moon" : "771"
     },
     {
-      "Type" : "257",
+      "type" : "257",
       "Sun/Moon" : "584",
       "Ultra Sun/Ultra Moon" : "170"
     },
     {
-      "Type" : "258",
+      "type" : "258",
       "Sun/Moon" : "209",
       "Ultra Sun/Ultra Moon" : "171"
     },
     {
-      "Type" : "259",
+      "type" : "259",
       "Sun/Moon" : "210",
       "Ultra Sun/Ultra Moon" : "772"
     },
     {
-      "Type" : "260",
+      "type" : "260",
       "Sun/Moon" : "422",
       "Ultra Sun/Ultra Moon" : "773"
     },
     {
-      "Type" : "261",
+      "type" : "261",
       "Sun/Moon" : "423",
       "Ultra Sun/Ultra Moon" : "803"
     },
     {
-      "Type" : "262",
+      "type" : "262",
       "Sun/Moon" : "369",
       "Ultra Sun/Ultra Moon" : "804"
     },
     {
-      "Type" : "263",
+      "type" : "263",
       "Sun/Moon" : "781",
       "Ultra Sun/Ultra Moon" : "718"
     },
     {
-      "Type" : "264",
+      "type" : "264",
       "Sun/Moon" : "318",
       "Ultra Sun/Ultra Moon" : "568"
     },
     {
-      "Type" : "265",
+      "type" : "265",
       "Sun/Moon" : "319",
       "Ultra Sun/Ultra Moon" : "569"
     },
     {
-      "Type" : "266",
+      "type" : "266",
       "Sun/Moon" : "320",
       "Ultra Sun/Ultra Moon" : "572"
     },
     {
-      "Type" : "267",
+      "type" : "267",
       "Sun/Moon" : "321",
       "Ultra Sun/Ultra Moon" : "573"
     },
     {
-      "Type" : "268",
+      "type" : "268",
       "Sun/Moon" : "131",
       "Ultra Sun/Ultra Moon" : "204"
     },
     {
-      "Type" : "269",
+      "type" : "269",
       "Sun/Moon" : "102",
       "Ultra Sun/Ultra Moon" : "205"
     },
     {
-      "Type" : "270",
+      "type" : "270",
       "Sun/Moon" : "103",
       "Ultra Sun/Ultra Moon" : "227"
     },
     {
-      "Type" : "271",
+      "type" : "271",
       "Sun/Moon" : "782",
       "Ultra Sun/Ultra Moon" : "132"
     },
     {
-      "Type" : "272",
+      "type" : "272",
       "Sun/Moon" : "783",
       "Ultra Sun/Ultra Moon" : "173"
     },
     {
-      "Type" : "273",
+      "type" : "273",
       "Sun/Moon" : "784",
-      "Ultra Sun/Ultra Moon" : "35"
+      "Ultra Sun/Ultra Moon" : "035"
     },
     {
-      "Type" : "274",
+      "type" : "274",
       "Sun/Moon" : "587",
-      "Ultra Sun/Ultra Moon" : "36"
+      "Ultra Sun/Ultra Moon" : "036"
     },
     {
-      "Type" : "275",
+      "type" : "275",
       "Sun/Moon" : "123",
       "Ultra Sun/Ultra Moon" : "605"
     },
     {
-      "Type" : "276",
+      "type" : "276",
       "Sun/Moon" : "212",
       "Ultra Sun/Ultra Moon" : "606"
     },
     {
-      "Type" : "277",
+      "type" : "277",
       "Sun/Moon" : "198",
       "Ultra Sun/Ultra Moon" : "774"
     },
     {
-      "Type" : "278",
+      "type" : "278",
       "Sun/Moon" : "430",
       "Ultra Sun/Ultra Moon" : "374"
     },
     {
-      "Type" : "279",
+      "type" : "279",
       "Sun/Moon" : "447",
       "Ultra Sun/Ultra Moon" : "375"
     },
     {
-      "Type" : "280",
+      "type" : "280",
       "Sun/Moon" : "448",
       "Ultra Sun/Ultra Moon" : "376"
     },
     {
-      "Type" : "281",
+      "type" : "281",
       "Sun/Moon" : "147",
       "Ultra Sun/Ultra Moon" : "137"
     },
     {
-      "Type" : "282",
+      "type" : "282",
       "Sun/Moon" : "148",
       "Ultra Sun/Ultra Moon" : "233"
     },
     {
-      "Type" : "283",
+      "type" : "283",
       "Sun/Moon" : "149",
       "Ultra Sun/Ultra Moon" : "474"
     },
     {
-      "Type" : "284",
+      "type" : "284",
       "Sun/Moon" : "142",
       "Ultra Sun/Ultra Moon" : "674"
     },
     {
-      "Type" : "285",
+      "type" : "285",
       "Sun/Moon" : "785",
       "Ultra Sun/Ultra Moon" : "675"
     },
     {
-      "Type" : "286",
+      "type" : "286",
       "Sun/Moon" : "786",
       "Ultra Sun/Ultra Moon" : "775"
     },
     {
-      "Type" : "287",
+      "type" : "287",
       "Sun/Moon" : "787",
       "Ultra Sun/Ultra Moon" : "324"
     },
     {
-      "Type" : "288",
+      "type" : "288",
       "Sun/Moon" : "788",
       "Ultra Sun/Ultra Moon" : "776"
     },
     {
-      "Type" : "289",
+      "type" : "289",
       "Sun/Moon" : "789",
       "Ultra Sun/Ultra Moon" : "228"
     },
     {
-      "Type" : "290",
+      "type" : "290",
       "Sun/Moon" : "790",
       "Ultra Sun/Ultra Moon" : "229"
     },
     {
-      "Type" : "291",
+      "type" : "291",
       "Sun/Moon" : "791",
       "Ultra Sun/Ultra Moon" : "702"
     },
     {
-      "Type" : "292",
+      "type" : "292",
       "Sun/Moon" : "792",
       "Ultra Sun/Ultra Moon" : "777"
     },
     {
-      "Type" : "293",
+      "type" : "293",
       "Sun/Moon" : "793",
       "Ultra Sun/Ultra Moon" : "309"
     },
     {
-      "Type" : "294",
+      "type" : "294",
       "Sun/Moon" : "794",
       "Ultra Sun/Ultra Moon" : "310"
     },
     {
-      "Type" : "295",
+      "type" : "295",
       "Sun/Moon" : "795",
       "Ultra Sun/Ultra Moon" : "239"
     },
     {
-      "Type" : "296",
+      "type" : "296",
       "Sun/Moon" : "796",
       "Ultra Sun/Ultra Moon" : "125"
     },
     {
-      "Type" : "297",
+      "type" : "297",
       "Sun/Moon" : "797",
       "Ultra Sun/Ultra Moon" : "466"
     },
     {
-      "Type" : "298",
+      "type" : "298",
       "Sun/Moon" : "798",
-      "Ultra Sun/Ultra Moon" : "74"
+      "Ultra Sun/Ultra Moon" : "074"
     },
     {
-      "Type" : "299",
+      "type" : "299",
       "Sun/Moon" : "799",
-      "Ultra Sun/Ultra Moon" : "75"
+      "Ultra Sun/Ultra Moon" : "075"
     },
     {
-      "Type" : "300",
+      "type" : "300",
       "Sun/Moon" : "800",
-      "Ultra Sun/Ultra Moon" : "76"
+      "Ultra Sun/Ultra Moon" : "076"
     },
     {
-      "Type" : "301",
+      "type" : "301",
       "Sun/Moon" : "801",
       "Ultra Sun/Ultra Moon" : "551"
     },
     {
-      "Type" : "302",
+      "type" : "302",
       "Sun/Moon" : "802",
       "Ultra Sun/Ultra Moon" : "552"
     },
     {
-      "Type" : "303",
+      "type" : "303",
       "Ultra Sun/Ultra Moon" : "553"
     },
     {
-      "Type" : "304",
+      "type" : "304",
       "Ultra Sun/Ultra Moon" : "328"
     },
     {
-      "Type" : "305",
+      "type" : "305",
       "Ultra Sun/Ultra Moon" : "329"
     },
     {
-      "Type" : "306",
+      "type" : "306",
       "Ultra Sun/Ultra Moon" : "330"
     },
     {
-      "Type" : "307",
+      "type" : "307",
       "Ultra Sun/Ultra Moon" : "443"
     },
     {
-      "Type" : "308",
+      "type" : "308",
       "Ultra Sun/Ultra Moon" : "444"
     },
     {
-      "Type" : "309",
+      "type" : "309",
       "Ultra Sun/Ultra Moon" : "445"
     },
     {
-      "Type" : "310",
+      "type" : "310",
       "Ultra Sun/Ultra Moon" : "343"
     },
     {
-      "Type" : "311",
+      "type" : "311",
       "Ultra Sun/Ultra Moon" : "344"
     },
     {
-      "Type" : "312",
+      "type" : "312",
       "Ultra Sun/Ultra Moon" : "622"
     },
     {
-      "Type" : "313",
+      "type" : "313",
       "Ultra Sun/Ultra Moon" : "623"
     },
     {
-      "Type" : "314",
+      "type" : "314",
       "Ultra Sun/Ultra Moon" : "707"
     },
     {
-      "Type" : "315",
+      "type" : "315",
       "Ultra Sun/Ultra Moon" : "778"
     },
     {
-      "Type" : "316",
+      "type" : "316",
       "Ultra Sun/Ultra Moon" : "353"
     },
     {
-      "Type" : "317",
+      "type" : "317",
       "Ultra Sun/Ultra Moon" : "354"
     },
     {
-      "Type" : "318",
+      "type" : "318",
       "Ultra Sun/Ultra Moon" : "592"
     },
     {
-      "Type" : "319",
+      "type" : "319",
       "Ultra Sun/Ultra Moon" : "593"
     },
     {
-      "Type" : "320",
+      "type" : "320",
       "Ultra Sun/Ultra Moon" : "779"
     },
     {
-      "Type" : "321",
+      "type" : "321",
       "Ultra Sun/Ultra Moon" : "780"
     },
     {
-      "Type" : "322",
+      "type" : "322",
       "Ultra Sun/Ultra Moon" : "359"
     },
     {
-      "Type" : "323",
+      "type" : "323",
       "Ultra Sun/Ultra Moon" : "361"
     },
     {
-      "Type" : "324",
+      "type" : "324",
       "Ultra Sun/Ultra Moon" : "362"
     },
     {
-      "Type" : "325",
+      "type" : "325",
       "Ultra Sun/Ultra Moon" : "478"
     },
     {
-      "Type" : "326",
+      "type" : "326",
       "Ultra Sun/Ultra Moon" : "215"
     },
     {
-      "Type" : "327",
+      "type" : "327",
       "Ultra Sun/Ultra Moon" : "461"
     },
     {
-      "Type" : "328",
-      "Ultra Sun/Ultra Moon" : "27"
+      "type" : "328",
+      "Ultra Sun/Ultra Moon" : "027"
     },
     {
-      "Type" : "329",
-      "Ultra Sun/Ultra Moon" : "28"
+      "type" : "329",
+      "Ultra Sun/Ultra Moon" : "028"
     },
     {
-      "Type" : "330",
-      "Ultra Sun/Ultra Moon" : "37"
+      "type" : "330",
+      "Ultra Sun/Ultra Moon" : "037"
     },
     {
-      "Type" : "331",
-      "Ultra Sun/Ultra Moon" : "38"
+      "type" : "331",
+      "Ultra Sun/Ultra Moon" : "038"
     },
     {
-      "Type" : "332",
+      "type" : "332",
       "Ultra Sun/Ultra Moon" : "582"
     },
     {
-      "Type" : "333",
+      "type" : "333",
       "Ultra Sun/Ultra Moon" : "583"
     },
     {
-      "Type" : "334",
+      "type" : "334",
       "Ultra Sun/Ultra Moon" : "584"
     },
     {
-      "Type" : "335",
+      "type" : "335",
       "Ultra Sun/Ultra Moon" : "559"
     },
     {
-      "Type" : "336",
+      "type" : "336",
       "Ultra Sun/Ultra Moon" : "560"
     },
     {
-      "Type" : "337",
+      "type" : "337",
       "Ultra Sun/Ultra Moon" : "624"
     },
     {
-      "Type" : "338",
+      "type" : "338",
       "Ultra Sun/Ultra Moon" : "625"
     },
     {
-      "Type" : "339",
+      "type" : "339",
       "Ultra Sun/Ultra Moon" : "209"
     },
     {
-      "Type" : "340",
+      "type" : "340",
       "Ultra Sun/Ultra Moon" : "210"
     },
     {
-      "Type" : "341",
+      "type" : "341",
       "Ultra Sun/Ultra Moon" : "422"
     },
     {
-      "Type" : "342",
+      "type" : "342",
       "Ultra Sun/Ultra Moon" : "423"
     },
     {
-      "Type" : "343",
+      "type" : "343",
       "Ultra Sun/Ultra Moon" : "369"
     },
     {
-      "Type" : "344",
+      "type" : "344",
       "Ultra Sun/Ultra Moon" : "781"
     },
     {
-      "Type" : "345",
+      "type" : "345",
       "Ultra Sun/Ultra Moon" : "318"
     },
     {
-      "Type" : "346",
+      "type" : "346",
       "Ultra Sun/Ultra Moon" : "319"
     },
     {
-      "Type" : "347",
+      "type" : "347",
       "Ultra Sun/Ultra Moon" : "690"
     },
     {
-      "Type" : "348",
+      "type" : "348",
       "Ultra Sun/Ultra Moon" : "691"
     },
     {
-      "Type" : "349",
+      "type" : "349",
       "Ultra Sun/Ultra Moon" : "692"
     },
     {
-      "Type" : "350",
+      "type" : "350",
       "Ultra Sun/Ultra Moon" : "693"
     },
     {
-      "Type" : "351",
+      "type" : "351",
       "Ultra Sun/Ultra Moon" : "320"
     },
     {
-      "Type" : "352",
+      "type" : "352",
       "Ultra Sun/Ultra Moon" : "321"
     },
     {
-      "Type" : "353",
+      "type" : "353",
       "Ultra Sun/Ultra Moon" : "131"
     },
     {
-      "Type" : "354",
+      "type" : "354",
       "Ultra Sun/Ultra Moon" : "357"
     },
     {
-      "Type" : "355",
+      "type" : "355",
       "Ultra Sun/Ultra Moon" : "102"
     },
     {
-      "Type" : "356",
+      "type" : "356",
       "Ultra Sun/Ultra Moon" : "103"
     },
     {
-      "Type" : "357",
+      "type" : "357",
       "Ultra Sun/Ultra Moon" : "341"
     },
     {
-      "Type" : "358",
+      "type" : "358",
       "Ultra Sun/Ultra Moon" : "342"
     },
     {
-      "Type" : "359",
+      "type" : "359",
       "Ultra Sun/Ultra Moon" : "619"
     },
     {
-      "Type" : "360",
+      "type" : "360",
       "Ultra Sun/Ultra Moon" : "620"
     },
     {
-      "Type" : "361",
+      "type" : "361",
       "Ultra Sun/Ultra Moon" : "782"
     },
     {
-      "Type" : "362",
+      "type" : "362",
       "Ultra Sun/Ultra Moon" : "783"
     },
     {
-      "Type" : "363",
+      "type" : "363",
       "Ultra Sun/Ultra Moon" : "784"
     },
     {
-      "Type" : "364",
+      "type" : "364",
       "Ultra Sun/Ultra Moon" : "587"
     },
     {
-      "Type" : "365",
+      "type" : "365",
       "Ultra Sun/Ultra Moon" : "123"
     },
     {
-      "Type" : "366",
+      "type" : "366",
       "Ultra Sun/Ultra Moon" : "212"
     },
     {
-      "Type" : "367",
+      "type" : "367",
       "Ultra Sun/Ultra Moon" : "214"
     },
     {
-      "Type" : "368",
+      "type" : "368",
       "Ultra Sun/Ultra Moon" : "190"
     },
     {
-      "Type" : "369",
+      "type" : "369",
       "Ultra Sun/Ultra Moon" : "424"
     },
     {
-      "Type" : "370",
+      "type" : "370",
       "Ultra Sun/Ultra Moon" : "667"
     },
     {
-      "Type" : "371",
+      "type" : "371",
       "Ultra Sun/Ultra Moon" : "668"
     },
     {
-      "Type" : "372",
+      "type" : "372",
       "Ultra Sun/Ultra Moon" : "200"
     },
     {
-      "Type" : "373",
+      "type" : "373",
       "Ultra Sun/Ultra Moon" : "429"
     },
     {
-      "Type" : "374",
+      "type" : "374",
       "Ultra Sun/Ultra Moon" : "621"
     },
     {
-      "Type" : "375",
+      "type" : "375",
       "Ultra Sun/Ultra Moon" : "108"
     },
     {
-      "Type" : "376",
+      "type" : "376",
       "Ultra Sun/Ultra Moon" : "463"
     },
     {
-      "Type" : "377",
+      "type" : "377",
       "Ultra Sun/Ultra Moon" : "447"
     },
     {
-      "Type" : "378",
+      "type" : "378",
       "Ultra Sun/Ultra Moon" : "448"
     },
     {
-      "Type" : "379",
+      "type" : "379",
       "Ultra Sun/Ultra Moon" : "147"
     },
     {
-      "Type" : "380",
+      "type" : "380",
       "Ultra Sun/Ultra Moon" : "148"
     },
     {
-      "Type" : "381",
+      "type" : "381",
       "Ultra Sun/Ultra Moon" : "149"
     },
     {
-      "Type" : "382",
+      "type" : "382",
       "Ultra Sun/Ultra Moon" : "142"
     },
     {
-      "Type" : "383",
+      "type" : "383",
       "Ultra Sun/Ultra Moon" : "785"
     },
     {
-      "Type" : "384",
+      "type" : "384",
       "Ultra Sun/Ultra Moon" : "786"
     },
     {
-      "Type" : "385",
+      "type" : "385",
       "Ultra Sun/Ultra Moon" : "787"
     },
     {
-      "Type" : "386",
+      "type" : "386",
       "Ultra Sun/Ultra Moon" : "788"
     },
     {
-      "Type" : "387",
+      "type" : "387",
       "Ultra Sun/Ultra Moon" : "789"
     },
     {
-      "Type" : "388",
+      "type" : "388",
       "Ultra Sun/Ultra Moon" : "790"
     },
     {
-      "Type" : "389",
+      "type" : "389",
       "Ultra Sun/Ultra Moon" : "791"
     },
     {
-      "Type" : "390",
+      "type" : "390",
       "Ultra Sun/Ultra Moon" : "792"
     },
     {
-      "Type" : "391",
+      "type" : "391",
       "Ultra Sun/Ultra Moon" : "793"
     },
     {
-      "Type" : "392",
+      "type" : "392",
       "Ultra Sun/Ultra Moon" : "805"
     },
     {
-      "Type" : "393",
+      "type" : "393",
       "Ultra Sun/Ultra Moon" : "806"
     },
     {
-      "Type" : "394",
+      "type" : "394",
       "Ultra Sun/Ultra Moon" : "794"
     },
     {
-      "Type" : "395",
+      "type" : "395",
       "Ultra Sun/Ultra Moon" : "795"
     },
     {
-      "Type" : "396",
+      "type" : "396",
       "Ultra Sun/Ultra Moon" : "796"
     },
     {
-      "Type" : "397",
+      "type" : "397",
       "Ultra Sun/Ultra Moon" : "797"
     },
     {
-      "Type" : "398",
+      "type" : "398",
       "Ultra Sun/Ultra Moon" : "798"
     },
     {
-      "Type" : "399",
+      "type" : "399",
       "Ultra Sun/Ultra Moon" : "799"
     },
     {
-      "Type" : "400",
+      "type" : "400",
       "Ultra Sun/Ultra Moon" : "800"
     },
     {
-      "Type" : "401",
+      "type" : "401",
       "Ultra Sun/Ultra Moon" : "801"
     },
     {
-      "Type" : "402",
+      "type" : "402",
       "Ultra Sun/Ultra Moon" : "802"
     },
     {
-      "Type" : "403",
+      "type" : "403",
       "Ultra Sun/Ultra Moon" : "807"
     }
   ],
