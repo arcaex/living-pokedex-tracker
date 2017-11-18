@@ -8175,14 +8175,14 @@
     {
       "number" : "019-alola",
       "names/en" : "Alola",
-      "generation/7" : "015",
+      "generation" : "7",
       "breeding" : "#019-alola, #020-alola",
       "national" : "019"
     },
     {
       "number" : "020-alola",
       "names/en" : "Alola",
-      "generation/7" : "016",
+      "generation" : "7",
       "evolve/pokemon" : "#019-alola",
       "evolve/level" : "20",
       "evolve/time" : "Nighttime",
@@ -8191,13 +8191,14 @@
     {
       "number" : "025-original-cap",
       "names/en" : "Original Cap",
+      "generation" : "7",
       "unevolvable" : "X",
       "national" : "025"
     },
     {
       "number" : "026-alola",
       "names/en" : "Alola",
-      "generation/7" : "026",
+      "generation" : "7",
       "evolve/pokemon" : "#025",
       "evolve/item" : "Thunder Stone",
       "evolve/game" : "Sun/Moon",
@@ -8206,14 +8207,14 @@
     {
       "number" : "027-alola",
       "names/en" : "Alola",
-      "generation/7" : "251",
+      "generation" : "7",
       "breeding" : "#027-alola, #028-alola",
       "national" : "027"
     },
     {
       "number" : "028-alola",
       "names/en" : "Alola",
-      "generation/7" : "252",
+      "generation" : "7",
       "evolve/pokemon" : "#027-alola",
       "evolve/item" : "Ice Stone",
       "national" : "028"
@@ -8221,14 +8222,14 @@
     {
       "number" : "037-alola",
       "names/en" : "Alola",
-      "generation/7" : "253",
+      "generation" : "7",
       "breeding" : "#037-alola, #038-alola",
       "national" : "037"
     },
     {
       "number" : "038-alola",
       "names/en" : "Alola",
-      "generation/7" : "254",
+      "generation" : "7",
       "evolve/pokemon" : "#037-alola",
       "evolve/item" : "Ice Stone",
       "national" : "038"
@@ -8236,14 +8237,14 @@
     {
       "number" : "050-alola",
       "names/en" : "Alola",
-      "generation/7" : "071",
+      "generation" : "7",
       "breeding" : "#050-alola, #051-alola",
       "national" : "050"
     },
     {
       "number" : "051-alola",
       "names/en" : "Alola",
-      "generation/7" : "072",
+      "generation" : "7",
       "evolve/pokemon" : "#050-alola",
       "evolve/level" : "26",
       "national" : "051"
@@ -8251,13 +8252,13 @@
     {
       "number" : "052-alola",
       "names/en" : "Alola",
-      "generation/7" : "045",
+      "generation" : "7",
       "national" : "052"
     },
     {
       "number" : "053-alola",
       "names/en" : "Alola",
-      "generation/7" : "046",
+      "generation" : "7",
       "evolve/pokemon" : "#052-alola",
       "evolve/trait" : "Happiness",
       "national" : "053"
@@ -8265,13 +8266,13 @@
     {
       "number" : "074-alola",
       "names/en" : "Alola",
-      "generation/7" : "229",
+      "generation" : "7",
       "national" : "074"
     },
     {
       "number" : "075-alola",
       "names/en" : "Alola",
-      "generation/7" : "230",
+      "generation" : "7",
       "evolve/pokemon" : "#074-alola",
       "evolve/level" : "25",
       "national" : "075"
@@ -8279,7 +8280,7 @@
     {
       "number" : "076-alola",
       "names/en" : "Alola",
-      "generation/7" : "231",
+      "generation" : "7",
       "evolve/pokemon" : "#075-alola",
       "evolve/action" : "Trade",
       "national" : "076"
@@ -8287,14 +8288,14 @@
     {
       "number" : "088-alola",
       "names/en" : "Alola",
-      "generation/7" : "050",
+      "generation" : "7",
       "breeding" : "#088-alola, #089-alola",
       "national" : "088"
     },
     {
       "number" : "089-alola",
       "names/en" : "Alola",
-      "generation/7" : "051",
+      "generation" : "7",
       "evolve/pokemon" : "#088-alola",
       "evolve/level" : "38",
       "national" : "089"
@@ -8302,7 +8303,7 @@
     {
       "number" : "103-alola",
       "names/en" : "Alola",
-      "generation/7" : "270",
+      "generation" : "7",
       "evolve/pokemon" : "#102",
       "evolve/item" : "Leaf Stone",
       "evolve/game" : "Sun/Moon",
@@ -8311,7 +8312,7 @@
     {
       "number" : "105-alola",
       "names/en" : "Alola",
-      "generation/7" : "164",
+      "generation" : "7",
       "evolve/pokemon" : "#104",
       "evolve/level" : "28",
       "evolve/time" : "Nighttime",
@@ -8321,184 +8322,220 @@
     {
       "number" : "201-a",
       "names/en" : "A",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-b",
       "names/en" : "B",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-c",
       "names/en" : "C",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-d",
       "names/en" : "D",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-e",
       "names/en" : "E",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-f",
       "names/en" : "F",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-g",
       "names/en" : "G",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-h",
       "names/en" : "H",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-i",
       "names/en" : "I",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-j",
       "names/en" : "J",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-k",
       "names/en" : "K",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-l",
       "names/en" : "L",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-m",
       "names/en" : "M",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-n",
       "names/en" : "N",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-o",
       "names/en" : "O",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-p",
       "names/en" : "P",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-q",
       "names/en" : "Q",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-r",
       "names/en" : "R",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-s",
       "names/en" : "S",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-t",
       "names/en" : "T",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-u",
       "names/en" : "U",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-v",
       "names/en" : "V",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-w",
       "names/en" : "W",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-x",
       "names/en" : "X",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-y",
       "names/en" : "Y",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-z",
       "names/en" : "Z",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-excl",
       "names/en" : "Exclamation",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "201-ques",
       "names/en" : "Question",
+      "generation" : "2",
       "national" : "201"
     },
     {
       "number" : "386-attack",
       "names/en" : "Attack",
+      "generation" : "3",
       "national" : "386"
     },
     {
       "number" : "386-defense",
       "names/en" : "Defense",
+      "generation" : "3",
       "national" : "386"
     },
     {
       "number" : "386-normal",
       "names/en" : "Normal",
+      "generation" : "3",
       "national" : "386"
     },
     {
       "number" : "386-speed",
       "names/en" : "Speed",
+      "generation" : "3",
       "national" : "386"
     },
     {
       "number" : "412-plant",
       "names/en" : "Plant",
+      "generation" : "4",
       "breeding" : "#412-plant, #413-plant",
       "national" : "412"
     },
     {
       "number" : "412-sandy",
       "names/en" : "Sandy",
+      "generation" : "4",
       "breeding" : "#412-sandy, #413-sandy",
       "national" : "412"
     },
     {
       "number" : "412-trash",
       "names/en" : "Trash",
+      "generation" : "4",
       "breeding" : "#412-trash, #413-trash",
       "national" : "412"
     },
     {
       "number" : "413-plant",
       "names/en" : "Plant",
+      "generation" : "4",
       "evolve/pokemon" : "#412-plant",
       "evolve/level" : "20",
       "evolve/condition" : "Female, in buildings",
@@ -8507,6 +8544,7 @@
     {
       "number" : "413-sandy",
       "names/en" : "Sandy",
+      "generation" : "4",
       "evolve/pokemon" : "#412-sandy",
       "evolve/level" : "20",
       "evolve/condition" : "Female, in buildings",
@@ -8515,6 +8553,7 @@
     {
       "number" : "413-trash",
       "names/en" : "Trash",
+      "generation" : "4",
       "evolve/pokemon" : "#412-trash",
       "evolve/level" : "20",
       "evolve/condition" : "Female, in buildings",
@@ -8523,18 +8562,21 @@
     {
       "number" : "422-east",
       "names/en" : "East",
+      "generation" : "4",
       "breeding" : "#422-east, #423-east",
       "national" : "422"
     },
     {
       "number" : "422-west",
       "names/en" : "West",
+      "generation" : "4",
       "breeding" : "#422-west, #423-west",
       "national" : "422"
     },
     {
       "number" : "423-east",
       "names/en" : "East",
+      "generation" : "4",
       "evolve/pokemon" : "#422-east",
       "evolve/level" : "30",
       "national" : "423"
@@ -8542,6 +8584,7 @@
     {
       "number" : "423-west",
       "names/en" : "West",
+      "generation" : "4",
       "evolve/pokemon" : "#422-west",
       "evolve/level" : "30",
       "national" : "423"
@@ -8549,80 +8592,95 @@
     {
       "number" : "479-fan",
       "names/en" : "Fan",
+      "generation" : "4",
       "national" : "479"
     },
     {
       "number" : "479-frost",
       "names/en" : "Frost",
+      "generation" : "4",
       "national" : "479"
     },
     {
       "number" : "479-heat",
       "names/en" : "Heat",
+      "generation" : "4",
       "national" : "479"
     },
     {
       "number" : "479-mow",
       "names/en" : "Mow",
+      "generation" : "4",
       "national" : "479"
     },
     {
       "number" : "479-normal",
       "names/en" : "Normal",
+      "generation" : "4",
       "national" : "479"
     },
     {
       "number" : "479-wash",
       "names/en" : "Wash",
+      "generation" : "4",
       "national" : "479"
     },
     {
       "number" : "487-altered",
       "names/en" : "Altered",
+      "generation" : "4",
       "national" : "487"
     },
     {
       "number" : "487-origin",
       "names/en" : "Origin",
+      "generation" : "4",
       "national" : "487"
     },
     {
       "number" : "550-blue-striped",
       "names/en" : "Blue Striped",
+      "generation" : "5",
       "national" : "550"
     },
     {
       "number" : "550-red-striped",
       "names/en" : "Red Striped",
+      "generation" : "5",
       "national" : "550"
     },
     {
       "number" : "585-automn",
       "names/en" : "Automn",
+      "generation" : "5",
       "breeding" : "#585-automn, #586-automn",
       "national" : "585"
     },
     {
       "number" : "585-spring",
       "names/en" : "Spring",
+      "generation" : "5",
       "breeding" : "#585-spring, #586-spring",
       "national" : "585"
     },
     {
       "number" : "585-summer",
       "names/en" : "Summer",
+      "generation" : "5",
       "breeding" : "#585-summer, #586-summer",
       "national" : "585"
     },
     {
       "number" : "585-winter",
       "names/en" : "Winter",
+      "generation" : "5",
       "breeding" : "#585-winter, #586-winter",
       "national" : "585"
     },
     {
       "number" : "586-automn",
       "names/en" : "Automn",
+      "generation" : "5",
       "evolve/pokemon" : "#585-automn",
       "evolve/level" : "34",
       "national" : "586"
@@ -8630,6 +8688,7 @@
     {
       "number" : "586-spring",
       "names/en" : "Spring",
+      "generation" : "5",
       "evolve/pokemon" : "#585-spring",
       "evolve/level" : "34",
       "national" : "586"
@@ -8637,6 +8696,7 @@
     {
       "number" : "586-summer",
       "names/en" : "Summer",
+      "generation" : "5",
       "evolve/pokemon" : "#585-summer",
       "evolve/level" : "34",
       "national" : "586"
@@ -8644,6 +8704,7 @@
     {
       "number" : "586-winter",
       "names/en" : "Winter",
+      "generation" : "5",
       "evolve/pokemon" : "#585-winter",
       "evolve/level" : "34",
       "national" : "586"
@@ -8651,193 +8712,210 @@
     {
       "number" : "641-incarnate",
       "names/en" : "Incarnate",
+      "generation" : "5",
       "national" : "641"
     },
     {
       "number" : "641-therian",
       "names/en" : "Therian",
+      "generation" : "5",
       "national" : "641"
     },
     {
       "number" : "642-incarnate",
       "names/en" : "Incarnate",
+      "generation" : "5",
       "national" : "642"
     },
     {
       "number" : "642-therian",
       "names/en" : "Therian",
+      "generation" : "5",
       "national" : "642"
     },
     {
       "number" : "645-incarnate",
       "names/en" : "Incarnate",
+      "generation" : "5",
       "national" : "645"
     },
     {
       "number" : "645-therian",
       "names/en" : "Therian",
+      "generation" : "5",
       "national" : "645"
     },
     {
       "number" : "647-ordinary",
       "names/en" : "Ordinary",
+      "generation" : "5",
       "national" : "647"
     },
     {
       "number" : "647-resolute",
       "names/en" : "Resolute",
+      "generation" : "5",
       "national" : "647"
     },
     {
       "number" : "658-ash",
       "names/en" : "Ash's",
-      "national" : "658"
-    },
-    {
-      "number" : "658-normal",
-      "names/en" : "Normal",
+      "generation" : "6",
       "national" : "658"
     },
     {
       "number" : "666-Continental",
       "names/en" : "Continental",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "666-Elegant",
       "names/en" : "Elegant",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "666-Garden",
       "names/en" : "Garden",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "666-High_Plains",
       "names/en" : "High Plains",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "666-Icy_Snow",
       "names/en" : "Icy Snow",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "666-Jungle",
       "names/en" : "Jungle",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "666-Marine",
       "names/en" : "Marine",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "666-Meadow",
       "names/en" : "Meadow",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "666-Modern",
       "names/en" : "Modern",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "666-Monsoon",
       "names/en" : "Monsoon",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "666-Ocean",
       "names/en" : "Ocean",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "666-Polar",
       "names/en" : "Polar",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "666-River",
       "names/en" : "River",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "666-Sandstorm",
       "names/en" : "Sandstorm",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "666-Savanna",
       "names/en" : "Savanna",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "666-Sun",
       "names/en" : "Sun",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "666-Tundra",
       "names/en" : "Tundra",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "666-Fancy",
       "names/en" : "Fancy",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "666-Pokeball",
       "names/en" : "Pokeball",
+      "generation" : "6",
       "national" : "666"
     },
     {
       "number" : "669-Red",
       "names/en" : "Red",
-      "generation/6" : "669",
-      "generation/1" : "068",
+      "generation" : "6",
       "breeding" : "#669-Red, #670-Red, #671-Red",
       "national" : "669"
     },
     {
       "number" : "669-Yellow",
       "names/en" : "Yellow",
-      "generation/6" : "669",
-      "generation/1" : "068",
+      "generation" : "6",
       "breeding" : "#669-Yellow, #670-Yellow, #671-Yellow",
       "national" : "669"
     },
     {
       "number" : "669-Orange",
       "names/en" : "Orange",
-      "generation/6" : "669",
-      "generation/1" : "068",
+      "generation" : "6",
       "breeding" : "#669-Orange, #670-Orange, #671-Orange",
       "national" : "669"
     },
     {
       "number" : "669-Blue",
       "names/en" : "Blue",
-      "generation/6" : "669",
-      "generation/1" : "068",
+      "generation" : "6",
       "breeding" : "#669-Blue, #670-Blue, #671-Blue",
       "national" : "669"
     },
     {
       "number" : "669-White",
       "names/en" : "White",
-      "generation/6" : "669",
-      "generation/1" : "068",
+      "generation" : "6",
       "breeding" : "#669-White, #670-White, #671-White",
       "national" : "669"
     },
     {
       "number" : "670-Red",
       "names/en" : "Red",
-      "generation/6" : "670",
-      "generation/1" : "069",
+      "generation" : "6",
       "evolve/pokemon" : "#669-Red",
       "evolve/level" : "19",
       "national" : "670"
@@ -8845,8 +8923,7 @@
     {
       "number" : "670-Yellow",
       "names/en" : "Yellow",
-      "generation/6" : "670",
-      "generation/1" : "069",
+      "generation" : "6",
       "evolve/pokemon" : "#669-Yellow",
       "evolve/level" : "19",
       "national" : "670"
@@ -8854,8 +8931,7 @@
     {
       "number" : "670-Orange",
       "names/en" : "Orange",
-      "generation/6" : "670",
-      "generation/1" : "069",
+      "generation" : "6",
       "evolve/pokemon" : "#669-Orange",
       "evolve/level" : "19",
       "national" : "670"
@@ -8863,8 +8939,7 @@
     {
       "number" : "670-Blue",
       "names/en" : "Blue",
-      "generation/6" : "670",
-      "generation/1" : "069",
+      "generation" : "6",
       "evolve/pokemon" : "#669-Blue",
       "evolve/level" : "19",
       "national" : "670"
@@ -8872,8 +8947,7 @@
     {
       "number" : "670-White",
       "names/en" : "White",
-      "generation/6" : "670",
-      "generation/1" : "069",
+      "generation" : "6",
       "evolve/pokemon" : "#669-White",
       "evolve/level" : "19",
       "national" : "670"
@@ -8881,8 +8955,7 @@
     {
       "number" : "671-Red",
       "names/en" : "Red",
-      "generation/6" : "671",
-      "generation/1" : "070",
+      "generation" : "6",
       "evolve/pokemon" : "#670-Red",
       "evolve/item" : "Shiny Stone",
       "national" : "671"
@@ -8890,8 +8963,7 @@
     {
       "number" : "671-Yellow",
       "names/en" : "Yellow",
-      "generation/6" : "671",
-      "generation/1" : "070",
+      "generation" : "6",
       "evolve/pokemon" : "#670-Yellow",
       "evolve/item" : "Shiny Stone",
       "national" : "671"
@@ -8899,8 +8971,7 @@
     {
       "number" : "671-Orange",
       "names/en" : "Orange",
-      "generation/6" : "671",
-      "generation/1" : "070",
+      "generation" : "6",
       "evolve/pokemon" : "#670-Orange",
       "evolve/item" : "Shiny Stone",
       "national" : "671"
@@ -8908,8 +8979,7 @@
     {
       "number" : "671-Blue",
       "names/en" : "Blue",
-      "generation/6" : "671",
-      "generation/1" : "070",
+      "generation" : "6",
       "evolve/pokemon" : "#670-Blue",
       "evolve/item" : "Shiny Stone",
       "national" : "671"
@@ -8917,8 +8987,7 @@
     {
       "number" : "671-White",
       "names/en" : "White",
-      "generation/6" : "671",
-      "generation/1" : "070",
+      "generation" : "6",
       "evolve/pokemon" : "#670-White",
       "evolve/item" : "Shiny Stone",
       "national" : "671"
@@ -8926,65 +8995,61 @@
     {
       "number" : "718-10",
       "names/en" : "10%",
+      "generation" : "6",
       "national" : "718"
     },
     {
       "number" : "718-50",
       "names/en" : "50%",
+      "generation" : "6",
       "national" : "718"
     },
     {
       "number" : "718-complete",
       "names/en" : "Complete",
+      "generation" : "6",
       "national" : "718"
     },
     {
       "number" : "774-blue",
       "names/en" : "Blue",
-      "generation/7" : "213",
-      "generation/6" : "774",
+      "generation" : "7",
       "national" : "774"
     },
     {
       "number" : "774-green",
       "names/en" : "Green",
-      "generation/7" : "213",
-      "generation/6" : "774",
+      "generation" : "7",
       "national" : "774"
     },
     {
       "number" : "774-indigo",
       "names/en" : "Indigo",
-      "generation/7" : "213",
-      "generation/6" : "774",
+      "generation" : "7",
       "national" : "774"
     },
     {
       "number" : "774-orange",
       "names/en" : "Orange",
-      "generation/7" : "213",
-      "generation/6" : "774",
+      "generation" : "7",
       "national" : "774"
     },
     {
       "number" : "774-red",
       "names/en" : "Red",
-      "generation/7" : "213",
-      "generation/6" : "774",
+      "generation" : "7",
       "national" : "774"
     },
     {
       "number" : "774-violet",
       "names/en" : "Violet",
-      "generation/7" : "213",
-      "generation/6" : "774",
+      "generation" : "7",
       "national" : "774"
     },
     {
       "number" : "774-yellow",
       "names/en" : "Yellow",
-      "generation/7" : "213",
-      "generation/6" : "774",
+      "generation" : "7",
       "national" : "774"
     }
   ],

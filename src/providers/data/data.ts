@@ -74,6 +74,10 @@ export class DataProvider {
                 single_pokemon['unevolvable'] = single_form['unevolvable'];
             }
 
+            if (single_form['generation'] != undefined) {
+                single_pokemon['generation'] = single_form['generation'];
+            }
+
             /* Update the value from the form */
             for (let key in single_form) {
                 if (key.substr(0, 6) == 'evolve') {
@@ -87,7 +91,6 @@ export class DataProvider {
 
     refresh() {
         this.master = this.getRegionalPokemons();
-        console.log(this.master.length);
 
         /* Update the field */
         this.master.forEach(single_pokemon => {
@@ -101,7 +104,7 @@ export class DataProvider {
 
             /* Change the current number for the selected pokedex */
             if (this.config.generation['selected'] != 'national' && parseInt(this.config.generation['selected']) != this.config.generation['selected']) {
-                single_pokemon['current_number'] = this.games[this.config.generation['selected']]['pokemons'][single_pokemon['number']];
+                single_pokemon['current_number'] = this.games[this.config.generation['selected']]['pokemons'][single_pokemon['national']];
             }
 
             single_pokemon['current_name'] = this.getPokemonName(single_pokemon);
@@ -111,6 +114,8 @@ export class DataProvider {
         });
 
         /* Order the list */
+
+
         this.master.sort(function(a, b) {
             if (a['current_number'] < b['current_number'])
                 return -1;
@@ -118,8 +123,6 @@ export class DataProvider {
                 return 1;
             return (a['current_name'] < b['current_name'] ? -1 : 1);
         });
-
-        console.log(this.master.length);
     }
 
     /*
@@ -135,7 +138,11 @@ export class DataProvider {
                     }
                 } else {
                     /* Get the Pokemons from the selected game */
-                    return (this.games[this.config.generation['selected']]['pokemons'][single_pokemon['number']] != undefined);
+                    if (single_pokemon['type'] == 'form') {
+                        return (this.games[this.config.generation['selected']]['pokemons'][single_pokemon['national']] != undefined);
+                    } else {
+                        return (this.games[this.config.generation['selected']]['pokemons'][single_pokemon['number']] != undefined);
+                    }
                 }
             }
             return true;
