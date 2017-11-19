@@ -16,6 +16,7 @@ import { SearchFilter } from '../../pipes/search/search';
 })
 export class PokemonsPage {
     private search_filter:string = "";
+    private currentFilter:string = "";
 
     private master:Array<Object> = [];
 
@@ -53,6 +54,15 @@ export class PokemonsPage {
     }
 
     getPokemons() {
+        this.currentFilter = this.config.generation['selected'];
+        if (this.currentFilter == "national") {
+            this.currentFilter = "National Pokedex";
+        } else if (parseInt(this.config.generation['selected']) == this.config.generation['selected']) {
+            this.currentFilter = "Current generation: " + this.currentFilter;
+        } else {
+            this.currentFilter = "Current game: " + this.currentFilter;
+        }
+
         this.data.refresh();
         
         this.showLoading();
