@@ -19,17 +19,17 @@ export class ConfigProvider {
     },{
         'id':'7', 'name':'7 - Alola'
     },{
-        'id':'6', 'name':'6 - Kanto'
+        'id':'6', 'name':'6 - Kalos'
     },{
-        'id':'5', 'name':'5 - Johto'
+        'id':'5', 'name':'5 - Unova'
     },{
-        'id':'4', 'name':'4 - Hoenn'
+        'id':'4', 'name':'4 - Sinnoh'
     },{
-        'id':'3', 'name':'3 - Sinnoh'
+        'id':'3', 'name':'3 - Hoenn'
     },{
-        'id':'2', 'name':'2 - Unova'
+        'id':'2', 'name':'2 - Johto'
     },{
-        'id':'1', 'name':'1 - Kalos'
+        'id':'1', 'name':'1 - Kanto'
     }];
 
     private _filters:Array<Object> = [{

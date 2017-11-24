@@ -1,13 +1,10 @@
-
-Lycanroc
-  - Dusk
-     
 Necrozma
   - Normal
   - Dusk Mane
   - Dawn Wings
 
- Add the in game location
-	- location/region
+Add the Legendary/Mythical colors for each Pokemons in the listing
 
-Add the Legendary/Mythical colors for each Pokemons
+- Add a new layout : Grid
+    - In 6x5 like in game
+        - Without any controls (except click to see the details)
