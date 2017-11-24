@@ -6,5 +6,8 @@ Necrozma
 Add the Legendary/Mythical colors for each Pokemons in the listing
 
 - Add a new layout : Grid
+    - List = <ion-icon name="list"></ion-icon>
+    - Grid = <ion-icon name="grid"></ion-icon>
     - In 6x5 like in game
+        - Only the icons
         - Without any controls (except click to see the details)
