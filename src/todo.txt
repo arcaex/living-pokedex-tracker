@@ -11,3 +11,5 @@ Add the Legendary/Mythical colors for each Pokemons in the listing
     - In 6x5 like in game
         - Only the icons
         - Without any controls (except click to see the details)
+
+- When the name is long, the image is truncated
