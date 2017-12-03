@@ -13,3 +13,5 @@ Add the Legendary/Mythical colors for each Pokemons in the listing
         - Without any controls (except click to see the details)
 
 - When the name is long, the image is truncated
+
+- Add a gender filter
