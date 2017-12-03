@@ -1,4 +1,21 @@
 page-pokemons {
+	ion-list.grid_mode {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+		div.pokemons {
+			width: 80px;
+			zoom: 0.8;
+		}
+
+		ion-item {
+			padding-left: 0 !important;
+		}
+
+	}
+
 	div.empty {
 	    display: flex;
 	    align-items: center;

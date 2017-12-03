@@ -24,6 +24,8 @@ export class PokemonsPage {
 
     private loading:any;
 
+    public layout:string = "";
+
     constructor(public navCtrl:NavController, public config:ConfigProvider, public data:DataProvider, public pokedex:PokedexProvider, public modalCtrl:ModalController, public events:Events, public popoverCtrl:PopoverController, public navParams:NavParams, public loadingCtrl: LoadingController) {
         this.pokemonType = this.navParams.data;
 
@@ -40,6 +42,10 @@ export class PokemonsPage {
             //this.data.refresh();
             this.getPokemons();
         });
+
+        this.layout = this.config.layout;
+
+        console.log("constructor");
     }
 
     showLoading() {
@@ -101,5 +107,12 @@ export class PokemonsPage {
 
     virtualScrollTracker(index, pokemon) {
         return pokemon['number'];
+    }
+
+    changeLayout(event) {
+        this.config.layout = (this.config.layout == "list" ? "grid" : "list");
+        this.master = [];
+        this.navCtrl.setRoot(PokemonsPage);
+        //this.getPokemons();
     }
 }

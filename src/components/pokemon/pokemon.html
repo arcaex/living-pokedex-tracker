@@ -1,7 +1,7 @@
 <ion-item detail-push>
     <ion-label>
         <div class="pokemon-image {{ pokemon.sprite }}"></div>
-        <div class="pokemon-info">
+        <div class="pokemon-info" *ngIf="config.layout == 'list'">
             <h2>#{{ pokemon.current_number }} - {{ pokemon.current_name }}</h2>
 
             <p class="pokemon-settings">
@@ -9,5 +9,5 @@
             </p>
         </div>
     </ion-label>
-    <ion-toggle [(ngModel)]="pokedex.pokemons[pokemon.number]['own']" (ionChange)="pokedexChanged()"></ion-toggle>
+    <ion-toggle *ngIf="config.layout == 'list'" [(ngModel)]="pokedex.pokemons[pokemon.number]['own']" (ionChange)="pokedexChanged()"></ion-toggle>
 </ion-item>

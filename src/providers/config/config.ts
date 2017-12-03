@@ -68,6 +68,12 @@ export class ConfigProvider {
             'description':'You are the Original Trainer of this Pokemon',
             'default':false,
             'icon':'person'
+        },{
+            'id':'gender', 
+            'name':'Gender',
+            'description':'This Pokemon has corect gender',
+            'default':false,
+            'icon':'male'
         }];
 
     private configs:Object = {};
@@ -83,10 +89,17 @@ export class ConfigProvider {
             if (data != null) {
                 let loadedConfig:Object = JSON.parse(data);
 
-
+                /* Load objects and arrays */
                 ["filters", "alternate_forms", "region", "language", "generation"].forEach(single_filter => {
                     if (loadedConfig[single_filter] != null) {
                         this.configs[single_filter] = Object.assign(this.configs[single_filter], loadedConfig[single_filter]);
+                    }
+                });
+
+                /* Load strings */
+                ["layout"].forEach(single_filter => {
+                    if (loadedConfig[single_filter] != null) {
+                        this.configs[single_filter] = loadedConfig[single_filter];
                     }
                 });
 
@@ -130,6 +143,8 @@ export class ConfigProvider {
         this.configs['generation'] = {'selected':'7'};
 
         this.configs['language'] = {'selected':'en'};
+
+        this.configs['layout'] = 'list';
     }
 
     save() {
@@ -174,5 +189,13 @@ export class ConfigProvider {
         return this.configs['generation'];
     }
 
+    get layout():string {
+        return this.configs['layout'];
+    }
+
+    set layout(value:string) {
+        this.configs['layout'] = value;
+        this.save();
+    }
 
 }

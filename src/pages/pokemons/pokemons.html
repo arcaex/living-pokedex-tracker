@@ -6,16 +6,26 @@
             <div class="filters">{{ currentFilter }}</div>
         </ion-title>
         <ion-buttons end>
-            <button ion-button outline (click)="showActions($event)">Actions</button>
+            <!--
+            <button ion-button icon-only (click)="changeLayout($event)">
+                <ion-icon *ngIf="config.layout == 'grid'" name="list"></ion-icon>
+                <ion-icon *ngIf="config.layout == 'list'" name="grid"></ion-icon>
+            </button>
+            // -->
+            <button ion-button icon-only (click)="showActions($event)"><ion-icon name="more"></ion-icon></button>
         </ion-buttons>
     </ion-navbar>
     <ion-searchbar [(ngModel)]="search_filter" showCancelButton="true" (ionInput)="search($event)"></ion-searchbar>
 </ion-header>
 
 <ion-content>
-    <ion-list [hidden]="(master | apply:config.filters:pokedex.pokemons | search:search_filter).length == 0" [virtualScroll]="master | apply:config.filters:pokedex.pokemons | search:search_filter" [virtualTrackBy]="virtualScrollTracker" approxItemHeight="80px">
+    <ion-list *ngIf="config.layout == 'list'" [hidden]="(master | apply:config.filters:pokedex.pokemons | search:search_filter).length == 0" [virtualScroll]="master | apply:config.filters:pokedex.pokemons | search:search_filter" [virtualTrackBy]="virtualScrollTracker" approxItemHeight="80px">
         <div class="pokemons" *virtualItem="let single_pokemon" (tap)="selectPokemon(single_pokemon, $event)">
             <pokemon *ngIf="single_pokemon['current_number'] != '000'" [data]="single_pokemon"></pokemon>
+        </div>
+    </ion-list>
+    <ion-list class="grid_mode" *ngIf="config.layout == 'grid'" [hidden]="(master | apply:config.filters:pokedex.pokemons | search:search_filter).length == 0">
+        <div class="pokemons pokemon-image {{ single_pokemon.sprite }}" *ngFor="let single_pokemon of master" (tap)="selectPokemon(single_pokemon, $event)">
         </div>
     </ion-list>
     <div class="empty" *ngIf="(master | apply:config.filters:pokedex.pokemons | search:search_filter).length == 0">
