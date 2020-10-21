@@ -8169,6 +8169,48 @@
       "generation" : "7",
       "type" : "L",
       "national" : "807"
+    },
+    {
+      "names/en" : "Meltan",
+      "names/jp" : "メルタン",
+      "names/kr" : "멜탄",
+      "generation" : "7",
+      "type" : "L",
+      "national" : "808"
+    },
+    {
+      "names/en" : "Melmetal",
+      "names/jp" : "メルメタル",
+      "names/kr" : "멜메탈",
+      "generation" : "7",
+      "type" : "L",
+      "national" : "809"
+    },
+    {
+      "names/en" : "Grookey",
+      "names/jp" : "サルノリ",
+      "names/kr" : "흥나숭",
+      "generation" : "8",
+      "breeding" : "#810, #811, #812",
+      "national" : "810"
+    },
+    {
+      "names/en" : "Thwackey",
+      "names/jp" : "バチンキー",
+      "names/kr" : "채키몽",
+      "generation" : "8",
+      "evolve/pokemon" : "#810",
+      "evolve/level" : "16",
+      "national" : "811"
+    },
+    {
+      "names/en" : "Rillaboom",
+      "names/jp" : "ゴリランダー",
+      "names/kr" : "고릴타",
+      "generation" : "8",
+      "evolve/pokemon" : "#811",
+      "evolve/level" : "35",
+      "national" : "812"
     }
   ],
   "forms" : [

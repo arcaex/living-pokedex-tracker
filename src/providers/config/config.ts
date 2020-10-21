@@ -12,10 +12,12 @@ export class ConfigProvider {
 
     private _languages:Array<Object> = [{'suffix':'en', 'name':'English'},{'suffix':'fr', 'name':'French'},{'suffix':'de', 'name':'German'},{'suffix':'es', 'name': 'Spanish'},{'suffix':'jp', 'name':'Japanese'}];
 
-    private _regions:Array<Object> = [{'id':'national', 'name':'National'},{'id':'alola', 'name':'Alola'},{'id':'kanto', 'name':'Kanto'},{'id':'johto', 'name':'Johto'},{'id':'hoenn', 'name':'Hoenn'},{'id':'sinnoh', 'name':'Sinnoh'},{'id':'unova', 'name':'Unova'},{'id':'kalos', 'name':'kalos'}];
+    private _regions:Array<Object> = [{'id':'national', 'name':'National'},{'id':'alola', 'name':'Alola'},{'id':'kanto', 'name':'Kanto'},{'id':'johto', 'name':'Johto'},{'id':'hoenn', 'name':'Hoenn'},{'id':'sinnoh', 'name':'Sinnoh'},{'id':'unova', 'name':'Unova'},{'id':'kalos', 'name':'Kalos'},{'id':'galar', 'name':'Galar'}];
     
     private _generations:Array<Object> = [{
         'id':'national', 'name':'National'
+    },{
+        'id':'8', 'name':'8 - Galar'
     },{
         'id':'7', 'name':'7 - Alola'
     },{
@@ -138,9 +140,9 @@ export class ConfigProvider {
 
         this.configs['alternate_forms'] = {'all': false};
 
-        this.configs['region'] = {'selected':'alola'};
+        this.configs['region'] = {'selected':'galar'};
         
-        this.configs['generation'] = {'selected':'7'};
+        this.configs['generation'] = {'selected':'8'};
 
         this.configs['language'] = {'selected':'en'};
 
