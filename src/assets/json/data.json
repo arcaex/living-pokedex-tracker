@@ -8211,6 +8211,339 @@
       "evolve/pokemon" : "#811",
       "evolve/level" : "35",
       "national" : "812"
+    },
+    {
+      "names/en" : "Scorbunny",
+      "names/jp" : "サルノリ",
+      "names/kr" : "",
+      "generation" : "8",
+      "breeding" : "#813, #814, #815",
+      "national" : "813"
+    },
+    {
+      "names/en" : "Raboot",
+      "names/jp" : "ラビフット",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#813",
+      "evolve/level" : "16",
+      "national" : "814"
+    },
+    {
+      "names/en" : "Cinderace",
+      "names/jp" : "エースバーン",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#814",
+      "evolve/level" : "35",
+      "national" : "815"
+    },
+    {
+      "names/en" : "Sobble",
+      "names/jp" : "メッソン",
+      "names/kr" : "",
+      "generation" : "8",
+      "breeding" : "#816, #817, #818",
+      "national" : "816"
+    },
+    {
+      "names/en" : "Drizzile",
+      "names/jp" : "ジメレオン",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#816",
+      "evolve/level" : "16",
+      "national" : "817"
+    },
+    {
+      "names/en" : "Inteleon",
+      "names/jp" : "インテレオン",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#817",
+      "evolve/level" : "35",
+      "national" : "818"
+    },
+    {
+      "names/en" : "Skwovet",
+      "names/jp" : "ホシガリス",
+      "names/kr" : "",
+      "generation" : "8",
+      "breeding" : "#819, #820",
+      "national" : "819"
+    },
+    {
+      "names/en" : "Greedent",
+      "names/jp" : "ヨクバリス",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#819",
+      "evolve/level" : "24",
+      "national" : "820"
+    },
+    {
+      "names/en" : "Rookidee",
+      "names/jp" : "ココガラ",
+      "names/kr" : "",
+      "generation" : "8",
+      "breeding" : "#821, #822, #823",
+      "national" : "821"
+    },
+    {
+      "names/en" : "Corvisquire",
+      "names/jp" : "アオガラス",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#821",
+      "evolve/level" : "18",
+      "national" : "822"
+    },
+    {
+      "names/en" : "Corviknight",
+      "names/jp" : "アーマーガア",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#822",
+      "evolve/level" : "38",
+      "national" : "823"
+    },
+    {
+      "names/en" : "Blipbug",
+      "names/jp" : "サッチムシ",
+      "names/kr" : "",
+      "generation" : "8",
+      "breeding" : "#824, #825, #826",
+      "national" : "824"
+    },
+    {
+      "names/en" : "Dottler",
+      "names/jp" : "レドームシ",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#824",
+      "evolve/level" : "10",
+      "national" : "825"
+    },
+    {
+      "names/en" : "Orbeetle",
+      "names/jp" : "イオルブ",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#825",
+      "evolve/level" : "30",
+      "national" : "826"
+    },
+    {
+      "names/en" : "Nickit",
+      "names/jp" : "クスネ",
+      "names/kr" : "",
+      "generation" : "8",
+      "breeding" : "#827, #828",
+      "national" : "827"
+    },
+    {
+      "names/en" : "Thievul",
+      "names/jp" : "フォクスライ",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#827",
+      "evolve/level" : "18",
+      "national" : "828"
+    },
+    {
+      "names/en" : "Gossifleur",
+      "names/jp" : "ヒメンカ",
+      "names/kr" : "",
+      "generation" : "8",
+      "breeding" : "#829, #830",
+      "national" : "829"
+    },
+    {
+      "names/en" : "Eldegoss",
+      "names/jp" : "ワタシラガ",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#829",
+      "evolve/level" : "20",
+      "national" : "830"
+    },
+    {
+      "names/en" : "Wooloo",
+      "names/jp" : "ウールー",
+      "names/kr" : "",
+      "generation" : "8",
+      "breeding" : "#831, #832",
+      "national" : "831"
+    },
+    {
+      "names/en" : "Dubwool",
+      "names/jp" : "バイウールー",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#831",
+      "evolve/level" : "24",
+      "national" : "832"
+    },
+    {
+      "names/en" : "Chewtle",
+      "names/jp" : "カムカメ",
+      "names/kr" : "",
+      "generation" : "8",
+      "breeding" : "#833, #834",
+      "national" : "833"
+    },
+    {
+      "names/en" : "Drednaw",
+      "names/jp" : "カジリガメ",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#833",
+      "evolve/level" : "22",
+      "national" : "834"
+    },
+    {
+      "names/en" : "Yamper",
+      "names/jp" : "ワンパチ",
+      "names/kr" : "",
+      "generation" : "8",
+      "breeding" : "#835, #836",
+      "national" : "835"
+    },
+    {
+      "names/en" : "Boltund",
+      "names/jp" : "パルスワン",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#835",
+      "evolve/level" : "25",
+      "national" : "836"
+    },
+    {
+      "names/en" : "Rolycoly",
+      "names/jp" : "タンドン",
+      "names/kr" : "",
+      "generation" : "8",
+      "breeding" : "#837, #838, #839",
+      "national" : "837"
+    },
+    {
+      "names/en" : "Carkol",
+      "names/jp" : "トロッゴン",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#837",
+      "evolve/level" : "18",
+      "national" : "838"
+    },
+    {
+      "names/en" : "Coalossal",
+      "names/jp" : "セキタンザン",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#838",
+      "evolve/level" : "34",
+      "national" : "839"
+    },
+    {
+      "names/en" : "Applin",
+      "names/jp" : "カジッチュ",
+      "names/kr" : "",
+      "generation" : "8",
+      "breeding" : "#840, #841, #842",
+      "national" : "840"
+    },
+    {
+      "names/en" : "Flapple",
+      "names/jp" : "アップリュー",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#840",
+      "evolve/item" : "Tart Apple",
+      "national" : "841"
+    },
+    {
+      "names/en" : "Appletun",
+      "names/jp" : "タルップル",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#840",
+      "evolve/item" : "Sweet Apple",
+      "national" : "842"
+    },
+    {
+      "names/en" : "Silicobra",
+      "names/jp" : "スナヘビ",
+      "names/kr" : "",
+      "generation" : "8",
+      "breeding" : "#843 , #844",
+      "national" : "843"
+    },
+    {
+      "names/en" : "Sandaconda",
+      "names/jp" : "サダイジャ",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#843",
+      "evolve/level" : "36",
+      "national" : "844"
+    },
+    {
+      "names/en" : "Cramorant",
+      "names/jp" : "ウッウ",
+      "names/kr" : "",
+      "generation" : "8",
+      "national" : "845"
+    },
+    {
+      "names/en" : "Arrokuda",
+      "names/jp" : "サシカマス",
+      "names/kr" : "",
+      "generation" : "8",
+      "breeding" : "#846 , #847",
+      "national" : "846"
+    },
+    {
+      "names/en" : "Barraskewda",
+      "names/jp" : "カマスジョー",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#846",
+      "evolve/level" : "26",
+      "national" : "847"
+    },
+    {
+      "names/en" : "Toxel",
+      "names/jp" : "エレズン",
+      "names/kr" : "",
+      "generation" : "8",
+      "breeding" : "#848 , #849",
+      "national" : "848"
+    },
+    {
+      "names/en" : "Toxtricity",
+      "names/jp" : "ストリンダー",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#848",
+      "evolve/level" : "26",
+      "national" : "849"
+    },
+    {
+      "names/en" : "Sizzlipede",
+      "names/jp" : "ヤクデ",
+      "names/kr" : "",
+      "generation" : "8",
+      "breeding" : "#850 , #851",
+      "national" : "850"
+    },
+    {
+      "names/en" : "Centiskorch",
+      "names/jp" : "マルヤクデ",
+      "names/kr" : "",
+      "generation" : "8",
+      "evolve/pokemon" : "#850",
+      "evolve/level" : "28",
+      "national" : "851"
     }
   ],
   "forms" : [
@@ -9093,6 +9426,18 @@
       "names/en" : "Yellow",
       "generation" : "7",
       "national" : "774"
+    },
+    {
+      "number" : "849",
+      "names/en" : "Amped",
+      "generation" : "8",
+      "national" : "849"
+    },
+    {
+      "number" : "849-low-key",
+      "names/en" : "Low Key",
+      "generation" : "8",
+      "national" : "849"
     }
   ],
   "games" : [
